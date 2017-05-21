@@ -1,0 +1,5 @@
+PrivacyAPK_monkey.sh: 34: kill: Usage: kill [-s sigspec | -signum | -sigspec] [pid | job]... or
+kill -l [exitstatus]
+4911 KB/s (329159 bytes in 0.065s)
+Connection closed by foreign host.
+Connection closed by foreign host.

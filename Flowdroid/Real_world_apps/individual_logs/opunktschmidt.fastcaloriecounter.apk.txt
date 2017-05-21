@@ -1,0 +1,2665 @@
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/anonymous/FlowDroid/soot-trunk.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/anonymous/FlowDroid/slf4j-simple-1.7.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.SimpleLoggerFactory]
+[main] INFO soot.jimple.infoflow.taintWrappers.EasyTaintWrapper - Loaded wrapper entries for 70 classes and 11 exclusions.
+[main] INFO soot.jimple.infoflow.android.SetupApplication - ARSC file parsing took 0.048901167 seconds
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+Warning: android.net.http.AndroidHttpClient is a phantom class!
+Warning: org.apache.http.HttpResponse is a phantom class!
+Warning: org.apache.http.Header is a phantom class!
+Warning: org.apache.http.StatusLine is a phantom class!
+Warning: org.apache.http.HttpEntity is a phantom class!
+Warning: org.apache.http.client.HttpClient is a phantom class!
+Warning: org.apache.http.client.methods.HttpEntityEnclosingRequestBase is a phantom class!
+Warning: org.apache.http.client.methods.HttpUriRequest is a phantom class!
+Warning: org.apache.http.ProtocolVersion is a phantom class!
+Warning: org.apache.http.client.methods.HttpDelete is a phantom class!
+Warning: org.apache.http.client.methods.HttpGet is a phantom class!
+Warning: org.apache.http.client.methods.HttpHead is a phantom class!
+Warning: org.apache.http.client.methods.HttpOptions is a phantom class!
+Warning: org.apache.http.client.methods.HttpPost is a phantom class!
+Warning: org.apache.http.client.methods.HttpPut is a phantom class!
+Warning: org.apache.http.client.methods.HttpTrace is a phantom class!
+Warning: org.apache.http.entity.BasicHttpEntity is a phantom class!
+Warning: org.apache.http.entity.ByteArrayEntity is a phantom class!
+Warning: org.apache.http.impl.cookie.DateParseException is a phantom class!
+Warning: org.apache.http.impl.cookie.DateUtils is a phantom class!
+Warning: org.apache.http.message.BasicHeader is a phantom class!
+Warning: org.apache.http.message.BasicHttpResponse is a phantom class!
+Warning: org.apache.http.message.BasicStatusLine is a phantom class!
+Warning: org.joda.convert.FromString is a phantom class!
+Warning: org.joda.convert.ToString is a phantom class!
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.os.Bundle
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.content.Context
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.content.Intent
+[main] INFO soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Generated main method:
+    public static void dummyMainMethod(java.lang.String[])
+    {
+        java.lang.String[] $r0;
+        int $i0;
+        opunktschmidt.fastcaloriecounter.Ui.SettingsActivity $r1;
+        opunktschmidt.fastcaloriecounter.Ui.MainActivity $r2;
+        com.google.android.gms.ads.purchase.InAppPurchaseActivity $r3;
+        opunktschmidt.fastcaloriecounter.Ui.CalorieEditActivity $r4;
+        com.google.android.gms.ads.AdActivity $r5;
+        opunktschmidt.fastcaloriecounter.Service.Autostart $r6;
+
+        $r0 := @parameter0: java.lang.String[];
+
+        $i0 = 0;
+
+     label01:
+        if $i0 == 0 goto label03;
+
+        $r1 = new opunktschmidt.fastcaloriecounter.Ui.SettingsActivity;
+
+        specialinvoke $r1.<opunktschmidt.fastcaloriecounter.Ui.SettingsActivity: void <init>()>();
+
+        if $i0 == 1 goto label03;
+
+        virtualinvoke $r1.<opunktschmidt.fastcaloriecounter.Ui.SettingsActivity: void onCreate(android.os.Bundle)>(null);
+
+     label02:
+        if $i0 == 4 goto label03;
+
+        if $i0 == 5 goto label02;
+
+     label03:
+        if $i0 == 7 goto label05;
+
+        $r2 = new opunktschmidt.fastcaloriecounter.Ui.MainActivity;
+
+        specialinvoke $r2.<opunktschmidt.fastcaloriecounter.Ui.MainActivity: void <init>()>();
+
+        if $i0 == 8 goto label05;
+
+        virtualinvoke $r2.<opunktschmidt.fastcaloriecounter.Ui.MainActivity: void onCreate(android.os.Bundle)>(null);
+
+     label04:
+        if $i0 == 11 goto label05;
+
+        if $i0 == 12 goto label04;
+
+     label05:
+        if $i0 == 14 goto label08;
+
+        $r3 = new com.google.android.gms.ads.purchase.InAppPurchaseActivity;
+
+        specialinvoke $r3.<com.google.android.gms.ads.purchase.InAppPurchaseActivity: void <init>()>();
+
+        if $i0 == 15 goto label08;
+
+        virtualinvoke $r3.<com.google.android.gms.ads.purchase.InAppPurchaseActivity: void onCreate(android.os.Bundle)>(null);
+
+     label06:
+        if $i0 == 18 goto label07;
+
+        if $i0 == 19 goto label06;
+
+     label07:
+        virtualinvoke $r3.<com.google.android.gms.ads.purchase.InAppPurchaseActivity: void onDestroy()>();
+
+     label08:
+        if $i0 == 21 goto label10;
+
+        $r4 = new opunktschmidt.fastcaloriecounter.Ui.CalorieEditActivity;
+
+        specialinvoke $r4.<opunktschmidt.fastcaloriecounter.Ui.CalorieEditActivity: void <init>()>();
+
+        if $i0 == 22 goto label10;
+
+        virtualinvoke $r4.<opunktschmidt.fastcaloriecounter.Ui.CalorieEditActivity: void onCreate(android.os.Bundle)>(null);
+
+     label09:
+        if $i0 == 25 goto label10;
+
+        if $i0 == 26 goto label09;
+
+     label10:
+        if $i0 == 28 goto label14;
+
+        $r5 = new com.google.android.gms.ads.AdActivity;
+
+        specialinvoke $r5.<com.google.android.gms.ads.AdActivity: void <init>()>();
+
+        if $i0 == 29 goto label14;
+
+        virtualinvoke $r5.<com.google.android.gms.ads.AdActivity: void onCreate(android.os.Bundle)>(null);
+
+     label11:
+        virtualinvoke $r5.<com.google.android.gms.ads.AdActivity: void onStart()>();
+
+     label12:
+        virtualinvoke $r5.<com.google.android.gms.ads.AdActivity: void onResume()>();
+
+        virtualinvoke $r5.<com.google.android.gms.ads.AdActivity: void onPause()>();
+
+        virtualinvoke $r5.<com.google.android.gms.ads.AdActivity: void onSaveInstanceState(android.os.Bundle)>(null);
+
+        if $i0 == 31 goto label12;
+
+        virtualinvoke $r5.<com.google.android.gms.ads.AdActivity: void onStop()>();
+
+        if $i0 == 32 goto label13;
+
+        virtualinvoke $r5.<com.google.android.gms.ads.AdActivity: void onRestart()>();
+
+        if $i0 == 33 goto label11;
+
+     label13:
+        virtualinvoke $r5.<com.google.android.gms.ads.AdActivity: void onDestroy()>();
+
+     label14:
+        if $i0 == 35 goto label16;
+
+        $r6 = new opunktschmidt.fastcaloriecounter.Service.Autostart;
+
+        specialinvoke $r6.<opunktschmidt.fastcaloriecounter.Service.Autostart: void <init>()>();
+
+        if $i0 == 36 goto label16;
+
+     label15:
+        virtualinvoke $r6.<opunktschmidt.fastcaloriecounter.Service.Autostart: void onReceive(android.content.Context,android.content.Intent)>(null, null);
+
+        if $i0 == 38 goto label15;
+
+     label16:
+        if $i0 == 39 goto label01;
+
+        return;
+    }
+
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Collecting callbacks in DEFAULT mode...
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 2.8 seconds.
+[Spark] Solution found in 2.8 seconds.
+Callback analysis done.
+Warning: LinearLayout is a phantom class!
+Warning: opunktschmidt.fastcaloriecounter.LinearLayout is a phantom class!
+Warning: android.view.LinearLayout is a phantom class!
+Warning: TabHost is a phantom class!
+Warning: opunktschmidt.fastcaloriecounter.TabHost is a phantom class!
+Warning: android.view.TabHost is a phantom class!
+Warning: TabWidget is a phantom class!
+Warning: opunktschmidt.fastcaloriecounter.TabWidget is a phantom class!
+Warning: android.view.TabWidget is a phantom class!
+Warning: FrameLayout is a phantom class!
+Warning: opunktschmidt.fastcaloriecounter.FrameLayout is a phantom class!
+Warning: android.view.FrameLayout is a phantom class!
+Found 1 layout controls in file res/layout-land/mdtp_date_picker_dialog.xml
+Warning: TextView is a phantom class!
+Warning: opunktschmidt.fastcaloriecounter.TextView is a phantom class!
+Warning: android.view.TextView is a phantom class!
+Found 2 layout controls in file res/layout-land/mdtp_time_picker_dialog.xml
+Warning: view is a phantom class!
+Warning: opunktschmidt.fastcaloriecounter.view is a phantom class!
+Warning: android.view.view is a phantom class!
+Warning: android.widget.view is a phantom class!
+Warning: android.webkit.view is a phantom class!
+Could not find layout class view
+Found 2 layout controls in file res/layout-sw600dp-v13/design_layout_snackbar.xml
+Found 3 layout controls in file res/layout-v16/mdtp_date_picker_header_view.xml
+Warning: RelativeLayout is a phantom class!
+Warning: opunktschmidt.fastcaloriecounter.RelativeLayout is a phantom class!
+Warning: android.view.RelativeLayout is a phantom class!
+Warning: View is a phantom class!
+Warning: opunktschmidt.fastcaloriecounter.View is a phantom class!
+Found 4 layout controls in file res/layout-v16/mdtp_time_header_label.xml
+Found 5 layout controls in file res/layout-v16/mdtp_time_header_label_end.xml
+Warning: opunktschmidt.fastcaloriecounter.android.support.v7.widget.ButtonBarLayout is a phantom class!
+Warning: android.view.android.support.v7.widget.ButtonBarLayout is a phantom class!
+Warning: android.widget.android.support.v7.widget.ButtonBarLayout is a phantom class!
+Warning: android.webkit.android.support.v7.widget.ButtonBarLayout is a phantom class!
+Could not find layout class android.support.v7.widget.ButtonBarLayout
+Warning: Button is a phantom class!
+Warning: opunktschmidt.fastcaloriecounter.Button is a phantom class!
+Warning: android.view.Button is a phantom class!
+Warning: opunktschmidt.fastcaloriecounter.android.support.v4.widget.Space is a phantom class!
+Warning: android.view.android.support.v4.widget.Space is a phantom class!
+Warning: android.widget.android.support.v4.widget.Space is a phantom class!
+Warning: android.webkit.android.support.v4.widget.Space is a phantom class!
+Could not find layout class android.support.v4.widget.Space
+Found 6 layout controls in file res/layout-v17/abc_alert_dialog_button_bar_material.xml
+Warning: ImageView is a phantom class!
+Warning: opunktschmidt.fastcaloriecounter.ImageView is a phantom class!
+Warning: android.view.ImageView is a phantom class!
+Warning: opunktschmidt.fastcaloriecounter.android.support.v7.widget.DialogTitle is a phantom class!
+Warning: android.view.android.support.v7.widget.DialogTitle is a phantom class!
+Warning: android.widget.android.support.v7.widget.DialogTitle is a phantom class!
+Warning: android.webkit.android.support.v7.widget.DialogTitle is a phantom class!
+Could not find layout class android.support.v7.widget.DialogTitle
+Warning: opunktschmidt.fastcaloriecounter.android.support.v4.widget.NestedScrollView is a phantom class!
+Warning: android.view.android.support.v4.widget.NestedScrollView is a phantom class!
+Warning: android.widget.android.support.v4.widget.NestedScrollView is a phantom class!
+Warning: android.webkit.android.support.v4.widget.NestedScrollView is a phantom class!
+Could not find layout class android.support.v4.widget.NestedScrollView
+Found 7 layout controls in file res/layout-v17/abc_alert_dialog_material.xml
+Warning: opunktschmidt.fastcaloriecounter.android.support.v7.widget.FitWindowsLinearLayout is a phantom class!
+Warning: android.view.android.support.v7.widget.FitWindowsLinearLayout is a phantom class!
+Warning: android.widget.android.support.v7.widget.FitWindowsLinearLayout is a phantom class!
+Warning: android.webkit.android.support.v7.widget.FitWindowsLinearLayout is a phantom class!
+Could not find layout class android.support.v7.widget.FitWindowsLinearLayout
+Found 8 layout controls in file res/layout-v17/abc_dialog_title_material.xml
+Could not find layout class view
+Found 9 layout controls in file res/layout-v17/abc_search_view.xml
+Warning: opunktschmidt.fastcaloriecounter.android.support.v7.widget.Toolbar is a phantom class!
+Warning: android.view.android.support.v7.widget.Toolbar is a phantom class!
+Warning: android.widget.android.support.v7.widget.Toolbar is a phantom class!
+Warning: android.webkit.android.support.v7.widget.Toolbar is a phantom class!
+Could not find layout class android.support.v7.widget.Toolbar
+Warning: GridLayout is a phantom class!
+Warning: opunktschmidt.fastcaloriecounter.GridLayout is a phantom class!
+Warning: android.view.GridLayout is a phantom class!
+Warning: EditText is a phantom class!
+Warning: opunktschmidt.fastcaloriecounter.EditText is a phantom class!
+Warning: android.view.EditText is a phantom class!
+Found 10 layout controls in file res/layout-v17/activity_edit.xml
+Could not find layout class android.support.v7.widget.Toolbar
+Warning: opunktschmidt.fastcaloriecounter.android.support.v4.view.ViewPager is a phantom class!
+Warning: android.view.android.support.v4.view.ViewPager is a phantom class!
+Warning: android.widget.android.support.v4.view.ViewPager is a phantom class!
+Warning: android.webkit.android.support.v4.view.ViewPager is a phantom class!
+Could not find layout class android.support.v4.view.ViewPager
+Found 11 layout controls in file res/layout-v17/activity_main.xml
+Could not find layout class android.support.v7.widget.Toolbar
+Found 12 layout controls in file res/layout-v17/activity_settings.xml
+Found 13 layout controls in file res/layout-v17/design_layout_snackbar_include.xml
+Found 14 layout controls in file res/layout-v17/mdtp_done_button.xml
+Found 15 layout controls in file res/layout-v17/notification_template_big_media.xml
+Found 16 layout controls in file res/layout-v17/notification_template_big_media_narrow.xml
+Found 17 layout controls in file res/layout-v17/notification_template_lines.xml
+Found 18 layout controls in file res/layout-v17/notification_template_media.xml
+Warning: Chronometer is a phantom class!
+Warning: opunktschmidt.fastcaloriecounter.Chronometer is a phantom class!
+Warning: android.view.Chronometer is a phantom class!
+Found 19 layout controls in file res/layout-v17/notification_template_part_chronometer.xml
+Warning: DateTimeView is a phantom class!
+Warning: opunktschmidt.fastcaloriecounter.DateTimeView is a phantom class!
+Warning: android.view.DateTimeView is a phantom class!
+Warning: android.widget.DateTimeView is a phantom class!
+Warning: android.webkit.DateTimeView is a phantom class!
+Could not find layout class DateTimeView
+Found 19 layout controls in file res/layout-v17/notification_template_part_time.xml
+Warning: CheckedTextView is a phantom class!
+Warning: opunktschmidt.fastcaloriecounter.CheckedTextView is a phantom class!
+Warning: android.view.CheckedTextView is a phantom class!
+Found 20 layout controls in file res/layout-v17/select_dialog_multichoice_material.xml
+Found 21 layout controls in file res/layout-v17/select_dialog_singlechoice_material.xml
+Warning: opunktschmidt.fastcaloriecounter.android.support.v7.widget.ActionBarOverlayLayout is a phantom class!
+Warning: android.view.android.support.v7.widget.ActionBarOverlayLayout is a phantom class!
+Warning: android.widget.android.support.v7.widget.ActionBarOverlayLayout is a phantom class!
+Warning: android.webkit.android.support.v7.widget.ActionBarOverlayLayout is a phantom class!
+Could not find layout class android.support.v7.widget.ActionBarOverlayLayout
+Warning: opunktschmidt.fastcaloriecounter.android.support.v7.widget.ActionBarContainer is a phantom class!
+Warning: android.view.android.support.v7.widget.ActionBarContainer is a phantom class!
+Warning: android.widget.android.support.v7.widget.ActionBarContainer is a phantom class!
+Warning: android.webkit.android.support.v7.widget.ActionBarContainer is a phantom class!
+Could not find layout class android.support.v7.widget.ActionBarContainer
+Could not find layout class android.support.v7.widget.Toolbar
+Warning: opunktschmidt.fastcaloriecounter.android.support.v7.widget.ActionBarContextView is a phantom class!
+Warning: android.view.android.support.v7.widget.ActionBarContextView is a phantom class!
+Warning: android.widget.android.support.v7.widget.ActionBarContextView is a phantom class!
+Warning: android.webkit.android.support.v7.widget.ActionBarContextView is a phantom class!
+Could not find layout class android.support.v7.widget.ActionBarContextView
+Found 21 layout controls in file res/layout-v21/abc_screen_toolbar.xml
+Warning: ListView is a phantom class!
+Warning: opunktschmidt.fastcaloriecounter.ListView is a phantom class!
+Warning: android.view.ListView is a phantom class!
+Warning: opunktschmidt.fastcaloriecounter.android.support.design.widget.FloatingActionButton is a phantom class!
+Warning: android.view.android.support.design.widget.FloatingActionButton is a phantom class!
+Warning: android.widget.android.support.design.widget.FloatingActionButton is a phantom class!
+Warning: android.webkit.android.support.design.widget.FloatingActionButton is a phantom class!
+Could not find layout class android.support.design.widget.FloatingActionButton
+Found 22 layout controls in file res/layout-v21/fragment_overview.xml
+Found 23 layout controls in file res/layout/abc_action_bar_title_item.xml
+Found 24 layout controls in file res/layout/abc_action_bar_up_container.xml
+Found 25 layout controls in file res/layout/abc_action_bar_view_list_nav_layout.xml
+Warning: opunktschmidt.fastcaloriecounter.android.support.v7.view.menu.ActionMenuItemView is a phantom class!
+Warning: android.view.android.support.v7.view.menu.ActionMenuItemView is a phantom class!
+Warning: android.widget.android.support.v7.view.menu.ActionMenuItemView is a phantom class!
+Warning: android.webkit.android.support.v7.view.menu.ActionMenuItemView is a phantom class!
+Could not find layout class android.support.v7.view.menu.ActionMenuItemView
+Found 25 layout controls in file res/layout/abc_action_menu_item_layout.xml
+Warning: opunktschmidt.fastcaloriecounter.android.support.v7.widget.ActionMenuView is a phantom class!
+Warning: android.view.android.support.v7.widget.ActionMenuView is a phantom class!
+Warning: android.widget.android.support.v7.widget.ActionMenuView is a phantom class!
+Warning: android.webkit.android.support.v7.widget.ActionMenuView is a phantom class!
+Could not find layout class android.support.v7.widget.ActionMenuView
+Found 25 layout controls in file res/layout/abc_action_menu_layout.xml
+Could not find layout class android.support.v7.widget.ActionBarContextView
+Found 25 layout controls in file res/layout/abc_action_mode_bar.xml
+Found 26 layout controls in file res/layout/abc_action_mode_close_item_material.xml
+Could not find layout class view
+Found 27 layout controls in file res/layout/abc_activity_chooser_view.xml
+Found 28 layout controls in file res/layout/abc_activity_chooser_view_list_item.xml
+Could not find layout class android.support.v7.widget.ButtonBarLayout
+Could not find layout class android.support.v4.widget.Space
+Found 29 layout controls in file res/layout/abc_alert_dialog_button_bar_material.xml
+Could not find layout class android.support.v7.widget.DialogTitle
+Could not find layout class android.support.v4.widget.NestedScrollView
+Found 30 layout controls in file res/layout/abc_alert_dialog_material.xml
+Could not find layout class android.support.v7.widget.FitWindowsLinearLayout
+Found 31 layout controls in file res/layout/abc_dialog_title_material.xml
+Warning: opunktschmidt.fastcaloriecounter.android.support.v7.view.menu.ExpandedMenuView is a phantom class!
+Warning: android.view.android.support.v7.view.menu.ExpandedMenuView is a phantom class!
+Warning: android.widget.android.support.v7.view.menu.ExpandedMenuView is a phantom class!
+Warning: android.webkit.android.support.v7.view.menu.ExpandedMenuView is a phantom class!
+Could not find layout class android.support.v7.view.menu.ExpandedMenuView
+Found 31 layout controls in file res/layout/abc_expanded_menu_layout.xml
+Warning: CheckBox is a phantom class!
+Warning: opunktschmidt.fastcaloriecounter.CheckBox is a phantom class!
+Warning: android.view.CheckBox is a phantom class!
+Found 32 layout controls in file res/layout/abc_list_menu_item_checkbox.xml
+Found 33 layout controls in file res/layout/abc_list_menu_item_icon.xml
+Warning: opunktschmidt.fastcaloriecounter.android.support.v7.view.menu.ListMenuItemView is a phantom class!
+Warning: android.view.android.support.v7.view.menu.ListMenuItemView is a phantom class!
+Warning: android.widget.android.support.v7.view.menu.ListMenuItemView is a phantom class!
+Warning: android.webkit.android.support.v7.view.menu.ListMenuItemView is a phantom class!
+Could not find layout class android.support.v7.view.menu.ListMenuItemView
+Found 34 layout controls in file res/layout/abc_list_menu_item_layout.xml
+Warning: RadioButton is a phantom class!
+Warning: opunktschmidt.fastcaloriecounter.RadioButton is a phantom class!
+Warning: android.view.RadioButton is a phantom class!
+Found 35 layout controls in file res/layout/abc_list_menu_item_radio.xml
+Could not find layout class android.support.v7.view.menu.ListMenuItemView
+Found 36 layout controls in file res/layout/abc_popup_menu_item_layout.xml
+Warning: opunktschmidt.fastcaloriecounter.android.support.v7.widget.ContentFrameLayout is a phantom class!
+Warning: android.view.android.support.v7.widget.ContentFrameLayout is a phantom class!
+Warning: android.widget.android.support.v7.widget.ContentFrameLayout is a phantom class!
+Warning: android.webkit.android.support.v7.widget.ContentFrameLayout is a phantom class!
+Could not find layout class android.support.v7.widget.ContentFrameLayout
+Found 36 layout controls in file res/layout/abc_screen_content_include.xml
+Could not find layout class android.support.v7.widget.FitWindowsLinearLayout
+Warning: opunktschmidt.fastcaloriecounter.android.support.v7.widget.ViewStubCompat is a phantom class!
+Warning: android.view.android.support.v7.widget.ViewStubCompat is a phantom class!
+Warning: android.widget.android.support.v7.widget.ViewStubCompat is a phantom class!
+Warning: android.webkit.android.support.v7.widget.ViewStubCompat is a phantom class!
+Could not find layout class android.support.v7.widget.ViewStubCompat
+Found 36 layout controls in file res/layout/abc_screen_simple.xml
+Warning: opunktschmidt.fastcaloriecounter.android.support.v7.widget.FitWindowsFrameLayout is a phantom class!
+Warning: android.view.android.support.v7.widget.FitWindowsFrameLayout is a phantom class!
+Warning: android.widget.android.support.v7.widget.FitWindowsFrameLayout is a phantom class!
+Warning: android.webkit.android.support.v7.widget.FitWindowsFrameLayout is a phantom class!
+Could not find layout class android.support.v7.widget.FitWindowsFrameLayout
+Could not find layout class android.support.v7.widget.ViewStubCompat
+Found 36 layout controls in file res/layout/abc_screen_simple_overlay_action_mode.xml
+Could not find layout class android.support.v7.widget.ActionBarOverlayLayout
+Could not find layout class android.support.v7.widget.ActionBarContainer
+Could not find layout class android.support.v7.widget.Toolbar
+Could not find layout class android.support.v7.widget.ActionBarContextView
+Found 36 layout controls in file res/layout/abc_screen_toolbar.xml
+Found 37 layout controls in file res/layout/abc_search_dropdown_item_icons_2line.xml
+Could not find layout class view
+Found 38 layout controls in file res/layout/abc_search_view.xml
+Found 39 layout controls in file res/layout/abc_select_dialog_material.xml
+Could not find layout class android.support.v7.widget.Toolbar
+Found 40 layout controls in file res/layout/activity_edit.xml
+Could not find layout class android.support.v7.widget.Toolbar
+Could not find layout class android.support.v4.view.ViewPager
+Found 41 layout controls in file res/layout/activity_main.xml
+Could not find layout class android.support.v7.widget.Toolbar
+Found 42 layout controls in file res/layout/activity_settings.xml
+Could not find layout class view
+Found 42 layout controls in file res/layout/design_layout_snackbar.xml
+Found 43 layout controls in file res/layout/design_layout_snackbar_include.xml
+Found 44 layout controls in file res/layout/design_layout_tab_icon.xml
+Found 45 layout controls in file res/layout/design_layout_tab_text.xml
+Found 46 layout controls in file res/layout/design_menu_item_action_area.xml
+Warning: opunktschmidt.fastcaloriecounter.android.support.design.internal.NavigationMenuItemView is a phantom class!
+Warning: android.view.android.support.design.internal.NavigationMenuItemView is a phantom class!
+Warning: android.widget.android.support.design.internal.NavigationMenuItemView is a phantom class!
+Warning: android.webkit.android.support.design.internal.NavigationMenuItemView is a phantom class!
+Could not find layout class android.support.design.internal.NavigationMenuItemView
+Found 46 layout controls in file res/layout/design_navigation_item.xml
+Found 47 layout controls in file res/layout/design_navigation_item_header.xml
+Found 48 layout controls in file res/layout/design_navigation_item_separator.xml
+Found 49 layout controls in file res/layout/design_navigation_item_subheader.xml
+Warning: opunktschmidt.fastcaloriecounter.android.support.design.internal.NavigationMenuView is a phantom class!
+Warning: android.view.android.support.design.internal.NavigationMenuView is a phantom class!
+Warning: android.widget.android.support.design.internal.NavigationMenuView is a phantom class!
+Warning: android.webkit.android.support.design.internal.NavigationMenuView is a phantom class!
+Could not find layout class android.support.design.internal.NavigationMenuView
+Found 49 layout controls in file res/layout/design_navigation_menu.xml
+Warning: ViewStub is a phantom class!
+Warning: opunktschmidt.fastcaloriecounter.ViewStub is a phantom class!
+Found 50 layout controls in file res/layout/design_navigation_menu_item.xml
+Warning: ScrollView is a phantom class!
+Warning: opunktschmidt.fastcaloriecounter.ScrollView is a phantom class!
+Warning: android.view.ScrollView is a phantom class!
+Found 51 layout controls in file res/layout/fragment_main.xml
+Could not find layout class android.support.design.widget.FloatingActionButton
+Found 52 layout controls in file res/layout/fragment_overview.xml
+Found 53 layout controls in file res/layout/fragment_statistics.xml
+Found 54 layout controls in file res/layout/listitem_overview.xml
+Found 55 layout controls in file res/layout/mdtp_date_picker_dialog.xml
+Found 56 layout controls in file res/layout/mdtp_date_picker_header_view.xml
+Found 57 layout controls in file res/layout/mdtp_date_picker_selected_date.xml
+Found 58 layout controls in file res/layout/mdtp_date_picker_selected_date_end.xml
+Found 59 layout controls in file res/layout/mdtp_date_picker_view_animator.xml
+Found 60 layout controls in file res/layout/mdtp_date_picker_view_animator_end.xml
+Found 61 layout controls in file res/layout/mdtp_done_button.xml
+Found 62 layout controls in file res/layout/mdtp_time_header_label.xml
+Found 63 layout controls in file res/layout/mdtp_time_header_label_end.xml
+Found 64 layout controls in file res/layout/mdtp_time_picker_dialog.xml
+Found 65 layout controls in file res/layout/mdtp_year_label_text_view.xml
+Warning: ImageButton is a phantom class!
+Warning: opunktschmidt.fastcaloriecounter.ImageButton is a phantom class!
+Warning: android.view.ImageButton is a phantom class!
+Found 66 layout controls in file res/layout/notification_media_action.xml
+Found 67 layout controls in file res/layout/notification_media_cancel_action.xml
+Found 68 layout controls in file res/layout/notification_template_big_media.xml
+Found 69 layout controls in file res/layout/notification_template_big_media_narrow.xml
+Found 70 layout controls in file res/layout/notification_template_lines.xml
+Found 71 layout controls in file res/layout/notification_template_media.xml
+Found 72 layout controls in file res/layout/notification_template_part_chronometer.xml
+Could not find layout class DateTimeView
+Found 72 layout controls in file res/layout/notification_template_part_time.xml
+Found 73 layout controls in file res/layout/select_dialog_item_material.xml
+Found 74 layout controls in file res/layout/select_dialog_multichoice_material.xml
+Found 75 layout controls in file res/layout/select_dialog_singlechoice_material.xml
+Found 76 layout controls in file res/layout/support_simple_spinner_dropdown_item.xml
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+Warning: android.net.http.AndroidHttpClient is a phantom class!
+Warning: org.apache.http.HttpResponse is a phantom class!
+Warning: org.apache.http.Header is a phantom class!
+Warning: org.apache.http.StatusLine is a phantom class!
+Warning: org.apache.http.HttpEntity is a phantom class!
+Warning: org.apache.http.client.HttpClient is a phantom class!
+Warning: org.apache.http.client.methods.HttpEntityEnclosingRequestBase is a phantom class!
+Warning: org.apache.http.client.methods.HttpUriRequest is a phantom class!
+Warning: org.apache.http.ProtocolVersion is a phantom class!
+Warning: org.apache.http.client.methods.HttpDelete is a phantom class!
+Warning: org.apache.http.client.methods.HttpGet is a phantom class!
+Warning: org.apache.http.client.methods.HttpHead is a phantom class!
+Warning: org.apache.http.client.methods.HttpOptions is a phantom class!
+Warning: org.apache.http.client.methods.HttpPost is a phantom class!
+Warning: org.apache.http.client.methods.HttpPut is a phantom class!
+Warning: org.apache.http.client.methods.HttpTrace is a phantom class!
+Warning: org.apache.http.entity.BasicHttpEntity is a phantom class!
+Warning: org.apache.http.entity.ByteArrayEntity is a phantom class!
+Warning: org.apache.http.impl.cookie.DateParseException is a phantom class!
+Warning: org.apache.http.impl.cookie.DateUtils is a phantom class!
+Warning: org.apache.http.message.BasicHeader is a phantom class!
+Warning: org.apache.http.message.BasicHttpResponse is a phantom class!
+Warning: org.apache.http.message.BasicStatusLine is a phantom class!
+Warning: org.joda.convert.FromString is a phantom class!
+Warning: org.joda.convert.ToString is a phantom class!
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.os.Bundle
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.view.View
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class java.util.List
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.location.Location
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot create valid constructor for com.google.android.gms.b.sk, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot create valid constructor for com.google.android.gms.b.jv, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Ran into a constructor generation loop for class com.google.android.gms.ads.internal.client.AdSizeParcel, substituting with null...
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Ran into a constructor generation loop for class org.json.JSONObject, substituting with null...
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot create valid constructor for com.google.android.gms.ads.internal.formats.h, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot create valid constructor for com.google.android.gms.b.bw, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Ran into a constructor generation loop for class com.google.android.gms.ads.internal.util.client.VersionInfoParcel, substituting with null...
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.view.Menu
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.view.MenuItem
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot create valid constructor for com.borax12.materialdaterangepicker.date.h, because it is abstract and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Constructor cannot be generated for callback class com.borax12.materialdaterangepicker.date.h
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot create valid constructor for com.google.android.gms.b.u, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot create valid constructor for com.google.android.gms.b.gx, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot create valid constructor for com.google.android.gms.ads.internal.overlay.w, because it is abstract and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot create valid constructor for com.borax12.materialdaterangepicker.date.a, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.widget.AdapterView
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.app.Application
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Ran into a constructor generation loop for class com.google.android.gms.ads.internal.client.AdSizeParcel, substituting with null...
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Ran into a constructor generation loop for class org.json.JSONObject, substituting with null...
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Ran into a constructor generation loop for class com.google.android.gms.ads.internal.util.client.VersionInfoParcel, substituting with null...
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Constructor cannot be generated for callback class com.borax12.materialdaterangepicker.date.h
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot create valid constructor for com.google.android.gms.ads.internal.overlay.ab, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.content.Context
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.content.Intent
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Ran into a constructor generation loop for class com.google.android.gms.b.qk, substituting with null...
+[main] INFO soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Generated main method:
+    public static void dummyMainMethod(java.lang.String[])
+    {
+        java.lang.String[] $r0;
+        int $i0;
+        opunktschmidt.fastcaloriecounter.Ui.SettingsActivity $r1;
+        opunktschmidt.fastcaloriecounter.Ui.aa $r2;
+        opunktschmidt.fastcaloriecounter.Ui.MainActivity $r3;
+        com.google.android.gms.ads.internal.client.AdSizeParcel $r4, $r11, $r19, $r27, $r32, $r39, $r49, $r57, $r65;
+        com.google.android.gms.ads.internal.client.SearchAdRequestParcel $r5, $r33;
+        com.google.android.gms.ads.internal.client.AdRequestParcel $r6, $r34;
+        org.json.JSONObject $r7, $r12, $r35, $r40;
+        com.google.android.gms.b.jc $r8, $r36;
+        com.google.android.gms.b.jd $r9, $r37;
+        com.google.android.gms.b.jf $r10, $r38;
+        com.google.android.gms.b.pj $r13, $r41;
+        com.google.android.gms.ads.internal.util.client.VersionInfoParcel $r14, $r15, $r21, $r28, $r42, $r43, $r51, $r58, $r67;
+        com.google.android.gms.b.ic $r16, $r44;
+        com.google.android.gms.b.ap $r17, $r45;
+        boolean $z0, $z1, $z2;
+        com.google.android.gms.b.sv $r18, $r48, $r64;
+        com.google.android.gms.b.ab $r20, $r50, $r66;
+        com.google.android.gms.b.dq $r22, $r52, $r68;
+        com.google.android.gms.ads.internal.i $r23, $r53, $r69;
+        com.google.android.gms.b.st $r24, $r54, $r70;
+        com.borax12.materialdaterangepicker.date.s $r25, $r55;
+        com.google.android.gms.b.bz $r26, $r56;
+        com.google.android.gms.ads.internal.ah $r29, $r59;
+        com.google.android.gms.ads.purchase.InAppPurchaseActivity $r30;
+        opunktschmidt.fastcaloriecounter.Ui.CalorieEditActivity $r31;
+        opunktschmidt.fastcaloriecounter.Ui.a $r46;
+        opunktschmidt.fastcaloriecounter.Ui.d $r47;
+        opunktschmidt.fastcaloriecounter.Ui.e $r60;
+        opunktschmidt.fastcaloriecounter.Ui.c $r61;
+        com.google.android.gms.ads.AdActivity $r62;
+        com.google.android.gms.ads.internal.overlay.z $r63;
+        opunktschmidt.fastcaloriecounter.Service.Autostart $r71;
+        com.google.android.gms.b.qk $r72, $r73;
+        com.google.android.gms.b.ql $r74;
+        com.google.android.gms.b.qm $r75;
+
+        $r0 := @parameter0: java.lang.String[];
+
+        $i0 = 0;
+
+     label01:
+        if $i0 == 0 goto label06;
+
+        $r1 = new opunktschmidt.fastcaloriecounter.Ui.SettingsActivity;
+
+        specialinvoke $r1.<opunktschmidt.fastcaloriecounter.Ui.SettingsActivity: void <init>()>();
+
+        if $i0 == 1 goto label06;
+
+        virtualinvoke $r1.<opunktschmidt.fastcaloriecounter.Ui.SettingsActivity: void onCreate(android.os.Bundle)>(null);
+
+     label02:
+        if $i0 == 3 goto label05;
+
+     label03:
+        $r2 = new opunktschmidt.fastcaloriecounter.Ui.aa;
+
+        specialinvoke $r2.<opunktschmidt.fastcaloriecounter.Ui.aa: void <init>(opunktschmidt.fastcaloriecounter.Ui.SettingsActivity)>($r1);
+
+        if $i0 == 4 goto label04;
+
+        virtualinvoke $r2.<opunktschmidt.fastcaloriecounter.Ui.aa: void onClick(android.view.View)>(null);
+
+     label04:
+        if $i0 == 5 goto label03;
+
+     label05:
+        if $i0 == 6 goto label02;
+
+        if $i0 == 7 goto label06;
+
+        if $i0 == 8 goto label02;
+
+     label06:
+        if $i0 == 10 goto label24;
+
+        $r3 = new opunktschmidt.fastcaloriecounter.Ui.MainActivity;
+
+        specialinvoke $r3.<opunktschmidt.fastcaloriecounter.Ui.MainActivity: void <init>()>();
+
+        if $i0 == 11 goto label24;
+
+        virtualinvoke $r3.<opunktschmidt.fastcaloriecounter.Ui.MainActivity: void onCreate(android.os.Bundle)>(null);
+
+     label07:
+        if $i0 == 13 goto label23;
+
+     label08:
+        $r4 = new com.google.android.gms.ads.internal.client.AdSizeParcel;
+
+        specialinvoke $r4.<com.google.android.gms.ads.internal.client.AdSizeParcel: void <init>()>();
+
+        $r5 = new com.google.android.gms.ads.internal.client.SearchAdRequestParcel;
+
+        specialinvoke $r5.<com.google.android.gms.ads.internal.client.SearchAdRequestParcel: void <init>(int,int,int,int,int,int,int,int,int,java.lang.String,int,java.lang.String,int,int,java.lang.String)>(0, 0, 0, 0, 0, 0, 0, 0, 0, "", 0, "", 0, 0, "");
+
+        $r6 = new com.google.android.gms.ads.internal.client.AdRequestParcel;
+
+        specialinvoke $r6.<com.google.android.gms.ads.internal.client.AdRequestParcel: void <init>(int,long,android.os.Bundle,int,java.util.List,boolean,int,boolean,java.lang.String,com.google.android.gms.ads.internal.client.SearchAdRequestParcel,android.location.Location,java.lang.String,android.os.Bundle,android.os.Bundle,java.util.List,java.lang.String,java.lang.String,boolean)>(0, 0L, null, 0, null, false, 0, false, "", $r5, null, "", null, null, null, "", "", false);
+
+        $r7 = new org.json.JSONObject;
+
+        specialinvoke $r7.<org.json.JSONObject: void <init>()>();
+
+        $r8 = new com.google.android.gms.b.jc;
+
+        specialinvoke $r8.<com.google.android.gms.b.jc: void <init>(org.json.JSONObject)>($r7);
+
+        $r9 = new com.google.android.gms.b.jd;
+
+        specialinvoke $r9.<com.google.android.gms.b.jd: void <init>(java.lang.String)>("");
+
+        $r10 = new com.google.android.gms.b.jf;
+
+        specialinvoke $r10.<com.google.android.gms.b.jf: void <init>()>();
+
+        $r11 = null;
+
+        $r12 = null;
+
+        $r13 = new com.google.android.gms.b.pj;
+
+        specialinvoke $r13.<com.google.android.gms.b.pj: void <init>(com.google.android.gms.ads.internal.client.AdRequestParcel,com.google.android.gms.b.sk,java.util.List,int,java.util.List,java.util.List,int,long,java.lang.String,boolean,com.google.android.gms.b.jc,com.google.android.gms.b.jv,java.lang.String,com.google.android.gms.b.jd,com.google.android.gms.b.jf,long,com.google.android.gms.ads.internal.client.AdSizeParcel,long,long,long,java.lang.String,org.json.JSONObject,com.google.android.gms.ads.internal.formats.h)>($r6, null, null, 0, null, null, 0, 0L, "", false, $r8, null, "", $r9, $r10, 0L, $r11, 0L, 0L, 0L, "", $r12, null);
+
+        $r14 = new com.google.android.gms.ads.internal.util.client.VersionInfoParcel;
+
+        specialinvoke $r14.<com.google.android.gms.ads.internal.util.client.VersionInfoParcel: void <init>(int,int,boolean)>(0, 0, false);
+
+        $r15 = null;
+
+        $r16 = new com.google.android.gms.b.ic;
+
+        specialinvoke $r16.<com.google.android.gms.b.ic: void <init>(android.content.Context,com.google.android.gms.ads.internal.util.client.VersionInfoParcel,java.lang.String)>($r3, $r15, "");
+
+        $r17 = new com.google.android.gms.b.ap;
+
+        specialinvoke $r17.<com.google.android.gms.b.ap: void <init>(android.content.Context,com.google.android.gms.ads.internal.client.AdSizeParcel,com.google.android.gms.b.pj,com.google.android.gms.ads.internal.util.client.VersionInfoParcel,com.google.android.gms.b.bw,com.google.android.gms.b.ic)>($r3, $r4, $r13, $r14, null, $r16);
+
+        if $i0 == 14 goto label09;
+
+        virtualinvoke $r17.<com.google.android.gms.b.ap: void onGlobalLayout()>();
+
+     label09:
+        if $i0 == 15 goto label10;
+
+        virtualinvoke $r17.<com.google.android.gms.b.ap: void onScrollChanged()>();
+
+     label10:
+        if $i0 == 16 goto label11;
+
+        $z0 = virtualinvoke $r3.<opunktschmidt.fastcaloriecounter.Ui.MainActivity: boolean onCreateOptionsMenu(android.view.Menu)>(null);
+
+     label11:
+        if $i0 == 17 goto label12;
+
+        $z1 = virtualinvoke $r3.<opunktschmidt.fastcaloriecounter.Ui.MainActivity: boolean onOptionsItemSelected(android.view.MenuItem)>(null);
+
+     label12:
+        if $i0 == 18 goto label13;
+
+        $z2 = virtualinvoke $r3.<opunktschmidt.fastcaloriecounter.Ui.MainActivity: boolean onPrepareOptionsMenu(android.view.Menu)>(null);
+
+     label13:
+        $r18 = new com.google.android.gms.b.sv;
+
+        specialinvoke $r18.<com.google.android.gms.b.sv: void <init>(android.content.Context)>($r3);
+
+        $r19 = new com.google.android.gms.ads.internal.client.AdSizeParcel;
+
+        specialinvoke $r19.<com.google.android.gms.ads.internal.client.AdSizeParcel: void <init>()>();
+
+        $r20 = new com.google.android.gms.b.ab;
+
+        specialinvoke $r20.<com.google.android.gms.b.ab: void <init>(com.google.android.gms.b.u)>(null);
+
+        $r21 = new com.google.android.gms.ads.internal.util.client.VersionInfoParcel;
+
+        specialinvoke $r21.<com.google.android.gms.ads.internal.util.client.VersionInfoParcel: void <init>(int,int,boolean)>(0, 0, false);
+
+        $r22 = new com.google.android.gms.b.dq;
+
+        specialinvoke $r22.<com.google.android.gms.b.dq: void <init>(boolean,java.lang.String,java.lang.String)>(false, "", "");
+
+        $r23 = new com.google.android.gms.ads.internal.i;
+
+        specialinvoke $r23.<com.google.android.gms.ads.internal.i: void <init>(com.google.android.gms.b.gx,com.google.android.gms.ads.internal.overlay.w)>(null, null);
+
+        $r24 = new com.google.android.gms.b.st;
+
+        specialinvoke $r24.<com.google.android.gms.b.st: void <init>(com.google.android.gms.b.sv,com.google.android.gms.ads.internal.client.AdSizeParcel,boolean,boolean,com.google.android.gms.b.ab,com.google.android.gms.ads.internal.util.client.VersionInfoParcel,com.google.android.gms.b.dq,com.google.android.gms.ads.internal.i)>($r18, $r19, false, false, $r20, $r21, $r22, $r23);
+
+        if $i0 == 19 goto label14;
+
+        virtualinvoke $r24.<com.google.android.gms.b.st: void onDownloadStart(java.lang.String,java.lang.String,java.lang.String,java.lang.String,long)>("", "", "", "", 0L);
+
+     label14:
+        if $i0 == 20 goto label15;
+
+        virtualinvoke $r24.<com.google.android.gms.b.st: void onGlobalLayout()>();
+
+     label15:
+        $r25 = new com.borax12.materialdaterangepicker.date.s;
+
+        specialinvoke $r25.<com.borax12.materialdaterangepicker.date.s: void <init>(android.content.Context,com.borax12.materialdaterangepicker.date.a)>($r3, null);
+
+        if $i0 == 21 goto label16;
+
+        virtualinvoke $r25.<com.borax12.materialdaterangepicker.date.s: void onItemClick(android.widget.AdapterView,android.view.View,int,long)>(null, null, 0, 0L);
+
+     label16:
+        $r26 = new com.google.android.gms.b.bz;
+
+        specialinvoke $r26.<com.google.android.gms.b.bz: void <init>(android.app.Application,android.app.Activity)>(null, $r3);
+
+        if $i0 == 22 goto label17;
+
+        virtualinvoke $r26.<com.google.android.gms.b.bz: void onActivityResumed(android.app.Activity)>($r3);
+
+        $r3 = null;
+
+     label17:
+        if $i0 == 23 goto label18;
+
+        virtualinvoke $r26.<com.google.android.gms.b.bz: void onActivityDestroyed(android.app.Activity)>($r3);
+
+        $r3 = null;
+
+     label18:
+        if $i0 == 24 goto label19;
+
+        virtualinvoke $r26.<com.google.android.gms.b.bz: void onActivityPaused(android.app.Activity)>($r3);
+
+        $r3 = null;
+
+     label19:
+        if $i0 == 25 goto label20;
+
+        virtualinvoke $r26.<com.google.android.gms.b.bz: void onActivityStarted(android.app.Activity)>($r3);
+
+        $r3 = null;
+
+     label20:
+        $r27 = new com.google.android.gms.ads.internal.client.AdSizeParcel;
+
+        specialinvoke $r27.<com.google.android.gms.ads.internal.client.AdSizeParcel: void <init>()>();
+
+        $r28 = new com.google.android.gms.ads.internal.util.client.VersionInfoParcel;
+
+        specialinvoke $r28.<com.google.android.gms.ads.internal.util.client.VersionInfoParcel: void <init>(int,int,boolean)>(0, 0, false);
+
+        $r29 = new com.google.android.gms.ads.internal.ah;
+
+        specialinvoke $r29.<com.google.android.gms.ads.internal.ah: void <init>(android.content.Context,com.google.android.gms.ads.internal.client.AdSizeParcel,java.lang.String,com.google.android.gms.ads.internal.util.client.VersionInfoParcel)>($r3, $r27, "", $r28);
+
+        if $i0 == 26 goto label21;
+
+        virtualinvoke $r29.<com.google.android.gms.ads.internal.ah: void onScrollChanged()>();
+
+     label21:
+        if $i0 == 27 goto label22;
+
+        virtualinvoke $r29.<com.google.android.gms.ads.internal.ah: void onGlobalLayout()>();
+
+     label22:
+        if $i0 == 28 goto label08;
+
+     label23:
+        if $i0 == 29 goto label07;
+
+        if $i0 == 30 goto label24;
+
+        if $i0 == 31 goto label07;
+
+     label24:
+        if $i0 == 33 goto label27;
+
+        $r30 = new com.google.android.gms.ads.purchase.InAppPurchaseActivity;
+
+        specialinvoke $r30.<com.google.android.gms.ads.purchase.InAppPurchaseActivity: void <init>()>();
+
+        if $i0 == 34 goto label27;
+
+        virtualinvoke $r30.<com.google.android.gms.ads.purchase.InAppPurchaseActivity: void onCreate(android.os.Bundle)>(null);
+
+     label25:
+        if $i0 == 37 goto label26;
+
+        if $i0 == 38 goto label25;
+
+     label26:
+        virtualinvoke $r30.<com.google.android.gms.ads.purchase.InAppPurchaseActivity: void onDestroy()>();
+
+     label27:
+        if $i0 == 40 goto label46;
+
+        $r31 = new opunktschmidt.fastcaloriecounter.Ui.CalorieEditActivity;
+
+        specialinvoke $r31.<opunktschmidt.fastcaloriecounter.Ui.CalorieEditActivity: void <init>()>();
+
+        if $i0 == 41 goto label46;
+
+        virtualinvoke $r31.<opunktschmidt.fastcaloriecounter.Ui.CalorieEditActivity: void onCreate(android.os.Bundle)>(null);
+
+     label28:
+        if $i0 == 43 goto label45;
+
+     label29:
+        $r32 = new com.google.android.gms.ads.internal.client.AdSizeParcel;
+
+        specialinvoke $r32.<com.google.android.gms.ads.internal.client.AdSizeParcel: void <init>()>();
+
+        $r33 = new com.google.android.gms.ads.internal.client.SearchAdRequestParcel;
+
+        specialinvoke $r33.<com.google.android.gms.ads.internal.client.SearchAdRequestParcel: void <init>(int,int,int,int,int,int,int,int,int,java.lang.String,int,java.lang.String,int,int,java.lang.String)>(0, 0, 0, 0, 0, 0, 0, 0, 0, "", 0, "", 0, 0, "");
+
+        $r34 = new com.google.android.gms.ads.internal.client.AdRequestParcel;
+
+        specialinvoke $r34.<com.google.android.gms.ads.internal.client.AdRequestParcel: void <init>(int,long,android.os.Bundle,int,java.util.List,boolean,int,boolean,java.lang.String,com.google.android.gms.ads.internal.client.SearchAdRequestParcel,android.location.Location,java.lang.String,android.os.Bundle,android.os.Bundle,java.util.List,java.lang.String,java.lang.String,boolean)>(0, 0L, null, 0, null, false, 0, false, "", $r33, null, "", null, null, null, "", "", false);
+
+        $r35 = new org.json.JSONObject;
+
+        specialinvoke $r35.<org.json.JSONObject: void <init>()>();
+
+        $r36 = new com.google.android.gms.b.jc;
+
+        specialinvoke $r36.<com.google.android.gms.b.jc: void <init>(org.json.JSONObject)>($r35);
+
+        $r37 = new com.google.android.gms.b.jd;
+
+        specialinvoke $r37.<com.google.android.gms.b.jd: void <init>(java.lang.String)>("");
+
+        $r38 = new com.google.android.gms.b.jf;
+
+        specialinvoke $r38.<com.google.android.gms.b.jf: void <init>()>();
+
+        $r39 = null;
+
+        $r40 = null;
+
+        $r41 = new com.google.android.gms.b.pj;
+
+        specialinvoke $r41.<com.google.android.gms.b.pj: void <init>(com.google.android.gms.ads.internal.client.AdRequestParcel,com.google.android.gms.b.sk,java.util.List,int,java.util.List,java.util.List,int,long,java.lang.String,boolean,com.google.android.gms.b.jc,com.google.android.gms.b.jv,java.lang.String,com.google.android.gms.b.jd,com.google.android.gms.b.jf,long,com.google.android.gms.ads.internal.client.AdSizeParcel,long,long,long,java.lang.String,org.json.JSONObject,com.google.android.gms.ads.internal.formats.h)>($r34, null, null, 0, null, null, 0, 0L, "", false, $r36, null, "", $r37, $r38, 0L, $r39, 0L, 0L, 0L, "", $r40, null);
+
+        $r42 = new com.google.android.gms.ads.internal.util.client.VersionInfoParcel;
+
+        specialinvoke $r42.<com.google.android.gms.ads.internal.util.client.VersionInfoParcel: void <init>(int,int,boolean)>(0, 0, false);
+
+        $r43 = null;
+
+        $r44 = new com.google.android.gms.b.ic;
+
+        specialinvoke $r44.<com.google.android.gms.b.ic: void <init>(android.content.Context,com.google.android.gms.ads.internal.util.client.VersionInfoParcel,java.lang.String)>($r31, $r43, "");
+
+        $r45 = new com.google.android.gms.b.ap;
+
+        specialinvoke $r45.<com.google.android.gms.b.ap: void <init>(android.content.Context,com.google.android.gms.ads.internal.client.AdSizeParcel,com.google.android.gms.b.pj,com.google.android.gms.ads.internal.util.client.VersionInfoParcel,com.google.android.gms.b.bw,com.google.android.gms.b.ic)>($r31, $r32, $r41, $r42, null, $r44);
+
+        if $i0 == 44 goto label30;
+
+        virtualinvoke $r45.<com.google.android.gms.b.ap: void onGlobalLayout()>();
+
+     label30:
+        if $i0 == 45 goto label31;
+
+        virtualinvoke $r45.<com.google.android.gms.b.ap: void onScrollChanged()>();
+
+     label31:
+        $r46 = new opunktschmidt.fastcaloriecounter.Ui.a;
+
+        specialinvoke $r46.<opunktschmidt.fastcaloriecounter.Ui.a: void <init>(opunktschmidt.fastcaloriecounter.Ui.CalorieEditActivity)>($r31);
+
+        if $i0 == 46 goto label32;
+
+        virtualinvoke $r46.<opunktschmidt.fastcaloriecounter.Ui.a: void onClick(android.view.View)>(null);
+
+     label32:
+        $r47 = new opunktschmidt.fastcaloriecounter.Ui.d;
+
+        specialinvoke $r47.<opunktschmidt.fastcaloriecounter.Ui.d: void <init>(opunktschmidt.fastcaloriecounter.Ui.CalorieEditActivity)>($r31);
+
+        if $i0 == 47 goto label33;
+
+        virtualinvoke $r47.<opunktschmidt.fastcaloriecounter.Ui.d: void onClick(android.view.View)>(null);
+
+     label33:
+        $r48 = new com.google.android.gms.b.sv;
+
+        specialinvoke $r48.<com.google.android.gms.b.sv: void <init>(android.content.Context)>($r31);
+
+        $r49 = new com.google.android.gms.ads.internal.client.AdSizeParcel;
+
+        specialinvoke $r49.<com.google.android.gms.ads.internal.client.AdSizeParcel: void <init>()>();
+
+        $r50 = new com.google.android.gms.b.ab;
+
+        specialinvoke $r50.<com.google.android.gms.b.ab: void <init>(com.google.android.gms.b.u)>(null);
+
+        $r51 = new com.google.android.gms.ads.internal.util.client.VersionInfoParcel;
+
+        specialinvoke $r51.<com.google.android.gms.ads.internal.util.client.VersionInfoParcel: void <init>(int,int,boolean)>(0, 0, false);
+
+        $r52 = new com.google.android.gms.b.dq;
+
+        specialinvoke $r52.<com.google.android.gms.b.dq: void <init>(boolean,java.lang.String,java.lang.String)>(false, "", "");
+
+        $r53 = new com.google.android.gms.ads.internal.i;
+
+        specialinvoke $r53.<com.google.android.gms.ads.internal.i: void <init>(com.google.android.gms.b.gx,com.google.android.gms.ads.internal.overlay.w)>(null, null);
+
+        $r54 = new com.google.android.gms.b.st;
+
+        specialinvoke $r54.<com.google.android.gms.b.st: void <init>(com.google.android.gms.b.sv,com.google.android.gms.ads.internal.client.AdSizeParcel,boolean,boolean,com.google.android.gms.b.ab,com.google.android.gms.ads.internal.util.client.VersionInfoParcel,com.google.android.gms.b.dq,com.google.android.gms.ads.internal.i)>($r48, $r49, false, false, $r50, $r51, $r52, $r53);
+
+        if $i0 == 48 goto label34;
+
+        virtualinvoke $r54.<com.google.android.gms.b.st: void onDownloadStart(java.lang.String,java.lang.String,java.lang.String,java.lang.String,long)>("", "", "", "", 0L);
+
+     label34:
+        if $i0 == 49 goto label35;
+
+        virtualinvoke $r54.<com.google.android.gms.b.st: void onGlobalLayout()>();
+
+     label35:
+        $r55 = new com.borax12.materialdaterangepicker.date.s;
+
+        specialinvoke $r55.<com.borax12.materialdaterangepicker.date.s: void <init>(android.content.Context,com.borax12.materialdaterangepicker.date.a)>($r31, null);
+
+        if $i0 == 50 goto label36;
+
+        virtualinvoke $r55.<com.borax12.materialdaterangepicker.date.s: void onItemClick(android.widget.AdapterView,android.view.View,int,long)>(null, null, 0, 0L);
+
+     label36:
+        $r56 = new com.google.android.gms.b.bz;
+
+        specialinvoke $r56.<com.google.android.gms.b.bz: void <init>(android.app.Application,android.app.Activity)>(null, $r31);
+
+        if $i0 == 51 goto label37;
+
+        virtualinvoke $r56.<com.google.android.gms.b.bz: void onActivityResumed(android.app.Activity)>($r31);
+
+        $r31 = null;
+
+     label37:
+        if $i0 == 52 goto label38;
+
+        virtualinvoke $r56.<com.google.android.gms.b.bz: void onActivityDestroyed(android.app.Activity)>($r31);
+
+        $r31 = null;
+
+     label38:
+        if $i0 == 53 goto label39;
+
+        virtualinvoke $r56.<com.google.android.gms.b.bz: void onActivityPaused(android.app.Activity)>($r31);
+
+        $r31 = null;
+
+     label39:
+        if $i0 == 54 goto label40;
+
+        virtualinvoke $r56.<com.google.android.gms.b.bz: void onActivityStarted(android.app.Activity)>($r31);
+
+        $r31 = null;
+
+     label40:
+        $r57 = new com.google.android.gms.ads.internal.client.AdSizeParcel;
+
+        specialinvoke $r57.<com.google.android.gms.ads.internal.client.AdSizeParcel: void <init>()>();
+
+        $r58 = new com.google.android.gms.ads.internal.util.client.VersionInfoParcel;
+
+        specialinvoke $r58.<com.google.android.gms.ads.internal.util.client.VersionInfoParcel: void <init>(int,int,boolean)>(0, 0, false);
+
+        $r59 = new com.google.android.gms.ads.internal.ah;
+
+        specialinvoke $r59.<com.google.android.gms.ads.internal.ah: void <init>(android.content.Context,com.google.android.gms.ads.internal.client.AdSizeParcel,java.lang.String,com.google.android.gms.ads.internal.util.client.VersionInfoParcel)>($r31, $r57, "", $r58);
+
+        if $i0 == 55 goto label41;
+
+        virtualinvoke $r59.<com.google.android.gms.ads.internal.ah: void onScrollChanged()>();
+
+     label41:
+        if $i0 == 56 goto label42;
+
+        virtualinvoke $r59.<com.google.android.gms.ads.internal.ah: void onGlobalLayout()>();
+
+     label42:
+        $r60 = new opunktschmidt.fastcaloriecounter.Ui.e;
+
+        specialinvoke $r60.<opunktschmidt.fastcaloriecounter.Ui.e: void <init>(opunktschmidt.fastcaloriecounter.Ui.CalorieEditActivity)>($r31);
+
+        if $i0 == 57 goto label43;
+
+        virtualinvoke $r60.<opunktschmidt.fastcaloriecounter.Ui.e: void onClick(android.view.View)>(null);
+
+     label43:
+        $r61 = new opunktschmidt.fastcaloriecounter.Ui.c;
+
+        specialinvoke $r61.<opunktschmidt.fastcaloriecounter.Ui.c: void <init>(opunktschmidt.fastcaloriecounter.Ui.CalorieEditActivity)>($r31);
+
+        if $i0 == 58 goto label44;
+
+        virtualinvoke $r61.<opunktschmidt.fastcaloriecounter.Ui.c: void onClick(android.view.View)>(null);
+
+     label44:
+        if $i0 == 59 goto label29;
+
+     label45:
+        if $i0 == 60 goto label28;
+
+        if $i0 == 61 goto label46;
+
+        if $i0 == 62 goto label28;
+
+     label46:
+        if $i0 == 64 goto label55;
+
+        $r62 = new com.google.android.gms.ads.AdActivity;
+
+        specialinvoke $r62.<com.google.android.gms.ads.AdActivity: void <init>()>();
+
+        if $i0 == 65 goto label55;
+
+        virtualinvoke $r62.<com.google.android.gms.ads.AdActivity: void onCreate(android.os.Bundle)>(null);
+
+     label47:
+        virtualinvoke $r62.<com.google.android.gms.ads.AdActivity: void onStart()>();
+
+     label48:
+        virtualinvoke $r62.<com.google.android.gms.ads.AdActivity: void onResume()>();
+
+        if $i0 == 67 goto label53;
+
+     label49:
+        $r63 = new com.google.android.gms.ads.internal.overlay.z;
+
+        specialinvoke $r63.<com.google.android.gms.ads.internal.overlay.z: void <init>(android.content.Context,int,com.google.android.gms.ads.internal.overlay.ab)>($r62, 0, null);
+
+        if $i0 == 68 goto label50;
+
+        virtualinvoke $r63.<com.google.android.gms.ads.internal.overlay.z: void onClick(android.view.View)>(null);
+
+     label50:
+        $r64 = new com.google.android.gms.b.sv;
+
+        specialinvoke $r64.<com.google.android.gms.b.sv: void <init>(android.content.Context)>($r62);
+
+        $r65 = new com.google.android.gms.ads.internal.client.AdSizeParcel;
+
+        specialinvoke $r65.<com.google.android.gms.ads.internal.client.AdSizeParcel: void <init>()>();
+
+        $r66 = new com.google.android.gms.b.ab;
+
+        specialinvoke $r66.<com.google.android.gms.b.ab: void <init>(com.google.android.gms.b.u)>(null);
+
+        $r67 = new com.google.android.gms.ads.internal.util.client.VersionInfoParcel;
+
+        specialinvoke $r67.<com.google.android.gms.ads.internal.util.client.VersionInfoParcel: void <init>(int,int,boolean)>(0, 0, false);
+
+        $r68 = new com.google.android.gms.b.dq;
+
+        specialinvoke $r68.<com.google.android.gms.b.dq: void <init>(boolean,java.lang.String,java.lang.String)>(false, "", "");
+
+        $r69 = new com.google.android.gms.ads.internal.i;
+
+        specialinvoke $r69.<com.google.android.gms.ads.internal.i: void <init>(com.google.android.gms.b.gx,com.google.android.gms.ads.internal.overlay.w)>(null, null);
+
+        $r70 = new com.google.android.gms.b.st;
+
+        specialinvoke $r70.<com.google.android.gms.b.st: void <init>(com.google.android.gms.b.sv,com.google.android.gms.ads.internal.client.AdSizeParcel,boolean,boolean,com.google.android.gms.b.ab,com.google.android.gms.ads.internal.util.client.VersionInfoParcel,com.google.android.gms.b.dq,com.google.android.gms.ads.internal.i)>($r64, $r65, false, false, $r66, $r67, $r68, $r69);
+
+        if $i0 == 69 goto label51;
+
+        virtualinvoke $r70.<com.google.android.gms.b.st: void onDownloadStart(java.lang.String,java.lang.String,java.lang.String,java.lang.String,long)>("", "", "", "", 0L);
+
+     label51:
+        if $i0 == 70 goto label52;
+
+        virtualinvoke $r70.<com.google.android.gms.b.st: void onGlobalLayout()>();
+
+     label52:
+        if $i0 == 71 goto label49;
+
+     label53:
+        virtualinvoke $r62.<com.google.android.gms.ads.AdActivity: void onPause()>();
+
+        virtualinvoke $r62.<com.google.android.gms.ads.AdActivity: void onSaveInstanceState(android.os.Bundle)>(null);
+
+        if $i0 == 72 goto label48;
+
+        virtualinvoke $r62.<com.google.android.gms.ads.AdActivity: void onStop()>();
+
+        if $i0 == 73 goto label54;
+
+        virtualinvoke $r62.<com.google.android.gms.ads.AdActivity: void onRestart()>();
+
+        if $i0 == 74 goto label47;
+
+     label54:
+        virtualinvoke $r62.<com.google.android.gms.ads.AdActivity: void onDestroy()>();
+
+     label55:
+        if $i0 == 76 goto label57;
+
+        $r71 = new opunktschmidt.fastcaloriecounter.Service.Autostart;
+
+        specialinvoke $r71.<opunktschmidt.fastcaloriecounter.Service.Autostart: void <init>()>();
+
+        if $i0 == 77 goto label57;
+
+     label56:
+        virtualinvoke $r71.<opunktschmidt.fastcaloriecounter.Service.Autostart: void onReceive(android.content.Context,android.content.Intent)>(null, null);
+
+        if $i0 == 79 goto label56;
+
+     label57:
+        if $i0 == 80 goto label59;
+
+        $r72 = new com.google.android.gms.b.qk;
+
+        specialinvoke $r72.<com.google.android.gms.b.qk: void <init>()>();
+
+        $r73 = null;
+
+        $r74 = new com.google.android.gms.b.ql;
+
+        specialinvoke $r74.<com.google.android.gms.b.ql: void <init>(com.google.android.gms.b.qk,android.content.Context)>($r73, null);
+
+        $r75 = new com.google.android.gms.b.qm;
+
+        specialinvoke $r75.<com.google.android.gms.b.qm: void <init>(com.google.android.gms.b.qk,com.google.android.gms.b.ql)>($r72, $r74);
+
+        if $i0 == 81 goto label59;
+
+     label58:
+        virtualinvoke $r75.<com.google.android.gms.b.qm: void onReceive(android.content.Context,android.content.Intent)>(null, null);
+
+        if $i0 == 83 goto label58;
+
+     label59:
+        if $i0 == 84 goto label01;
+
+        return;
+    }
+
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 2.1 seconds.
+[Spark] Solution found in 2.1 seconds.
+Running incremental callback analysis for 5 components...
+Incremental callback analysis done.
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+Warning: android.net.http.AndroidHttpClient is a phantom class!
+Warning: org.apache.http.HttpResponse is a phantom class!
+Warning: org.apache.http.Header is a phantom class!
+Warning: org.apache.http.StatusLine is a phantom class!
+Warning: org.apache.http.HttpEntity is a phantom class!
+Warning: org.apache.http.client.HttpClient is a phantom class!
+Warning: org.apache.http.client.methods.HttpEntityEnclosingRequestBase is a phantom class!
+Warning: org.apache.http.client.methods.HttpUriRequest is a phantom class!
+Warning: org.apache.http.ProtocolVersion is a phantom class!
+Warning: org.apache.http.client.methods.HttpDelete is a phantom class!
+Warning: org.apache.http.client.methods.HttpGet is a phantom class!
+Warning: org.apache.http.client.methods.HttpHead is a phantom class!
+Warning: org.apache.http.client.methods.HttpOptions is a phantom class!
+Warning: org.apache.http.client.methods.HttpPost is a phantom class!
+Warning: org.apache.http.client.methods.HttpPut is a phantom class!
+Warning: org.apache.http.client.methods.HttpTrace is a phantom class!
+Warning: org.apache.http.entity.BasicHttpEntity is a phantom class!
+Warning: org.apache.http.entity.ByteArrayEntity is a phantom class!
+Warning: org.apache.http.impl.cookie.DateParseException is a phantom class!
+Warning: org.apache.http.impl.cookie.DateUtils is a phantom class!
+Warning: org.apache.http.message.BasicHeader is a phantom class!
+Warning: org.apache.http.message.BasicHttpResponse is a phantom class!
+Warning: org.apache.http.message.BasicStatusLine is a phantom class!
+Warning: org.joda.convert.FromString is a phantom class!
+Warning: org.joda.convert.ToString is a phantom class!
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.os.Bundle
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.view.View
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.app.Application
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot create valid constructor for com.google.android.gms.b.u, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot create valid constructor for com.google.android.gms.b.gx, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot create valid constructor for com.google.android.gms.ads.internal.overlay.w, because it is abstract and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class java.util.List
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.location.Location
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot create valid constructor for com.google.android.gms.b.sk, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot create valid constructor for com.google.android.gms.b.jv, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Ran into a constructor generation loop for class com.google.android.gms.ads.internal.client.AdSizeParcel, substituting with null...
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Ran into a constructor generation loop for class org.json.JSONObject, substituting with null...
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot create valid constructor for com.google.android.gms.ads.internal.formats.h, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot create valid constructor for com.google.android.gms.b.bw, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Ran into a constructor generation loop for class com.google.android.gms.ads.internal.util.client.VersionInfoParcel, substituting with null...
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot create valid constructor for com.borax12.materialdaterangepicker.date.h, because it is abstract and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Constructor cannot be generated for callback class com.borax12.materialdaterangepicker.date.h
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.view.Menu
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.view.MenuItem
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot create valid constructor for com.borax12.materialdaterangepicker.date.a, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.widget.AdapterView
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Ran into a constructor generation loop for class com.google.android.gms.ads.internal.client.AdSizeParcel, substituting with null...
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Ran into a constructor generation loop for class org.json.JSONObject, substituting with null...
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Ran into a constructor generation loop for class com.google.android.gms.ads.internal.util.client.VersionInfoParcel, substituting with null...
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Constructor cannot be generated for callback class com.borax12.materialdaterangepicker.date.h
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class java.util.Calendar
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.widget.DatePicker
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot create valid constructor for com.google.android.gms.ads.internal.overlay.ab, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.content.Context
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.content.Intent
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Ran into a constructor generation loop for class com.google.android.gms.b.qk, substituting with null...
+[main] INFO soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Generated main method:
+    public static void dummyMainMethod(java.lang.String[])
+    {
+        java.lang.String[] $r0;
+        int $i0;
+        opunktschmidt.fastcaloriecounter.Ui.SettingsActivity $r1;
+        opunktschmidt.fastcaloriecounter.Ui.aa $r2;
+        opunktschmidt.fastcaloriecounter.Ui.MainActivity $r3;
+        com.google.android.gms.b.bz $r4, $r33;
+        com.google.android.gms.b.sv $r5, $r34, $r66;
+        com.google.android.gms.ads.internal.client.AdSizeParcel $r6, $r12, $r19, $r26, $r35, $r43, $r50, $r58, $r67;
+        com.google.android.gms.b.ab $r7, $r36, $r68;
+        com.google.android.gms.ads.internal.util.client.VersionInfoParcel $r8, $r22, $r23, $r27, $r37, $r53, $r54, $r59, $r69;
+        com.google.android.gms.b.dq $r9, $r38, $r70;
+        com.google.android.gms.ads.internal.i $r10, $r39, $r71;
+        com.google.android.gms.b.st $r11, $r40, $r72;
+        com.google.android.gms.ads.internal.client.SearchAdRequestParcel $r13, $r44;
+        com.google.android.gms.ads.internal.client.AdRequestParcel $r14, $r45;
+        org.json.JSONObject $r15, $r20, $r46, $r51;
+        com.google.android.gms.b.jc $r16, $r47;
+        com.google.android.gms.b.jd $r17, $r48;
+        com.google.android.gms.b.jf $r18, $r49;
+        com.google.android.gms.b.pj $r21, $r52;
+        com.google.android.gms.b.ic $r24, $r55;
+        com.google.android.gms.b.ap $r25, $r56;
+        boolean $z0, $z1, $z2;
+        com.google.android.gms.ads.internal.ah $r28, $r60;
+        com.borax12.materialdaterangepicker.date.s $r29, $r63;
+        com.google.android.gms.ads.purchase.InAppPurchaseActivity $r30;
+        opunktschmidt.fastcaloriecounter.Ui.CalorieEditActivity $r31;
+        opunktschmidt.fastcaloriecounter.Ui.e $r32, $r61;
+        opunktschmidt.fastcaloriecounter.Ui.d $r41;
+        opunktschmidt.fastcaloriecounter.Ui.a $r42;
+        opunktschmidt.fastcaloriecounter.Ui.c $r57;
+        opunktschmidt.fastcaloriecounter.Ui.f $r62;
+        com.google.android.gms.ads.AdActivity $r64;
+        com.google.android.gms.ads.internal.overlay.z $r65;
+        opunktschmidt.fastcaloriecounter.Service.Autostart $r73;
+        com.google.android.gms.b.qk $r74, $r75;
+        com.google.android.gms.b.ql $r76;
+        com.google.android.gms.b.qm $r77;
+
+        $r0 := @parameter0: java.lang.String[];
+
+        $i0 = 0;
+
+     label01:
+        if $i0 == 0 goto label06;
+
+        $r1 = new opunktschmidt.fastcaloriecounter.Ui.SettingsActivity;
+
+        specialinvoke $r1.<opunktschmidt.fastcaloriecounter.Ui.SettingsActivity: void <init>()>();
+
+        if $i0 == 1 goto label06;
+
+        virtualinvoke $r1.<opunktschmidt.fastcaloriecounter.Ui.SettingsActivity: void onCreate(android.os.Bundle)>(null);
+
+     label02:
+        if $i0 == 3 goto label05;
+
+     label03:
+        $r2 = new opunktschmidt.fastcaloriecounter.Ui.aa;
+
+        specialinvoke $r2.<opunktschmidt.fastcaloriecounter.Ui.aa: void <init>(opunktschmidt.fastcaloriecounter.Ui.SettingsActivity)>($r1);
+
+        if $i0 == 4 goto label04;
+
+        virtualinvoke $r2.<opunktschmidt.fastcaloriecounter.Ui.aa: void onClick(android.view.View)>(null);
+
+     label04:
+        if $i0 == 5 goto label03;
+
+     label05:
+        if $i0 == 6 goto label02;
+
+        if $i0 == 7 goto label06;
+
+        if $i0 == 8 goto label02;
+
+     label06:
+        if $i0 == 10 goto label24;
+
+        $r3 = new opunktschmidt.fastcaloriecounter.Ui.MainActivity;
+
+        specialinvoke $r3.<opunktschmidt.fastcaloriecounter.Ui.MainActivity: void <init>()>();
+
+        if $i0 == 11 goto label24;
+
+        virtualinvoke $r3.<opunktschmidt.fastcaloriecounter.Ui.MainActivity: void onCreate(android.os.Bundle)>(null);
+
+     label07:
+        if $i0 == 13 goto label23;
+
+     label08:
+        $r4 = new com.google.android.gms.b.bz;
+
+        specialinvoke $r4.<com.google.android.gms.b.bz: void <init>(android.app.Application,android.app.Activity)>(null, $r3);
+
+        if $i0 == 14 goto label09;
+
+        virtualinvoke $r4.<com.google.android.gms.b.bz: void onActivityResumed(android.app.Activity)>($r3);
+
+        $r3 = null;
+
+     label09:
+        if $i0 == 15 goto label10;
+
+        virtualinvoke $r4.<com.google.android.gms.b.bz: void onActivityStarted(android.app.Activity)>($r3);
+
+        $r3 = null;
+
+     label10:
+        if $i0 == 16 goto label11;
+
+        virtualinvoke $r4.<com.google.android.gms.b.bz: void onActivityDestroyed(android.app.Activity)>($r3);
+
+        $r3 = null;
+
+     label11:
+        if $i0 == 17 goto label12;
+
+        virtualinvoke $r4.<com.google.android.gms.b.bz: void onActivityPaused(android.app.Activity)>($r3);
+
+        $r3 = null;
+
+     label12:
+        $r5 = new com.google.android.gms.b.sv;
+
+        specialinvoke $r5.<com.google.android.gms.b.sv: void <init>(android.content.Context)>($r3);
+
+        $r6 = new com.google.android.gms.ads.internal.client.AdSizeParcel;
+
+        specialinvoke $r6.<com.google.android.gms.ads.internal.client.AdSizeParcel: void <init>()>();
+
+        $r7 = new com.google.android.gms.b.ab;
+
+        specialinvoke $r7.<com.google.android.gms.b.ab: void <init>(com.google.android.gms.b.u)>(null);
+
+        $r8 = new com.google.android.gms.ads.internal.util.client.VersionInfoParcel;
+
+        specialinvoke $r8.<com.google.android.gms.ads.internal.util.client.VersionInfoParcel: void <init>(int,int,boolean)>(0, 0, false);
+
+        $r9 = new com.google.android.gms.b.dq;
+
+        specialinvoke $r9.<com.google.android.gms.b.dq: void <init>(boolean,java.lang.String,java.lang.String)>(false, "", "");
+
+        $r10 = new com.google.android.gms.ads.internal.i;
+
+        specialinvoke $r10.<com.google.android.gms.ads.internal.i: void <init>(com.google.android.gms.b.gx,com.google.android.gms.ads.internal.overlay.w)>(null, null);
+
+        $r11 = new com.google.android.gms.b.st;
+
+        specialinvoke $r11.<com.google.android.gms.b.st: void <init>(com.google.android.gms.b.sv,com.google.android.gms.ads.internal.client.AdSizeParcel,boolean,boolean,com.google.android.gms.b.ab,com.google.android.gms.ads.internal.util.client.VersionInfoParcel,com.google.android.gms.b.dq,com.google.android.gms.ads.internal.i)>($r5, $r6, false, false, $r7, $r8, $r9, $r10);
+
+        if $i0 == 18 goto label13;
+
+        virtualinvoke $r11.<com.google.android.gms.b.st: void onGlobalLayout()>();
+
+     label13:
+        if $i0 == 19 goto label14;
+
+        virtualinvoke $r11.<com.google.android.gms.b.st: void onDownloadStart(java.lang.String,java.lang.String,java.lang.String,java.lang.String,long)>("", "", "", "", 0L);
+
+     label14:
+        $r12 = new com.google.android.gms.ads.internal.client.AdSizeParcel;
+
+        specialinvoke $r12.<com.google.android.gms.ads.internal.client.AdSizeParcel: void <init>()>();
+
+        $r13 = new com.google.android.gms.ads.internal.client.SearchAdRequestParcel;
+
+        specialinvoke $r13.<com.google.android.gms.ads.internal.client.SearchAdRequestParcel: void <init>(int,int,int,int,int,int,int,int,int,java.lang.String,int,java.lang.String,int,int,java.lang.String)>(0, 0, 0, 0, 0, 0, 0, 0, 0, "", 0, "", 0, 0, "");
+
+        $r14 = new com.google.android.gms.ads.internal.client.AdRequestParcel;
+
+        specialinvoke $r14.<com.google.android.gms.ads.internal.client.AdRequestParcel: void <init>(int,long,android.os.Bundle,int,java.util.List,boolean,int,boolean,java.lang.String,com.google.android.gms.ads.internal.client.SearchAdRequestParcel,android.location.Location,java.lang.String,android.os.Bundle,android.os.Bundle,java.util.List,java.lang.String,java.lang.String,boolean)>(0, 0L, null, 0, null, false, 0, false, "", $r13, null, "", null, null, null, "", "", false);
+
+        $r15 = new org.json.JSONObject;
+
+        specialinvoke $r15.<org.json.JSONObject: void <init>()>();
+
+        $r16 = new com.google.android.gms.b.jc;
+
+        specialinvoke $r16.<com.google.android.gms.b.jc: void <init>(org.json.JSONObject)>($r15);
+
+        $r17 = new com.google.android.gms.b.jd;
+
+        specialinvoke $r17.<com.google.android.gms.b.jd: void <init>(java.lang.String)>("");
+
+        $r18 = new com.google.android.gms.b.jf;
+
+        specialinvoke $r18.<com.google.android.gms.b.jf: void <init>()>();
+
+        $r19 = null;
+
+        $r20 = null;
+
+        $r21 = new com.google.android.gms.b.pj;
+
+        specialinvoke $r21.<com.google.android.gms.b.pj: void <init>(com.google.android.gms.ads.internal.client.AdRequestParcel,com.google.android.gms.b.sk,java.util.List,int,java.util.List,java.util.List,int,long,java.lang.String,boolean,com.google.android.gms.b.jc,com.google.android.gms.b.jv,java.lang.String,com.google.android.gms.b.jd,com.google.android.gms.b.jf,long,com.google.android.gms.ads.internal.client.AdSizeParcel,long,long,long,java.lang.String,org.json.JSONObject,com.google.android.gms.ads.internal.formats.h)>($r14, null, null, 0, null, null, 0, 0L, "", false, $r16, null, "", $r17, $r18, 0L, $r19, 0L, 0L, 0L, "", $r20, null);
+
+        $r22 = new com.google.android.gms.ads.internal.util.client.VersionInfoParcel;
+
+        specialinvoke $r22.<com.google.android.gms.ads.internal.util.client.VersionInfoParcel: void <init>(int,int,boolean)>(0, 0, false);
+
+        $r23 = null;
+
+        $r24 = new com.google.android.gms.b.ic;
+
+        specialinvoke $r24.<com.google.android.gms.b.ic: void <init>(android.content.Context,com.google.android.gms.ads.internal.util.client.VersionInfoParcel,java.lang.String)>($r3, $r23, "");
+
+        $r25 = new com.google.android.gms.b.ap;
+
+        specialinvoke $r25.<com.google.android.gms.b.ap: void <init>(android.content.Context,com.google.android.gms.ads.internal.client.AdSizeParcel,com.google.android.gms.b.pj,com.google.android.gms.ads.internal.util.client.VersionInfoParcel,com.google.android.gms.b.bw,com.google.android.gms.b.ic)>($r3, $r12, $r21, $r22, null, $r24);
+
+        if $i0 == 20 goto label15;
+
+        virtualinvoke $r25.<com.google.android.gms.b.ap: void onScrollChanged()>();
+
+     label15:
+        if $i0 == 21 goto label16;
+
+        virtualinvoke $r25.<com.google.android.gms.b.ap: void onGlobalLayout()>();
+
+     label16:
+        if $i0 == 22 goto label17;
+
+        $z0 = virtualinvoke $r3.<opunktschmidt.fastcaloriecounter.Ui.MainActivity: boolean onCreateOptionsMenu(android.view.Menu)>(null);
+
+     label17:
+        if $i0 == 23 goto label18;
+
+        $z1 = virtualinvoke $r3.<opunktschmidt.fastcaloriecounter.Ui.MainActivity: boolean onOptionsItemSelected(android.view.MenuItem)>(null);
+
+     label18:
+        if $i0 == 24 goto label19;
+
+        $z2 = virtualinvoke $r3.<opunktschmidt.fastcaloriecounter.Ui.MainActivity: boolean onPrepareOptionsMenu(android.view.Menu)>(null);
+
+     label19:
+        $r26 = new com.google.android.gms.ads.internal.client.AdSizeParcel;
+
+        specialinvoke $r26.<com.google.android.gms.ads.internal.client.AdSizeParcel: void <init>()>();
+
+        $r27 = new com.google.android.gms.ads.internal.util.client.VersionInfoParcel;
+
+        specialinvoke $r27.<com.google.android.gms.ads.internal.util.client.VersionInfoParcel: void <init>(int,int,boolean)>(0, 0, false);
+
+        $r28 = new com.google.android.gms.ads.internal.ah;
+
+        specialinvoke $r28.<com.google.android.gms.ads.internal.ah: void <init>(android.content.Context,com.google.android.gms.ads.internal.client.AdSizeParcel,java.lang.String,com.google.android.gms.ads.internal.util.client.VersionInfoParcel)>($r3, $r26, "", $r27);
+
+        if $i0 == 25 goto label20;
+
+        virtualinvoke $r28.<com.google.android.gms.ads.internal.ah: void onScrollChanged()>();
+
+     label20:
+        if $i0 == 26 goto label21;
+
+        virtualinvoke $r28.<com.google.android.gms.ads.internal.ah: void onGlobalLayout()>();
+
+     label21:
+        $r29 = new com.borax12.materialdaterangepicker.date.s;
+
+        specialinvoke $r29.<com.borax12.materialdaterangepicker.date.s: void <init>(android.content.Context,com.borax12.materialdaterangepicker.date.a)>($r3, null);
+
+        if $i0 == 27 goto label22;
+
+        virtualinvoke $r29.<com.borax12.materialdaterangepicker.date.s: void onItemClick(android.widget.AdapterView,android.view.View,int,long)>(null, null, 0, 0L);
+
+     label22:
+        if $i0 == 28 goto label08;
+
+     label23:
+        if $i0 == 29 goto label07;
+
+        if $i0 == 30 goto label24;
+
+        if $i0 == 31 goto label07;
+
+     label24:
+        if $i0 == 33 goto label27;
+
+        $r30 = new com.google.android.gms.ads.purchase.InAppPurchaseActivity;
+
+        specialinvoke $r30.<com.google.android.gms.ads.purchase.InAppPurchaseActivity: void <init>()>();
+
+        if $i0 == 34 goto label27;
+
+        virtualinvoke $r30.<com.google.android.gms.ads.purchase.InAppPurchaseActivity: void onCreate(android.os.Bundle)>(null);
+
+     label25:
+        if $i0 == 37 goto label26;
+
+        if $i0 == 38 goto label25;
+
+     label26:
+        virtualinvoke $r30.<com.google.android.gms.ads.purchase.InAppPurchaseActivity: void onDestroy()>();
+
+     label27:
+        if $i0 == 40 goto label47;
+
+        $r31 = new opunktschmidt.fastcaloriecounter.Ui.CalorieEditActivity;
+
+        specialinvoke $r31.<opunktschmidt.fastcaloriecounter.Ui.CalorieEditActivity: void <init>()>();
+
+        if $i0 == 41 goto label47;
+
+        virtualinvoke $r31.<opunktschmidt.fastcaloriecounter.Ui.CalorieEditActivity: void onCreate(android.os.Bundle)>(null);
+
+     label28:
+        if $i0 == 43 goto label46;
+
+     label29:
+        $r32 = new opunktschmidt.fastcaloriecounter.Ui.e;
+
+        specialinvoke $r32.<opunktschmidt.fastcaloriecounter.Ui.e: void <init>(opunktschmidt.fastcaloriecounter.Ui.CalorieEditActivity)>($r31);
+
+        if $i0 == 44 goto label30;
+
+        virtualinvoke $r32.<opunktschmidt.fastcaloriecounter.Ui.e: void onClick(android.view.View)>(null);
+
+     label30:
+        $r33 = new com.google.android.gms.b.bz;
+
+        specialinvoke $r33.<com.google.android.gms.b.bz: void <init>(android.app.Application,android.app.Activity)>(null, $r31);
+
+        if $i0 == 45 goto label31;
+
+        virtualinvoke $r33.<com.google.android.gms.b.bz: void onActivityResumed(android.app.Activity)>($r31);
+
+        $r31 = null;
+
+     label31:
+        if $i0 == 46 goto label32;
+
+        virtualinvoke $r33.<com.google.android.gms.b.bz: void onActivityStarted(android.app.Activity)>($r31);
+
+        $r31 = null;
+
+     label32:
+        if $i0 == 47 goto label33;
+
+        virtualinvoke $r33.<com.google.android.gms.b.bz: void onActivityDestroyed(android.app.Activity)>($r31);
+
+        $r31 = null;
+
+     label33:
+        if $i0 == 48 goto label34;
+
+        virtualinvoke $r33.<com.google.android.gms.b.bz: void onActivityPaused(android.app.Activity)>($r31);
+
+        $r31 = null;
+
+     label34:
+        $r34 = new com.google.android.gms.b.sv;
+
+        specialinvoke $r34.<com.google.android.gms.b.sv: void <init>(android.content.Context)>($r31);
+
+        $r35 = new com.google.android.gms.ads.internal.client.AdSizeParcel;
+
+        specialinvoke $r35.<com.google.android.gms.ads.internal.client.AdSizeParcel: void <init>()>();
+
+        $r36 = new com.google.android.gms.b.ab;
+
+        specialinvoke $r36.<com.google.android.gms.b.ab: void <init>(com.google.android.gms.b.u)>(null);
+
+        $r37 = new com.google.android.gms.ads.internal.util.client.VersionInfoParcel;
+
+        specialinvoke $r37.<com.google.android.gms.ads.internal.util.client.VersionInfoParcel: void <init>(int,int,boolean)>(0, 0, false);
+
+        $r38 = new com.google.android.gms.b.dq;
+
+        specialinvoke $r38.<com.google.android.gms.b.dq: void <init>(boolean,java.lang.String,java.lang.String)>(false, "", "");
+
+        $r39 = new com.google.android.gms.ads.internal.i;
+
+        specialinvoke $r39.<com.google.android.gms.ads.internal.i: void <init>(com.google.android.gms.b.gx,com.google.android.gms.ads.internal.overlay.w)>(null, null);
+
+        $r40 = new com.google.android.gms.b.st;
+
+        specialinvoke $r40.<com.google.android.gms.b.st: void <init>(com.google.android.gms.b.sv,com.google.android.gms.ads.internal.client.AdSizeParcel,boolean,boolean,com.google.android.gms.b.ab,com.google.android.gms.ads.internal.util.client.VersionInfoParcel,com.google.android.gms.b.dq,com.google.android.gms.ads.internal.i)>($r34, $r35, false, false, $r36, $r37, $r38, $r39);
+
+        if $i0 == 49 goto label35;
+
+        virtualinvoke $r40.<com.google.android.gms.b.st: void onGlobalLayout()>();
+
+     label35:
+        if $i0 == 50 goto label36;
+
+        virtualinvoke $r40.<com.google.android.gms.b.st: void onDownloadStart(java.lang.String,java.lang.String,java.lang.String,java.lang.String,long)>("", "", "", "", 0L);
+
+     label36:
+        $r41 = new opunktschmidt.fastcaloriecounter.Ui.d;
+
+        specialinvoke $r41.<opunktschmidt.fastcaloriecounter.Ui.d: void <init>(opunktschmidt.fastcaloriecounter.Ui.CalorieEditActivity)>($r31);
+
+        if $i0 == 51 goto label37;
+
+        virtualinvoke $r41.<opunktschmidt.fastcaloriecounter.Ui.d: void onClick(android.view.View)>(null);
+
+     label37:
+        $r42 = new opunktschmidt.fastcaloriecounter.Ui.a;
+
+        specialinvoke $r42.<opunktschmidt.fastcaloriecounter.Ui.a: void <init>(opunktschmidt.fastcaloriecounter.Ui.CalorieEditActivity)>($r31);
+
+        if $i0 == 52 goto label38;
+
+        virtualinvoke $r42.<opunktschmidt.fastcaloriecounter.Ui.a: void onClick(android.view.View)>(null);
+
+     label38:
+        $r43 = new com.google.android.gms.ads.internal.client.AdSizeParcel;
+
+        specialinvoke $r43.<com.google.android.gms.ads.internal.client.AdSizeParcel: void <init>()>();
+
+        $r44 = new com.google.android.gms.ads.internal.client.SearchAdRequestParcel;
+
+        specialinvoke $r44.<com.google.android.gms.ads.internal.client.SearchAdRequestParcel: void <init>(int,int,int,int,int,int,int,int,int,java.lang.String,int,java.lang.String,int,int,java.lang.String)>(0, 0, 0, 0, 0, 0, 0, 0, 0, "", 0, "", 0, 0, "");
+
+        $r45 = new com.google.android.gms.ads.internal.client.AdRequestParcel;
+
+        specialinvoke $r45.<com.google.android.gms.ads.internal.client.AdRequestParcel: void <init>(int,long,android.os.Bundle,int,java.util.List,boolean,int,boolean,java.lang.String,com.google.android.gms.ads.internal.client.SearchAdRequestParcel,android.location.Location,java.lang.String,android.os.Bundle,android.os.Bundle,java.util.List,java.lang.String,java.lang.String,boolean)>(0, 0L, null, 0, null, false, 0, false, "", $r44, null, "", null, null, null, "", "", false);
+
+        $r46 = new org.json.JSONObject;
+
+        specialinvoke $r46.<org.json.JSONObject: void <init>()>();
+
+        $r47 = new com.google.android.gms.b.jc;
+
+        specialinvoke $r47.<com.google.android.gms.b.jc: void <init>(org.json.JSONObject)>($r46);
+
+        $r48 = new com.google.android.gms.b.jd;
+
+        specialinvoke $r48.<com.google.android.gms.b.jd: void <init>(java.lang.String)>("");
+
+        $r49 = new com.google.android.gms.b.jf;
+
+        specialinvoke $r49.<com.google.android.gms.b.jf: void <init>()>();
+
+        $r50 = null;
+
+        $r51 = null;
+
+        $r52 = new com.google.android.gms.b.pj;
+
+        specialinvoke $r52.<com.google.android.gms.b.pj: void <init>(com.google.android.gms.ads.internal.client.AdRequestParcel,com.google.android.gms.b.sk,java.util.List,int,java.util.List,java.util.List,int,long,java.lang.String,boolean,com.google.android.gms.b.jc,com.google.android.gms.b.jv,java.lang.String,com.google.android.gms.b.jd,com.google.android.gms.b.jf,long,com.google.android.gms.ads.internal.client.AdSizeParcel,long,long,long,java.lang.String,org.json.JSONObject,com.google.android.gms.ads.internal.formats.h)>($r45, null, null, 0, null, null, 0, 0L, "", false, $r47, null, "", $r48, $r49, 0L, $r50, 0L, 0L, 0L, "", $r51, null);
+
+        $r53 = new com.google.android.gms.ads.internal.util.client.VersionInfoParcel;
+
+        specialinvoke $r53.<com.google.android.gms.ads.internal.util.client.VersionInfoParcel: void <init>(int,int,boolean)>(0, 0, false);
+
+        $r54 = null;
+
+        $r55 = new com.google.android.gms.b.ic;
+
+        specialinvoke $r55.<com.google.android.gms.b.ic: void <init>(android.content.Context,com.google.android.gms.ads.internal.util.client.VersionInfoParcel,java.lang.String)>($r31, $r54, "");
+
+        $r56 = new com.google.android.gms.b.ap;
+
+        specialinvoke $r56.<com.google.android.gms.b.ap: void <init>(android.content.Context,com.google.android.gms.ads.internal.client.AdSizeParcel,com.google.android.gms.b.pj,com.google.android.gms.ads.internal.util.client.VersionInfoParcel,com.google.android.gms.b.bw,com.google.android.gms.b.ic)>($r31, $r43, $r52, $r53, null, $r55);
+
+        if $i0 == 53 goto label39;
+
+        virtualinvoke $r56.<com.google.android.gms.b.ap: void onScrollChanged()>();
+
+     label39:
+        if $i0 == 54 goto label40;
+
+        virtualinvoke $r56.<com.google.android.gms.b.ap: void onGlobalLayout()>();
+
+     label40:
+        $r57 = new opunktschmidt.fastcaloriecounter.Ui.c;
+
+        specialinvoke $r57.<opunktschmidt.fastcaloriecounter.Ui.c: void <init>(opunktschmidt.fastcaloriecounter.Ui.CalorieEditActivity)>($r31);
+
+        if $i0 == 55 goto label41;
+
+        virtualinvoke $r57.<opunktschmidt.fastcaloriecounter.Ui.c: void onClick(android.view.View)>(null);
+
+     label41:
+        $r58 = new com.google.android.gms.ads.internal.client.AdSizeParcel;
+
+        specialinvoke $r58.<com.google.android.gms.ads.internal.client.AdSizeParcel: void <init>()>();
+
+        $r59 = new com.google.android.gms.ads.internal.util.client.VersionInfoParcel;
+
+        specialinvoke $r59.<com.google.android.gms.ads.internal.util.client.VersionInfoParcel: void <init>(int,int,boolean)>(0, 0, false);
+
+        $r60 = new com.google.android.gms.ads.internal.ah;
+
+        specialinvoke $r60.<com.google.android.gms.ads.internal.ah: void <init>(android.content.Context,com.google.android.gms.ads.internal.client.AdSizeParcel,java.lang.String,com.google.android.gms.ads.internal.util.client.VersionInfoParcel)>($r31, $r58, "", $r59);
+
+        if $i0 == 56 goto label42;
+
+        virtualinvoke $r60.<com.google.android.gms.ads.internal.ah: void onScrollChanged()>();
+
+     label42:
+        if $i0 == 57 goto label43;
+
+        virtualinvoke $r60.<com.google.android.gms.ads.internal.ah: void onGlobalLayout()>();
+
+     label43:
+        $r61 = new opunktschmidt.fastcaloriecounter.Ui.e;
+
+        specialinvoke $r61.<opunktschmidt.fastcaloriecounter.Ui.e: void <init>(opunktschmidt.fastcaloriecounter.Ui.CalorieEditActivity)>($r31);
+
+        $r62 = new opunktschmidt.fastcaloriecounter.Ui.f;
+
+        specialinvoke $r62.<opunktschmidt.fastcaloriecounter.Ui.f: void <init>(opunktschmidt.fastcaloriecounter.Ui.e,java.util.Calendar)>($r61, null);
+
+        if $i0 == 58 goto label44;
+
+        virtualinvoke $r62.<opunktschmidt.fastcaloriecounter.Ui.f: void onDateSet(android.widget.DatePicker,int,int,int)>(null, 0, 0, 0);
+
+     label44:
+        $r63 = new com.borax12.materialdaterangepicker.date.s;
+
+        specialinvoke $r63.<com.borax12.materialdaterangepicker.date.s: void <init>(android.content.Context,com.borax12.materialdaterangepicker.date.a)>($r31, null);
+
+        if $i0 == 59 goto label45;
+
+        virtualinvoke $r63.<com.borax12.materialdaterangepicker.date.s: void onItemClick(android.widget.AdapterView,android.view.View,int,long)>(null, null, 0, 0L);
+
+     label45:
+        if $i0 == 60 goto label29;
+
+     label46:
+        if $i0 == 61 goto label28;
+
+        if $i0 == 62 goto label47;
+
+        if $i0 == 63 goto label28;
+
+     label47:
+        if $i0 == 65 goto label56;
+
+        $r64 = new com.google.android.gms.ads.AdActivity;
+
+        specialinvoke $r64.<com.google.android.gms.ads.AdActivity: void <init>()>();
+
+        if $i0 == 66 goto label56;
+
+        virtualinvoke $r64.<com.google.android.gms.ads.AdActivity: void onCreate(android.os.Bundle)>(null);
+
+     label48:
+        virtualinvoke $r64.<com.google.android.gms.ads.AdActivity: void onStart()>();
+
+     label49:
+        virtualinvoke $r64.<com.google.android.gms.ads.AdActivity: void onResume()>();
+
+        if $i0 == 68 goto label54;
+
+     label50:
+        $r65 = new com.google.android.gms.ads.internal.overlay.z;
+
+        specialinvoke $r65.<com.google.android.gms.ads.internal.overlay.z: void <init>(android.content.Context,int,com.google.android.gms.ads.internal.overlay.ab)>($r64, 0, null);
+
+        if $i0 == 69 goto label51;
+
+        virtualinvoke $r65.<com.google.android.gms.ads.internal.overlay.z: void onClick(android.view.View)>(null);
+
+     label51:
+        $r66 = new com.google.android.gms.b.sv;
+
+        specialinvoke $r66.<com.google.android.gms.b.sv: void <init>(android.content.Context)>($r64);
+
+        $r67 = new com.google.android.gms.ads.internal.client.AdSizeParcel;
+
+        specialinvoke $r67.<com.google.android.gms.ads.internal.client.AdSizeParcel: void <init>()>();
+
+        $r68 = new com.google.android.gms.b.ab;
+
+        specialinvoke $r68.<com.google.android.gms.b.ab: void <init>(com.google.android.gms.b.u)>(null);
+
+        $r69 = new com.google.android.gms.ads.internal.util.client.VersionInfoParcel;
+
+        specialinvoke $r69.<com.google.android.gms.ads.internal.util.client.VersionInfoParcel: void <init>(int,int,boolean)>(0, 0, false);
+
+        $r70 = new com.google.android.gms.b.dq;
+
+        specialinvoke $r70.<com.google.android.gms.b.dq: void <init>(boolean,java.lang.String,java.lang.String)>(false, "", "");
+
+        $r71 = new com.google.android.gms.ads.internal.i;
+
+        specialinvoke $r71.<com.google.android.gms.ads.internal.i: void <init>(com.google.android.gms.b.gx,com.google.android.gms.ads.internal.overlay.w)>(null, null);
+
+        $r72 = new com.google.android.gms.b.st;
+
+        specialinvoke $r72.<com.google.android.gms.b.st: void <init>(com.google.android.gms.b.sv,com.google.android.gms.ads.internal.client.AdSizeParcel,boolean,boolean,com.google.android.gms.b.ab,com.google.android.gms.ads.internal.util.client.VersionInfoParcel,com.google.android.gms.b.dq,com.google.android.gms.ads.internal.i)>($r66, $r67, false, false, $r68, $r69, $r70, $r71);
+
+        if $i0 == 70 goto label52;
+
+        virtualinvoke $r72.<com.google.android.gms.b.st: void onGlobalLayout()>();
+
+     label52:
+        if $i0 == 71 goto label53;
+
+        virtualinvoke $r72.<com.google.android.gms.b.st: void onDownloadStart(java.lang.String,java.lang.String,java.lang.String,java.lang.String,long)>("", "", "", "", 0L);
+
+     label53:
+        if $i0 == 72 goto label50;
+
+     label54:
+        virtualinvoke $r64.<com.google.android.gms.ads.AdActivity: void onPause()>();
+
+        virtualinvoke $r64.<com.google.android.gms.ads.AdActivity: void onSaveInstanceState(android.os.Bundle)>(null);
+
+        if $i0 == 73 goto label49;
+
+        virtualinvoke $r64.<com.google.android.gms.ads.AdActivity: void onStop()>();
+
+        if $i0 == 74 goto label55;
+
+        virtualinvoke $r64.<com.google.android.gms.ads.AdActivity: void onRestart()>();
+
+        if $i0 == 75 goto label48;
+
+     label55:
+        virtualinvoke $r64.<com.google.android.gms.ads.AdActivity: void onDestroy()>();
+
+     label56:
+        if $i0 == 77 goto label58;
+
+        $r73 = new opunktschmidt.fastcaloriecounter.Service.Autostart;
+
+        specialinvoke $r73.<opunktschmidt.fastcaloriecounter.Service.Autostart: void <init>()>();
+
+        if $i0 == 78 goto label58;
+
+     label57:
+        virtualinvoke $r73.<opunktschmidt.fastcaloriecounter.Service.Autostart: void onReceive(android.content.Context,android.content.Intent)>(null, null);
+
+        if $i0 == 80 goto label57;
+
+     label58:
+        if $i0 == 83 goto label60;
+
+        $r74 = new com.google.android.gms.b.qk;
+
+        specialinvoke $r74.<com.google.android.gms.b.qk: void <init>()>();
+
+        $r75 = null;
+
+        $r76 = new com.google.android.gms.b.ql;
+
+        specialinvoke $r76.<com.google.android.gms.b.ql: void <init>(com.google.android.gms.b.qk,android.content.Context)>($r75, null);
+
+        $r77 = new com.google.android.gms.b.qm;
+
+        specialinvoke $r77.<com.google.android.gms.b.qm: void <init>(com.google.android.gms.b.qk,com.google.android.gms.b.ql)>($r74, $r76);
+
+        if $i0 == 84 goto label60;
+
+     label59:
+        virtualinvoke $r77.<com.google.android.gms.b.qm: void onReceive(android.content.Context,android.content.Intent)>(null, null);
+
+        if $i0 == 86 goto label59;
+
+     label60:
+        if $i0 == 87 goto label01;
+
+        return;
+    }
+
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 1.8 seconds.
+[Spark] Solution found in 1.8 seconds.
+Running incremental callback analysis for 0 components...
+Incremental callback analysis done.
+Found 27 callback methods for 5 components
+Found {res/layout-v17/activity_settings.xml=[2131558517 - android.widget.FrameLayout, -1 - android.widget.LinearLayout], res/layout/mdtp_year_label_text_view.xml=[2131558588 - com.borax12.materialdaterangepicker.date.TextViewWithCircularIndicator], res/layout/abc_select_dialog_material.xml=[2131558506 - android.widget.ListView], res/layout/mdtp_date_picker_view_animator_end.xml=[2131558559 - com.borax12.materialdaterangepicker.date.AccessibleDateAnimator], res/layout-land/mdtp_time_picker_dialog.xml=[2131558584 - com.borax12.materialdaterangepicker.time.RadialPickerLayout, 2131558586 - com.borax12.materialdaterangepicker.time.RadialPickerLayout, 2131558581 - android.widget.LinearLayout, 2131558546 - android.widget.LinearLayout, 2131558544 - android.widget.TabHost, 16908305 - android.widget.FrameLayout, 2131558545 - android.widget.LinearLayout, 2131558583 - android.widget.TextView, 2131558585 - android.widget.TextView, 2131558587 - android.widget.FrameLayout, 16908307 - android.widget.TabWidget, 2131558582 - android.widget.FrameLayout, -1 - android.widget.LinearLayout], res/layout-v17/notification_template_lines.xml=[2131558597 - android.widget.TextView, 2131558598 - android.widget.LinearLayout, 2131558594 - android.widget.LinearLayout, 2131558469 - android.widget.TextView, 2131558599 - android.widget.TextView, -1 - android.widget.LinearLayout, 2131558600 - android.widget.TextView], res/layout/design_menu_item_action_area.xml=[-1 - android.widget.FrameLayout], res/layout-v17/select_dialog_singlechoice_material.xml=[16908308 - android.widget.CheckedTextView], res/layout/design_layout_tab_text.xml=[-1 - android.widget.TextView], res/layout/notification_template_big_media.xml=[2131558591 - android.widget.RelativeLayout, 2131558593 - android.widget.ImageView, 2131558592 - android.widget.LinearLayout, 2131558468 - android.widget.ImageView], res/layout-v21/fragment_overview.xml=[2131558535 - android.widget.LinearLayout, 2131558513 - android.widget.LinearLayout, 2131558536 - android.widget.ListView, 2131558538 - com.google.android.gms.ads.AdView, -1 - android.widget.RelativeLayout, -1 - android.widget.FrameLayout], res/layout/mdtp_date_picker_view_animator.xml=[2131558558 - com.borax12.materialdaterangepicker.date.AccessibleDateAnimator], res/layout-v17/activity_edit.xml=[2131558510 - android.widget.EditText, 2131558513 - android.widget.LinearLayout, -1 - android.widget.GridLayout, -1 - android.widget.TextView, 2131558508 - android.widget.Button, 2131558512 - android.widget.Button, 2131558511 - android.widget.Button, -1 - android.widget.RelativeLayout, 2131558514 - com.google.android.gms.ads.AdView, -1 - android.widget.LinearLayout, 2131558509 - android.widget.EditText, -1 - android.view.View], res/layout/design_navigation_item_subheader.xml=[-1 - android.widget.TextView], res/layout/fragment_overview.xml=[2131558535 - android.widget.LinearLayout, 2131558513 - android.widget.LinearLayout, 2131558536 - android.widget.ListView, 2131558538 - com.google.android.gms.ads.AdView, -1 - android.widget.RelativeLayout, -1 - android.widget.FrameLayout], res/layout/fragment_main.xml=[2131558527 - android.widget.Button, 2131558513 - android.widget.LinearLayout, 2131558528 - android.widget.Button, 2131558529 - android.widget.Button, 2131558534 - com.google.android.gms.ads.AdView, 2131558533 - com.github.mikephil.charting.charts.BarChart, -1 - android.widget.RelativeLayout, -1 - android.widget.ScrollView, -1 - android.widget.TextView, 2131558531 - android.widget.Button, 2131558532 - android.widget.Button, 2131558530 - android.widget.Button, 2131558526 - android.widget.Button, -1 - android.widget.LinearLayout, 2131558525 - android.widget.Button, -1 - android.view.View], res/layout-v17/notification_template_part_chronometer.xml=[2131558596 - android.widget.Chronometer], res/layout-land/mdtp_date_picker_dialog.xml=[2131558546 - android.widget.LinearLayout, 2131558544 - android.widget.TabHost, 16908305 - android.widget.FrameLayout, 2131558545 - android.widget.LinearLayout, 16908307 - android.widget.TabWidget, -1 - android.widget.LinearLayout], res/layout/mdtp_date_picker_selected_date.xml=[2131558549 - com.borax12.materialdaterangepicker.AccessibleLinearLayout, 2131558551 - android.widget.TextView, 2131558552 - com.borax12.materialdaterangepicker.AccessibleTextView, 2131558550 - android.widget.TextView, 2131558548 - android.widget.LinearLayout], res/layout/design_layout_tab_icon.xml=[-1 - android.widget.ImageView], res/layout/design_layout_snackbar_include.xml=[2131558518 - android.widget.TextView, 2131558519 - android.widget.Button], res/layout/abc_action_bar_view_list_nav_layout.xml=[-1 - android.widget.LinearLayout], res/layout/abc_popup_menu_item_layout.xml=[2131558469 - android.widget.TextView, -1 - android.widget.RelativeLayout, 2131558485 - android.widget.TextView], res/layout/notification_template_part_chronometer.xml=[2131558596 - android.widget.Chronometer], res/layout/abc_alert_dialog_button_bar_material.xml=[16908314 - android.widget.Button, 16908313 - android.widget.Button, 16908315 - android.widget.Button], res/layout/abc_dialog_title_material.xml=[2131558469 - android.widget.TextView], res/layout/design_navigation_menu_item.xml=[2131558523 - android.view.ViewStub, 2131558522 - android.widget.CheckedTextView], res/layout-v17/abc_alert_dialog_button_bar_material.xml=[16908314 - android.widget.Button, 16908313 - android.widget.Button, 16908315 - android.widget.Button], res/layout/select_dialog_singlechoice_material.xml=[16908308 - android.widget.CheckedTextView], res/layout/listitem_overview.xml=[2131558542 - android.widget.ImageView, 2131558541 - android.widget.LinearLayout, -1 - android.widget.LinearLayout, 2131558543 - android.widget.TextView], res/layout/select_dialog_item_material.xml=[16908308 - android.widget.TextView], res/layout/select_dialog_multichoice_material.xml=[16908308 - android.widget.CheckedTextView], res/layout/design_navigation_item_separator.xml=[-1 - android.widget.FrameLayout, -1 - android.view.View], res/layout/abc_alert_dialog_material.xml=[2131558481 - android.widget.FrameLayout, 2131558482 - android.widget.FrameLayout, 2131558479 - android.view.View, 2131558480 - android.view.View, 2131558477 - android.view.View, 2131558476 - android.widget.FrameLayout, 2131558474 - android.widget.LinearLayout, 2131558473 - android.widget.LinearLayout, 2131558472 - android.widget.LinearLayout, 16908294 - android.widget.ImageView, 16908299 - android.widget.TextView, -1 - android.widget.LinearLayout], res/layout-v17/notification_template_media.xml=[2131558591 - android.widget.LinearLayout, 2131558592 - android.widget.LinearLayout, 2131558601 - android.widget.ImageView, 2131558468 - android.widget.ImageView], res/layout/abc_action_mode_close_item_material.xml=[2131558462 - android.widget.ImageView], res/layout/notification_media_action.xml=[2131558589 - android.widget.ImageButton], res/layout/mdtp_done_button.xml=[2131558562 - android.widget.Button, 2131558561 - android.widget.Button, 2131558560 - android.widget.LinearLayout], res/layout/abc_search_dropdown_item_icons_2line.xml=[16908295 - android.widget.ImageView, 16908296 - android.widget.ImageView, 16908308 - android.widget.TextView, 16908309 - android.widget.TextView, -1 - android.widget.RelativeLayout, 2131558494 - android.widget.ImageView], res/layout-v17/activity_main.xml=[2131558515 - opunktschmidt.fastcaloriecounter.Ui.SlidingTabLayout, -1 - android.widget.LinearLayout], res/layout-v17/abc_search_view.xml=[2131558497 - android.widget.ImageView, 2131558503 - android.widget.LinearLayout, 2131558500 - android.widget.LinearLayout, 2131558496 - android.widget.TextView, 2131558505 - android.widget.ImageView, 2131558498 - android.widget.LinearLayout, 2131558504 - android.widget.ImageView, 2131558502 - android.widget.ImageView, 2131558499 - android.widget.ImageView, 2131558495 - android.widget.LinearLayout], res/layout-v17/notification_template_big_media.xml=[2131558591 - android.widget.RelativeLayout, 2131558593 - android.widget.ImageView, 2131558592 - android.widget.LinearLayout, 2131558468 - android.widget.ImageView], res/layout/design_navigation_item_header.xml=[2131558520 - android.widget.LinearLayout], res/layout/mdtp_date_picker_dialog.xml=[2131558546 - android.widget.LinearLayout, 2131558544 - android.widget.TabHost, 16908305 - android.widget.FrameLayout, 2131558545 - android.widget.LinearLayout, 16908307 - android.widget.TabWidget, -1 - android.widget.LinearLayout], res/layout-v17/abc_alert_dialog_material.xml=[2131558481 - android.widget.FrameLayout, 2131558482 - android.widget.FrameLayout, 2131558479 - android.view.View, 2131558480 - android.view.View, 2131558477 - android.view.View, 2131558476 - android.widget.FrameLayout, 2131558474 - android.widget.LinearLayout, 2131558473 - android.widget.LinearLayout, 2131558472 - android.widget.LinearLayout, 16908294 - android.widget.ImageView, 16908299 - android.widget.TextView, -1 - android.widget.LinearLayout], res/layout/abc_list_menu_item_layout.xml=[2131558469 - android.widget.TextView, -1 - android.widget.RelativeLayout, 2131558485 - android.widget.TextView], res/layout/mdtp_time_header_label.xml=[2131558564 - android.view.View, 2131558569 - com.borax12.materialdaterangepicker.AccessibleTextView, 2131558570 - com.borax12.materialdaterangepicker.AccessibleTextView, 2131558566 - android.widget.TextView, 2131558565 - android.widget.TextView, 2131558567 - com.borax12.materialdaterangepicker.AccessibleTextView, 2131558563 - android.widget.RelativeLayout, 2131558568 - android.widget.TextView, -1 - android.widget.FrameLayout, 2131558571 - android.widget.TextView], res/layout/mdtp_time_header_label_end.xml=[2131558575 - android.widget.TextView, 2131558577 - android.widget.TextView, 2131558579 - com.borax12.materialdaterangepicker.AccessibleTextView, 2131558573 - android.view.View, 2131558578 - com.borax12.materialdaterangepicker.AccessibleTextView, 2131558572 - android.widget.RelativeLayout, 2131558576 - com.borax12.materialdaterangepicker.AccessibleTextView, 2131558580 - android.widget.TextView, 2131558574 - android.widget.TextView, -1 - android.widget.FrameLayout], res/layout/abc_list_menu_item_checkbox.xml=[2131558484 - android.widget.CheckBox], res/layout-v16/mdtp_time_header_label.xml=[2131558564 - android.view.View, 2131558569 - com.borax12.materialdaterangepicker.AccessibleTextView, 2131558570 - com.borax12.materialdaterangepicker.AccessibleTextView, 2131558566 - android.widget.TextView, 2131558565 - android.widget.TextView, 2131558567 - com.borax12.materialdaterangepicker.AccessibleTextView, 2131558563 - android.widget.RelativeLayout, 2131558568 - android.widget.TextView, -1 - android.widget.FrameLayout, 2131558571 - android.widget.TextView], res/layout/activity_settings.xml=[2131558517 - android.widget.FrameLayout, -1 - android.widget.LinearLayout], res/layout-v17/notification_template_big_media_narrow.xml=[2131558591 - android.widget.RelativeLayout, 2131558593 - android.widget.ImageView, 2131558592 - android.widget.LinearLayout, 2131558468 - android.widget.ImageView], res/layout/activity_edit.xml=[2131558510 - android.widget.EditText, 2131558513 - android.widget.LinearLayout, -1 - android.widget.GridLayout, -1 - android.widget.TextView, 2131558508 - android.widget.Button, 2131558512 - android.widget.Button, 2131558511 - android.widget.Button, -1 - android.widget.RelativeLayout, 2131558514 - com.google.android.gms.ads.AdView, -1 - android.widget.LinearLayout, 2131558509 - android.widget.EditText, -1 - android.view.View], res/layout/fragment_statistics.xml=[2131558539 - com.github.mikephil.charting.charts.BarChart, 2131558513 - android.widget.LinearLayout, -1 - android.widget.ScrollView, 2131558508 - android.widget.Button, -1 - android.widget.RelativeLayout, 2131558540 - com.google.android.gms.ads.AdView, -1 - android.widget.LinearLayout, -1 - android.view.View], res/layout/abc_list_menu_item_radio.xml=[2131558486 - android.widget.RadioButton], res/layout-v17/abc_dialog_title_material.xml=[2131558469 - android.widget.TextView], res/layout/abc_activity_chooser_view.xml=[2131558466 - android.widget.FrameLayout, 2131558464 - android.widget.FrameLayout, 2131558465 - android.widget.ImageView], res/layout/mdtp_date_picker_selected_date_end.xml=[2131558555 - android.widget.TextView, 2131558556 - android.widget.TextView, 2131558553 - android.widget.LinearLayout, 2131558554 - com.borax12.materialdaterangepicker.AccessibleLinearLayout, 2131558557 - com.borax12.materialdaterangepicker.AccessibleTextView], res/layout-v17/mdtp_done_button.xml=[2131558562 - android.widget.Button, 2131558561 - android.widget.Button, 2131558560 - android.widget.LinearLayout], res/layout-v17/select_dialog_multichoice_material.xml=[16908308 - android.widget.CheckedTextView], res/layout/abc_action_bar_up_container.xml=[-1 - android.widget.LinearLayout], res/layout/activity_main.xml=[2131558515 - opunktschmidt.fastcaloriecounter.Ui.SlidingTabLayout, -1 - android.widget.LinearLayout], res/layout-v17/design_layout_snackbar_include.xml=[2131558518 - android.widget.TextView, 2131558519 - android.widget.Button], res/layout/abc_search_view.xml=[2131558497 - android.widget.ImageView, 2131558503 - android.widget.LinearLayout, 2131558500 - android.widget.LinearLayout, 2131558496 - android.widget.TextView, 2131558505 - android.widget.ImageView, 2131558498 - android.widget.LinearLayout, 2131558504 - android.widget.ImageView, 2131558502 - android.widget.ImageView, 2131558499 - android.widget.ImageView, 2131558495 - android.widget.LinearLayout], res/layout/mdtp_time_picker_dialog.xml=[2131558546 - android.widget.LinearLayout, 2131558584 - com.borax12.materialdaterangepicker.time.RadialPickerLayout, 2131558544 - android.widget.TabHost, 16908305 - android.widget.FrameLayout, 2131558545 - android.widget.LinearLayout, 2131558583 - android.widget.TextView, 2131558585 - android.widget.TextView, 2131558586 - com.borax12.materialdaterangepicker.time.RadialPickerLayout, 16908307 - android.widget.TabWidget, 2131558581 - android.widget.LinearLayout, 2131558582 - android.widget.LinearLayout], res/layout/mdtp_date_picker_header_view.xml=[2131558547 - android.widget.TextView], res/layout/abc_activity_chooser_view_list_item.xml=[2131558469 - android.widget.TextView, 2131558467 - android.widget.LinearLayout, 2131558468 - android.widget.ImageView, -1 - android.widget.LinearLayout], res/layout/notification_template_media.xml=[2131558591 - android.widget.LinearLayout, 2131558592 - android.widget.LinearLayout, 2131558601 - android.widget.ImageView, 2131558468 - android.widget.ImageView], res/layout-v16/mdtp_time_header_label_end.xml=[2131558575 - android.widget.TextView, 2131558577 - android.widget.TextView, 2131558579 - com.borax12.materialdaterangepicker.AccessibleTextView, 2131558573 - android.view.View, 2131558578 - com.borax12.materialdaterangepicker.AccessibleTextView, 2131558572 - android.widget.RelativeLayout, 2131558576 - com.borax12.materialdaterangepicker.AccessibleTextView, 2131558580 - android.widget.TextView, 2131558574 - android.widget.TextView, -1 - android.widget.FrameLayout], res/layout/notification_template_big_media_narrow.xml=[2131558591 - android.widget.RelativeLayout, 2131558593 - android.widget.ImageView, 2131558592 - android.widget.LinearLayout, 2131558468 - android.widget.ImageView], res/layout/abc_action_bar_title_item.xml=[2131558460 - android.widget.TextView, 2131558461 - android.widget.TextView, -1 - android.widget.LinearLayout], res/layout/notification_template_lines.xml=[2131558597 - android.widget.TextView, 2131558598 - android.widget.LinearLayout, 2131558594 - android.widget.LinearLayout, 2131558469 - android.widget.TextView, 2131558599 - android.widget.TextView, -1 - android.widget.LinearLayout, 2131558600 - android.widget.TextView], res/layout/notification_media_cancel_action.xml=[2131558590 - android.widget.ImageButton], res/layout/support_simple_spinner_dropdown_item.xml=[16908308 - android.widget.TextView], res/layout-v16/mdtp_date_picker_header_view.xml=[2131558547 - android.widget.TextView], res/layout/abc_list_menu_item_icon.xml=[2131558468 - android.widget.ImageView]} layout controls
+Entry point calculation done.
+Created a SourceSinkManager with 16 sources, 102 sinks, and 27 callback methods.
+Running data flow analysis...
+Running data flow analysis on apks/opunktschmidt.fastcaloriecounter.apk with 16 sources and 102 sinks...
+Starting infoflow computation...
+[main] INFO soot.jimple.infoflow.Infoflow - Resetting Soot...
+Warning: android.net.http.AndroidHttpClient is a phantom class!
+Warning: org.apache.http.HttpResponse is a phantom class!
+Warning: org.apache.http.Header is a phantom class!
+Warning: org.apache.http.StatusLine is a phantom class!
+Warning: org.apache.http.HttpEntity is a phantom class!
+Warning: org.apache.http.client.HttpClient is a phantom class!
+Warning: org.apache.http.client.methods.HttpEntityEnclosingRequestBase is a phantom class!
+Warning: org.apache.http.client.methods.HttpUriRequest is a phantom class!
+Warning: org.apache.http.ProtocolVersion is a phantom class!
+Warning: org.apache.http.client.methods.HttpDelete is a phantom class!
+Warning: org.apache.http.client.methods.HttpGet is a phantom class!
+Warning: org.apache.http.client.methods.HttpHead is a phantom class!
+Warning: org.apache.http.client.methods.HttpOptions is a phantom class!
+Warning: org.apache.http.client.methods.HttpPost is a phantom class!
+Warning: org.apache.http.client.methods.HttpPut is a phantom class!
+Warning: org.apache.http.client.methods.HttpTrace is a phantom class!
+Warning: org.apache.http.entity.BasicHttpEntity is a phantom class!
+Warning: org.apache.http.entity.ByteArrayEntity is a phantom class!
+Warning: org.apache.http.impl.cookie.DateParseException is a phantom class!
+Warning: org.apache.http.impl.cookie.DateUtils is a phantom class!
+Warning: org.apache.http.message.BasicHeader is a phantom class!
+Warning: org.apache.http.message.BasicHttpResponse is a phantom class!
+Warning: org.apache.http.message.BasicStatusLine is a phantom class!
+Warning: org.joda.convert.FromString is a phantom class!
+Warning: org.joda.convert.ToString is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+[main] INFO soot.jimple.infoflow.Infoflow - Basic class loading done.
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.os.Bundle
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.view.View
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot create valid constructor for com.google.android.gms.b.u, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot create valid constructor for com.google.android.gms.b.gx, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot create valid constructor for com.google.android.gms.ads.internal.overlay.w, because it is abstract and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.view.Menu
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.view.MenuItem
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot create valid constructor for com.borax12.materialdaterangepicker.date.a, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.widget.AdapterView
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class java.util.List
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.location.Location
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot create valid constructor for com.google.android.gms.b.sk, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot create valid constructor for com.google.android.gms.b.jv, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Ran into a constructor generation loop for class com.google.android.gms.ads.internal.client.AdSizeParcel, substituting with null...
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Ran into a constructor generation loop for class org.json.JSONObject, substituting with null...
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot create valid constructor for com.google.android.gms.ads.internal.formats.h, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot create valid constructor for com.google.android.gms.b.bw, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Ran into a constructor generation loop for class com.google.android.gms.ads.internal.util.client.VersionInfoParcel, substituting with null...
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot create valid constructor for com.borax12.materialdaterangepicker.date.h, because it is abstract and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Constructor cannot be generated for callback class com.borax12.materialdaterangepicker.date.h
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.app.Application
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Ran into a constructor generation loop for class com.google.android.gms.ads.internal.client.AdSizeParcel, substituting with null...
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Ran into a constructor generation loop for class org.json.JSONObject, substituting with null...
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Ran into a constructor generation loop for class com.google.android.gms.ads.internal.util.client.VersionInfoParcel, substituting with null...
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Constructor cannot be generated for callback class com.borax12.materialdaterangepicker.date.h
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class java.util.Calendar
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.widget.DatePicker
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot create valid constructor for com.google.android.gms.ads.internal.overlay.ab, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.content.Context
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.content.Intent
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Ran into a constructor generation loop for class com.google.android.gms.b.qk, substituting with null...
+[main] INFO soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Generated main method:
+    public static void dummyMainMethod(java.lang.String[])
+    {
+        java.lang.String[] $r0;
+        int $i0;
+        opunktschmidt.fastcaloriecounter.Ui.SettingsActivity $r1;
+        opunktschmidt.fastcaloriecounter.Ui.aa $r2;
+        opunktschmidt.fastcaloriecounter.Ui.MainActivity $r3;
+        com.google.android.gms.ads.internal.client.AdSizeParcel $r4, $r8, $r15, $r22, $r32, $r37, $r45, $r52, $r67;
+        com.google.android.gms.ads.internal.util.client.VersionInfoParcel $r5, $r10, $r25, $r26, $r33, $r39, $r55, $r56, $r69;
+        com.google.android.gms.ads.internal.ah $r6, $r34;
+        com.google.android.gms.b.sv $r7, $r36, $r66;
+        com.google.android.gms.b.ab $r9, $r38, $r68;
+        com.google.android.gms.b.dq $r11, $r40, $r70;
+        com.google.android.gms.ads.internal.i $r12, $r41, $r71;
+        com.google.android.gms.b.st $r13, $r42, $r72;
+        boolean $z0, $z1, $z2;
+        com.borax12.materialdaterangepicker.date.s $r14, $r44;
+        com.google.android.gms.ads.internal.client.SearchAdRequestParcel $r16, $r46;
+        com.google.android.gms.ads.internal.client.AdRequestParcel $r17, $r47;
+        org.json.JSONObject $r18, $r23, $r48, $r53;
+        com.google.android.gms.b.jc $r19, $r49;
+        com.google.android.gms.b.jd $r20, $r50;
+        com.google.android.gms.b.jf $r21, $r51;
+        com.google.android.gms.b.pj $r24, $r54;
+        com.google.android.gms.b.ic $r27, $r57;
+        com.google.android.gms.b.ap $r28, $r58;
+        com.google.android.gms.b.bz $r29, $r63;
+        com.google.android.gms.ads.purchase.InAppPurchaseActivity $r30;
+        opunktschmidt.fastcaloriecounter.Ui.CalorieEditActivity $r31;
+        opunktschmidt.fastcaloriecounter.Ui.e $r35, $r60;
+        opunktschmidt.fastcaloriecounter.Ui.d $r43;
+        opunktschmidt.fastcaloriecounter.Ui.a $r59;
+        opunktschmidt.fastcaloriecounter.Ui.f $r61;
+        opunktschmidt.fastcaloriecounter.Ui.c $r62;
+        com.google.android.gms.ads.AdActivity $r64;
+        com.google.android.gms.ads.internal.overlay.z $r65;
+        opunktschmidt.fastcaloriecounter.Service.Autostart $r73;
+        com.google.android.gms.b.qk $r74, $r75;
+        com.google.android.gms.b.ql $r76;
+        com.google.android.gms.b.qm $r77;
+
+        $r0 := @parameter0: java.lang.String[];
+
+        $i0 = 0;
+
+     label01:
+        if $i0 == 0 goto label06;
+
+        $r1 = new opunktschmidt.fastcaloriecounter.Ui.SettingsActivity;
+
+        specialinvoke $r1.<opunktschmidt.fastcaloriecounter.Ui.SettingsActivity: void <init>()>();
+
+        if $i0 == 1 goto label06;
+
+        virtualinvoke $r1.<opunktschmidt.fastcaloriecounter.Ui.SettingsActivity: void onCreate(android.os.Bundle)>(null);
+
+     label02:
+        if $i0 == 3 goto label05;
+
+     label03:
+        $r2 = new opunktschmidt.fastcaloriecounter.Ui.aa;
+
+        specialinvoke $r2.<opunktschmidt.fastcaloriecounter.Ui.aa: void <init>(opunktschmidt.fastcaloriecounter.Ui.SettingsActivity)>($r1);
+
+        if $i0 == 4 goto label04;
+
+        virtualinvoke $r2.<opunktschmidt.fastcaloriecounter.Ui.aa: void onClick(android.view.View)>(null);
+
+     label04:
+        if $i0 == 5 goto label03;
+
+     label05:
+        if $i0 == 6 goto label02;
+
+        if $i0 == 7 goto label06;
+
+        if $i0 == 8 goto label02;
+
+     label06:
+        if $i0 == 10 goto label24;
+
+        $r3 = new opunktschmidt.fastcaloriecounter.Ui.MainActivity;
+
+        specialinvoke $r3.<opunktschmidt.fastcaloriecounter.Ui.MainActivity: void <init>()>();
+
+        if $i0 == 11 goto label24;
+
+        virtualinvoke $r3.<opunktschmidt.fastcaloriecounter.Ui.MainActivity: void onCreate(android.os.Bundle)>(null);
+
+     label07:
+        if $i0 == 13 goto label23;
+
+     label08:
+        $r4 = new com.google.android.gms.ads.internal.client.AdSizeParcel;
+
+        specialinvoke $r4.<com.google.android.gms.ads.internal.client.AdSizeParcel: void <init>()>();
+
+        $r5 = new com.google.android.gms.ads.internal.util.client.VersionInfoParcel;
+
+        specialinvoke $r5.<com.google.android.gms.ads.internal.util.client.VersionInfoParcel: void <init>(int,int,boolean)>(0, 0, false);
+
+        $r6 = new com.google.android.gms.ads.internal.ah;
+
+        specialinvoke $r6.<com.google.android.gms.ads.internal.ah: void <init>(android.content.Context,com.google.android.gms.ads.internal.client.AdSizeParcel,java.lang.String,com.google.android.gms.ads.internal.util.client.VersionInfoParcel)>($r3, $r4, "", $r5);
+
+        if $i0 == 14 goto label09;
+
+        virtualinvoke $r6.<com.google.android.gms.ads.internal.ah: void onGlobalLayout()>();
+
+     label09:
+        if $i0 == 15 goto label10;
+
+        virtualinvoke $r6.<com.google.android.gms.ads.internal.ah: void onScrollChanged()>();
+
+     label10:
+        $r7 = new com.google.android.gms.b.sv;
+
+        specialinvoke $r7.<com.google.android.gms.b.sv: void <init>(android.content.Context)>($r3);
+
+        $r8 = new com.google.android.gms.ads.internal.client.AdSizeParcel;
+
+        specialinvoke $r8.<com.google.android.gms.ads.internal.client.AdSizeParcel: void <init>()>();
+
+        $r9 = new com.google.android.gms.b.ab;
+
+        specialinvoke $r9.<com.google.android.gms.b.ab: void <init>(com.google.android.gms.b.u)>(null);
+
+        $r10 = new com.google.android.gms.ads.internal.util.client.VersionInfoParcel;
+
+        specialinvoke $r10.<com.google.android.gms.ads.internal.util.client.VersionInfoParcel: void <init>(int,int,boolean)>(0, 0, false);
+
+        $r11 = new com.google.android.gms.b.dq;
+
+        specialinvoke $r11.<com.google.android.gms.b.dq: void <init>(boolean,java.lang.String,java.lang.String)>(false, "", "");
+
+        $r12 = new com.google.android.gms.ads.internal.i;
+
+        specialinvoke $r12.<com.google.android.gms.ads.internal.i: void <init>(com.google.android.gms.b.gx,com.google.android.gms.ads.internal.overlay.w)>(null, null);
+
+        $r13 = new com.google.android.gms.b.st;
+
+        specialinvoke $r13.<com.google.android.gms.b.st: void <init>(com.google.android.gms.b.sv,com.google.android.gms.ads.internal.client.AdSizeParcel,boolean,boolean,com.google.android.gms.b.ab,com.google.android.gms.ads.internal.util.client.VersionInfoParcel,com.google.android.gms.b.dq,com.google.android.gms.ads.internal.i)>($r7, $r8, false, false, $r9, $r10, $r11, $r12);
+
+        if $i0 == 16 goto label11;
+
+        virtualinvoke $r13.<com.google.android.gms.b.st: void onDownloadStart(java.lang.String,java.lang.String,java.lang.String,java.lang.String,long)>("", "", "", "", 0L);
+
+     label11:
+        if $i0 == 17 goto label12;
+
+        virtualinvoke $r13.<com.google.android.gms.b.st: void onGlobalLayout()>();
+
+     label12:
+        if $i0 == 18 goto label13;
+
+        $z0 = virtualinvoke $r3.<opunktschmidt.fastcaloriecounter.Ui.MainActivity: boolean onPrepareOptionsMenu(android.view.Menu)>(null);
+
+     label13:
+        if $i0 == 19 goto label14;
+
+        $z1 = virtualinvoke $r3.<opunktschmidt.fastcaloriecounter.Ui.MainActivity: boolean onCreateOptionsMenu(android.view.Menu)>(null);
+
+     label14:
+        if $i0 == 20 goto label15;
+
+        $z2 = virtualinvoke $r3.<opunktschmidt.fastcaloriecounter.Ui.MainActivity: boolean onOptionsItemSelected(android.view.MenuItem)>(null);
+
+     label15:
+        $r14 = new com.borax12.materialdaterangepicker.date.s;
+
+        specialinvoke $r14.<com.borax12.materialdaterangepicker.date.s: void <init>(android.content.Context,com.borax12.materialdaterangepicker.date.a)>($r3, null);
+
+        if $i0 == 21 goto label16;
+
+        virtualinvoke $r14.<com.borax12.materialdaterangepicker.date.s: void onItemClick(android.widget.AdapterView,android.view.View,int,long)>(null, null, 0, 0L);
+
+     label16:
+        $r15 = new com.google.android.gms.ads.internal.client.AdSizeParcel;
+
+        specialinvoke $r15.<com.google.android.gms.ads.internal.client.AdSizeParcel: void <init>()>();
+
+        $r16 = new com.google.android.gms.ads.internal.client.SearchAdRequestParcel;
+
+        specialinvoke $r16.<com.google.android.gms.ads.internal.client.SearchAdRequestParcel: void <init>(int,int,int,int,int,int,int,int,int,java.lang.String,int,java.lang.String,int,int,java.lang.String)>(0, 0, 0, 0, 0, 0, 0, 0, 0, "", 0, "", 0, 0, "");
+
+        $r17 = new com.google.android.gms.ads.internal.client.AdRequestParcel;
+
+        specialinvoke $r17.<com.google.android.gms.ads.internal.client.AdRequestParcel: void <init>(int,long,android.os.Bundle,int,java.util.List,boolean,int,boolean,java.lang.String,com.google.android.gms.ads.internal.client.SearchAdRequestParcel,android.location.Location,java.lang.String,android.os.Bundle,android.os.Bundle,java.util.List,java.lang.String,java.lang.String,boolean)>(0, 0L, null, 0, null, false, 0, false, "", $r16, null, "", null, null, null, "", "", false);
+
+        $r18 = new org.json.JSONObject;
+
+        specialinvoke $r18.<org.json.JSONObject: void <init>()>();
+
+        $r19 = new com.google.android.gms.b.jc;
+
+        specialinvoke $r19.<com.google.android.gms.b.jc: void <init>(org.json.JSONObject)>($r18);
+
+        $r20 = new com.google.android.gms.b.jd;
+
+        specialinvoke $r20.<com.google.android.gms.b.jd: void <init>(java.lang.String)>("");
+
+        $r21 = new com.google.android.gms.b.jf;
+
+        specialinvoke $r21.<com.google.android.gms.b.jf: void <init>()>();
+
+        $r22 = null;
+
+        $r23 = null;
+
+        $r24 = new com.google.android.gms.b.pj;
+
+        specialinvoke $r24.<com.google.android.gms.b.pj: void <init>(com.google.android.gms.ads.internal.client.AdRequestParcel,com.google.android.gms.b.sk,java.util.List,int,java.util.List,java.util.List,int,long,java.lang.String,boolean,com.google.android.gms.b.jc,com.google.android.gms.b.jv,java.lang.String,com.google.android.gms.b.jd,com.google.android.gms.b.jf,long,com.google.android.gms.ads.internal.client.AdSizeParcel,long,long,long,java.lang.String,org.json.JSONObject,com.google.android.gms.ads.internal.formats.h)>($r17, null, null, 0, null, null, 0, 0L, "", false, $r19, null, "", $r20, $r21, 0L, $r22, 0L, 0L, 0L, "", $r23, null);
+
+        $r25 = new com.google.android.gms.ads.internal.util.client.VersionInfoParcel;
+
+        specialinvoke $r25.<com.google.android.gms.ads.internal.util.client.VersionInfoParcel: void <init>(int,int,boolean)>(0, 0, false);
+
+        $r26 = null;
+
+        $r27 = new com.google.android.gms.b.ic;
+
+        specialinvoke $r27.<com.google.android.gms.b.ic: void <init>(android.content.Context,com.google.android.gms.ads.internal.util.client.VersionInfoParcel,java.lang.String)>($r3, $r26, "");
+
+        $r28 = new com.google.android.gms.b.ap;
+
+        specialinvoke $r28.<com.google.android.gms.b.ap: void <init>(android.content.Context,com.google.android.gms.ads.internal.client.AdSizeParcel,com.google.android.gms.b.pj,com.google.android.gms.ads.internal.util.client.VersionInfoParcel,com.google.android.gms.b.bw,com.google.android.gms.b.ic)>($r3, $r15, $r24, $r25, null, $r27);
+
+        if $i0 == 22 goto label17;
+
+        virtualinvoke $r28.<com.google.android.gms.b.ap: void onGlobalLayout()>();
+
+     label17:
+        if $i0 == 23 goto label18;
+
+        virtualinvoke $r28.<com.google.android.gms.b.ap: void onScrollChanged()>();
+
+     label18:
+        $r29 = new com.google.android.gms.b.bz;
+
+        specialinvoke $r29.<com.google.android.gms.b.bz: void <init>(android.app.Application,android.app.Activity)>(null, $r3);
+
+        if $i0 == 24 goto label19;
+
+        virtualinvoke $r29.<com.google.android.gms.b.bz: void onActivityPaused(android.app.Activity)>($r3);
+
+        $r3 = null;
+
+     label19:
+        if $i0 == 25 goto label20;
+
+        virtualinvoke $r29.<com.google.android.gms.b.bz: void onActivityResumed(android.app.Activity)>($r3);
+
+        $r3 = null;
+
+     label20:
+        if $i0 == 26 goto label21;
+
+        virtualinvoke $r29.<com.google.android.gms.b.bz: void onActivityStarted(android.app.Activity)>($r3);
+
+        $r3 = null;
+
+     label21:
+        if $i0 == 27 goto label22;
+
+        virtualinvoke $r29.<com.google.android.gms.b.bz: void onActivityDestroyed(android.app.Activity)>($r3);
+
+        $r3 = null;
+
+     label22:
+        if $i0 == 28 goto label08;
+
+     label23:
+        if $i0 == 29 goto label07;
+
+        if $i0 == 30 goto label24;
+
+        if $i0 == 31 goto label07;
+
+     label24:
+        if $i0 == 33 goto label27;
+
+        $r30 = new com.google.android.gms.ads.purchase.InAppPurchaseActivity;
+
+        specialinvoke $r30.<com.google.android.gms.ads.purchase.InAppPurchaseActivity: void <init>()>();
+
+        if $i0 == 34 goto label27;
+
+        virtualinvoke $r30.<com.google.android.gms.ads.purchase.InAppPurchaseActivity: void onCreate(android.os.Bundle)>(null);
+
+     label25:
+        if $i0 == 37 goto label26;
+
+        if $i0 == 38 goto label25;
+
+     label26:
+        virtualinvoke $r30.<com.google.android.gms.ads.purchase.InAppPurchaseActivity: void onDestroy()>();
+
+     label27:
+        if $i0 == 40 goto label47;
+
+        $r31 = new opunktschmidt.fastcaloriecounter.Ui.CalorieEditActivity;
+
+        specialinvoke $r31.<opunktschmidt.fastcaloriecounter.Ui.CalorieEditActivity: void <init>()>();
+
+        if $i0 == 41 goto label47;
+
+        virtualinvoke $r31.<opunktschmidt.fastcaloriecounter.Ui.CalorieEditActivity: void onCreate(android.os.Bundle)>(null);
+
+     label28:
+        if $i0 == 43 goto label46;
+
+     label29:
+        $r32 = new com.google.android.gms.ads.internal.client.AdSizeParcel;
+
+        specialinvoke $r32.<com.google.android.gms.ads.internal.client.AdSizeParcel: void <init>()>();
+
+        $r33 = new com.google.android.gms.ads.internal.util.client.VersionInfoParcel;
+
+        specialinvoke $r33.<com.google.android.gms.ads.internal.util.client.VersionInfoParcel: void <init>(int,int,boolean)>(0, 0, false);
+
+        $r34 = new com.google.android.gms.ads.internal.ah;
+
+        specialinvoke $r34.<com.google.android.gms.ads.internal.ah: void <init>(android.content.Context,com.google.android.gms.ads.internal.client.AdSizeParcel,java.lang.String,com.google.android.gms.ads.internal.util.client.VersionInfoParcel)>($r31, $r32, "", $r33);
+
+        if $i0 == 44 goto label30;
+
+        virtualinvoke $r34.<com.google.android.gms.ads.internal.ah: void onGlobalLayout()>();
+
+     label30:
+        if $i0 == 45 goto label31;
+
+        virtualinvoke $r34.<com.google.android.gms.ads.internal.ah: void onScrollChanged()>();
+
+     label31:
+        $r35 = new opunktschmidt.fastcaloriecounter.Ui.e;
+
+        specialinvoke $r35.<opunktschmidt.fastcaloriecounter.Ui.e: void <init>(opunktschmidt.fastcaloriecounter.Ui.CalorieEditActivity)>($r31);
+
+        if $i0 == 46 goto label32;
+
+        virtualinvoke $r35.<opunktschmidt.fastcaloriecounter.Ui.e: void onClick(android.view.View)>(null);
+
+     label32:
+        $r36 = new com.google.android.gms.b.sv;
+
+        specialinvoke $r36.<com.google.android.gms.b.sv: void <init>(android.content.Context)>($r31);
+
+        $r37 = new com.google.android.gms.ads.internal.client.AdSizeParcel;
+
+        specialinvoke $r37.<com.google.android.gms.ads.internal.client.AdSizeParcel: void <init>()>();
+
+        $r38 = new com.google.android.gms.b.ab;
+
+        specialinvoke $r38.<com.google.android.gms.b.ab: void <init>(com.google.android.gms.b.u)>(null);
+
+        $r39 = new com.google.android.gms.ads.internal.util.client.VersionInfoParcel;
+
+        specialinvoke $r39.<com.google.android.gms.ads.internal.util.client.VersionInfoParcel: void <init>(int,int,boolean)>(0, 0, false);
+
+        $r40 = new com.google.android.gms.b.dq;
+
+        specialinvoke $r40.<com.google.android.gms.b.dq: void <init>(boolean,java.lang.String,java.lang.String)>(false, "", "");
+
+        $r41 = new com.google.android.gms.ads.internal.i;
+
+        specialinvoke $r41.<com.google.android.gms.ads.internal.i: void <init>(com.google.android.gms.b.gx,com.google.android.gms.ads.internal.overlay.w)>(null, null);
+
+        $r42 = new com.google.android.gms.b.st;
+
+        specialinvoke $r42.<com.google.android.gms.b.st: void <init>(com.google.android.gms.b.sv,com.google.android.gms.ads.internal.client.AdSizeParcel,boolean,boolean,com.google.android.gms.b.ab,com.google.android.gms.ads.internal.util.client.VersionInfoParcel,com.google.android.gms.b.dq,com.google.android.gms.ads.internal.i)>($r36, $r37, false, false, $r38, $r39, $r40, $r41);
+
+        if $i0 == 47 goto label33;
+
+        virtualinvoke $r42.<com.google.android.gms.b.st: void onDownloadStart(java.lang.String,java.lang.String,java.lang.String,java.lang.String,long)>("", "", "", "", 0L);
+
+     label33:
+        if $i0 == 48 goto label34;
+
+        virtualinvoke $r42.<com.google.android.gms.b.st: void onGlobalLayout()>();
+
+     label34:
+        $r43 = new opunktschmidt.fastcaloriecounter.Ui.d;
+
+        specialinvoke $r43.<opunktschmidt.fastcaloriecounter.Ui.d: void <init>(opunktschmidt.fastcaloriecounter.Ui.CalorieEditActivity)>($r31);
+
+        if $i0 == 49 goto label35;
+
+        virtualinvoke $r43.<opunktschmidt.fastcaloriecounter.Ui.d: void onClick(android.view.View)>(null);
+
+     label35:
+        $r44 = new com.borax12.materialdaterangepicker.date.s;
+
+        specialinvoke $r44.<com.borax12.materialdaterangepicker.date.s: void <init>(android.content.Context,com.borax12.materialdaterangepicker.date.a)>($r31, null);
+
+        if $i0 == 50 goto label36;
+
+        virtualinvoke $r44.<com.borax12.materialdaterangepicker.date.s: void onItemClick(android.widget.AdapterView,android.view.View,int,long)>(null, null, 0, 0L);
+
+     label36:
+        $r45 = new com.google.android.gms.ads.internal.client.AdSizeParcel;
+
+        specialinvoke $r45.<com.google.android.gms.ads.internal.client.AdSizeParcel: void <init>()>();
+
+        $r46 = new com.google.android.gms.ads.internal.client.SearchAdRequestParcel;
+
+        specialinvoke $r46.<com.google.android.gms.ads.internal.client.SearchAdRequestParcel: void <init>(int,int,int,int,int,int,int,int,int,java.lang.String,int,java.lang.String,int,int,java.lang.String)>(0, 0, 0, 0, 0, 0, 0, 0, 0, "", 0, "", 0, 0, "");
+
+        $r47 = new com.google.android.gms.ads.internal.client.AdRequestParcel;
+
+        specialinvoke $r47.<com.google.android.gms.ads.internal.client.AdRequestParcel: void <init>(int,long,android.os.Bundle,int,java.util.List,boolean,int,boolean,java.lang.String,com.google.android.gms.ads.internal.client.SearchAdRequestParcel,android.location.Location,java.lang.String,android.os.Bundle,android.os.Bundle,java.util.List,java.lang.String,java.lang.String,boolean)>(0, 0L, null, 0, null, false, 0, false, "", $r46, null, "", null, null, null, "", "", false);
+
+        $r48 = new org.json.JSONObject;
+
+        specialinvoke $r48.<org.json.JSONObject: void <init>()>();
+
+        $r49 = new com.google.android.gms.b.jc;
+
+        specialinvoke $r49.<com.google.android.gms.b.jc: void <init>(org.json.JSONObject)>($r48);
+
+        $r50 = new com.google.android.gms.b.jd;
+
+        specialinvoke $r50.<com.google.android.gms.b.jd: void <init>(java.lang.String)>("");
+
+        $r51 = new com.google.android.gms.b.jf;
+
+        specialinvoke $r51.<com.google.android.gms.b.jf: void <init>()>();
+
+        $r52 = null;
+
+        $r53 = null;
+
+        $r54 = new com.google.android.gms.b.pj;
+
+        specialinvoke $r54.<com.google.android.gms.b.pj: void <init>(com.google.android.gms.ads.internal.client.AdRequestParcel,com.google.android.gms.b.sk,java.util.List,int,java.util.List,java.util.List,int,long,java.lang.String,boolean,com.google.android.gms.b.jc,com.google.android.gms.b.jv,java.lang.String,com.google.android.gms.b.jd,com.google.android.gms.b.jf,long,com.google.android.gms.ads.internal.client.AdSizeParcel,long,long,long,java.lang.String,org.json.JSONObject,com.google.android.gms.ads.internal.formats.h)>($r47, null, null, 0, null, null, 0, 0L, "", false, $r49, null, "", $r50, $r51, 0L, $r52, 0L, 0L, 0L, "", $r53, null);
+
+        $r55 = new com.google.android.gms.ads.internal.util.client.VersionInfoParcel;
+
+        specialinvoke $r55.<com.google.android.gms.ads.internal.util.client.VersionInfoParcel: void <init>(int,int,boolean)>(0, 0, false);
+
+        $r56 = null;
+
+        $r57 = new com.google.android.gms.b.ic;
+
+        specialinvoke $r57.<com.google.android.gms.b.ic: void <init>(android.content.Context,com.google.android.gms.ads.internal.util.client.VersionInfoParcel,java.lang.String)>($r31, $r56, "");
+
+        $r58 = new com.google.android.gms.b.ap;
+
+        specialinvoke $r58.<com.google.android.gms.b.ap: void <init>(android.content.Context,com.google.android.gms.ads.internal.client.AdSizeParcel,com.google.android.gms.b.pj,com.google.android.gms.ads.internal.util.client.VersionInfoParcel,com.google.android.gms.b.bw,com.google.android.gms.b.ic)>($r31, $r45, $r54, $r55, null, $r57);
+
+        if $i0 == 51 goto label37;
+
+        virtualinvoke $r58.<com.google.android.gms.b.ap: void onGlobalLayout()>();
+
+     label37:
+        if $i0 == 52 goto label38;
+
+        virtualinvoke $r58.<com.google.android.gms.b.ap: void onScrollChanged()>();
+
+     label38:
+        $r59 = new opunktschmidt.fastcaloriecounter.Ui.a;
+
+        specialinvoke $r59.<opunktschmidt.fastcaloriecounter.Ui.a: void <init>(opunktschmidt.fastcaloriecounter.Ui.CalorieEditActivity)>($r31);
+
+        if $i0 == 53 goto label39;
+
+        virtualinvoke $r59.<opunktschmidt.fastcaloriecounter.Ui.a: void onClick(android.view.View)>(null);
+
+     label39:
+        $r60 = new opunktschmidt.fastcaloriecounter.Ui.e;
+
+        specialinvoke $r60.<opunktschmidt.fastcaloriecounter.Ui.e: void <init>(opunktschmidt.fastcaloriecounter.Ui.CalorieEditActivity)>($r31);
+
+        $r61 = new opunktschmidt.fastcaloriecounter.Ui.f;
+
+        specialinvoke $r61.<opunktschmidt.fastcaloriecounter.Ui.f: void <init>(opunktschmidt.fastcaloriecounter.Ui.e,java.util.Calendar)>($r60, null);
+
+        if $i0 == 54 goto label40;
+
+        virtualinvoke $r61.<opunktschmidt.fastcaloriecounter.Ui.f: void onDateSet(android.widget.DatePicker,int,int,int)>(null, 0, 0, 0);
+
+     label40:
+        $r62 = new opunktschmidt.fastcaloriecounter.Ui.c;
+
+        specialinvoke $r62.<opunktschmidt.fastcaloriecounter.Ui.c: void <init>(opunktschmidt.fastcaloriecounter.Ui.CalorieEditActivity)>($r31);
+
+        if $i0 == 55 goto label41;
+
+        virtualinvoke $r62.<opunktschmidt.fastcaloriecounter.Ui.c: void onClick(android.view.View)>(null);
+
+     label41:
+        $r63 = new com.google.android.gms.b.bz;
+
+        specialinvoke $r63.<com.google.android.gms.b.bz: void <init>(android.app.Application,android.app.Activity)>(null, $r31);
+
+        if $i0 == 56 goto label42;
+
+        virtualinvoke $r63.<com.google.android.gms.b.bz: void onActivityPaused(android.app.Activity)>($r31);
+
+        $r31 = null;
+
+     label42:
+        if $i0 == 57 goto label43;
+
+        virtualinvoke $r63.<com.google.android.gms.b.bz: void onActivityResumed(android.app.Activity)>($r31);
+
+        $r31 = null;
+
+     label43:
+        if $i0 == 58 goto label44;
+
+        virtualinvoke $r63.<com.google.android.gms.b.bz: void onActivityStarted(android.app.Activity)>($r31);
+
+        $r31 = null;
+
+     label44:
+        if $i0 == 59 goto label45;
+
+        virtualinvoke $r63.<com.google.android.gms.b.bz: void onActivityDestroyed(android.app.Activity)>($r31);
+
+        $r31 = null;
+
+     label45:
+        if $i0 == 60 goto label29;
+
+     label46:
+        if $i0 == 61 goto label28;
+
+        if $i0 == 62 goto label47;
+
+        if $i0 == 63 goto label28;
+
+     label47:
+        if $i0 == 65 goto label56;
+
+        $r64 = new com.google.android.gms.ads.AdActivity;
+
+        specialinvoke $r64.<com.google.android.gms.ads.AdActivity: void <init>()>();
+
+        if $i0 == 66 goto label56;
+
+        virtualinvoke $r64.<com.google.android.gms.ads.AdActivity: void onCreate(android.os.Bundle)>(null);
+
+     label48:
+        virtualinvoke $r64.<com.google.android.gms.ads.AdActivity: void onStart()>();
+
+     label49:
+        virtualinvoke $r64.<com.google.android.gms.ads.AdActivity: void onResume()>();
+
+        if $i0 == 68 goto label54;
+
+     label50:
+        $r65 = new com.google.android.gms.ads.internal.overlay.z;
+
+        specialinvoke $r65.<com.google.android.gms.ads.internal.overlay.z: void <init>(android.content.Context,int,com.google.android.gms.ads.internal.overlay.ab)>($r64, 0, null);
+
+        if $i0 == 69 goto label51;
+
+        virtualinvoke $r65.<com.google.android.gms.ads.internal.overlay.z: void onClick(android.view.View)>(null);
+
+     label51:
+        $r66 = new com.google.android.gms.b.sv;
+
+        specialinvoke $r66.<com.google.android.gms.b.sv: void <init>(android.content.Context)>($r64);
+
+        $r67 = new com.google.android.gms.ads.internal.client.AdSizeParcel;
+
+        specialinvoke $r67.<com.google.android.gms.ads.internal.client.AdSizeParcel: void <init>()>();
+
+        $r68 = new com.google.android.gms.b.ab;
+
+        specialinvoke $r68.<com.google.android.gms.b.ab: void <init>(com.google.android.gms.b.u)>(null);
+
+        $r69 = new com.google.android.gms.ads.internal.util.client.VersionInfoParcel;
+
+        specialinvoke $r69.<com.google.android.gms.ads.internal.util.client.VersionInfoParcel: void <init>(int,int,boolean)>(0, 0, false);
+
+        $r70 = new com.google.android.gms.b.dq;
+
+        specialinvoke $r70.<com.google.android.gms.b.dq: void <init>(boolean,java.lang.String,java.lang.String)>(false, "", "");
+
+        $r71 = new com.google.android.gms.ads.internal.i;
+
+        specialinvoke $r71.<com.google.android.gms.ads.internal.i: void <init>(com.google.android.gms.b.gx,com.google.android.gms.ads.internal.overlay.w)>(null, null);
+
+        $r72 = new com.google.android.gms.b.st;
+
+        specialinvoke $r72.<com.google.android.gms.b.st: void <init>(com.google.android.gms.b.sv,com.google.android.gms.ads.internal.client.AdSizeParcel,boolean,boolean,com.google.android.gms.b.ab,com.google.android.gms.ads.internal.util.client.VersionInfoParcel,com.google.android.gms.b.dq,com.google.android.gms.ads.internal.i)>($r66, $r67, false, false, $r68, $r69, $r70, $r71);
+
+        if $i0 == 70 goto label52;
+
+        virtualinvoke $r72.<com.google.android.gms.b.st: void onDownloadStart(java.lang.String,java.lang.String,java.lang.String,java.lang.String,long)>("", "", "", "", 0L);
+
+     label52:
+        if $i0 == 71 goto label53;
+
+        virtualinvoke $r72.<com.google.android.gms.b.st: void onGlobalLayout()>();
+
+     label53:
+        if $i0 == 72 goto label50;
+
+     label54:
+        virtualinvoke $r64.<com.google.android.gms.ads.AdActivity: void onPause()>();
+
+        virtualinvoke $r64.<com.google.android.gms.ads.AdActivity: void onSaveInstanceState(android.os.Bundle)>(null);
+
+        if $i0 == 73 goto label49;
+
+        virtualinvoke $r64.<com.google.android.gms.ads.AdActivity: void onStop()>();
+
+        if $i0 == 74 goto label55;
+
+        virtualinvoke $r64.<com.google.android.gms.ads.AdActivity: void onRestart()>();
+
+        if $i0 == 75 goto label48;
+
+     label55:
+        virtualinvoke $r64.<com.google.android.gms.ads.AdActivity: void onDestroy()>();
+
+     label56:
+        if $i0 == 77 goto label58;
+
+        $r73 = new opunktschmidt.fastcaloriecounter.Service.Autostart;
+
+        specialinvoke $r73.<opunktschmidt.fastcaloriecounter.Service.Autostart: void <init>()>();
+
+        if $i0 == 78 goto label58;
+
+     label57:
+        virtualinvoke $r73.<opunktschmidt.fastcaloriecounter.Service.Autostart: void onReceive(android.content.Context,android.content.Intent)>(null, null);
+
+        if $i0 == 80 goto label57;
+
+     label58:
+        if $i0 == 83 goto label60;
+
+        $r74 = new com.google.android.gms.b.qk;
+
+        specialinvoke $r74.<com.google.android.gms.b.qk: void <init>()>();
+
+        $r75 = null;
+
+        $r76 = new com.google.android.gms.b.ql;
+
+        specialinvoke $r76.<com.google.android.gms.b.ql: void <init>(com.google.android.gms.b.qk,android.content.Context)>($r75, null);
+
+        $r77 = new com.google.android.gms.b.qm;
+
+        specialinvoke $r77.<com.google.android.gms.b.qm: void <init>(com.google.android.gms.b.qk,com.google.android.gms.b.ql)>($r74, $r76);
+
+        if $i0 == 84 goto label60;
+
+     label59:
+        virtualinvoke $r77.<com.google.android.gms.b.qm: void onReceive(android.content.Context,android.content.Intent)>(null, null);
+
+        if $i0 == 86 goto label59;
+
+     label60:
+        if $i0 == 87 goto label01;
+
+        return;
+    }
+
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 2.9 seconds.
+[Spark] Solution found in 2.9 seconds.
+[main] INFO soot.jimple.infoflow.Infoflow - Callgraph construction took 2.935489767 seconds
+[main] INFO soot.jimple.infoflow.codeOptimization.InterproceduralConstantValuePropagator - Removing side-effect free methods is disabled
+[main] INFO soot.jimple.infoflow.Infoflow - Dead code elimination took 0.133145928 seconds
+[main] INFO soot.jimple.infoflow.Infoflow - Callgraph has 6314 edges
+[main] INFO soot.jimple.infoflow.Infoflow - Starting Taint Analysis
+[main] INFO soot.jimple.infoflow.data.FlowDroidMemoryManager - Initializing FlowDroid memory manager...
+[main] INFO soot.jimple.infoflow.data.FlowDroidMemoryManager - FDMM: Path data erasure enabled
+[main] INFO soot.jimple.infoflow.android.InfoflowAndroidConfiguration - Implicit flow tracking is NOT enabled
+[main] INFO soot.jimple.infoflow.android.InfoflowAndroidConfiguration - Exceptional flow tracking is enabled
+[main] INFO soot.jimple.infoflow.android.InfoflowAndroidConfiguration - Running with a maximum access path length of 5
+[main] INFO soot.jimple.infoflow.android.InfoflowAndroidConfiguration - Using path-agnostic result collection
+[main] INFO soot.jimple.infoflow.android.InfoflowAndroidConfiguration - Recursive access path shortening is enabled
+[main] INFO soot.jimple.infoflow.android.InfoflowAndroidConfiguration - Taint analysis enabled: true
+[main] INFO soot.jimple.infoflow.Infoflow - Looking for sources and sinks...
+[main] INFO soot.jimple.infoflow.Infoflow - Source lookup done, found 21 sources and 4 sinks.
+[main] INFO soot.jimple.infoflow.Infoflow - Taint wrapper hits: 53
+[main] INFO soot.jimple.infoflow.Infoflow - Taint wrapper misses: 404
+[main] INFO soot.jimple.infoflow.Infoflow - IFDS problem with 1721 forward and 77 backward edges solved, processing 0 results...
+[main] WARN soot.jimple.infoflow.Infoflow - No results found.
+Maximum memory consumption: 1993.411528 MB
+Analysis has run for 18.442305942 seconds

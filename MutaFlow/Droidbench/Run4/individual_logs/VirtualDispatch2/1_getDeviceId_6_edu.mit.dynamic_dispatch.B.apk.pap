@@ -1,0 +1,5 @@
+--------- beginning of main
+--------- beginning of system
+05-02 19:05:04.178 31628 31628 I MyOwnTag: <MutaFlowTag>665a5c57-c076-443e-8ce1-872386d105a5<MutaFlowTag><android.telephony.TelephonyManager: java.lang.String getDeviceId()>	55	6	3	java.lang.String f()	edu.mit.dynamic_dispatch.B<MutaFlowTag>000000070000000
+05-02 19:05:04.178 31628 31628 I MyOwnTag: <MutaFlowTag>665a5c57-c076-443e-8ce1-872386d105a5<MutaFlowTag><android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>	35	21	18	void onCreate(android.os.Bundle)	edu.mit.dynamic_dispatch.MainActivity<MutaFlowTag>+49 1234<MutaFlowTag>000000070000000
+--------- beginning of crash

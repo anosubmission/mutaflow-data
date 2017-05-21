@@ -1,0 +1,7 @@
+--------- beginning of main
+--------- beginning of system
+05-02 23:23:10.525  3770  3770 I MyOwnTag: <MutaFlowTag>e7136273-93a1-4b95-9159-86d5d1936ac6<MutaFlowTag><android.telephony.TelephonyManager: java.lang.String getDeviceId()>	40	23	20	void onCreate(android.os.Bundle)	de.ecspride.MainActivity
+05-02 23:23:29.813  3770  3770 I MyOwnTag: <MutaFlowTag>e7136273-93a1-4b95-9159-86d5d1936ac6<MutaFlowTag><android.telephony.TelephonyManager: java.lang.String getDeviceId()>	40	23	20	void onCreate(android.os.Bundle)	de.ecspride.MainActivity
+05-02 23:23:35.798  3770  3770 I MyOwnTag: <MutaFlowTag>e7136273-93a1-4b95-9159-86d5d1936ac6<MutaFlowTag><android.telephony.TelephonyManager: java.lang.String getDeviceId()>	40	23	20	void onCreate(android.os.Bundle)	de.ecspride.MainActivity
+05-02 23:23:37.083  3770  3770 I MyOwnTag: <MutaFlowTag>e7136273-93a1-4b95-9159-86d5d1936ac6<MutaFlowTag><android.telephony.TelephonyManager: java.lang.String getDeviceId()>	40	23	20	void onCreate(android.os.Bundle)	de.ecspride.MainActivity
+05-02 23:23:54.295  3770  3770 I MyOwnTag: <MutaFlowTag>e7136273-93a1-4b95-9159-86d5d1936ac6<MutaFlowTag><android.telephony.TelephonyManager: java.lang.String getDeviceId()>	40	23	20	void onCreate(android.os.Bundle)	de.ecspride.MainActivity

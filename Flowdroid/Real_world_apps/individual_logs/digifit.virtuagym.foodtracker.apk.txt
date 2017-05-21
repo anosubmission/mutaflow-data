@@ -1,0 +1,3330 @@
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/anonymous/FlowDroid/soot-trunk.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/anonymous/FlowDroid/slf4j-simple-1.7.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.SimpleLoggerFactory]
+[main] INFO soot.jimple.infoflow.taintWrappers.EasyTaintWrapper - Loaded wrapper entries for 70 classes and 11 exclusions.
+[main] INFO soot.jimple.infoflow.android.SetupApplication - ARSC file parsing took 0.103126871 seconds
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+Warning: android.net.http.AndroidHttpClient is a phantom class!
+Warning: org.apache.http.client.HttpClient is a phantom class!
+Warning: org.apache.http.client.methods.HttpEntityEnclosingRequestBase is a phantom class!
+Warning: org.apache.http.client.methods.HttpUriRequest is a phantom class!
+Warning: org.apache.http.impl.client.DefaultHttpClient is a phantom class!
+Warning: org.apache.http.client.ClientProtocolException is a phantom class!
+Warning: org.apache.http.client.methods.HttpDelete is a phantom class!
+Warning: org.apache.http.client.methods.HttpGet is a phantom class!
+Warning: org.apache.http.client.methods.HttpPost is a phantom class!
+Warning: org.apache.http.client.methods.HttpPut is a phantom class!
+Warning: org.apache.http.conn.ClientConnectionManager is a phantom class!
+Warning: org.apache.http.impl.cookie.DateParseException is a phantom class!
+Warning: org.apache.http.impl.cookie.DateUtils is a phantom class!
+Warning: android.support.v7.widget.TestActivity is a phantom class!
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.content.Intent
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.content.Context
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.os.Bundle
+[main] INFO soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Generated main method:
+    public static void dummyMainMethod(java.lang.String[])
+    {
+        java.lang.String[] $r0;
+        int $i0, $i1, $i2;
+        digifit.virtuagym.foodtracker.FoodTrackerApp $r1;
+        digifit.virtuagym.foodtracker.services.ScheduledService $r2;
+        digifit.android.common.KillNotificationService $r3;
+        android.os.IBinder $r4, $r11;
+        digifit.virtuagym.foodtracker.services.ScheduledPlanNotificationService $r5;
+        com.google.android.gms.analytics.CampaignTrackingReceiver $r6;
+        digifit.virtuagym.foodtracker.ui.BecomeProClubActivity $r7;
+        digifit.virtuagym.foodtracker.ui.NewPlanActivity $r8;
+        digifit.virtuagym.foodtracker.ui.MainActivity $r9;
+        digifit.virtuagym.foodtracker.sync.FoodSync $r10;
+        boolean $z0;
+        digifit.virtuagym.foodtracker.services.TaskButlerService $r12;
+        digifit.virtuagym.foodtracker.ui.BarcodeScannerActivity $r13;
+        com.facebook.LoginActivity $r14;
+        com.google.android.gms.analytics.CampaignTrackingService $r15;
+        digifit.virtuagym.foodtracker.ui.LoginActivity $r16;
+        com.google.android.gms.ads.AdActivity $r17;
+        digifit.virtuagym.foodtracker.services.OnBootReceiver $r18;
+
+        $r0 := @parameter0: java.lang.String[];
+
+        $i0 = 0;
+
+        $r1 = new digifit.virtuagym.foodtracker.FoodTrackerApp;
+
+        specialinvoke $r1.<digifit.virtuagym.foodtracker.FoodTrackerApp: void <init>()>();
+
+        virtualinvoke $r1.<digifit.virtuagym.foodtracker.MyDigifitApp: void onCreate()>();
+
+        <il.ac.tau.MyApplicationHolder: android.app.Application application> = $r1;
+
+     label01:
+        if $i0 == 0 goto label04;
+
+        $r2 = new digifit.virtuagym.foodtracker.services.ScheduledService;
+
+        specialinvoke $r2.<digifit.virtuagym.foodtracker.services.ScheduledService: void <init>()>();
+
+     label02:
+        if $i0 == 1 goto label03;
+
+        if $i0 == 2 goto label02;
+
+     label03:
+        if $i0 == 4 goto label04;
+
+        if $i0 == 5 goto label03;
+
+     label04:
+        if $i0 == 6 goto label08;
+
+        $r3 = new digifit.android.common.KillNotificationService;
+
+        specialinvoke $r3.<digifit.android.common.KillNotificationService: void <init>()>();
+
+        virtualinvoke $r3.<digifit.android.common.KillNotificationService: void onCreate()>();
+
+     label05:
+        if $i0 == 7 goto label06;
+
+        $i1 = virtualinvoke $r3.<digifit.android.common.KillNotificationService: int onStartCommand(android.content.Intent,int,int)>(null, 0, 0);
+
+        if $i0 == 8 goto label05;
+
+     label06:
+        $r4 = virtualinvoke $r3.<digifit.android.common.KillNotificationService: android.os.IBinder onBind(android.content.Intent)>(null);
+
+     label07:
+        if $i0 == 10 goto label08;
+
+        if $i0 == 11 goto label07;
+
+     label08:
+        if $i0 == 12 goto label11;
+
+        $r5 = new digifit.virtuagym.foodtracker.services.ScheduledPlanNotificationService;
+
+        specialinvoke $r5.<digifit.virtuagym.foodtracker.services.ScheduledPlanNotificationService: void <init>()>();
+
+     label09:
+        if $i0 == 13 goto label10;
+
+        if $i0 == 14 goto label09;
+
+     label10:
+        if $i0 == 16 goto label11;
+
+        if $i0 == 17 goto label10;
+
+     label11:
+        if $i0 == 18 goto label13;
+
+        $r6 = new com.google.android.gms.analytics.CampaignTrackingReceiver;
+
+        specialinvoke $r6.<com.google.android.gms.analytics.CampaignTrackingReceiver: void <init>()>();
+
+        if $i0 == 19 goto label13;
+
+     label12:
+        virtualinvoke $r6.<com.google.android.gms.analytics.CampaignTrackingReceiver: void onReceive(android.content.Context,android.content.Intent)>(null, null);
+
+        if $i0 == 21 goto label12;
+
+     label13:
+        if $i0 == 22 goto label17;
+
+        $r7 = new digifit.virtuagym.foodtracker.ui.BecomeProClubActivity;
+
+        specialinvoke $r7.<digifit.virtuagym.foodtracker.ui.BecomeProClubActivity: void <init>()>();
+
+        if $i0 == 23 goto label17;
+
+        virtualinvoke $r7.<digifit.virtuagym.foodtracker.ui.BecomeProClubActivity: void onCreate(android.os.Bundle)>(null);
+
+     label14:
+        virtualinvoke $r7.<digifit.virtuagym.foodtracker.digifit.virtuagym.common.ui.MyTrackedFragmentActivity: void onStart()>();
+
+     label15:
+        virtualinvoke $r7.<digifit.virtuagym.foodtracker.MyTrackedFacebookFragmentActivity: void onResume()>();
+
+        virtualinvoke $r7.<digifit.virtuagym.foodtracker.MyTrackedFacebookFragmentActivity: void onPause()>();
+
+        virtualinvoke $r7.<digifit.virtuagym.foodtracker.MyTrackedFacebookFragmentActivity: void onSaveInstanceState(android.os.Bundle)>(null);
+
+        if $i0 == 25 goto label15;
+
+        virtualinvoke $r7.<digifit.virtuagym.foodtracker.digifit.virtuagym.common.ui.MyTrackedFragmentActivity: void onStop()>();
+
+        if $i0 == 26 goto label16;
+
+        if $i0 == 27 goto label14;
+
+     label16:
+        virtualinvoke $r7.<digifit.virtuagym.foodtracker.MyTrackedFacebookFragmentActivity: void onDestroy()>();
+
+     label17:
+        if $i0 == 31 goto label19;
+
+        $r8 = new digifit.virtuagym.foodtracker.ui.NewPlanActivity;
+
+        specialinvoke $r8.<digifit.virtuagym.foodtracker.ui.NewPlanActivity: void <init>()>();
+
+        if $i0 == 32 goto label19;
+
+        virtualinvoke $r8.<digifit.virtuagym.foodtracker.ui.NewPlanActivity: void onCreate(android.os.Bundle)>(null);
+
+     label18:
+        virtualinvoke $r8.<digifit.virtuagym.foodtracker.ui.NewPlanActivity: void onResume()>();
+
+        virtualinvoke $r8.<digifit.virtuagym.foodtracker.ui.NewPlanActivity: void onSaveInstanceState(android.os.Bundle)>(null);
+
+        if $i0 == 34 goto label18;
+
+        if $i0 == 35 goto label19;
+
+        if $i0 == 36 goto label18;
+
+     label19:
+        if $i0 == 38 goto label23;
+
+        $r9 = new digifit.virtuagym.foodtracker.ui.MainActivity;
+
+        specialinvoke $r9.<digifit.virtuagym.foodtracker.ui.MainActivity: void <init>()>();
+
+        if $i0 == 39 goto label23;
+
+        virtualinvoke $r9.<digifit.virtuagym.foodtracker.ui.MainActivity: void onCreate(android.os.Bundle)>(null);
+
+     label20:
+        virtualinvoke $r9.<digifit.virtuagym.foodtracker.digifit.virtuagym.common.ui.MyTrackedFragmentActivity: void onStart()>();
+
+        virtualinvoke $r9.<digifit.virtuagym.foodtracker.ui.MainActivity: void onPostCreate(android.os.Bundle)>(null);
+
+     label21:
+        virtualinvoke $r9.<digifit.virtuagym.foodtracker.ui.MainActivity: void onResume()>();
+
+        virtualinvoke $r9.<digifit.virtuagym.foodtracker.ui.MainActivity: void onPause()>();
+
+        virtualinvoke $r9.<digifit.virtuagym.foodtracker.MyTrackedFacebookFragmentActivity: void onSaveInstanceState(android.os.Bundle)>(null);
+
+        if $i0 == 41 goto label21;
+
+        virtualinvoke $r9.<digifit.virtuagym.foodtracker.ui.MainActivity: void onStop()>();
+
+        if $i0 == 42 goto label22;
+
+        if $i0 == 43 goto label20;
+
+     label22:
+        virtualinvoke $r9.<digifit.virtuagym.foodtracker.ui.MainActivity: void onDestroy()>();
+
+     label23:
+        if $i0 == 45 goto label28;
+
+        $r10 = new digifit.virtuagym.foodtracker.sync.FoodSync;
+
+        specialinvoke $r10.<digifit.virtuagym.foodtracker.sync.FoodSync: void <init>()>();
+
+        virtualinvoke $r10.<digifit.virtuagym.foodtracker.sync.FoodSync: void onCreate()>();
+
+     label24:
+        if $i0 == 46 goto label25;
+
+        $i2 = virtualinvoke $r10.<digifit.android.common.api.VitalenceSyncBase: int onStartCommand(android.content.Intent,int,int)>(null, 0, 0);
+
+        if $i0 == 47 goto label24;
+
+     label25:
+        $r11 = virtualinvoke $r10.<digifit.virtuagym.foodtracker.sync.FoodSync: android.os.IBinder onBind(android.content.Intent)>(null);
+
+     label26:
+        $z0 = virtualinvoke $r10.<digifit.virtuagym.foodtracker.sync.FoodSync: boolean onUnbind(android.content.Intent)>(null);
+
+        if $i0 == 49 goto label27;
+
+        if $i0 == 50 goto label26;
+
+     label27:
+        virtualinvoke $r10.<digifit.virtuagym.foodtracker.sync.FoodSync: void onDestroy()>();
+
+     label28:
+        if $i0 == 52 goto label31;
+
+        $r12 = new digifit.virtuagym.foodtracker.services.TaskButlerService;
+
+        specialinvoke $r12.<digifit.virtuagym.foodtracker.services.TaskButlerService: void <init>()>();
+
+        virtualinvoke $r12.<digifit.virtuagym.foodtracker.services.WakefulIntentService: void onCreate()>();
+
+        virtualinvoke $r12.<digifit.virtuagym.foodtracker.services.WakefulIntentService: void onStart(android.content.Intent,int)>(null, 0);
+
+     label29:
+        if $i0 == 53 goto label30;
+
+        if $i0 == 54 goto label29;
+
+     label30:
+        if $i0 == 56 goto label31;
+
+        if $i0 == 57 goto label30;
+
+     label31:
+        if $i0 == 58 goto label33;
+
+        $r13 = new digifit.virtuagym.foodtracker.ui.BarcodeScannerActivity;
+
+        specialinvoke $r13.<digifit.virtuagym.foodtracker.ui.BarcodeScannerActivity: void <init>()>();
+
+        if $i0 == 59 goto label33;
+
+        virtualinvoke $r13.<digifit.virtuagym.foodtracker.ui.BarcodeScannerActivity: void onCreate(android.os.Bundle)>(null);
+
+     label32:
+        if $i0 == 62 goto label33;
+
+        if $i0 == 63 goto label32;
+
+     label33:
+        if $i0 == 65 goto label35;
+
+        $r14 = new com.facebook.LoginActivity;
+
+        specialinvoke $r14.<com.facebook.LoginActivity: void <init>()>();
+
+        if $i0 == 66 goto label35;
+
+        virtualinvoke $r14.<com.facebook.LoginActivity: void onCreate(android.os.Bundle)>(null);
+
+     label34:
+        virtualinvoke $r14.<com.facebook.LoginActivity: void onResume()>();
+
+        virtualinvoke $r14.<com.facebook.LoginActivity: void onPause()>();
+
+        virtualinvoke $r14.<com.facebook.LoginActivity: void onSaveInstanceState(android.os.Bundle)>(null);
+
+        if $i0 == 68 goto label34;
+
+        if $i0 == 69 goto label35;
+
+        if $i0 == 70 goto label34;
+
+     label35:
+        if $i0 == 72 goto label38;
+
+        $r15 = new com.google.android.gms.analytics.CampaignTrackingService;
+
+        specialinvoke $r15.<com.google.android.gms.analytics.CampaignTrackingService: void <init>()>();
+
+     label36:
+        if $i0 == 73 goto label37;
+
+        if $i0 == 74 goto label36;
+
+     label37:
+        if $i0 == 76 goto label38;
+
+        if $i0 == 77 goto label37;
+
+     label38:
+        if $i0 == 78 goto label40;
+
+        $r16 = new digifit.virtuagym.foodtracker.ui.LoginActivity;
+
+        specialinvoke $r16.<digifit.virtuagym.foodtracker.ui.LoginActivity: void <init>()>();
+
+        if $i0 == 79 goto label40;
+
+        virtualinvoke $r16.<digifit.virtuagym.foodtracker.ui.LoginActivity: void onCreate(android.os.Bundle)>(null);
+
+     label39:
+        virtualinvoke $r16.<digifit.virtuagym.foodtracker.ui.LoginActivity: void onResume()>();
+
+        virtualinvoke $r16.<digifit.virtuagym.foodtracker.ui.LoginActivity: void onPause()>();
+
+        if $i0 == 81 goto label39;
+
+        if $i0 == 82 goto label40;
+
+        if $i0 == 83 goto label39;
+
+     label40:
+        if $i0 == 85 goto label44;
+
+        $r17 = new com.google.android.gms.ads.AdActivity;
+
+        specialinvoke $r17.<com.google.android.gms.ads.AdActivity: void <init>()>();
+
+        if $i0 == 86 goto label44;
+
+        virtualinvoke $r17.<com.google.android.gms.ads.AdActivity: void onCreate(android.os.Bundle)>(null);
+
+     label41:
+        virtualinvoke $r17.<com.google.android.gms.ads.AdActivity: void onStart()>();
+
+     label42:
+        virtualinvoke $r17.<com.google.android.gms.ads.AdActivity: void onResume()>();
+
+        virtualinvoke $r17.<com.google.android.gms.ads.AdActivity: void onPause()>();
+
+        virtualinvoke $r17.<com.google.android.gms.ads.AdActivity: void onSaveInstanceState(android.os.Bundle)>(null);
+
+        if $i0 == 88 goto label42;
+
+        virtualinvoke $r17.<com.google.android.gms.ads.AdActivity: void onStop()>();
+
+        if $i0 == 89 goto label43;
+
+        virtualinvoke $r17.<com.google.android.gms.ads.AdActivity: void onRestart()>();
+
+        if $i0 == 90 goto label41;
+
+     label43:
+        virtualinvoke $r17.<com.google.android.gms.ads.AdActivity: void onDestroy()>();
+
+     label44:
+        if $i0 == 92 goto label46;
+
+        $r18 = new digifit.virtuagym.foodtracker.services.OnBootReceiver;
+
+        specialinvoke $r18.<digifit.virtuagym.foodtracker.services.OnBootReceiver: void <init>()>();
+
+        if $i0 == 93 goto label46;
+
+     label45:
+        virtualinvoke $r18.<digifit.virtuagym.foodtracker.services.OnBootReceiver: void onReceive(android.content.Context,android.content.Intent)>(null, null);
+
+        if $i0 == 95 goto label45;
+
+     label46:
+        if $i0 == 97 goto label01;
+
+        virtualinvoke $r1.<digifit.virtuagym.foodtracker.MyDigifitApp: void onTerminate()>();
+
+        return;
+    }
+
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Collecting callbacks in DEFAULT mode...
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.2 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 4.9 seconds.
+[Spark] Solution found in 4.9 seconds.
+Callback analysis done.
+Warning: view is a phantom class!
+Warning: digifit.virtuagym.foodtracker.view is a phantom class!
+Warning: android.view.view is a phantom class!
+Warning: android.widget.view is a phantom class!
+Warning: android.webkit.view is a phantom class!
+Could not find layout class view
+Found 0 layout controls in file res/layout-sw600dp-v13/layout_snackbar.xml
+Warning: digifit.virtuagym.foodtracker.android.support.v7.internal.widget.ActionBarOverlayLayout is a phantom class!
+Warning: android.view.android.support.v7.internal.widget.ActionBarOverlayLayout is a phantom class!
+Warning: android.widget.android.support.v7.internal.widget.ActionBarOverlayLayout is a phantom class!
+Warning: android.webkit.android.support.v7.internal.widget.ActionBarOverlayLayout is a phantom class!
+Could not find layout class android.support.v7.internal.widget.ActionBarOverlayLayout
+Warning: digifit.virtuagym.foodtracker.android.support.v7.internal.widget.ActionBarContainer is a phantom class!
+Warning: android.view.android.support.v7.internal.widget.ActionBarContainer is a phantom class!
+Warning: android.widget.android.support.v7.internal.widget.ActionBarContainer is a phantom class!
+Warning: android.webkit.android.support.v7.internal.widget.ActionBarContainer is a phantom class!
+Could not find layout class android.support.v7.internal.widget.ActionBarContainer
+Warning: digifit.virtuagym.foodtracker.android.support.v7.widget.Toolbar is a phantom class!
+Warning: android.view.android.support.v7.widget.Toolbar is a phantom class!
+Warning: android.widget.android.support.v7.widget.Toolbar is a phantom class!
+Warning: android.webkit.android.support.v7.widget.Toolbar is a phantom class!
+Could not find layout class android.support.v7.widget.Toolbar
+Warning: digifit.virtuagym.foodtracker.android.support.v7.internal.widget.ActionBarContextView is a phantom class!
+Warning: android.view.android.support.v7.internal.widget.ActionBarContextView is a phantom class!
+Warning: android.widget.android.support.v7.internal.widget.ActionBarContextView is a phantom class!
+Warning: android.webkit.android.support.v7.internal.widget.ActionBarContextView is a phantom class!
+Could not find layout class android.support.v7.internal.widget.ActionBarContextView
+Found 0 layout controls in file res/layout-v21/abc_screen_toolbar.xml
+Warning: RelativeLayout is a phantom class!
+Warning: digifit.virtuagym.foodtracker.RelativeLayout is a phantom class!
+Warning: android.view.RelativeLayout is a phantom class!
+Warning: ScrollView is a phantom class!
+Warning: digifit.virtuagym.foodtracker.ScrollView is a phantom class!
+Warning: android.view.ScrollView is a phantom class!
+Warning: ImageView is a phantom class!
+Warning: digifit.virtuagym.foodtracker.ImageView is a phantom class!
+Warning: android.view.ImageView is a phantom class!
+Found unrecognized XML attribute:  transitionName
+Warning: TextView is a phantom class!
+Warning: digifit.virtuagym.foodtracker.TextView is a phantom class!
+Warning: android.view.TextView is a phantom class!
+Warning: LinearLayout is a phantom class!
+Warning: digifit.virtuagym.foodtracker.LinearLayout is a phantom class!
+Warning: android.view.LinearLayout is a phantom class!
+Warning: ListView is a phantom class!
+Warning: digifit.virtuagym.foodtracker.ListView is a phantom class!
+Warning: android.view.ListView is a phantom class!
+Warning: Spinner is a phantom class!
+Warning: digifit.virtuagym.foodtracker.Spinner is a phantom class!
+Warning: android.view.Spinner is a phantom class!
+Warning: TableLayout is a phantom class!
+Warning: digifit.virtuagym.foodtracker.TableLayout is a phantom class!
+Warning: android.view.TableLayout is a phantom class!
+Warning: Button is a phantom class!
+Warning: digifit.virtuagym.foodtracker.Button is a phantom class!
+Warning: android.view.Button is a phantom class!
+Found 1 layout controls in file res/layout-v21/food_definition_main.xml
+Found unrecognized XML attribute:  transitionName
+Found 2 layout controls in file res/layout-v21/lv_food_instance_row.xml
+Found 3 layout controls in file res/layout/abc_action_bar_title_item.xml
+Found 4 layout controls in file res/layout/abc_action_bar_up_container.xml
+Found 5 layout controls in file res/layout/abc_action_bar_view_list_nav_layout.xml
+Warning: digifit.virtuagym.foodtracker.android.support.v7.internal.view.menu.ActionMenuItemView is a phantom class!
+Warning: android.view.android.support.v7.internal.view.menu.ActionMenuItemView is a phantom class!
+Warning: android.widget.android.support.v7.internal.view.menu.ActionMenuItemView is a phantom class!
+Warning: android.webkit.android.support.v7.internal.view.menu.ActionMenuItemView is a phantom class!
+Could not find layout class android.support.v7.internal.view.menu.ActionMenuItemView
+Found 5 layout controls in file res/layout/abc_action_menu_item_layout.xml
+Warning: digifit.virtuagym.foodtracker.android.support.v7.widget.ActionMenuView is a phantom class!
+Warning: android.view.android.support.v7.widget.ActionMenuView is a phantom class!
+Warning: android.widget.android.support.v7.widget.ActionMenuView is a phantom class!
+Warning: android.webkit.android.support.v7.widget.ActionMenuView is a phantom class!
+Could not find layout class android.support.v7.widget.ActionMenuView
+Found 5 layout controls in file res/layout/abc_action_menu_layout.xml
+Could not find layout class android.support.v7.internal.widget.ActionBarContextView
+Found 5 layout controls in file res/layout/abc_action_mode_bar.xml
+Warning: digifit.virtuagym.foodtracker.android.support.v7.internal.widget.TintImageView is a phantom class!
+Warning: android.view.android.support.v7.internal.widget.TintImageView is a phantom class!
+Warning: android.widget.android.support.v7.internal.widget.TintImageView is a phantom class!
+Warning: android.webkit.android.support.v7.internal.widget.TintImageView is a phantom class!
+Could not find layout class android.support.v7.internal.widget.TintImageView
+Found 5 layout controls in file res/layout/abc_action_mode_close_item_material.xml
+Could not find layout class view
+Warning: FrameLayout is a phantom class!
+Warning: digifit.virtuagym.foodtracker.FrameLayout is a phantom class!
+Warning: android.view.FrameLayout is a phantom class!
+Found 6 layout controls in file res/layout/abc_activity_chooser_view.xml
+Found 7 layout controls in file res/layout/abc_activity_chooser_view_list_item.xml
+Warning: digifit.virtuagym.foodtracker.android.support.v7.internal.widget.DialogTitle is a phantom class!
+Warning: android.view.android.support.v7.internal.widget.DialogTitle is a phantom class!
+Warning: android.widget.android.support.v7.internal.widget.DialogTitle is a phantom class!
+Warning: android.webkit.android.support.v7.internal.widget.DialogTitle is a phantom class!
+Could not find layout class android.support.v7.internal.widget.DialogTitle
+Warning: View is a phantom class!
+Warning: digifit.virtuagym.foodtracker.View is a phantom class!
+Warning: digifit.virtuagym.foodtracker.android.support.v4.widget.Space is a phantom class!
+Warning: android.view.android.support.v4.widget.Space is a phantom class!
+Warning: android.widget.android.support.v4.widget.Space is a phantom class!
+Warning: android.webkit.android.support.v4.widget.Space is a phantom class!
+Could not find layout class android.support.v4.widget.Space
+Found 8 layout controls in file res/layout/abc_alert_dialog_material.xml
+Warning: digifit.virtuagym.foodtracker.android.support.v7.internal.widget.FitWindowsLinearLayout is a phantom class!
+Warning: android.view.android.support.v7.internal.widget.FitWindowsLinearLayout is a phantom class!
+Warning: android.widget.android.support.v7.internal.widget.FitWindowsLinearLayout is a phantom class!
+Warning: android.webkit.android.support.v7.internal.widget.FitWindowsLinearLayout is a phantom class!
+Could not find layout class android.support.v7.internal.widget.FitWindowsLinearLayout
+Found 9 layout controls in file res/layout/abc_dialog_title_material.xml
+Warning: digifit.virtuagym.foodtracker.android.support.v7.internal.view.menu.ExpandedMenuView is a phantom class!
+Warning: android.view.android.support.v7.internal.view.menu.ExpandedMenuView is a phantom class!
+Warning: android.widget.android.support.v7.internal.view.menu.ExpandedMenuView is a phantom class!
+Warning: android.webkit.android.support.v7.internal.view.menu.ExpandedMenuView is a phantom class!
+Could not find layout class android.support.v7.internal.view.menu.ExpandedMenuView
+Found 9 layout controls in file res/layout/abc_expanded_menu_layout.xml
+Warning: CheckBox is a phantom class!
+Warning: digifit.virtuagym.foodtracker.CheckBox is a phantom class!
+Warning: android.view.CheckBox is a phantom class!
+Found 10 layout controls in file res/layout/abc_list_menu_item_checkbox.xml
+Found 11 layout controls in file res/layout/abc_list_menu_item_icon.xml
+Warning: digifit.virtuagym.foodtracker.android.support.v7.internal.view.menu.ListMenuItemView is a phantom class!
+Warning: android.view.android.support.v7.internal.view.menu.ListMenuItemView is a phantom class!
+Warning: android.widget.android.support.v7.internal.view.menu.ListMenuItemView is a phantom class!
+Warning: android.webkit.android.support.v7.internal.view.menu.ListMenuItemView is a phantom class!
+Could not find layout class android.support.v7.internal.view.menu.ListMenuItemView
+Found 12 layout controls in file res/layout/abc_list_menu_item_layout.xml
+Warning: RadioButton is a phantom class!
+Warning: digifit.virtuagym.foodtracker.RadioButton is a phantom class!
+Warning: android.view.RadioButton is a phantom class!
+Found 13 layout controls in file res/layout/abc_list_menu_item_radio.xml
+Could not find layout class android.support.v7.internal.view.menu.ListMenuItemView
+Found 14 layout controls in file res/layout/abc_popup_menu_item_layout.xml
+Warning: digifit.virtuagym.foodtracker.android.support.v7.internal.widget.ContentFrameLayout is a phantom class!
+Warning: android.view.android.support.v7.internal.widget.ContentFrameLayout is a phantom class!
+Warning: android.widget.android.support.v7.internal.widget.ContentFrameLayout is a phantom class!
+Warning: android.webkit.android.support.v7.internal.widget.ContentFrameLayout is a phantom class!
+Could not find layout class android.support.v7.internal.widget.ContentFrameLayout
+Found 14 layout controls in file res/layout/abc_screen_content_include.xml
+Could not find layout class android.support.v7.internal.widget.FitWindowsLinearLayout
+Warning: digifit.virtuagym.foodtracker.android.support.v7.internal.widget.ViewStubCompat is a phantom class!
+Warning: android.view.android.support.v7.internal.widget.ViewStubCompat is a phantom class!
+Warning: android.widget.android.support.v7.internal.widget.ViewStubCompat is a phantom class!
+Warning: android.webkit.android.support.v7.internal.widget.ViewStubCompat is a phantom class!
+Could not find layout class android.support.v7.internal.widget.ViewStubCompat
+Found 14 layout controls in file res/layout/abc_screen_simple.xml
+Warning: digifit.virtuagym.foodtracker.android.support.v7.internal.widget.FitWindowsFrameLayout is a phantom class!
+Warning: android.view.android.support.v7.internal.widget.FitWindowsFrameLayout is a phantom class!
+Warning: android.widget.android.support.v7.internal.widget.FitWindowsFrameLayout is a phantom class!
+Warning: android.webkit.android.support.v7.internal.widget.FitWindowsFrameLayout is a phantom class!
+Could not find layout class android.support.v7.internal.widget.FitWindowsFrameLayout
+Could not find layout class android.support.v7.internal.widget.ViewStubCompat
+Found 14 layout controls in file res/layout/abc_screen_simple_overlay_action_mode.xml
+Could not find layout class android.support.v7.internal.widget.ActionBarOverlayLayout
+Could not find layout class android.support.v7.internal.widget.ActionBarContainer
+Could not find layout class android.support.v7.widget.Toolbar
+Could not find layout class android.support.v7.internal.widget.ActionBarContextView
+Found 14 layout controls in file res/layout/abc_screen_toolbar.xml
+Could not find layout class android.support.v7.internal.widget.TintImageView
+Could not find layout class android.support.v7.internal.widget.TintImageView
+Could not find layout class android.support.v7.internal.widget.TintImageView
+Found 15 layout controls in file res/layout/abc_search_dropdown_item_icons_2line.xml
+Could not find layout class android.support.v7.internal.widget.TintImageView
+Could not find layout class android.support.v7.internal.widget.TintImageView
+Could not find layout class view
+Could not find layout class android.support.v7.internal.widget.TintImageView
+Could not find layout class android.support.v7.internal.widget.TintImageView
+Could not find layout class android.support.v7.internal.widget.TintImageView
+Found 16 layout controls in file res/layout/abc_search_view.xml
+Found 17 layout controls in file res/layout/abc_select_dialog_material.xml
+Found 18 layout controls in file res/layout/abc_simple_dropdown_hint.xml
+Warning: digifit.virtuagym.foodtracker.android.support.v4.view.ViewPager is a phantom class!
+Warning: android.view.android.support.v4.view.ViewPager is a phantom class!
+Warning: android.widget.android.support.v4.view.ViewPager is a phantom class!
+Warning: android.webkit.android.support.v4.view.ViewPager is a phantom class!
+Could not find layout class android.support.v4.view.ViewPager
+Found 19 layout controls in file res/layout/about.xml
+Found 20 layout controls in file res/layout/about_page.xml
+Found unrecognized XML attribute:  fontFamily
+Found unrecognized XML attribute:  fontFamily
+Found 21 layout controls in file res/layout/achievement.xml
+Warning: digifit.virtuagym.foodtracker.android.support.v7.widget.RecyclerView is a phantom class!
+Warning: android.view.android.support.v7.widget.RecyclerView is a phantom class!
+Warning: android.widget.android.support.v7.widget.RecyclerView is a phantom class!
+Warning: android.webkit.android.support.v7.widget.RecyclerView is a phantom class!
+Could not find layout class android.support.v7.widget.RecyclerView
+Found 22 layout controls in file res/layout/achievements.xml
+Warning: AutoCompleteTextView is a phantom class!
+Warning: digifit.virtuagym.foodtracker.AutoCompleteTextView is a phantom class!
+Warning: android.view.AutoCompleteTextView is a phantom class!
+Warning: requestFocus is a phantom class!
+Warning: digifit.virtuagym.foodtracker.requestFocus is a phantom class!
+Warning: android.view.requestFocus is a phantom class!
+Warning: android.widget.requestFocus is a phantom class!
+Warning: android.webkit.requestFocus is a phantom class!
+Could not find layout class requestFocus
+Found 23 layout controls in file res/layout/actionbar_autocomplete.xml
+Warning: EditText is a phantom class!
+Warning: digifit.virtuagym.foodtracker.EditText is a phantom class!
+Warning: android.view.EditText is a phantom class!
+Found 24 layout controls in file res/layout/actionbar_search.xml
+Warning: digifit.virtuagym.foodtracker.android.support.v4.widget.DrawerLayout is a phantom class!
+Warning: android.view.android.support.v4.widget.DrawerLayout is a phantom class!
+Warning: android.widget.android.support.v4.widget.DrawerLayout is a phantom class!
+Warning: android.webkit.android.support.v4.widget.DrawerLayout is a phantom class!
+Could not find layout class android.support.v4.widget.DrawerLayout
+Could not find layout class android.support.v7.widget.Toolbar
+Found 25 layout controls in file res/layout/activity_main.xml
+Found 26 layout controls in file res/layout/add_food_dialog.xml
+Found 27 layout controls in file res/layout/add_unit_dialog.xml
+Warning: ProgressBar is a phantom class!
+Warning: digifit.virtuagym.foodtracker.ProgressBar is a phantom class!
+Warning: android.view.ProgressBar is a phantom class!
+Found unrecognized XML attribute:  fontFamily
+Found 28 layout controls in file res/layout/barcode_result.xml
+Found 29 layout controls in file res/layout/barcode_scanner_main.xml
+Found 30 layout controls in file res/layout/become_pro_main.xml
+Found 31 layout controls in file res/layout/become_pro_period_main.xml
+Found 32 layout controls in file res/layout/branding.xml
+Found 33 layout controls in file res/layout/com_facebook_friendpickerfragment.xml
+Found 34 layout controls in file res/layout/com_facebook_login_activity_layout.xml
+Found 35 layout controls in file res/layout/com_facebook_picker_activity_circle_row.xml
+Found 36 layout controls in file res/layout/com_facebook_picker_checkbox.xml
+Found 37 layout controls in file res/layout/com_facebook_picker_image.xml
+Warning: ViewStub is a phantom class!
+Warning: digifit.virtuagym.foodtracker.ViewStub is a phantom class!
+Found 38 layout controls in file res/layout/com_facebook_picker_list_row.xml
+Found 39 layout controls in file res/layout/com_facebook_picker_list_section_header.xml
+Found 40 layout controls in file res/layout/com_facebook_picker_search_box.xml
+Found 41 layout controls in file res/layout/com_facebook_picker_title_bar.xml
+Found 42 layout controls in file res/layout/com_facebook_picker_title_bar_stub.xml
+Found 43 layout controls in file res/layout/com_facebook_placepickerfragment.xml
+Found 44 layout controls in file res/layout/com_facebook_placepickerfragment_list_row.xml
+Found 45 layout controls in file res/layout/com_facebook_search_bar_layout.xml
+Found 46 layout controls in file res/layout/com_facebook_tooltip_bubble.xml
+Found 47 layout controls in file res/layout/com_facebook_usersettingsfragment.xml
+Found 48 layout controls in file res/layout/contextual_title.xml
+Found unrecognized XML attribute:  hint
+Found unrecognized XML attribute:  hint
+Found unrecognized XML attribute:  hint
+Found 49 layout controls in file res/layout/custom_plan_percentages_dialog.xml
+Warning: DatePicker is a phantom class!
+Warning: digifit.virtuagym.foodtracker.DatePicker is a phantom class!
+Warning: android.view.DatePicker is a phantom class!
+Found 50 layout controls in file res/layout/date_select_dialog.xml
+Warning: digifit.virtuagym.foodtracker.android.support.design.internal.NavigationMenuItemView is a phantom class!
+Warning: android.view.android.support.design.internal.NavigationMenuItemView is a phantom class!
+Warning: android.widget.android.support.design.internal.NavigationMenuItemView is a phantom class!
+Warning: android.webkit.android.support.design.internal.NavigationMenuItemView is a phantom class!
+Could not find layout class android.support.design.internal.NavigationMenuItemView
+Found 50 layout controls in file res/layout/design_navigation_item.xml
+Found 51 layout controls in file res/layout/design_navigation_item_header.xml
+Found 52 layout controls in file res/layout/design_navigation_item_separator.xml
+Found 53 layout controls in file res/layout/design_navigation_item_subheader.xml
+Warning: digifit.virtuagym.foodtracker.android.support.design.internal.NavigationMenuView is a phantom class!
+Warning: android.view.android.support.design.internal.NavigationMenuView is a phantom class!
+Warning: android.widget.android.support.design.internal.NavigationMenuView is a phantom class!
+Warning: android.webkit.android.support.design.internal.NavigationMenuView is a phantom class!
+Could not find layout class android.support.design.internal.NavigationMenuView
+Found 53 layout controls in file res/layout/design_navigation_menu.xml
+Found 54 layout controls in file res/layout/drawer_header.xml
+Found 55 layout controls in file res/layout/drawer_item.xml
+Found 56 layout controls in file res/layout/drawer_list_item.xml
+Warning: NumberPicker is a phantom class!
+Warning: digifit.virtuagym.foodtracker.NumberPicker is a phantom class!
+Warning: android.view.NumberPicker is a phantom class!
+Found 57 layout controls in file res/layout/durationpicker.xml
+Found 58 layout controls in file res/layout/eattime_card.xml
+Warning: RadioGroup is a phantom class!
+Warning: digifit.virtuagym.foodtracker.RadioGroup is a phantom class!
+Warning: android.view.RadioGroup is a phantom class!
+Found unrecognized XML attribute:  fontFamily
+Found unrecognized XML attribute:  fontFamily
+Found unrecognized XML attribute:  fontFamily
+Found unrecognized XML attribute:  fontFamily
+Found 59 layout controls in file res/layout/feedback_dialog.xml
+Found 60 layout controls in file res/layout/food_create_main.xml
+Warning: TableRow is a phantom class!
+Warning: digifit.virtuagym.foodtracker.TableRow is a phantom class!
+Warning: android.view.TableRow is a phantom class!
+Found unrecognized XML attribute:  hint
+Found 61 layout controls in file res/layout/food_create_nutr_row.xml
+Found 62 layout controls in file res/layout/food_definition_main.xml
+Found 63 layout controls in file res/layout/food_definition_nutr_row.xml
+Found 64 layout controls in file res/layout/food_image_picker.xml
+Found 65 layout controls in file res/layout/food_instances_charts.xml
+Found unrecognized XML attribute:  fontFamily
+Could not find layout class android.support.v7.widget.RecyclerView
+Found 66 layout controls in file res/layout/food_instances_main.xml
+Found 67 layout controls in file res/layout/food_lists_holder.xml
+Could not find layout class android.support.v4.view.ViewPager
+Found 68 layout controls in file res/layout/food_new_holder.xml
+Found 69 layout controls in file res/layout/food_search_holder_main.xml
+Found 70 layout controls in file res/layout/food_search_main.xml
+Found 71 layout controls in file res/layout/fragment_ad.xml
+Found 72 layout controls in file res/layout/instance_holder_main.xml
+Could not find layout class view
+Found 72 layout controls in file res/layout/layout_snackbar.xml
+Found 73 layout controls in file res/layout/layout_snackbar_include.xml
+Found 74 layout controls in file res/layout/layout_tab_icon.xml
+Found 75 layout controls in file res/layout/layout_tab_text.xml
+Could not find layout class android.support.v4.view.ViewPager
+Found 76 layout controls in file res/layout/login_main.xml
+Found 77 layout controls in file res/layout/login_select.xml
+Found 78 layout controls in file res/layout/lv_food_instance_row.xml
+Found 79 layout controls in file res/layout/lv_food_row.xml
+Found 80 layout controls in file res/layout/lv_footer.xml
+Found 81 layout controls in file res/layout/lv_footer_meals.xml
+Found 82 layout controls in file res/layout/lv_footer_multiple_barcode_results.xml
+Found 83 layout controls in file res/layout/lv_header.xml
+Found 84 layout controls in file res/layout/lv_header_meals.xml
+Found 85 layout controls in file res/layout/lv_kcal_percentage.xml
+Warning: digifit.virtuagym.foodtracker.android.support.v7.widget.SwitchCompat is a phantom class!
+Warning: android.view.android.support.v7.widget.SwitchCompat is a phantom class!
+Warning: android.widget.android.support.v7.widget.SwitchCompat is a phantom class!
+Warning: android.webkit.android.support.v7.widget.SwitchCompat is a phantom class!
+Could not find layout class android.support.v7.widget.SwitchCompat
+Found 86 layout controls in file res/layout/lv_reminder.xml
+Found 87 layout controls in file res/layout/meal_create_main.xml
+Found 88 layout controls in file res/layout/meal_list_main.xml
+Found 89 layout controls in file res/layout/my_food_list_main.xml
+Found 90 layout controls in file res/layout/new_plan_main.xml
+Warning: ImageButton is a phantom class!
+Warning: digifit.virtuagym.foodtracker.ImageButton is a phantom class!
+Warning: android.view.ImageButton is a phantom class!
+Found 91 layout controls in file res/layout/notification_media_action.xml
+Found 92 layout controls in file res/layout/notification_media_cancel_action.xml
+Found 93 layout controls in file res/layout/notification_options.xml
+Found 94 layout controls in file res/layout/notification_template_big_media.xml
+Found 95 layout controls in file res/layout/notification_template_big_media_narrow.xml
+Found 96 layout controls in file res/layout/notification_template_lines.xml
+Found 97 layout controls in file res/layout/notification_template_media.xml
+Warning: Chronometer is a phantom class!
+Warning: digifit.virtuagym.foodtracker.Chronometer is a phantom class!
+Warning: android.view.Chronometer is a phantom class!
+Found 98 layout controls in file res/layout/notification_template_part_chronometer.xml
+Warning: DateTimeView is a phantom class!
+Warning: digifit.virtuagym.foodtracker.DateTimeView is a phantom class!
+Warning: android.view.DateTimeView is a phantom class!
+Warning: android.widget.DateTimeView is a phantom class!
+Warning: android.webkit.DateTimeView is a phantom class!
+Could not find layout class DateTimeView
+Found 98 layout controls in file res/layout/notification_template_part_time.xml
+Found 99 layout controls in file res/layout/numberedit.xml
+Found unrecognized XML attribute:  fontFamily
+Found 100 layout controls in file res/layout/numberpicker.xml
+Found unrecognized XML attribute:  hint
+Found unrecognized XML attribute:  hint
+Found 101 layout controls in file res/layout/nutr_plan_1.xml
+Found unrecognized XML attribute:  hint
+Found 102 layout controls in file res/layout/nutr_plan_2.xml
+Warning: SeekBar is a phantom class!
+Warning: digifit.virtuagym.foodtracker.SeekBar is a phantom class!
+Warning: android.view.SeekBar is a phantom class!
+Found 103 layout controls in file res/layout/nutr_plan_3.xml
+Found 104 layout controls in file res/layout/nutr_plan_4.xml
+Could not find layout class android.support.v4.view.ViewPager
+Found 105 layout controls in file res/layout/nutrition_plan_new.xml
+Found 106 layout controls in file res/layout/nutrition_plan_overview.xml
+Found 107 layout controls in file res/layout/percentage_circle.xml
+Found 108 layout controls in file res/layout/percentage_circles.xml
+Found 109 layout controls in file res/layout/percentages_circle_green.xml
+Warning: com.android.internal.widget.DialogTitle is a phantom class!
+Warning: digifit.virtuagym.foodtracker.com.android.internal.widget.DialogTitle is a phantom class!
+Warning: android.view.com.android.internal.widget.DialogTitle is a phantom class!
+Warning: android.widget.com.android.internal.widget.DialogTitle is a phantom class!
+Warning: android.webkit.com.android.internal.widget.DialogTitle is a phantom class!
+Could not find layout class com.android.internal.widget.DialogTitle
+Found 110 layout controls in file res/layout/qustom_dialog_layout.xml
+Found 111 layout controls in file res/layout/register_text.xml
+Found 112 layout controls in file res/layout/reminders_main.xml
+Found 113 layout controls in file res/layout/scanner_main.xml
+Found 114 layout controls in file res/layout/select_dialog_item_material.xml
+Warning: CheckedTextView is a phantom class!
+Warning: digifit.virtuagym.foodtracker.CheckedTextView is a phantom class!
+Warning: android.view.CheckedTextView is a phantom class!
+Found 115 layout controls in file res/layout/select_dialog_multichoice_material.xml
+Found 116 layout controls in file res/layout/select_dialog_singlechoice_material.xml
+Found unrecognized XML attribute:  hint
+Found unrecognized XML attribute:  hint
+Found 117 layout controls in file res/layout/settings_main.xml
+Found 118 layout controls in file res/layout/signup_login_email.xml
+Warning: WebView is a phantom class!
+Warning: digifit.virtuagym.foodtracker.WebView is a phantom class!
+Warning: android.view.WebView is a phantom class!
+Warning: android.widget.WebView is a phantom class!
+Found 119 layout controls in file res/layout/signup_pro.xml
+Found 120 layout controls in file res/layout/support_simple_spinner_dropdown_item.xml
+Found 121 layout controls in file res/layout/tooltip.xml
+Found 122 layout controls in file res/layout/webview.xml
+Found 123 layout controls in file res/layout/week_overview_calories.xml
+Could not find layout class android.support.v4.view.ViewPager
+Found 123 layout controls in file res/layout/week_overview_calories_holder.xml
+Found 124 layout controls in file res/layout/week_overview_holder.xml
+Found 125 layout controls in file res/layout/week_overview_score.xml
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+Warning: android.net.http.AndroidHttpClient is a phantom class!
+Warning: org.apache.http.client.HttpClient is a phantom class!
+Warning: org.apache.http.client.methods.HttpEntityEnclosingRequestBase is a phantom class!
+Warning: org.apache.http.client.methods.HttpUriRequest is a phantom class!
+Warning: org.apache.http.impl.client.DefaultHttpClient is a phantom class!
+Warning: org.apache.http.client.ClientProtocolException is a phantom class!
+Warning: org.apache.http.client.methods.HttpDelete is a phantom class!
+Warning: org.apache.http.client.methods.HttpGet is a phantom class!
+Warning: org.apache.http.client.methods.HttpPost is a phantom class!
+Warning: org.apache.http.client.methods.HttpPut is a phantom class!
+Warning: org.apache.http.conn.ClientConnectionManager is a phantom class!
+Warning: org.apache.http.impl.cookie.DateParseException is a phantom class!
+Warning: org.apache.http.impl.cookie.DateUtils is a phantom class!
+Warning: android.support.v7.widget.TestActivity is a phantom class!
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.content.Intent
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.content.Context
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.os.Bundle
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.animation.Animator
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.view.View
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.widget.AdapterView
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.view.Menu
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.content.res.Configuration
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.view.KeyEvent
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.view.MenuItem
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot create valid constructor for com.google.android.gms.internal.zzg, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot create valid constructor for com.google.android.gms.internal.zzet, because it is an interface and cannot substitute with subclass
+[main] INFO soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Generated main method:
+    public static void dummyMainMethod(java.lang.String[])
+    {
+        java.lang.String[] $r0;
+        int $i0, $i1, $i2;
+        digifit.virtuagym.foodtracker.FoodTrackerApp $r1;
+        digifit.virtuagym.foodtracker.services.ScheduledService $r2;
+        digifit.android.common.KillNotificationService $r3;
+        android.os.IBinder $r4, $r17;
+        digifit.virtuagym.foodtracker.services.ScheduledPlanNotificationService $r5;
+        com.google.android.gms.analytics.CampaignTrackingReceiver $r6;
+        digifit.virtuagym.foodtracker.ui.BecomeProClubActivity $r7;
+        digifit.virtuagym.foodtracker.ui.NewPlanActivity $r8;
+        digifit.virtuagym.foodtracker.views.FloatingActionButton $r9;
+        digifit.virtuagym.foodtracker.views.FloatingActionButton$1 $r10;
+        digifit.virtuagym.foodtracker.ui.NewPlanActivity$1 $r11;
+        digifit.virtuagym.foodtracker.ui.NewPlanActivity$2 $r12;
+        digifit.virtuagym.foodtracker.ui.MainActivity $r13;
+        digifit.virtuagym.foodtracker.ui.MainActivity$1 $r14;
+        digifit.virtuagym.foodtracker.ui.MainActivity$DrawerItemClickListener $r15;
+        boolean $z0, $z1, $z2, $z3, $z4, $z5;
+        digifit.virtuagym.foodtracker.sync.FoodSync $r16;
+        digifit.virtuagym.foodtracker.services.TaskButlerService $r18;
+        digifit.virtuagym.foodtracker.ui.BarcodeScannerActivity $r19;
+        com.facebook.LoginActivity $r20;
+        com.google.android.gms.analytics.CampaignTrackingService $r21;
+        digifit.virtuagym.foodtracker.ui.LoginActivity $r22;
+        digifit.virtuagym.foodtracker.ui.LoginActivity$8 $r23;
+        digifit.virtuagym.foodtracker.ui.LoginActivity$4 $r24;
+        digifit.virtuagym.foodtracker.ui.LoginActivity$6 $r25;
+        digifit.virtuagym.foodtracker.ui.LoginActivity$3 $r26;
+        digifit.virtuagym.foodtracker.ui.LoginActivity$7 $r27;
+        com.google.android.gms.ads.AdActivity $r28;
+        com.google.android.gms.internal.zzif$zza $r29;
+        com.google.android.gms.internal.zzba $r30;
+        com.google.android.gms.internal.zzk $r31;
+        com.google.android.gms.internal.zzhy $r32;
+        com.google.android.gms.internal.zzif $r33;
+        com.google.android.gms.internal.zzer $r34;
+        digifit.virtuagym.foodtracker.services.OnBootReceiver $r35;
+
+        $r0 := @parameter0: java.lang.String[];
+
+        $i0 = 0;
+
+        $r1 = new digifit.virtuagym.foodtracker.FoodTrackerApp;
+
+        specialinvoke $r1.<digifit.virtuagym.foodtracker.FoodTrackerApp: void <init>()>();
+
+        virtualinvoke $r1.<digifit.virtuagym.foodtracker.MyDigifitApp: void onCreate()>();
+
+        <il.ac.tau.MyApplicationHolder: android.app.Application application> = $r1;
+
+     label001:
+        if $i0 == 0 goto label008;
+
+        $r2 = new digifit.virtuagym.foodtracker.services.ScheduledService;
+
+        specialinvoke $r2.<digifit.virtuagym.foodtracker.services.ScheduledService: void <init>()>();
+
+     label002:
+        if $i0 == 1 goto label003;
+
+        if $i0 == 2 goto label002;
+
+     label003:
+        if $i0 == 3 goto label006;
+
+     label004:
+        if $i0 == 4 goto label005;
+
+        virtualinvoke $r2.<digifit.virtuagym.foodtracker.services.ScheduledService: void onHandleIntent(android.content.Intent)>(null);
+
+     label005:
+        if $i0 == 5 goto label004;
+
+     label006:
+        if $i0 == 6 goto label007;
+
+        virtualinvoke $r2.<digifit.virtuagym.foodtracker.services.ScheduledService: void onHandleIntent(android.content.Intent)>(null);
+
+     label007:
+        if $i0 == 7 goto label006;
+
+        if $i0 == 8 goto label008;
+
+        if $i0 == 9 goto label006;
+
+     label008:
+        if $i0 == 10 goto label012;
+
+        $r3 = new digifit.android.common.KillNotificationService;
+
+        specialinvoke $r3.<digifit.android.common.KillNotificationService: void <init>()>();
+
+        virtualinvoke $r3.<digifit.android.common.KillNotificationService: void onCreate()>();
+
+     label009:
+        if $i0 == 11 goto label010;
+
+        $i1 = virtualinvoke $r3.<digifit.android.common.KillNotificationService: int onStartCommand(android.content.Intent,int,int)>(null, 0, 0);
+
+        if $i0 == 12 goto label009;
+
+     label010:
+        $r4 = virtualinvoke $r3.<digifit.android.common.KillNotificationService: android.os.IBinder onBind(android.content.Intent)>(null);
+
+     label011:
+        if $i0 == 14 goto label012;
+
+        if $i0 == 15 goto label011;
+
+     label012:
+        if $i0 == 16 goto label019;
+
+        $r5 = new digifit.virtuagym.foodtracker.services.ScheduledPlanNotificationService;
+
+        specialinvoke $r5.<digifit.virtuagym.foodtracker.services.ScheduledPlanNotificationService: void <init>()>();
+
+     label013:
+        if $i0 == 17 goto label014;
+
+        if $i0 == 18 goto label013;
+
+     label014:
+        if $i0 == 19 goto label017;
+
+     label015:
+        if $i0 == 20 goto label016;
+
+        virtualinvoke $r5.<digifit.virtuagym.foodtracker.services.ScheduledPlanNotificationService: void onHandleIntent(android.content.Intent)>(null);
+
+     label016:
+        if $i0 == 21 goto label015;
+
+     label017:
+        if $i0 == 22 goto label018;
+
+        virtualinvoke $r5.<digifit.virtuagym.foodtracker.services.ScheduledPlanNotificationService: void onHandleIntent(android.content.Intent)>(null);
+
+     label018:
+        if $i0 == 23 goto label017;
+
+        if $i0 == 24 goto label019;
+
+        if $i0 == 25 goto label017;
+
+     label019:
+        if $i0 == 26 goto label021;
+
+        $r6 = new com.google.android.gms.analytics.CampaignTrackingReceiver;
+
+        specialinvoke $r6.<com.google.android.gms.analytics.CampaignTrackingReceiver: void <init>()>();
+
+        if $i0 == 27 goto label021;
+
+     label020:
+        virtualinvoke $r6.<com.google.android.gms.analytics.CampaignTrackingReceiver: void onReceive(android.content.Context,android.content.Intent)>(null, null);
+
+        if $i0 == 29 goto label020;
+
+     label021:
+        if $i0 == 30 goto label025;
+
+        $r7 = new digifit.virtuagym.foodtracker.ui.BecomeProClubActivity;
+
+        specialinvoke $r7.<digifit.virtuagym.foodtracker.ui.BecomeProClubActivity: void <init>()>();
+
+        if $i0 == 31 goto label025;
+
+        virtualinvoke $r7.<digifit.virtuagym.foodtracker.ui.BecomeProClubActivity: void onCreate(android.os.Bundle)>(null);
+
+     label022:
+        virtualinvoke $r7.<digifit.virtuagym.foodtracker.digifit.virtuagym.common.ui.MyTrackedFragmentActivity: void onStart()>();
+
+     label023:
+        virtualinvoke $r7.<digifit.virtuagym.foodtracker.MyTrackedFacebookFragmentActivity: void onResume()>();
+
+        virtualinvoke $r7.<digifit.virtuagym.foodtracker.MyTrackedFacebookFragmentActivity: void onPause()>();
+
+        virtualinvoke $r7.<digifit.virtuagym.foodtracker.MyTrackedFacebookFragmentActivity: void onSaveInstanceState(android.os.Bundle)>(null);
+
+        if $i0 == 34 goto label023;
+
+        virtualinvoke $r7.<digifit.virtuagym.foodtracker.digifit.virtuagym.common.ui.MyTrackedFragmentActivity: void onStop()>();
+
+        if $i0 == 35 goto label024;
+
+        if $i0 == 36 goto label022;
+
+     label024:
+        virtualinvoke $r7.<digifit.virtuagym.foodtracker.MyTrackedFacebookFragmentActivity: void onDestroy()>();
+
+     label025:
+        if $i0 == 40 goto label033;
+
+        $r8 = new digifit.virtuagym.foodtracker.ui.NewPlanActivity;
+
+        specialinvoke $r8.<digifit.virtuagym.foodtracker.ui.NewPlanActivity: void <init>()>();
+
+        if $i0 == 41 goto label033;
+
+        virtualinvoke $r8.<digifit.virtuagym.foodtracker.ui.NewPlanActivity: void onCreate(android.os.Bundle)>(null);
+
+     label026:
+        virtualinvoke $r8.<digifit.virtuagym.foodtracker.ui.NewPlanActivity: void onResume()>();
+
+        if $i0 == 43 goto label032;
+
+     label027:
+        $r9 = new digifit.virtuagym.foodtracker.views.FloatingActionButton;
+
+        specialinvoke $r9.<digifit.virtuagym.foodtracker.views.FloatingActionButton: void <init>(android.content.Context)>($r8);
+
+        $r10 = new digifit.virtuagym.foodtracker.views.FloatingActionButton$1;
+
+        specialinvoke $r10.<digifit.virtuagym.foodtracker.views.FloatingActionButton$1: void <init>(digifit.virtuagym.foodtracker.views.FloatingActionButton,int)>($r9, 0);
+
+        if $i0 == 44 goto label028;
+
+        virtualinvoke $r10.<digifit.virtuagym.foodtracker.views.FloatingActionButton$1: void onAnimationEnd(android.animation.Animator)>(null);
+
+     label028:
+        $r11 = new digifit.virtuagym.foodtracker.ui.NewPlanActivity$1;
+
+        specialinvoke $r11.<digifit.virtuagym.foodtracker.ui.NewPlanActivity$1: void <init>(digifit.virtuagym.foodtracker.ui.NewPlanActivity)>($r8);
+
+        if $i0 == 45 goto label029;
+
+        virtualinvoke $r11.<digifit.virtuagym.foodtracker.ui.NewPlanActivity$1: void onClick(android.view.View)>(null);
+
+     label029:
+        $r12 = new digifit.virtuagym.foodtracker.ui.NewPlanActivity$2;
+
+        specialinvoke $r12.<digifit.virtuagym.foodtracker.ui.NewPlanActivity$2: void <init>(digifit.virtuagym.foodtracker.ui.NewPlanActivity)>($r8);
+
+        if $i0 == 46 goto label030;
+
+        virtualinvoke $r12.<digifit.virtuagym.foodtracker.ui.NewPlanActivity$2: void onClick(android.view.View)>(null);
+
+     label030:
+        if $i0 == 47 goto label031;
+
+        virtualinvoke $r8.<digifit.virtuagym.foodtracker.ui.NewPlanActivity: void onBackPressed()>();
+
+     label031:
+        if $i0 == 48 goto label027;
+
+     label032:
+        virtualinvoke $r8.<digifit.virtuagym.foodtracker.ui.NewPlanActivity: void onSaveInstanceState(android.os.Bundle)>(null);
+
+        if $i0 == 49 goto label026;
+
+        if $i0 == 50 goto label033;
+
+        if $i0 == 51 goto label026;
+
+     label033:
+        if $i0 == 53 goto label049;
+
+        $r13 = new digifit.virtuagym.foodtracker.ui.MainActivity;
+
+        specialinvoke $r13.<digifit.virtuagym.foodtracker.ui.MainActivity: void <init>()>();
+
+        if $i0 == 54 goto label049;
+
+        virtualinvoke $r13.<digifit.virtuagym.foodtracker.ui.MainActivity: void onCreate(android.os.Bundle)>(null);
+
+     label034:
+        virtualinvoke $r13.<digifit.virtuagym.foodtracker.digifit.virtuagym.common.ui.MyTrackedFragmentActivity: void onStart()>();
+
+        virtualinvoke $r13.<digifit.virtuagym.foodtracker.ui.MainActivity: void onPostCreate(android.os.Bundle)>(null);
+
+     label035:
+        virtualinvoke $r13.<digifit.virtuagym.foodtracker.ui.MainActivity: void onResume()>();
+
+        if $i0 == 56 goto label047;
+
+     label036:
+        $r14 = new digifit.virtuagym.foodtracker.ui.MainActivity$1;
+
+        specialinvoke $r14.<digifit.virtuagym.foodtracker.ui.MainActivity$1: void <init>(digifit.virtuagym.foodtracker.ui.MainActivity)>($r13);
+
+        $r15 = new digifit.virtuagym.foodtracker.ui.MainActivity$DrawerItemClickListener;
+
+        specialinvoke $r15.<digifit.virtuagym.foodtracker.ui.MainActivity$DrawerItemClickListener: void <init>(digifit.virtuagym.foodtracker.ui.MainActivity,digifit.virtuagym.foodtracker.ui.MainActivity$1)>($r13, $r14);
+
+        if $i0 == 57 goto label037;
+
+        virtualinvoke $r15.<digifit.virtuagym.foodtracker.ui.MainActivity$DrawerItemClickListener: void onItemClick(android.widget.AdapterView,android.view.View,int,long)>(null, null, 0, 0L);
+
+     label037:
+        if $i0 == 58 goto label038;
+
+        $z0 = virtualinvoke $r13.<digifit.virtuagym.foodtracker.ui.MainActivity: boolean onCreateOptionsMenu(android.view.Menu)>(null);
+
+     label038:
+        if $i0 == 59 goto label039;
+
+        virtualinvoke $r13.<digifit.virtuagym.foodtracker.ui.MainActivity: void onConfigurationChanged(android.content.res.Configuration)>(null);
+
+     label039:
+        if $i0 == 60 goto label040;
+
+        $z1 = virtualinvoke $r13.<digifit.virtuagym.foodtracker.ui.MainActivity: boolean onKeyDown(int,android.view.KeyEvent)>(0, null);
+
+     label040:
+        if $i0 == 61 goto label041;
+
+        $z2 = virtualinvoke $r13.<digifit.virtuagym.foodtracker.ui.MainActivity: boolean onKeyUp(int,android.view.KeyEvent)>(0, null);
+
+     label041:
+        if $i0 == 62 goto label042;
+
+        virtualinvoke $r13.<digifit.virtuagym.foodtracker.ui.MainActivity: void onActivityResult(int,int,android.content.Intent)>(0, 0, null);
+
+     label042:
+        if $i0 == 63 goto label043;
+
+        $z3 = virtualinvoke $r13.<digifit.virtuagym.foodtracker.ui.MainActivity: boolean onPrepareOptionsMenu(android.view.Menu)>(null);
+
+     label043:
+        if $i0 == 64 goto label044;
+
+        virtualinvoke $r13.<digifit.virtuagym.foodtracker.ui.MainActivity: void onBackPressed()>();
+
+     label044:
+        if $i0 == 65 goto label045;
+
+        $z4 = virtualinvoke $r13.<digifit.virtuagym.foodtracker.ui.MainActivity: boolean onOptionsItemSelected(android.view.MenuItem)>(null);
+
+     label045:
+        if $i0 == 66 goto label046;
+
+        staticinvoke <digifit.virtuagym.foodtracker.ui.MainActivity: void <clinit>()>();
+
+     label046:
+        if $i0 == 67 goto label036;
+
+     label047:
+        virtualinvoke $r13.<digifit.virtuagym.foodtracker.ui.MainActivity: void onPause()>();
+
+        virtualinvoke $r13.<digifit.virtuagym.foodtracker.MyTrackedFacebookFragmentActivity: void onSaveInstanceState(android.os.Bundle)>(null);
+
+        if $i0 == 68 goto label035;
+
+        virtualinvoke $r13.<digifit.virtuagym.foodtracker.ui.MainActivity: void onStop()>();
+
+        if $i0 == 69 goto label048;
+
+        if $i0 == 70 goto label034;
+
+     label048:
+        virtualinvoke $r13.<digifit.virtuagym.foodtracker.ui.MainActivity: void onDestroy()>();
+
+     label049:
+        if $i0 == 72 goto label058;
+
+        $r16 = new digifit.virtuagym.foodtracker.sync.FoodSync;
+
+        specialinvoke $r16.<digifit.virtuagym.foodtracker.sync.FoodSync: void <init>()>();
+
+        virtualinvoke $r16.<digifit.virtuagym.foodtracker.sync.FoodSync: void onCreate()>();
+
+     label050:
+        if $i0 == 73 goto label051;
+
+        $i2 = virtualinvoke $r16.<digifit.android.common.api.VitalenceSyncBase: int onStartCommand(android.content.Intent,int,int)>(null, 0, 0);
+
+        if $i0 == 74 goto label050;
+
+     label051:
+        if $i0 == 75 goto label054;
+
+     label052:
+        if $i0 == 76 goto label053;
+
+        virtualinvoke $r16.<digifit.virtuagym.foodtracker.sync.FoodSync: void onTaskRemoved(android.content.Intent)>(null);
+
+     label053:
+        if $i0 == 77 goto label052;
+
+     label054:
+        $r17 = virtualinvoke $r16.<digifit.virtuagym.foodtracker.sync.FoodSync: android.os.IBinder onBind(android.content.Intent)>(null);
+
+     label055:
+        if $i0 == 78 goto label056;
+
+        virtualinvoke $r16.<digifit.virtuagym.foodtracker.sync.FoodSync: void onTaskRemoved(android.content.Intent)>(null);
+
+     label056:
+        if $i0 == 79 goto label055;
+
+        $z5 = virtualinvoke $r16.<digifit.virtuagym.foodtracker.sync.FoodSync: boolean onUnbind(android.content.Intent)>(null);
+
+        if $i0 == 80 goto label057;
+
+        if $i0 == 81 goto label055;
+
+     label057:
+        virtualinvoke $r16.<digifit.virtuagym.foodtracker.sync.FoodSync: void onDestroy()>();
+
+     label058:
+        if $i0 == 83 goto label065;
+
+        $r18 = new digifit.virtuagym.foodtracker.services.TaskButlerService;
+
+        specialinvoke $r18.<digifit.virtuagym.foodtracker.services.TaskButlerService: void <init>()>();
+
+        virtualinvoke $r18.<digifit.virtuagym.foodtracker.services.WakefulIntentService: void onCreate()>();
+
+        virtualinvoke $r18.<digifit.virtuagym.foodtracker.services.WakefulIntentService: void onStart(android.content.Intent,int)>(null, 0);
+
+     label059:
+        if $i0 == 84 goto label060;
+
+        if $i0 == 85 goto label059;
+
+     label060:
+        if $i0 == 86 goto label063;
+
+     label061:
+        if $i0 == 87 goto label062;
+
+        virtualinvoke $r18.<digifit.virtuagym.foodtracker.services.TaskButlerService: void onHandleIntent(android.content.Intent)>(null);
+
+     label062:
+        if $i0 == 88 goto label061;
+
+     label063:
+        if $i0 == 89 goto label064;
+
+        virtualinvoke $r18.<digifit.virtuagym.foodtracker.services.TaskButlerService: void onHandleIntent(android.content.Intent)>(null);
+
+     label064:
+        if $i0 == 90 goto label063;
+
+        if $i0 == 91 goto label065;
+
+        if $i0 == 92 goto label063;
+
+     label065:
+        if $i0 == 93 goto label070;
+
+        $r19 = new digifit.virtuagym.foodtracker.ui.BarcodeScannerActivity;
+
+        specialinvoke $r19.<digifit.virtuagym.foodtracker.ui.BarcodeScannerActivity: void <init>()>();
+
+        if $i0 == 94 goto label070;
+
+        virtualinvoke $r19.<digifit.virtuagym.foodtracker.ui.BarcodeScannerActivity: void onCreate(android.os.Bundle)>(null);
+
+     label066:
+        if $i0 == 96 goto label069;
+
+     label067:
+        if $i0 == 97 goto label068;
+
+        virtualinvoke $r19.<digifit.virtuagym.foodtracker.ui.BarcodeScannerActivity: void onBackPressed()>();
+
+     label068:
+        if $i0 == 98 goto label067;
+
+     label069:
+        if $i0 == 99 goto label066;
+
+        if $i0 == 100 goto label070;
+
+        if $i0 == 101 goto label066;
+
+     label070:
+        if $i0 == 103 goto label076;
+
+        $r20 = new com.facebook.LoginActivity;
+
+        specialinvoke $r20.<com.facebook.LoginActivity: void <init>()>();
+
+        if $i0 == 104 goto label076;
+
+        virtualinvoke $r20.<com.facebook.LoginActivity: void onCreate(android.os.Bundle)>(null);
+
+     label071:
+        virtualinvoke $r20.<com.facebook.LoginActivity: void onResume()>();
+
+        if $i0 == 106 goto label075;
+
+     label072:
+        if $i0 == 107 goto label073;
+
+        staticinvoke <com.facebook.LoginActivity: void <clinit>()>();
+
+     label073:
+        if $i0 == 108 goto label074;
+
+        virtualinvoke $r20.<com.facebook.LoginActivity: void onActivityResult(int,int,android.content.Intent)>(0, 0, null);
+
+     label074:
+        if $i0 == 109 goto label072;
+
+     label075:
+        virtualinvoke $r20.<com.facebook.LoginActivity: void onPause()>();
+
+        virtualinvoke $r20.<com.facebook.LoginActivity: void onSaveInstanceState(android.os.Bundle)>(null);
+
+        if $i0 == 110 goto label071;
+
+        if $i0 == 111 goto label076;
+
+        if $i0 == 112 goto label071;
+
+     label076:
+        if $i0 == 114 goto label079;
+
+        $r21 = new com.google.android.gms.analytics.CampaignTrackingService;
+
+        specialinvoke $r21.<com.google.android.gms.analytics.CampaignTrackingService: void <init>()>();
+
+     label077:
+        if $i0 == 115 goto label078;
+
+        if $i0 == 116 goto label077;
+
+     label078:
+        if $i0 == 118 goto label079;
+
+        if $i0 == 119 goto label078;
+
+     label079:
+        if $i0 == 120 goto label090;
+
+        $r22 = new digifit.virtuagym.foodtracker.ui.LoginActivity;
+
+        specialinvoke $r22.<digifit.virtuagym.foodtracker.ui.LoginActivity: void <init>()>();
+
+        if $i0 == 121 goto label090;
+
+        virtualinvoke $r22.<digifit.virtuagym.foodtracker.ui.LoginActivity: void onCreate(android.os.Bundle)>(null);
+
+     label080:
+        virtualinvoke $r22.<digifit.virtuagym.foodtracker.ui.LoginActivity: void onResume()>();
+
+        if $i0 == 123 goto label089;
+
+     label081:
+        $r23 = new digifit.virtuagym.foodtracker.ui.LoginActivity$8;
+
+        specialinvoke $r23.<digifit.virtuagym.foodtracker.ui.LoginActivity$8: void <init>(digifit.virtuagym.foodtracker.ui.LoginActivity)>($r22);
+
+        if $i0 == 124 goto label082;
+
+        virtualinvoke $r23.<digifit.virtuagym.foodtracker.ui.LoginActivity$8: void onAnimationEnd(android.animation.Animator)>(null);
+
+     label082:
+        if $i0 == 125 goto label083;
+
+        virtualinvoke $r23.<digifit.virtuagym.foodtracker.ui.LoginActivity$8: void onAnimationCancel(android.animation.Animator)>(null);
+
+     label083:
+        if $i0 == 126 goto label084;
+
+        virtualinvoke $r22.<digifit.virtuagym.foodtracker.ui.LoginActivity: void onBackPressed()>();
+
+     label084:
+        $r24 = new digifit.virtuagym.foodtracker.ui.LoginActivity$4;
+
+        specialinvoke $r24.<digifit.virtuagym.foodtracker.ui.LoginActivity$4: void <init>(digifit.virtuagym.foodtracker.ui.LoginActivity)>($r22);
+
+        if $i0 == 127 goto label085;
+
+        virtualinvoke $r24.<digifit.virtuagym.foodtracker.ui.LoginActivity$4: void onClick(android.view.View)>(null);
+
+     label085:
+        $r25 = new digifit.virtuagym.foodtracker.ui.LoginActivity$6;
+
+        specialinvoke $r25.<digifit.virtuagym.foodtracker.ui.LoginActivity$6: void <init>(digifit.virtuagym.foodtracker.ui.LoginActivity)>($r22);
+
+        if $i0 == 128 goto label086;
+
+        virtualinvoke $r25.<digifit.virtuagym.foodtracker.ui.LoginActivity$6: void onAnimationEnd(android.animation.Animator)>(null);
+
+     label086:
+        $r26 = new digifit.virtuagym.foodtracker.ui.LoginActivity$3;
+
+        specialinvoke $r26.<digifit.virtuagym.foodtracker.ui.LoginActivity$3: void <init>(digifit.virtuagym.foodtracker.ui.LoginActivity)>($r22);
+
+        if $i0 == 129 goto label087;
+
+        virtualinvoke $r26.<digifit.virtuagym.foodtracker.ui.LoginActivity$3: void onClick(android.view.View)>(null);
+
+     label087:
+        $r27 = new digifit.virtuagym.foodtracker.ui.LoginActivity$7;
+
+        specialinvoke $r27.<digifit.virtuagym.foodtracker.ui.LoginActivity$7: void <init>(digifit.virtuagym.foodtracker.ui.LoginActivity)>($r22);
+
+        if $i0 == 130 goto label088;
+
+        virtualinvoke $r27.<digifit.virtuagym.foodtracker.ui.LoginActivity$7: void onAnimationEnd(android.animation.Animator)>(null);
+
+     label088:
+        if $i0 == 131 goto label081;
+
+     label089:
+        virtualinvoke $r22.<digifit.virtuagym.foodtracker.ui.LoginActivity: void onPause()>();
+
+        if $i0 == 132 goto label080;
+
+        if $i0 == 133 goto label090;
+
+        if $i0 == 134 goto label080;
+
+     label090:
+        if $i0 == 136 goto label099;
+
+        $r28 = new com.google.android.gms.ads.AdActivity;
+
+        specialinvoke $r28.<com.google.android.gms.ads.AdActivity: void <init>()>();
+
+        if $i0 == 137 goto label099;
+
+        virtualinvoke $r28.<com.google.android.gms.ads.AdActivity: void onCreate(android.os.Bundle)>(null);
+
+     label091:
+        virtualinvoke $r28.<com.google.android.gms.ads.AdActivity: void onStart()>();
+
+     label092:
+        virtualinvoke $r28.<com.google.android.gms.ads.AdActivity: void onResume()>();
+
+        if $i0 == 139 goto label097;
+
+     label093:
+        $r29 = new com.google.android.gms.internal.zzif$zza;
+
+        specialinvoke $r29.<com.google.android.gms.internal.zzif$zza: void <init>(android.content.Context)>($r28);
+
+        $r30 = new com.google.android.gms.internal.zzba;
+
+        specialinvoke $r30.<com.google.android.gms.internal.zzba: void <init>()>();
+
+        $r31 = new com.google.android.gms.internal.zzk;
+
+        specialinvoke $r31.<com.google.android.gms.internal.zzk: void <init>(com.google.android.gms.internal.zzg)>(null);
+
+        $r32 = new com.google.android.gms.internal.zzhy;
+
+        specialinvoke $r32.<com.google.android.gms.internal.zzhy: void <init>(int,int,boolean)>(0, 0, false);
+
+        $r33 = new com.google.android.gms.internal.zzif;
+
+        specialinvoke $r33.<com.google.android.gms.internal.zzif: void <init>(com.google.android.gms.internal.zzif$zza,com.google.android.gms.internal.zzba,boolean,boolean,com.google.android.gms.internal.zzk,com.google.android.gms.internal.zzhy)>($r29, $r30, false, false, $r31, $r32);
+
+        if $i0 == 140 goto label094;
+
+        virtualinvoke $r33.<com.google.android.gms.internal.zzif: void onDownloadStart(java.lang.String,java.lang.String,java.lang.String,java.lang.String,long)>("", "", "", "", 0L);
+
+     label094:
+        if $i0 == 141 goto label095;
+
+        virtualinvoke $r33.<com.google.android.gms.internal.zzif: void onGlobalLayout()>();
+
+     label095:
+        $r34 = new com.google.android.gms.internal.zzer;
+
+        specialinvoke $r34.<com.google.android.gms.internal.zzer: void <init>(android.content.Context,int,com.google.android.gms.internal.zzet)>($r28, 0, null);
+
+        if $i0 == 142 goto label096;
+
+        virtualinvoke $r34.<com.google.android.gms.internal.zzer: void onClick(android.view.View)>(null);
+
+     label096:
+        if $i0 == 143 goto label093;
+
+     label097:
+        virtualinvoke $r28.<com.google.android.gms.ads.AdActivity: void onPause()>();
+
+        virtualinvoke $r28.<com.google.android.gms.ads.AdActivity: void onSaveInstanceState(android.os.Bundle)>(null);
+
+        if $i0 == 144 goto label092;
+
+        virtualinvoke $r28.<com.google.android.gms.ads.AdActivity: void onStop()>();
+
+        if $i0 == 145 goto label098;
+
+        virtualinvoke $r28.<com.google.android.gms.ads.AdActivity: void onRestart()>();
+
+        if $i0 == 146 goto label091;
+
+     label098:
+        virtualinvoke $r28.<com.google.android.gms.ads.AdActivity: void onDestroy()>();
+
+     label099:
+        if $i0 == 148 goto label101;
+
+        $r35 = new digifit.virtuagym.foodtracker.services.OnBootReceiver;
+
+        specialinvoke $r35.<digifit.virtuagym.foodtracker.services.OnBootReceiver: void <init>()>();
+
+        if $i0 == 149 goto label101;
+
+     label100:
+        virtualinvoke $r35.<digifit.virtuagym.foodtracker.services.OnBootReceiver: void onReceive(android.content.Context,android.content.Intent)>(null, null);
+
+        if $i0 == 151 goto label100;
+
+     label101:
+        if $i0 == 153 goto label001;
+
+        virtualinvoke $r1.<digifit.virtuagym.foodtracker.MyDigifitApp: void onTerminate()>();
+
+        return;
+    }
+
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 4.0 seconds.
+[Spark] Solution found in 4.0 seconds.
+Running incremental callback analysis for 13 components...
+Incremental callback analysis done.
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+Warning: android.net.http.AndroidHttpClient is a phantom class!
+Warning: org.apache.http.client.HttpClient is a phantom class!
+Warning: org.apache.http.client.methods.HttpEntityEnclosingRequestBase is a phantom class!
+Warning: org.apache.http.client.methods.HttpUriRequest is a phantom class!
+Warning: org.apache.http.impl.client.DefaultHttpClient is a phantom class!
+Warning: org.apache.http.client.ClientProtocolException is a phantom class!
+Warning: org.apache.http.client.methods.HttpDelete is a phantom class!
+Warning: org.apache.http.client.methods.HttpGet is a phantom class!
+Warning: org.apache.http.client.methods.HttpPost is a phantom class!
+Warning: org.apache.http.client.methods.HttpPut is a phantom class!
+Warning: org.apache.http.conn.ClientConnectionManager is a phantom class!
+Warning: org.apache.http.impl.cookie.DateParseException is a phantom class!
+Warning: org.apache.http.impl.cookie.DateUtils is a phantom class!
+Warning: android.support.v7.widget.TestActivity is a phantom class!
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.content.Intent
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.content.Context
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.os.Bundle
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.animation.Animator
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.view.View
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.view.Menu
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.view.KeyEvent
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.content.res.Configuration
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.view.MenuItem
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.widget.AdapterView
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot create valid constructor for com.google.android.gms.internal.zzg, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot create valid constructor for com.google.android.gms.internal.zzet, because it is an interface and cannot substitute with subclass
+[main] INFO soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Generated main method:
+    public static void dummyMainMethod(java.lang.String[])
+    {
+        java.lang.String[] $r0;
+        int $i0, $i1, $i2;
+        digifit.virtuagym.foodtracker.FoodTrackerApp $r1;
+        digifit.virtuagym.foodtracker.services.ScheduledService $r2;
+        digifit.android.common.KillNotificationService $r3;
+        android.os.IBinder $r4, $r22;
+        digifit.virtuagym.foodtracker.services.ScheduledPlanNotificationService $r5;
+        com.google.android.gms.analytics.CampaignTrackingReceiver $r6;
+        digifit.virtuagym.foodtracker.ui.BecomeProClubActivity $r7;
+        digifit.virtuagym.foodtracker.ui.NewPlanActivity $r8;
+        digifit.virtuagym.foodtracker.views.FloatingActionButton $r9, $r12;
+        digifit.virtuagym.foodtracker.views.FloatingActionButton$1 $r10, $r13;
+        digifit.virtuagym.foodtracker.views.FloatingActionButton$1$1 $r11;
+        digifit.virtuagym.foodtracker.ui.NewPlanActivity$1 $r14, $r16;
+        digifit.virtuagym.foodtracker.ui.NewPlanActivity$1$1 $r15;
+        digifit.virtuagym.foodtracker.ui.NewPlanActivity$2 $r17;
+        digifit.virtuagym.foodtracker.ui.MainActivity $r18;
+        boolean $z0, $z1, $z2, $z3, $z4, $z5, $z6, $z7;
+        digifit.virtuagym.foodtracker.ui.MainActivity$1 $r19;
+        digifit.virtuagym.foodtracker.ui.MainActivity$DrawerItemClickListener $r20;
+        digifit.virtuagym.foodtracker.sync.FoodSync $r21;
+        digifit.virtuagym.foodtracker.services.TaskButlerService $r23;
+        digifit.virtuagym.foodtracker.ui.BarcodeScannerActivity $r24;
+        com.facebook.LoginActivity $r25;
+        com.google.android.gms.analytics.CampaignTrackingService $r26;
+        digifit.virtuagym.foodtracker.ui.LoginActivity $r27;
+        digifit.virtuagym.foodtracker.ui.LoginActivity$6 $r28;
+        digifit.virtuagym.foodtracker.ui.LoginActivity$4 $r29;
+        digifit.virtuagym.foodtracker.ui.MySignupEmail $r30, $r32, $r34, $r38;
+        digifit.virtuagym.foodtracker.ui.MySignupEmail$15 $r31;
+        digifit.virtuagym.foodtracker.ui.MySignupEmail$14 $r33;
+        digifit.virtuagym.foodtracker.ui.MySignupEmail$12 $r35;
+        digifit.virtuagym.foodtracker.ui.LoginActivity$7 $r36;
+        digifit.virtuagym.foodtracker.ui.LoginActivity$8 $r37;
+        digifit.virtuagym.foodtracker.ui.MySignupEmail$13 $r39;
+        digifit.virtuagym.foodtracker.ui.LoginActivity$3 $r40;
+        com.google.android.gms.ads.AdActivity $r41;
+        com.google.android.gms.internal.zzif$zza $r42;
+        com.google.android.gms.internal.zzba $r43;
+        com.google.android.gms.internal.zzk $r44;
+        com.google.android.gms.internal.zzhy $r45;
+        com.google.android.gms.internal.zzif $r46;
+        com.google.android.gms.internal.zzer $r47;
+        digifit.virtuagym.foodtracker.services.OnBootReceiver $r48;
+
+        $r0 := @parameter0: java.lang.String[];
+
+        $i0 = 0;
+
+        $r1 = new digifit.virtuagym.foodtracker.FoodTrackerApp;
+
+        specialinvoke $r1.<digifit.virtuagym.foodtracker.FoodTrackerApp: void <init>()>();
+
+        virtualinvoke $r1.<digifit.virtuagym.foodtracker.MyDigifitApp: void onCreate()>();
+
+        <il.ac.tau.MyApplicationHolder: android.app.Application application> = $r1;
+
+     label001:
+        if $i0 == 0 goto label008;
+
+        $r2 = new digifit.virtuagym.foodtracker.services.ScheduledService;
+
+        specialinvoke $r2.<digifit.virtuagym.foodtracker.services.ScheduledService: void <init>()>();
+
+     label002:
+        if $i0 == 1 goto label003;
+
+        if $i0 == 2 goto label002;
+
+     label003:
+        if $i0 == 3 goto label006;
+
+     label004:
+        if $i0 == 4 goto label005;
+
+        virtualinvoke $r2.<digifit.virtuagym.foodtracker.services.ScheduledService: void onHandleIntent(android.content.Intent)>(null);
+
+     label005:
+        if $i0 == 5 goto label004;
+
+     label006:
+        if $i0 == 6 goto label007;
+
+        virtualinvoke $r2.<digifit.virtuagym.foodtracker.services.ScheduledService: void onHandleIntent(android.content.Intent)>(null);
+
+     label007:
+        if $i0 == 7 goto label006;
+
+        if $i0 == 8 goto label008;
+
+        if $i0 == 9 goto label006;
+
+     label008:
+        if $i0 == 10 goto label012;
+
+        $r3 = new digifit.android.common.KillNotificationService;
+
+        specialinvoke $r3.<digifit.android.common.KillNotificationService: void <init>()>();
+
+        virtualinvoke $r3.<digifit.android.common.KillNotificationService: void onCreate()>();
+
+     label009:
+        if $i0 == 11 goto label010;
+
+        $i1 = virtualinvoke $r3.<digifit.android.common.KillNotificationService: int onStartCommand(android.content.Intent,int,int)>(null, 0, 0);
+
+        if $i0 == 12 goto label009;
+
+     label010:
+        $r4 = virtualinvoke $r3.<digifit.android.common.KillNotificationService: android.os.IBinder onBind(android.content.Intent)>(null);
+
+     label011:
+        if $i0 == 14 goto label012;
+
+        if $i0 == 15 goto label011;
+
+     label012:
+        if $i0 == 16 goto label019;
+
+        $r5 = new digifit.virtuagym.foodtracker.services.ScheduledPlanNotificationService;
+
+        specialinvoke $r5.<digifit.virtuagym.foodtracker.services.ScheduledPlanNotificationService: void <init>()>();
+
+     label013:
+        if $i0 == 17 goto label014;
+
+        if $i0 == 18 goto label013;
+
+     label014:
+        if $i0 == 19 goto label017;
+
+     label015:
+        if $i0 == 20 goto label016;
+
+        virtualinvoke $r5.<digifit.virtuagym.foodtracker.services.ScheduledPlanNotificationService: void onHandleIntent(android.content.Intent)>(null);
+
+     label016:
+        if $i0 == 21 goto label015;
+
+     label017:
+        if $i0 == 22 goto label018;
+
+        virtualinvoke $r5.<digifit.virtuagym.foodtracker.services.ScheduledPlanNotificationService: void onHandleIntent(android.content.Intent)>(null);
+
+     label018:
+        if $i0 == 23 goto label017;
+
+        if $i0 == 24 goto label019;
+
+        if $i0 == 25 goto label017;
+
+     label019:
+        if $i0 == 26 goto label021;
+
+        $r6 = new com.google.android.gms.analytics.CampaignTrackingReceiver;
+
+        specialinvoke $r6.<com.google.android.gms.analytics.CampaignTrackingReceiver: void <init>()>();
+
+        if $i0 == 27 goto label021;
+
+     label020:
+        virtualinvoke $r6.<com.google.android.gms.analytics.CampaignTrackingReceiver: void onReceive(android.content.Context,android.content.Intent)>(null, null);
+
+        if $i0 == 29 goto label020;
+
+     label021:
+        if $i0 == 30 goto label025;
+
+        $r7 = new digifit.virtuagym.foodtracker.ui.BecomeProClubActivity;
+
+        specialinvoke $r7.<digifit.virtuagym.foodtracker.ui.BecomeProClubActivity: void <init>()>();
+
+        if $i0 == 31 goto label025;
+
+        virtualinvoke $r7.<digifit.virtuagym.foodtracker.ui.BecomeProClubActivity: void onCreate(android.os.Bundle)>(null);
+
+     label022:
+        virtualinvoke $r7.<digifit.virtuagym.foodtracker.digifit.virtuagym.common.ui.MyTrackedFragmentActivity: void onStart()>();
+
+     label023:
+        virtualinvoke $r7.<digifit.virtuagym.foodtracker.MyTrackedFacebookFragmentActivity: void onResume()>();
+
+        virtualinvoke $r7.<digifit.virtuagym.foodtracker.MyTrackedFacebookFragmentActivity: void onPause()>();
+
+        virtualinvoke $r7.<digifit.virtuagym.foodtracker.MyTrackedFacebookFragmentActivity: void onSaveInstanceState(android.os.Bundle)>(null);
+
+        if $i0 == 34 goto label023;
+
+        virtualinvoke $r7.<digifit.virtuagym.foodtracker.digifit.virtuagym.common.ui.MyTrackedFragmentActivity: void onStop()>();
+
+        if $i0 == 35 goto label024;
+
+        if $i0 == 36 goto label022;
+
+     label024:
+        virtualinvoke $r7.<digifit.virtuagym.foodtracker.MyTrackedFacebookFragmentActivity: void onDestroy()>();
+
+     label025:
+        if $i0 == 40 goto label035;
+
+        $r8 = new digifit.virtuagym.foodtracker.ui.NewPlanActivity;
+
+        specialinvoke $r8.<digifit.virtuagym.foodtracker.ui.NewPlanActivity: void <init>()>();
+
+        if $i0 == 41 goto label035;
+
+        virtualinvoke $r8.<digifit.virtuagym.foodtracker.ui.NewPlanActivity: void onCreate(android.os.Bundle)>(null);
+
+     label026:
+        virtualinvoke $r8.<digifit.virtuagym.foodtracker.ui.NewPlanActivity: void onResume()>();
+
+        if $i0 == 43 goto label034;
+
+     label027:
+        $r9 = new digifit.virtuagym.foodtracker.views.FloatingActionButton;
+
+        specialinvoke $r9.<digifit.virtuagym.foodtracker.views.FloatingActionButton: void <init>(android.content.Context)>($r8);
+
+        $r10 = new digifit.virtuagym.foodtracker.views.FloatingActionButton$1;
+
+        specialinvoke $r10.<digifit.virtuagym.foodtracker.views.FloatingActionButton$1: void <init>(digifit.virtuagym.foodtracker.views.FloatingActionButton,int)>($r9, 0);
+
+        $r11 = new digifit.virtuagym.foodtracker.views.FloatingActionButton$1$1;
+
+        specialinvoke $r11.<digifit.virtuagym.foodtracker.views.FloatingActionButton$1$1: void <init>(digifit.virtuagym.foodtracker.views.FloatingActionButton$1)>($r10);
+
+        if $i0 == 44 goto label028;
+
+        virtualinvoke $r11.<digifit.virtuagym.foodtracker.views.FloatingActionButton$1$1: void onAnimationEnd(android.animation.Animator)>(null);
+
+     label028:
+        $r12 = new digifit.virtuagym.foodtracker.views.FloatingActionButton;
+
+        specialinvoke $r12.<digifit.virtuagym.foodtracker.views.FloatingActionButton: void <init>(android.content.Context)>($r8);
+
+        $r13 = new digifit.virtuagym.foodtracker.views.FloatingActionButton$1;
+
+        specialinvoke $r13.<digifit.virtuagym.foodtracker.views.FloatingActionButton$1: void <init>(digifit.virtuagym.foodtracker.views.FloatingActionButton,int)>($r12, 0);
+
+        if $i0 == 45 goto label029;
+
+        virtualinvoke $r13.<digifit.virtuagym.foodtracker.views.FloatingActionButton$1: void onAnimationEnd(android.animation.Animator)>(null);
+
+     label029:
+        $r14 = new digifit.virtuagym.foodtracker.ui.NewPlanActivity$1;
+
+        specialinvoke $r14.<digifit.virtuagym.foodtracker.ui.NewPlanActivity$1: void <init>(digifit.virtuagym.foodtracker.ui.NewPlanActivity)>($r8);
+
+        $r15 = new digifit.virtuagym.foodtracker.ui.NewPlanActivity$1$1;
+
+        specialinvoke $r15.<digifit.virtuagym.foodtracker.ui.NewPlanActivity$1$1: void <init>(digifit.virtuagym.foodtracker.ui.NewPlanActivity$1)>($r14);
+
+        if $i0 == 46 goto label030;
+
+        virtualinvoke $r15.<digifit.virtuagym.foodtracker.ui.NewPlanActivity$1$1: void onAnimationEnd(android.animation.Animator)>(null);
+
+     label030:
+        $r16 = new digifit.virtuagym.foodtracker.ui.NewPlanActivity$1;
+
+        specialinvoke $r16.<digifit.virtuagym.foodtracker.ui.NewPlanActivity$1: void <init>(digifit.virtuagym.foodtracker.ui.NewPlanActivity)>($r8);
+
+        if $i0 == 47 goto label031;
+
+        virtualinvoke $r16.<digifit.virtuagym.foodtracker.ui.NewPlanActivity$1: void onClick(android.view.View)>(null);
+
+     label031:
+        if $i0 == 48 goto label032;
+
+        virtualinvoke $r8.<digifit.virtuagym.foodtracker.ui.NewPlanActivity: void onBackPressed()>();
+
+     label032:
+        $r17 = new digifit.virtuagym.foodtracker.ui.NewPlanActivity$2;
+
+        specialinvoke $r17.<digifit.virtuagym.foodtracker.ui.NewPlanActivity$2: void <init>(digifit.virtuagym.foodtracker.ui.NewPlanActivity)>($r8);
+
+        if $i0 == 49 goto label033;
+
+        virtualinvoke $r17.<digifit.virtuagym.foodtracker.ui.NewPlanActivity$2: void onClick(android.view.View)>(null);
+
+     label033:
+        if $i0 == 50 goto label027;
+
+     label034:
+        virtualinvoke $r8.<digifit.virtuagym.foodtracker.ui.NewPlanActivity: void onSaveInstanceState(android.os.Bundle)>(null);
+
+        if $i0 == 51 goto label026;
+
+        if $i0 == 52 goto label035;
+
+        if $i0 == 53 goto label026;
+
+     label035:
+        if $i0 == 55 goto label051;
+
+        $r18 = new digifit.virtuagym.foodtracker.ui.MainActivity;
+
+        specialinvoke $r18.<digifit.virtuagym.foodtracker.ui.MainActivity: void <init>()>();
+
+        if $i0 == 56 goto label051;
+
+        virtualinvoke $r18.<digifit.virtuagym.foodtracker.ui.MainActivity: void onCreate(android.os.Bundle)>(null);
+
+     label036:
+        virtualinvoke $r18.<digifit.virtuagym.foodtracker.digifit.virtuagym.common.ui.MyTrackedFragmentActivity: void onStart()>();
+
+        virtualinvoke $r18.<digifit.virtuagym.foodtracker.ui.MainActivity: void onPostCreate(android.os.Bundle)>(null);
+
+     label037:
+        virtualinvoke $r18.<digifit.virtuagym.foodtracker.ui.MainActivity: void onResume()>();
+
+        if $i0 == 58 goto label049;
+
+     label038:
+        if $i0 == 59 goto label039;
+
+        virtualinvoke $r18.<digifit.virtuagym.foodtracker.ui.MainActivity: void onActivityResult(int,int,android.content.Intent)>(0, 0, null);
+
+     label039:
+        if $i0 == 60 goto label040;
+
+        $z0 = virtualinvoke $r18.<digifit.virtuagym.foodtracker.ui.MainActivity: boolean onCreateOptionsMenu(android.view.Menu)>(null);
+
+     label040:
+        if $i0 == 61 goto label041;
+
+        $z1 = virtualinvoke $r18.<digifit.virtuagym.foodtracker.ui.MainActivity: boolean onPrepareOptionsMenu(android.view.Menu)>(null);
+
+     label041:
+        if $i0 == 62 goto label042;
+
+        $z2 = virtualinvoke $r18.<digifit.virtuagym.foodtracker.ui.MainActivity: boolean onKeyUp(int,android.view.KeyEvent)>(0, null);
+
+     label042:
+        if $i0 == 63 goto label043;
+
+        virtualinvoke $r18.<digifit.virtuagym.foodtracker.ui.MainActivity: void onConfigurationChanged(android.content.res.Configuration)>(null);
+
+     label043:
+        if $i0 == 64 goto label044;
+
+        staticinvoke <digifit.virtuagym.foodtracker.ui.MainActivity: void <clinit>()>();
+
+     label044:
+        if $i0 == 65 goto label045;
+
+        $z3 = virtualinvoke $r18.<digifit.virtuagym.foodtracker.ui.MainActivity: boolean onOptionsItemSelected(android.view.MenuItem)>(null);
+
+     label045:
+        if $i0 == 66 goto label046;
+
+        virtualinvoke $r18.<digifit.virtuagym.foodtracker.ui.MainActivity: void onBackPressed()>();
+
+     label046:
+        if $i0 == 67 goto label047;
+
+        $z4 = virtualinvoke $r18.<digifit.virtuagym.foodtracker.ui.MainActivity: boolean onKeyDown(int,android.view.KeyEvent)>(0, null);
+
+     label047:
+        $r19 = new digifit.virtuagym.foodtracker.ui.MainActivity$1;
+
+        specialinvoke $r19.<digifit.virtuagym.foodtracker.ui.MainActivity$1: void <init>(digifit.virtuagym.foodtracker.ui.MainActivity)>($r18);
+
+        $r20 = new digifit.virtuagym.foodtracker.ui.MainActivity$DrawerItemClickListener;
+
+        specialinvoke $r20.<digifit.virtuagym.foodtracker.ui.MainActivity$DrawerItemClickListener: void <init>(digifit.virtuagym.foodtracker.ui.MainActivity,digifit.virtuagym.foodtracker.ui.MainActivity$1)>($r18, $r19);
+
+        if $i0 == 68 goto label048;
+
+        virtualinvoke $r20.<digifit.virtuagym.foodtracker.ui.MainActivity$DrawerItemClickListener: void onItemClick(android.widget.AdapterView,android.view.View,int,long)>(null, null, 0, 0L);
+
+     label048:
+        if $i0 == 69 goto label038;
+
+     label049:
+        virtualinvoke $r18.<digifit.virtuagym.foodtracker.ui.MainActivity: void onPause()>();
+
+        virtualinvoke $r18.<digifit.virtuagym.foodtracker.MyTrackedFacebookFragmentActivity: void onSaveInstanceState(android.os.Bundle)>(null);
+
+        if $i0 == 70 goto label037;
+
+        virtualinvoke $r18.<digifit.virtuagym.foodtracker.ui.MainActivity: void onStop()>();
+
+        if $i0 == 71 goto label050;
+
+        if $i0 == 72 goto label036;
+
+     label050:
+        virtualinvoke $r18.<digifit.virtuagym.foodtracker.ui.MainActivity: void onDestroy()>();
+
+     label051:
+        if $i0 == 74 goto label060;
+
+        $r21 = new digifit.virtuagym.foodtracker.sync.FoodSync;
+
+        specialinvoke $r21.<digifit.virtuagym.foodtracker.sync.FoodSync: void <init>()>();
+
+        virtualinvoke $r21.<digifit.virtuagym.foodtracker.sync.FoodSync: void onCreate()>();
+
+     label052:
+        if $i0 == 75 goto label053;
+
+        $i2 = virtualinvoke $r21.<digifit.android.common.api.VitalenceSyncBase: int onStartCommand(android.content.Intent,int,int)>(null, 0, 0);
+
+        if $i0 == 76 goto label052;
+
+     label053:
+        if $i0 == 77 goto label056;
+
+     label054:
+        if $i0 == 78 goto label055;
+
+        virtualinvoke $r21.<digifit.virtuagym.foodtracker.sync.FoodSync: void onTaskRemoved(android.content.Intent)>(null);
+
+     label055:
+        if $i0 == 79 goto label054;
+
+     label056:
+        $r22 = virtualinvoke $r21.<digifit.virtuagym.foodtracker.sync.FoodSync: android.os.IBinder onBind(android.content.Intent)>(null);
+
+     label057:
+        if $i0 == 80 goto label058;
+
+        virtualinvoke $r21.<digifit.virtuagym.foodtracker.sync.FoodSync: void onTaskRemoved(android.content.Intent)>(null);
+
+     label058:
+        if $i0 == 81 goto label057;
+
+        $z5 = virtualinvoke $r21.<digifit.virtuagym.foodtracker.sync.FoodSync: boolean onUnbind(android.content.Intent)>(null);
+
+        if $i0 == 82 goto label059;
+
+        if $i0 == 83 goto label057;
+
+     label059:
+        virtualinvoke $r21.<digifit.virtuagym.foodtracker.sync.FoodSync: void onDestroy()>();
+
+     label060:
+        if $i0 == 85 goto label067;
+
+        $r23 = new digifit.virtuagym.foodtracker.services.TaskButlerService;
+
+        specialinvoke $r23.<digifit.virtuagym.foodtracker.services.TaskButlerService: void <init>()>();
+
+        virtualinvoke $r23.<digifit.virtuagym.foodtracker.services.WakefulIntentService: void onCreate()>();
+
+        virtualinvoke $r23.<digifit.virtuagym.foodtracker.services.WakefulIntentService: void onStart(android.content.Intent,int)>(null, 0);
+
+     label061:
+        if $i0 == 86 goto label062;
+
+        if $i0 == 87 goto label061;
+
+     label062:
+        if $i0 == 88 goto label065;
+
+     label063:
+        if $i0 == 89 goto label064;
+
+        virtualinvoke $r23.<digifit.virtuagym.foodtracker.services.TaskButlerService: void onHandleIntent(android.content.Intent)>(null);
+
+     label064:
+        if $i0 == 90 goto label063;
+
+     label065:
+        if $i0 == 91 goto label066;
+
+        virtualinvoke $r23.<digifit.virtuagym.foodtracker.services.TaskButlerService: void onHandleIntent(android.content.Intent)>(null);
+
+     label066:
+        if $i0 == 92 goto label065;
+
+        if $i0 == 93 goto label067;
+
+        if $i0 == 94 goto label065;
+
+     label067:
+        if $i0 == 95 goto label072;
+
+        $r24 = new digifit.virtuagym.foodtracker.ui.BarcodeScannerActivity;
+
+        specialinvoke $r24.<digifit.virtuagym.foodtracker.ui.BarcodeScannerActivity: void <init>()>();
+
+        if $i0 == 96 goto label072;
+
+        virtualinvoke $r24.<digifit.virtuagym.foodtracker.ui.BarcodeScannerActivity: void onCreate(android.os.Bundle)>(null);
+
+     label068:
+        if $i0 == 98 goto label071;
+
+     label069:
+        if $i0 == 99 goto label070;
+
+        virtualinvoke $r24.<digifit.virtuagym.foodtracker.ui.BarcodeScannerActivity: void onBackPressed()>();
+
+     label070:
+        if $i0 == 100 goto label069;
+
+     label071:
+        if $i0 == 101 goto label068;
+
+        if $i0 == 102 goto label072;
+
+        if $i0 == 103 goto label068;
+
+     label072:
+        if $i0 == 105 goto label078;
+
+        $r25 = new com.facebook.LoginActivity;
+
+        specialinvoke $r25.<com.facebook.LoginActivity: void <init>()>();
+
+        if $i0 == 106 goto label078;
+
+        virtualinvoke $r25.<com.facebook.LoginActivity: void onCreate(android.os.Bundle)>(null);
+
+     label073:
+        virtualinvoke $r25.<com.facebook.LoginActivity: void onResume()>();
+
+        if $i0 == 108 goto label077;
+
+     label074:
+        if $i0 == 109 goto label075;
+
+        virtualinvoke $r25.<com.facebook.LoginActivity: void onActivityResult(int,int,android.content.Intent)>(0, 0, null);
+
+     label075:
+        if $i0 == 110 goto label076;
+
+        staticinvoke <com.facebook.LoginActivity: void <clinit>()>();
+
+     label076:
+        if $i0 == 111 goto label074;
+
+     label077:
+        virtualinvoke $r25.<com.facebook.LoginActivity: void onPause()>();
+
+        virtualinvoke $r25.<com.facebook.LoginActivity: void onSaveInstanceState(android.os.Bundle)>(null);
+
+        if $i0 == 112 goto label073;
+
+        if $i0 == 113 goto label078;
+
+        if $i0 == 114 goto label073;
+
+     label078:
+        if $i0 == 116 goto label081;
+
+        $r26 = new com.google.android.gms.analytics.CampaignTrackingService;
+
+        specialinvoke $r26.<com.google.android.gms.analytics.CampaignTrackingService: void <init>()>();
+
+     label079:
+        if $i0 == 117 goto label080;
+
+        if $i0 == 118 goto label079;
+
+     label080:
+        if $i0 == 120 goto label081;
+
+        if $i0 == 121 goto label080;
+
+     label081:
+        if $i0 == 122 goto label096;
+
+        $r27 = new digifit.virtuagym.foodtracker.ui.LoginActivity;
+
+        specialinvoke $r27.<digifit.virtuagym.foodtracker.ui.LoginActivity: void <init>()>();
+
+        if $i0 == 123 goto label096;
+
+        virtualinvoke $r27.<digifit.virtuagym.foodtracker.ui.LoginActivity: void onCreate(android.os.Bundle)>(null);
+
+     label082:
+        virtualinvoke $r27.<digifit.virtuagym.foodtracker.ui.LoginActivity: void onResume()>();
+
+        if $i0 == 125 goto label095;
+
+     label083:
+        if $i0 == 126 goto label084;
+
+        virtualinvoke $r27.<digifit.virtuagym.foodtracker.ui.LoginActivity: void onBackPressed()>();
+
+     label084:
+        $r28 = new digifit.virtuagym.foodtracker.ui.LoginActivity$6;
+
+        specialinvoke $r28.<digifit.virtuagym.foodtracker.ui.LoginActivity$6: void <init>(digifit.virtuagym.foodtracker.ui.LoginActivity)>($r27);
+
+        if $i0 == 127 goto label085;
+
+        virtualinvoke $r28.<digifit.virtuagym.foodtracker.ui.LoginActivity$6: void onAnimationEnd(android.animation.Animator)>(null);
+
+     label085:
+        $r29 = new digifit.virtuagym.foodtracker.ui.LoginActivity$4;
+
+        specialinvoke $r29.<digifit.virtuagym.foodtracker.ui.LoginActivity$4: void <init>(digifit.virtuagym.foodtracker.ui.LoginActivity)>($r27);
+
+        if $i0 == 128 goto label086;
+
+        virtualinvoke $r29.<digifit.virtuagym.foodtracker.ui.LoginActivity$4: void onClick(android.view.View)>(null);
+
+     label086:
+        $r30 = new digifit.virtuagym.foodtracker.ui.MySignupEmail;
+
+        specialinvoke $r30.<digifit.virtuagym.foodtracker.ui.MySignupEmail: void <init>()>();
+
+        $r31 = new digifit.virtuagym.foodtracker.ui.MySignupEmail$15;
+
+        specialinvoke $r31.<digifit.virtuagym.foodtracker.ui.MySignupEmail$15: void <init>(digifit.virtuagym.foodtracker.ui.MySignupEmail)>($r30);
+
+        if $i0 == 129 goto label087;
+
+        $z6 = virtualinvoke $r31.<digifit.virtuagym.foodtracker.ui.MySignupEmail$15: boolean onKey(android.view.View,int,android.view.KeyEvent)>(null, 0, null);
+
+     label087:
+        $r32 = new digifit.virtuagym.foodtracker.ui.MySignupEmail;
+
+        specialinvoke $r32.<digifit.virtuagym.foodtracker.ui.MySignupEmail: void <init>()>();
+
+        $r33 = new digifit.virtuagym.foodtracker.ui.MySignupEmail$14;
+
+        specialinvoke $r33.<digifit.virtuagym.foodtracker.ui.MySignupEmail$14: void <init>(digifit.virtuagym.foodtracker.ui.MySignupEmail)>($r32);
+
+        if $i0 == 130 goto label088;
+
+        virtualinvoke $r33.<digifit.virtuagym.foodtracker.ui.MySignupEmail$14: void onClick(android.view.View)>(null);
+
+     label088:
+        $r34 = new digifit.virtuagym.foodtracker.ui.MySignupEmail;
+
+        specialinvoke $r34.<digifit.virtuagym.foodtracker.ui.MySignupEmail: void <init>()>();
+
+        $r35 = new digifit.virtuagym.foodtracker.ui.MySignupEmail$12;
+
+        specialinvoke $r35.<digifit.virtuagym.foodtracker.ui.MySignupEmail$12: void <init>(digifit.virtuagym.foodtracker.ui.MySignupEmail)>($r34);
+
+        if $i0 == 131 goto label089;
+
+        virtualinvoke $r35.<digifit.virtuagym.foodtracker.ui.MySignupEmail$12: void onClick(android.view.View)>(null);
+
+     label089:
+        $r36 = new digifit.virtuagym.foodtracker.ui.LoginActivity$7;
+
+        specialinvoke $r36.<digifit.virtuagym.foodtracker.ui.LoginActivity$7: void <init>(digifit.virtuagym.foodtracker.ui.LoginActivity)>($r27);
+
+        if $i0 == 132 goto label090;
+
+        virtualinvoke $r36.<digifit.virtuagym.foodtracker.ui.LoginActivity$7: void onAnimationEnd(android.animation.Animator)>(null);
+
+     label090:
+        $r37 = new digifit.virtuagym.foodtracker.ui.LoginActivity$8;
+
+        specialinvoke $r37.<digifit.virtuagym.foodtracker.ui.LoginActivity$8: void <init>(digifit.virtuagym.foodtracker.ui.LoginActivity)>($r27);
+
+        if $i0 == 133 goto label091;
+
+        virtualinvoke $r37.<digifit.virtuagym.foodtracker.ui.LoginActivity$8: void onAnimationEnd(android.animation.Animator)>(null);
+
+     label091:
+        if $i0 == 134 goto label092;
+
+        virtualinvoke $r37.<digifit.virtuagym.foodtracker.ui.LoginActivity$8: void onAnimationCancel(android.animation.Animator)>(null);
+
+     label092:
+        $r38 = new digifit.virtuagym.foodtracker.ui.MySignupEmail;
+
+        specialinvoke $r38.<digifit.virtuagym.foodtracker.ui.MySignupEmail: void <init>()>();
+
+        $r39 = new digifit.virtuagym.foodtracker.ui.MySignupEmail$13;
+
+        specialinvoke $r39.<digifit.virtuagym.foodtracker.ui.MySignupEmail$13: void <init>(digifit.virtuagym.foodtracker.ui.MySignupEmail)>($r38);
+
+        if $i0 == 135 goto label093;
+
+        $z7 = virtualinvoke $r39.<digifit.virtuagym.foodtracker.ui.MySignupEmail$13: boolean onKey(android.view.View,int,android.view.KeyEvent)>(null, 0, null);
+
+     label093:
+        $r40 = new digifit.virtuagym.foodtracker.ui.LoginActivity$3;
+
+        specialinvoke $r40.<digifit.virtuagym.foodtracker.ui.LoginActivity$3: void <init>(digifit.virtuagym.foodtracker.ui.LoginActivity)>($r27);
+
+        if $i0 == 136 goto label094;
+
+        virtualinvoke $r40.<digifit.virtuagym.foodtracker.ui.LoginActivity$3: void onClick(android.view.View)>(null);
+
+     label094:
+        if $i0 == 137 goto label083;
+
+     label095:
+        virtualinvoke $r27.<digifit.virtuagym.foodtracker.ui.LoginActivity: void onPause()>();
+
+        if $i0 == 138 goto label082;
+
+        if $i0 == 139 goto label096;
+
+        if $i0 == 140 goto label082;
+
+     label096:
+        if $i0 == 142 goto label105;
+
+        $r41 = new com.google.android.gms.ads.AdActivity;
+
+        specialinvoke $r41.<com.google.android.gms.ads.AdActivity: void <init>()>();
+
+        if $i0 == 143 goto label105;
+
+        virtualinvoke $r41.<com.google.android.gms.ads.AdActivity: void onCreate(android.os.Bundle)>(null);
+
+     label097:
+        virtualinvoke $r41.<com.google.android.gms.ads.AdActivity: void onStart()>();
+
+     label098:
+        virtualinvoke $r41.<com.google.android.gms.ads.AdActivity: void onResume()>();
+
+        if $i0 == 145 goto label103;
+
+     label099:
+        $r42 = new com.google.android.gms.internal.zzif$zza;
+
+        specialinvoke $r42.<com.google.android.gms.internal.zzif$zza: void <init>(android.content.Context)>($r41);
+
+        $r43 = new com.google.android.gms.internal.zzba;
+
+        specialinvoke $r43.<com.google.android.gms.internal.zzba: void <init>()>();
+
+        $r44 = new com.google.android.gms.internal.zzk;
+
+        specialinvoke $r44.<com.google.android.gms.internal.zzk: void <init>(com.google.android.gms.internal.zzg)>(null);
+
+        $r45 = new com.google.android.gms.internal.zzhy;
+
+        specialinvoke $r45.<com.google.android.gms.internal.zzhy: void <init>(int,int,boolean)>(0, 0, false);
+
+        $r46 = new com.google.android.gms.internal.zzif;
+
+        specialinvoke $r46.<com.google.android.gms.internal.zzif: void <init>(com.google.android.gms.internal.zzif$zza,com.google.android.gms.internal.zzba,boolean,boolean,com.google.android.gms.internal.zzk,com.google.android.gms.internal.zzhy)>($r42, $r43, false, false, $r44, $r45);
+
+        if $i0 == 146 goto label100;
+
+        virtualinvoke $r46.<com.google.android.gms.internal.zzif: void onDownloadStart(java.lang.String,java.lang.String,java.lang.String,java.lang.String,long)>("", "", "", "", 0L);
+
+     label100:
+        if $i0 == 147 goto label101;
+
+        virtualinvoke $r46.<com.google.android.gms.internal.zzif: void onGlobalLayout()>();
+
+     label101:
+        $r47 = new com.google.android.gms.internal.zzer;
+
+        specialinvoke $r47.<com.google.android.gms.internal.zzer: void <init>(android.content.Context,int,com.google.android.gms.internal.zzet)>($r41, 0, null);
+
+        if $i0 == 148 goto label102;
+
+        virtualinvoke $r47.<com.google.android.gms.internal.zzer: void onClick(android.view.View)>(null);
+
+     label102:
+        if $i0 == 149 goto label099;
+
+     label103:
+        virtualinvoke $r41.<com.google.android.gms.ads.AdActivity: void onPause()>();
+
+        virtualinvoke $r41.<com.google.android.gms.ads.AdActivity: void onSaveInstanceState(android.os.Bundle)>(null);
+
+        if $i0 == 150 goto label098;
+
+        virtualinvoke $r41.<com.google.android.gms.ads.AdActivity: void onStop()>();
+
+        if $i0 == 151 goto label104;
+
+        virtualinvoke $r41.<com.google.android.gms.ads.AdActivity: void onRestart()>();
+
+        if $i0 == 152 goto label097;
+
+     label104:
+        virtualinvoke $r41.<com.google.android.gms.ads.AdActivity: void onDestroy()>();
+
+     label105:
+        if $i0 == 154 goto label107;
+
+        $r48 = new digifit.virtuagym.foodtracker.services.OnBootReceiver;
+
+        specialinvoke $r48.<digifit.virtuagym.foodtracker.services.OnBootReceiver: void <init>()>();
+
+        if $i0 == 155 goto label107;
+
+     label106:
+        virtualinvoke $r48.<digifit.virtuagym.foodtracker.services.OnBootReceiver: void onReceive(android.content.Context,android.content.Intent)>(null, null);
+
+        if $i0 == 157 goto label106;
+
+     label107:
+        if $i0 == 159 goto label001;
+
+        virtualinvoke $r1.<digifit.virtuagym.foodtracker.MyDigifitApp: void onTerminate()>();
+
+        return;
+    }
+
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 3.6 seconds.
+[Spark] Solution found in 3.6 seconds.
+Running incremental callback analysis for 0 components...
+Incremental callback analysis done.
+Found 63 callback methods for 13 components
+Found {res/layout/com_facebook_picker_checkbox.xml=[2131755194 - android.widget.CheckBox], res/layout/abc_select_dialog_material.xml=[2131755129 - android.widget.ListView], res/layout/com_facebook_placepickerfragment.xml=[2131755190 - android.widget.ListView, 2131755191 - android.widget.ProgressBar, -1 - android.widget.RelativeLayout], res/layout/numberedit.xml=[2131755095 - android.widget.TextView, -1 - android.widget.LinearLayout, 2131755406 - android.widget.EditText], res/layout/tooltip.xml=[2131755527 - android.widget.FrameLayout, 2131755528 - android.widget.ImageView, 2131755525 - android.widget.TextView, 2131755524 - android.widget.FrameLayout, 2131755522 - android.widget.FrameLayout, 2131755523 - android.widget.ImageView, 2131755526 - android.view.View, -1 - android.widget.RelativeLayout], res/layout/lv_footer_multiple_barcode_results.xml=[2131755373 - android.widget.Button, -1 - android.widget.LinearLayout], res/layout/abc_simple_dropdown_hint.xml=[16908308 - android.widget.TextView], res/layout/actionbar_search.xml=[2131755148 - android.widget.EditText, -1 - android.widget.RelativeLayout], res/layout/add_food_dialog.xml=[2131755156 - android.widget.RelativeLayout, 2131755158 - android.widget.Spinner, 2131755159 - android.widget.CheckBox, -1 - android.widget.LinearLayout, 2131755153 - android.widget.LinearLayout, 2131755155 - android.widget.Spinner, 2131755157 - android.widget.TextView, -1 - android.widget.RelativeLayout, 2131755154 - android.widget.EditText], res/layout/durationpicker.xml=[2131755229 - android.widget.NumberPicker, 2131755095 - android.widget.TextView, -1 - android.widget.LinearLayout, 2131755230 - android.widget.NumberPicker, 2131755231 - android.widget.NumberPicker], res/layout/abc_action_bar_view_list_nav_layout.xml=[-1 - android.widget.LinearLayout], res/layout/com_facebook_picker_list_section_header.xml=[2131755199 - android.widget.TextView], res/layout/abc_popup_menu_item_layout.xml=[2131755095 - android.widget.TextView, 2131755108 - android.widget.TextView, -1 - android.widget.RelativeLayout], res/layout/numberpicker.xml=[2131755095 - android.widget.TextView, 2131755408 - android.widget.EditText, 2131755252 - android.widget.TextView, 2131755407 - android.widget.NumberPicker, -1 - android.widget.RelativeLayout], res/layout/nutr_plan_2.xml=[2131755425 - android.widget.Spinner, 2131755427 - android.widget.Spinner, 2131755428 - android.widget.Spinner, 2131755409 - android.widget.LinearLayout, -1 - android.widget.ScrollView, -1 - android.widget.LinearLayout, 2131755410 - android.widget.TextView, 2131755431 - android.widget.Spinner, 2131755429 - android.widget.Spinner, 2131755430 - android.widget.TextView, 2131755426 - android.widget.TextView, -1 - android.widget.RelativeLayout, 2131755424 - android.widget.TextView], res/layout/meal_create_main.xml=[-1 - android.widget.LinearLayout, 2131755381 - android.widget.RelativeLayout, 2131755240 - android.widget.EditText, 2131755259 - android.widget.ListView, 2131755382 - android.widget.LinearLayout, -1 - android.widget.RelativeLayout], res/layout/about_page.xml=[2131755134 - mobidapt.android.common.ui.Banner, -1 - android.widget.LinearLayout, 2131755135 - android.widget.TextView], res/layout/notification_template_part_chronometer.xml=[2131755400 - android.widget.Chronometer], res/layout/nutr_plan_4.xml=[-1 - android.widget.ScrollView, -1 - android.widget.LinearLayout, 2131755442 - android.widget.TextView, 2131755443 - android.widget.TextView, 2131755441 - android.widget.TextView, 2131755410 - android.widget.TextView, 2131755440 - android.widget.Spinner, 2131755409 - android.widget.LinearLayout, -1 - android.widget.RelativeLayout], res/layout/com_facebook_picker_activity_circle_row.xml=[2131755193 - android.widget.ProgressBar, -1 - android.widget.RelativeLayout], res/layout/meal_list_main.xml=[-1 - android.widget.TextView, -1 - android.widget.LinearLayout, -1 - android.widget.ImageView, 2131755153 - android.widget.LinearLayout, 2131755384 - android.widget.LinearLayout, 2131755383 - android.widget.ListView, -1 - android.widget.RelativeLayout, 2131755174 - android.widget.Button, -1 - android.widget.FrameLayout], res/layout/drawer_item.xml=[2131755227 - android.widget.TextView, 2131755225 - android.widget.RelativeLayout, -1 - android.widget.LinearLayout, 2131755226 - android.widget.ImageView, 2131755228 - android.view.View, -1 - android.widget.RelativeLayout], res/layout/abc_alert_dialog_material.xml=[16908299 - android.widget.TextView, 2131755096 - android.widget.LinearLayout, 2131755097 - android.widget.LinearLayout, 2131755098 - android.widget.LinearLayout, 16908294 - android.widget.ImageView, 2131755102 - android.view.View, 16908314 - android.widget.Button, 16908313 - android.widget.Button, 2131755105 - android.widget.LinearLayout, -1 - android.widget.LinearLayout, 2131755101 - android.widget.ScrollView, 16908315 - android.widget.Button, 2131755104 - android.widget.FrameLayout, 2131755103 - android.widget.FrameLayout, 2131755100 - android.widget.FrameLayout], res/layout/drawer_list_item.xml=[16908308 - android.widget.TextView], res/layout/qustom_dialog_layout.xml=[2131755479 - android.widget.TextView, 2131755096 - android.widget.LinearLayout, 2131755478 - android.view.View, 2131755097 - android.widget.LinearLayout, 2131755100 - android.widget.LinearLayout, 2131755098 - android.widget.LinearLayout, 2131755094 - android.widget.ImageView, 2131755103 - android.widget.FrameLayout], res/layout/barcode_result.xml=[-1 - android.widget.LinearLayout, 2131755166 - android.widget.ProgressBar, 2131755164 - android.widget.TextView, 2131755165 - android.widget.TextView, 2131755167 - android.widget.TextView, 2131755168 - android.widget.ListView, -1 - android.widget.RelativeLayout], res/layout/abc_search_dropdown_item_icons_2line.xml=[16908309 - android.widget.TextView, 16908308 - android.widget.TextView, -1 - android.widget.RelativeLayout], res/layout/barcode_scanner_main.xml=[-1 - android.widget.LinearLayout, 2131755169 - android.widget.FrameLayout], res/layout/food_definition_nutr_row.xml=[2131755249 - android.widget.TableRow, 2131755273 - android.widget.TextView, 2131755251 - android.widget.TextView], res/layout/eattime_card.xml=[-1 - android.widget.LinearLayout, 2131755232 - android.widget.TextView, 2131755233 - android.widget.ListView], res/layout/lv_footer.xml=[-1 - android.widget.ImageView, 2131755359 - android.widget.LinearLayout, 2131755362 - android.widget.LinearLayout, 2131755363 - android.widget.RelativeLayout, 2131755369 - android.widget.TextView, 2131755364 - android.widget.RelativeLayout, 2131755367 - android.widget.RelativeLayout, -1 - android.view.View, 2131755368 - android.widget.ImageView, 2131755371 - android.widget.TextView, 2131755370 - android.widget.TextView, -1 - android.widget.RelativeLayout, 2131755365 - android.widget.TextView, 2131755366 - android.widget.TextView], res/layout/food_lists_holder.xml=[-1 - android.widget.LinearLayout], res/layout/percentage_circles.xml=[2131755282 - android.widget.LinearLayout, 2131755286 - android.widget.RelativeLayout, 2131755287 - digifit.virtuagym.foodtracker.views.PercentageCircle, 2131755284 - android.widget.RelativeLayout, 2131755283 - digifit.virtuagym.foodtracker.views.PercentageCircle, 2131755285 - digifit.virtuagym.foodtracker.views.PercentageCircle, 2131755298 - android.widget.LinearLayout, 2131755473 - android.widget.RelativeLayout], res/layout/lv_header_meals.xml=[-1 - android.widget.TextView, -1 - android.widget.LinearLayout], res/layout/nutr_plan_1.xml=[2131755414 - digifit.virtuagym.foodtracker.views.CircleView, 2131755423 - android.widget.Spinner, 2131755415 - android.widget.ImageView, 2131755416 - android.widget.ImageView, 2131755413 - android.widget.ImageView, 2131755412 - android.widget.ImageView, 2131755419 - android.widget.EditText, 2131755420 - android.widget.EditText, 2131755239 - android.widget.ScrollView, 2131755409 - android.widget.LinearLayout, 2131755411 - digifit.virtuagym.foodtracker.views.CircleView, 2131755422 - android.widget.EditText, 2131755417 - android.widget.EditText, 2131755418 - android.widget.EditText, -1 - android.widget.LinearLayout, 2131755410 - android.widget.TextView, 2131755421 - android.widget.Spinner, -1 - android.widget.RelativeLayout], res/layout/lv_food_instance_row.xml=[2131755352 - android.widget.ImageView, 2131755356 - android.widget.TextView, 2131755358 - android.widget.LinearLayout, 2131755354 - android.widget.TextView, 2131755355 - android.widget.TextView, 2131755359 - android.widget.LinearLayout, 2131755353 - android.widget.LinearLayout, 2131755351 - android.widget.RelativeLayout, 2131755350 - android.widget.LinearLayout, 2131755349 - android.widget.LinearLayout, 2131755347 - android.widget.TextView, 2131755346 - android.widget.RelativeLayout, -1 - android.widget.LinearLayout, 2131755348 - android.widget.TextView, 2131755357 - android.widget.Button, -1 - android.widget.RelativeLayout], res/layout/com_facebook_login_activity_layout.xml=[2131755192 - android.widget.ProgressBar, -1 - android.widget.RelativeLayout], res/layout/reminders_main.xml=[-1 - android.widget.LinearLayout, 2131755483 - android.widget.ListView, -1 - android.widget.RelativeLayout], res/layout/percentages_circle_green.xml=[2131755477 - digifit.virtuagym.foodtracker.views.PercentageCircle, -1 - android.widget.LinearLayout, 2131755474 - android.widget.LinearLayout, 2131755473 - android.widget.RelativeLayout, -1 - android.widget.RelativeLayout, 2131755475 - digifit.virtuagym.foodtracker.views.PercentageCircle, 2131755476 - digifit.virtuagym.foodtracker.views.PercentageCircle], res/layout/food_new_holder.xml=[-1 - android.widget.LinearLayout], res/layout/register_text.xml=[2131755403 - android.widget.TextView, 2131755095 - android.widget.TextView, 2131755481 - android.widget.TextView, 2131755480 - android.widget.TextView, 2131755482 - android.widget.TextView, -1 - android.widget.RelativeLayout], res/layout/abc_action_bar_up_container.xml=[-1 - android.widget.LinearLayout], res/layout/activity_main.xml=[2131755152 - android.widget.ListView, 2131755151 - android.widget.LinearLayout, -1 - android.widget.RelativeLayout], res/layout/date_select_dialog.xml=[2131755222 - android.widget.DatePicker, -1 - android.widget.LinearLayout], res/layout/login_main.xml=[2131755329 - android.widget.ImageView, 2131755334 - android.widget.RelativeLayout, 2131755327 - android.widget.ImageView, 2131755332 - com.facebook.widget.LoginButton, 2131755328 - android.widget.ImageView, 2131755325 - android.widget.ImageView, 2131755326 - android.widget.ImageView, 2131755335 - android.widget.ImageView, 2131755336 - android.widget.ImageView, 2131755338 - android.widget.ImageView, 2131755337 - android.widget.ImageView, 2131755339 - android.widget.ImageView, 2131755333 - digifit.virtuagym.foodtracker.views.DisabledButton, 2131755330 - android.widget.Button, 2131755320 - android.widget.ImageView, 2131755321 - android.widget.ImageView, 2131755322 - android.widget.ImageView, 2131755331 - android.widget.Button, 2131755340 - android.widget.RelativeLayout, 2131755324 - android.widget.ImageView, 2131755323 - android.widget.ImageView, -1 - android.widget.FrameLayout, -1 - android.widget.RelativeLayout], res/layout/abc_activity_chooser_view_list_item.xml=[2131755093 - android.widget.LinearLayout, 2131755095 - android.widget.TextView, -1 - android.widget.LinearLayout, 2131755094 - android.widget.ImageView], res/layout/fragment_ad.xml=[2131755317 - com.google.android.gms.ads.AdView, -1 - android.widget.RelativeLayout], res/layout/custom_plan_percentages_dialog.xml=[2131755217 - android.widget.EditText, -1 - android.widget.TextView, -1 - android.widget.LinearLayout, 2131755221 - android.widget.EditText, 2131755219 - android.widget.EditText, 2131755216 - android.widget.TextView, 2131755218 - android.widget.TextView, -1 - android.widget.RelativeLayout, 2131755220 - android.widget.TextView], res/layout/food_instances_main.xml=[2131755288 - android.widget.RelativeLayout, 2131755294 - android.widget.TextView, -1 - android.widget.ImageView, 2131755290 - android.widget.TextView, 2131755292 - android.widget.TextView, 2131755258 - android.widget.LinearLayout, -1 - android.widget.TextView, 2131755299 - android.widget.LinearLayout, -1 - android.widget.LinearLayout, 2131755303 - android.widget.Button, 2131755301 - android.widget.Button, 2131755309 - android.widget.LinearLayout, 2131755293 - android.widget.ProgressBar, 2131755305 - android.widget.TextView, -1 - android.widget.RelativeLayout, 2131755307 - android.widget.TextView, 2131755311 - digifit.virtuagym.foodtracker.views.ToolTipRelativeLayout, 2131755291 - android.widget.TextView, 2131755308 - android.widget.RelativeLayout, 2131755310 - android.widget.LinearLayout, 2131755295 - android.widget.TextView, 2131755304 - android.widget.RelativeLayout, 2131755297 - android.widget.RelativeLayout, 2131755289 - android.widget.LinearLayout, 2131755300 - android.widget.LinearLayout, 2131755298 - android.view.ViewStub, 2131755296 - android.widget.TextView, 2131755302 - android.widget.Button, 2131755153 - android.widget.LinearLayout, 2131755306 - android.widget.TextView], res/layout/food_search_main.xml=[2131755314 - android.widget.ListView, 2131755315 - android.widget.TextView, -1 - android.widget.LinearLayout, 2131755166 - android.widget.ProgressBar, 2131755153 - android.widget.LinearLayout, 2131755316 - android.widget.Button, -1 - android.widget.FrameLayout, -1 - android.widget.RelativeLayout], res/layout/abc_action_bar_title_item.xml=[-1 - android.widget.LinearLayout, 2131755086 - android.widget.TextView, 2131755087 - android.widget.TextView], res/layout/notification_media_cancel_action.xml=[2131755393 - android.widget.ImageButton], res/layout/nutrition_plan_overview.xml=[2131755456 - digifit.virtuagym.foodtracker.views.CircleView, 2131755458 - digifit.virtuagym.foodtracker.views.CircleView, 2131755454 - digifit.virtuagym.foodtracker.views.CircleView, 2131755464 - android.widget.TextView, 2131755465 - android.widget.TextView, 2131755272 - android.widget.LinearLayout, 2131755460 - android.widget.TextView, 2131755463 - android.widget.TextView, 2131755461 - android.widget.TextView, 2131755462 - android.widget.TextView, 2131755459 - android.widget.TextView, 2131755216 - android.widget.TextView, 2131755452 - android.widget.TextView, 2131755220 - android.widget.TextView, 2131755457 - android.widget.TextView, 2131755455 - android.widget.RelativeLayout, 2131755453 - android.widget.RelativeLayout, -1 - android.widget.TextView, -1 - android.widget.ScrollView, -1 - android.widget.LinearLayout, 2131755138 - digifit.virtuagym.foodtracker.views.PieChart, -1 - android.widget.RelativeLayout, 2131755466 - android.widget.Button], res/layout/add_unit_dialog.xml=[2131755160 - digifit.virtuagym.foodtracker.views.InstantAutoComplete, 2131755161 - android.widget.EditText, -1 - android.widget.LinearLayout, 2131755162 - android.widget.Spinner, 2131755163 - android.widget.CheckBox], res/layout/scanner_main.xml=[2131755485 - android.widget.RelativeLayout, 2131755484 - android.widget.FrameLayout, -1 - android.widget.LinearLayout, 2131755486 - android.widget.TextView, -1 - android.widget.RelativeLayout], res/layout/achievement.xml=[2131755137 - android.widget.TextView, 2131755140 - android.widget.TextView, 2131755138 - digifit.virtuagym.foodtracker.views.PieChart, 2131755139 - digifit.virtuagym.foodtracker.views.PieChart, 2131755141 - android.widget.TextView, -1 - android.widget.RelativeLayout, 2131755136 - android.widget.ImageView], res/layout-v21/lv_food_instance_row.xml=[2131755352 - android.widget.ImageView, 2131755356 - android.widget.TextView, 2131755358 - android.widget.LinearLayout, 2131755354 - android.widget.TextView, 2131755355 - android.widget.TextView, 2131755359 - android.widget.LinearLayout, 2131755353 - android.widget.LinearLayout, 2131755351 - android.widget.RelativeLayout, 2131755350 - android.widget.LinearLayout, 2131755349 - android.widget.LinearLayout, 2131755347 - android.widget.TextView, 2131755346 - android.widget.RelativeLayout, -1 - android.widget.LinearLayout, 2131755348 - android.widget.TextView, 2131755357 - android.widget.Button, -1 - android.widget.RelativeLayout], res/layout/lv_header.xml=[2131755346 - android.widget.TextView, -1 - android.widget.LinearLayout], res/layout/com_facebook_picker_title_bar_stub.xml=[2131755203 - android.view.ViewStub], res/layout/lv_footer_meals.xml=[2131755372 - android.widget.Button, -1 - android.widget.LinearLayout], res/layout/week_overview_score.xml=[2131755535 - android.widget.TextView, 2131755547 - android.widget.ProgressBar, 2131755558 - android.widget.TextView, 2131755552 - android.widget.TextView, 2131755554 - android.widget.TextView, 2131755556 - android.widget.TextView, -1 - android.widget.TableRow, 2131755453 - android.widget.TextView, 2131755539 - android.widget.ProgressBar, 2131755545 - android.widget.TextView, -1 - android.widget.TextView, 2131755541 - android.widget.RelativeLayout, -1 - android.widget.LinearLayout, 2131755537 - android.widget.TextView, -1 - android.widget.TableLayout, 2131755551 - android.widget.TextView, 2131755380 - android.widget.RelativeLayout, 2131755549 - android.widget.TextView, 2131755543 - android.widget.TextView, -1 - android.widget.RelativeLayout, 2131755555 - android.widget.TextView, 2131755553 - android.widget.TextView, 2131755559 - android.widget.TextView, 2131755557 - android.widget.TextView, 2131755534 - android.widget.RelativeLayout, 2131755544 - android.widget.TextView, 2131755542 - android.widget.RelativeLayout, -1 - android.widget.ScrollView, 2131755538 - android.widget.TextView, 2131755296 - android.widget.TextView, 2131755540 - android.view.ViewStub, 2131755550 - android.widget.TextView, 2131755536 - android.widget.TextView, 2131755546 - android.widget.TextView, 2131755548 - android.view.ViewStub], res/layout/food_definition_main.xml=[2131755244 - android.widget.TableLayout, -1 - android.widget.ImageView, 2131755267 - android.widget.TextView, 2131755271 - android.widget.LinearLayout, 2131755265 - android.widget.TextView, 2131755270 - android.widget.Button, 2131755268 - android.widget.Button, 2131755258 - android.widget.LinearLayout, -1 - android.widget.LinearLayout, 2131755254 - android.widget.RelativeLayout, 2131755242 - android.widget.Spinner, 2131755264 - android.widget.LinearLayout, 2131755240 - android.widget.TextView, 2131755262 - android.widget.RelativeLayout, 2131755253 - android.widget.ScrollView, 2131755256 - android.widget.ImageView, -1 - android.widget.RelativeLayout, 2131755260 - android.widget.LinearLayout, 2131755243 - android.widget.TableLayout, 2131755266 - android.widget.TextView, 2131755272 - android.widget.LinearLayout, 2131755269 - android.widget.Button, 2131755259 - android.widget.ListView, 2131755257 - android.widget.TextView, 2131755245 - android.widget.Button, 2131755263 - android.widget.TextView, 2131755261 - android.widget.RelativeLayout, 2131755241 - android.widget.TextView, 2131755255 - android.widget.ImageView], res/layout/about.xml=[2131755133 - android.widget.Button, 2131755131 - com.viewpagerindicator.CirclePageIndicator, -1 - android.widget.RelativeLayout, 2131755132 - android.widget.TextView], res/layout/notification_template_big_media.xml=[2131755396 - android.widget.RelativeLayout, 2131755094 - android.widget.ImageView, 2131755397 - android.widget.LinearLayout, 2131755398 - android.widget.ImageView], res/layout/become_pro_main.xml=[2131755170 - android.widget.TextView, 2131755175 - android.widget.Button, 2131755171 - android.widget.TextView, 2131755095 - android.widget.TextView, -1 - android.widget.TextView, 2131755173 - android.widget.TextView, -1 - android.widget.ScrollView, -1 - android.widget.LinearLayout, -1 - android.widget.ImageView, 2131755172 - android.widget.TextView, 2131755174 - android.widget.Button], res/layout/actionbar_autocomplete.xml=[-1 - android.widget.LinearLayout, 2131755147 - android.widget.AutoCompleteTextView], res/layout/design_navigation_item_subheader.xml=[-1 - android.widget.TextView], res/layout/com_facebook_picker_list_row.xml=[-1 - android.widget.LinearLayout, 2131755198 - android.view.ViewStub, 2131755197 - android.widget.TextView, 2131755196 - android.view.ViewStub], res/layout/food_search_holder_main.xml=[2131755313 - digifit.virtuagym.foodtracker.views.SlidingTabLayout, 2131755130 - digifit.virtuagym.foodtracker.views.ToDisableViewPager, -1 - android.widget.RelativeLayout], res/layout-v21/food_definition_main.xml=[2131755244 - android.widget.TableLayout, -1 - android.widget.ImageView, 2131755267 - android.widget.TextView, 2131755271 - android.widget.LinearLayout, 2131755265 - android.widget.TextView, 2131755270 - android.widget.Button, 2131755268 - android.widget.Button, 2131755258 - android.widget.LinearLayout, -1 - android.widget.LinearLayout, 2131755254 - android.widget.RelativeLayout, 2131755242 - android.widget.Spinner, 2131755264 - android.widget.LinearLayout, 2131755240 - android.widget.TextView, 2131755262 - android.widget.RelativeLayout, 2131755253 - android.widget.ScrollView, 2131755256 - android.widget.ImageView, -1 - android.widget.RelativeLayout, 2131755260 - android.widget.LinearLayout, 2131755243 - android.widget.TableLayout, 2131755266 - android.widget.TextView, 2131755272 - android.widget.LinearLayout, 2131755269 - android.widget.Button, 2131755259 - android.widget.ListView, 2131755257 - android.widget.TextView, 2131755245 - android.widget.Button, 2131755263 - android.widget.TextView, 2131755261 - android.widget.RelativeLayout, 2131755241 - android.widget.TextView, 2131755255 - android.widget.ImageView], res/layout/week_overview_holder.xml=[2131755533 - android.widget.LinearLayout, -1 - android.widget.RelativeLayout], res/layout/food_create_main.xml=[2131755244 - android.widget.TableLayout, 2131755243 - android.widget.TableLayout, -1 - android.widget.LinearLayout, 2131755245 - android.widget.Button, 2131755248 - android.widget.Button, 2131755246 - android.widget.LinearLayout, 2131755242 - android.widget.Spinner, 2131755239 - android.widget.ScrollView, 2131755240 - android.widget.EditText, 2131755247 - android.widget.RelativeLayout, -1 - android.widget.RelativeLayout, 2131755241 - android.widget.EditText], res/layout/com_facebook_picker_title_bar.xml=[2131755200 - android.widget.RelativeLayout, 2131755197 - android.widget.TextView, 2131755201 - android.widget.Button, 2131755202 - android.widget.LinearLayout], res/layout/nutr_plan_3.xml=[2131755239 - android.widget.ScrollView, 2131755409 - android.widget.LinearLayout, 2131755434 - android.widget.TextView, 2131755435 - android.widget.TextView, 2131755432 - android.widget.Spinner, 2131755433 - android.widget.EditText, 2131755437 - android.widget.TextView, -1 - android.widget.LinearLayout, 2131755410 - android.widget.TextView, 2131755439 - android.widget.TextView, 2131755438 - android.widget.SeekBar, -1 - android.widget.RelativeLayout, 2131755436 - android.widget.LinearLayout], res/layout/my_food_list_main.xml=[-1 - android.widget.TextView, -1 - android.widget.LinearLayout, -1 - android.widget.ImageView, 2131755153 - android.widget.LinearLayout, 2131755386 - android.widget.LinearLayout, 2131755385 - android.widget.ListView, -1 - android.widget.FrameLayout], res/layout/instance_holder_main.xml=[2131755130 - digifit.virtuagym.foodtracker.views.ToDisableViewPager], res/layout/layout_tab_icon.xml=[-1 - android.widget.ImageView], res/layout/food_instances_charts.xml=[2131755286 - android.widget.RelativeLayout, 2131755287 - digifit.virtuagym.foodtracker.views.PercentageCircle, -1 - android.widget.LinearLayout, 2131755283 - digifit.virtuagym.foodtracker.views.PercentageCircle, 2131755284 - android.widget.RelativeLayout, 2131755285 - digifit.virtuagym.foodtracker.views.PercentageCircle, 2131755282 - android.widget.RelativeLayout], res/layout/drawer_header.xml=[2131755224 - android.widget.TextView, -1 - android.widget.LinearLayout, 2131755176 - digifit.virtuagym.foodtracker.views.RoundedImageView, 2131755223 - android.widget.TextView, -1 - android.widget.RelativeLayout], res/layout/login_select.xml=[2131755345 - android.widget.TextView, 2131755342 - android.widget.Button, -1 - android.widget.LinearLayout, 2131755332 - com.facebook.widget.LoginButton, 2131755341 - android.widget.TextView, 2131755344 - android.widget.Button, 2131755343 - android.widget.Button], res/layout/abc_dialog_title_material.xml=[2131755095 - android.widget.TextView], res/layout/notification_options.xml=[-1 - android.widget.LinearLayout, 2131755395 - android.widget.CheckBox, 2131755394 - android.widget.CheckBox], res/layout/nutrition_plan_new.xml=[2131755449 - android.widget.ImageView, 2131755450 - android.widget.ImageView, 2131755451 - android.widget.ImageView, 2131755448 - android.widget.ImageView, -1 - android.widget.ImageView, -1 - android.widget.LinearLayout, 2131755447 - android.widget.ImageView, 2131755444 - android.widget.ImageView, 2131755445 - android.widget.ImageView, 2131755446 - android.widget.ImageView, -1 - android.widget.RelativeLayout], res/layout/food_create_nutr_row.xml=[2131755251 - android.widget.EditText, -1 - android.widget.LinearLayout, 2131755249 - android.widget.TableRow, 2131755252 - android.widget.TextView, 2131755250 - android.widget.TextView], res/layout/signup_pro.xml=[2131755521 - android.webkit.WebView, -1 - android.widget.LinearLayout], res/layout/week_overview_calories.xml=[2131755532 - android.widget.LinearLayout, 2131755166 - android.widget.ProgressBar, 2131755531 - android.widget.ListView, 2131755530 - digifit.virtuagym.foodtracker.views.SlidingUpPanelLayout, 2131755382 - android.widget.LinearLayout, -1 - android.widget.RelativeLayout], res/layout/select_dialog_singlechoice_material.xml=[16908308 - android.widget.CheckedTextView], res/layout/select_dialog_item_material.xml=[16908308 - android.widget.TextView], res/layout/signup_login_email.xml=[2131755333 - digifit.virtuagym.foodtracker.views.DisabledButton, 2131755517 - android.widget.Button, 2131755518 - android.widget.Button, 2131755520 - android.widget.TextView, -1 - android.widget.ImageView, -1 - android.widget.LinearLayout, 2131755332 - com.facebook.widget.LoginButton, 2131755515 - android.widget.EditText, 2131755519 - android.widget.TextView, 2131755516 - digifit.virtuagym.foodtracker.views.InstantAutoComplete, -1 - android.widget.RelativeLayout], res/layout/select_dialog_multichoice_material.xml=[16908308 - android.widget.CheckedTextView], res/layout/branding.xml=[2131755187 - android.widget.FrameLayout, -1 - android.widget.ImageView, 2131755189 - android.widget.ImageView, 2131755186 - mobidapt.android.common.ui.ParallaxingImageView, 2131755188 - android.widget.FrameLayout, 2131755185 - android.widget.FrameLayout], res/layout/com_facebook_tooltip_bubble.xml=[2131755212 - android.widget.ImageView, 2131755210 - android.widget.ImageView, 2131755209 - android.widget.ImageView, 2131755211 - android.widget.TextView, 2131755208 - android.widget.RelativeLayout, -1 - android.widget.RelativeLayout], res/layout/design_navigation_item_separator.xml=[-1 - android.view.View, -1 - android.widget.FrameLayout], res/layout/lv_food_row.xml=[2131755352 - android.widget.ImageView, 2131755356 - android.widget.TextView, -1 - android.widget.LinearLayout, 2131755354 - android.widget.TextView, 2131755351 - android.widget.LinearLayout, 2131755353 - android.widget.LinearLayout, 2131755361 - android.widget.TextView, 2131755357 - android.widget.Button, 2131755256 - android.widget.ImageView, 2131755360 - android.widget.FrameLayout], res/layout/settings_main.xml=[2131755488 - android.widget.CheckBox, 2131755423 - android.widget.Spinner, 2131755491 - android.widget.EditText, 2131755510 - android.widget.LinearLayout, 2131755506 - android.widget.TextView, 2131755508 - android.widget.TextView, 2131755512 - android.widget.TextView, 2131755500 - android.widget.LinearLayout, -1 - android.widget.LinearLayout, 2131755502 - android.widget.TextView, 2131755496 - android.widget.TextView, 2131755498 - android.widget.TextView, 2131755494 - android.widget.TextView, 2131755504 - android.widget.LinearLayout, 2131755253 - android.widget.ScrollView, 2131755421 - android.widget.Spinner, -1 - android.widget.RelativeLayout, 2131755511 - android.widget.TextView, 2131755487 - android.widget.Spinner, 2131755492 - android.widget.TextView, 2131755514 - android.widget.Button, 2131755272 - android.widget.LinearLayout, 2131755507 - android.widget.LinearLayout, 2131755490 - android.widget.EditText, 2131755505 - android.widget.TextView, 2131755489 - android.widget.CheckBox, 2131755509 - android.widget.TextView, 2131755513 - android.widget.TextView, 2131755501 - android.widget.TextView, 2131755503 - android.widget.TextView, 2131755499 - android.widget.TextView, 2131755495 - android.widget.TextView, 2131755497 - android.widget.LinearLayout, 2131755493 - android.widget.LinearLayout], res/layout/notification_media_action.xml=[2131755392 - android.widget.ImageButton], res/layout/food_image_picker.xml=[2131755280 - digifit.virtuagym.foodtracker.views.SquareImageView, 2131755274 - android.widget.ImageView, 2131755278 - digifit.virtuagym.foodtracker.views.SquareImageView, 2131755279 - digifit.virtuagym.foodtracker.views.SquareImageView, 2131755277 - android.widget.LinearLayout, 2131755281 - digifit.virtuagym.foodtracker.views.SquareImageView, 2131755275 - android.widget.TextView, 2131755276 - android.widget.TextView, -1 - android.widget.RelativeLayout], res/layout/design_navigation_item_header.xml=[-1 - android.widget.LinearLayout], res/layout/com_facebook_picker_search_box.xml=[-1 - android.widget.LinearLayout, -1 - android.view.View], res/layout/com_facebook_search_bar_layout.xml=[2131755207 - android.widget.EditText, 2131755206 - android.widget.LinearLayout], res/layout/abc_list_menu_item_layout.xml=[2131755095 - android.widget.TextView, 2131755108 - android.widget.TextView, -1 - android.widget.RelativeLayout], res/layout/com_facebook_friendpickerfragment.xml=[2131755190 - android.widget.ListView, 2131755191 - android.widget.ProgressBar, -1 - android.widget.RelativeLayout], res/layout/layout_snackbar_include.xml=[2131755318 - android.widget.TextView, 2131755319 - android.widget.TextView], res/layout/lv_reminder.xml=[-1 - android.widget.LinearLayout, 2131755157 - android.widget.TextView, 2131755380 - android.widget.LinearLayout, -1 - android.widget.RelativeLayout], res/layout/abc_list_menu_item_checkbox.xml=[2131755107 - android.widget.CheckBox], res/layout/lv_kcal_percentage.xml=[2131755140 - android.widget.TextView, -1 - android.widget.LinearLayout, 2131755377 - android.widget.TextView, 2131755375 - android.widget.TextView, 2131755378 - android.widget.ProgressBar, 2131755374 - android.widget.TextView, 2131755376 - android.widget.LinearLayout, -1 - android.widget.RelativeLayout], res/layout/percentage_circle.xml=[2131755467 - android.widget.LinearLayout, -1 - android.widget.TextView, -1 - android.widget.LinearLayout, 2131755471 - android.widget.TextView, 2131755472 - android.widget.TextView, 2131755409 - android.widget.LinearLayout, 2131755469 - android.widget.LinearLayout, 2131755470 - android.widget.LinearLayout, 2131755468 - android.widget.LinearLayout], res/layout/abc_list_menu_item_radio.xml=[2131755109 - android.widget.RadioButton], res/layout/abc_activity_chooser_view.xml=[2131755091 - android.widget.ImageView, 2131755092 - android.widget.FrameLayout, 2131755090 - android.widget.FrameLayout], res/layout/achievements.xml=[-1 - android.widget.LinearLayout, 2131755145 - android.widget.TextView, 2131755146 - android.widget.TextView, 2131755144 - android.widget.LinearLayout, -1 - android.widget.RelativeLayout, 2131755143 - android.widget.LinearLayout], res/layout/become_pro_period_main.xml=[2131755181 - android.widget.LinearLayout, 2131755182 - android.widget.TextView, -1 - android.widget.ImageView, 2131755179 - android.widget.TextView, 2131755183 - android.widget.LinearLayout, 2131755177 - android.widget.TextView, 2131755178 - android.widget.LinearLayout, 2131755180 - android.widget.RelativeLayout, -1 - android.widget.ScrollView, -1 - android.widget.LinearLayout, 2131755176 - digifit.virtuagym.foodtracker.views.RoundedImageView, 2131755184 - android.widget.TextView, -1 - android.widget.RelativeLayout], res/layout/new_plan_main.xml=[2131755389 - android.widget.TextView, 2131755388 - android.widget.TextView, 2131755391 - android.widget.LinearLayout, 2131755390 - android.widget.ImageView, 2131755378 - android.widget.ProgressBar, 2131755387 - android.widget.TextView, -1 - android.widget.FrameLayout, -1 - android.widget.RelativeLayout], res/layout/webview.xml=[2131755529 - android.webkit.WebView], res/layout/feedback_dialog.xml=[-1 - android.widget.LinearLayout, 2131755234 - android.widget.RadioGroup, 2131755236 - android.widget.RadioButton, 2131755235 - android.widget.RadioButton, 2131755237 - android.widget.RadioButton, 2131755238 - android.widget.RadioButton], res/layout/abc_search_view.xml=[2131755126 - android.widget.LinearLayout, 2131755123 - android.widget.LinearLayout, 2131755119 - android.widget.TextView, 2131755121 - android.widget.LinearLayout, 2131755118 - android.widget.LinearLayout], res/layout/contextual_title.xml=[-1 - android.widget.TextView, -1 - android.widget.LinearLayout], res/layout/layout_tab_text.xml=[-1 - android.widget.TextView], res/layout/com_facebook_picker_image.xml=[2131755195 - android.widget.ImageView], res/layout/notification_template_media.xml=[2131755405 - android.widget.ImageView, 2131755396 - android.widget.LinearLayout, 2131755094 - android.widget.ImageView, 2131755397 - android.widget.LinearLayout], res/layout/com_facebook_placepickerfragment_list_row.xml=[-1 - android.widget.LinearLayout, -1 - android.view.View, 2131755205 - android.widget.TextView, 2131755197 - android.widget.TextView, -1 - android.widget.RelativeLayout, -1 - android.widget.FrameLayout, 2131755196 - android.view.ViewStub], res/layout/notification_template_big_media_narrow.xml=[2131755396 - android.widget.RelativeLayout, 2131755094 - android.widget.ImageView, 2131755397 - android.widget.LinearLayout, 2131755398 - android.widget.ImageView], res/layout/com_facebook_usersettingsfragment.xml=[2131755214 - android.widget.TextView, 2131755215 - com.facebook.widget.LoginButton, -1 - android.widget.ScrollView, -1 - android.widget.LinearLayout, 2131755213 - android.widget.ImageView], res/layout/notification_template_lines.xml=[2131755401 - android.widget.TextView, 2131755402 - android.widget.LinearLayout, 2131755399 - android.widget.LinearLayout, 2131755095 - android.widget.TextView, 2131755403 - android.widget.TextView, 2131755404 - android.widget.TextView, -1 - android.widget.LinearLayout], res/layout/support_simple_spinner_dropdown_item.xml=[16908308 - android.widget.TextView], res/layout/abc_list_menu_item_icon.xml=[2131755094 - android.widget.ImageView]} layout controls
+Entry point calculation done.
+Created a SourceSinkManager with 16 sources, 102 sinks, and 63 callback methods.
+Running data flow analysis...
+Running data flow analysis on apks/healthandfitness/digifit.virtuagym.foodtracker.apk with 16 sources and 102 sinks...
+Starting infoflow computation...
+[main] INFO soot.jimple.infoflow.Infoflow - Resetting Soot...
+Warning: android.net.http.AndroidHttpClient is a phantom class!
+Warning: org.apache.http.client.HttpClient is a phantom class!
+Warning: org.apache.http.client.methods.HttpEntityEnclosingRequestBase is a phantom class!
+Warning: org.apache.http.client.methods.HttpUriRequest is a phantom class!
+Warning: org.apache.http.impl.client.DefaultHttpClient is a phantom class!
+Warning: org.apache.http.client.ClientProtocolException is a phantom class!
+Warning: org.apache.http.client.methods.HttpDelete is a phantom class!
+Warning: org.apache.http.client.methods.HttpGet is a phantom class!
+Warning: org.apache.http.client.methods.HttpPost is a phantom class!
+Warning: org.apache.http.client.methods.HttpPut is a phantom class!
+Warning: org.apache.http.conn.ClientConnectionManager is a phantom class!
+Warning: org.apache.http.impl.cookie.DateParseException is a phantom class!
+Warning: org.apache.http.impl.cookie.DateUtils is a phantom class!
+Warning: android.support.v7.widget.TestActivity is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+[main] INFO soot.jimple.infoflow.Infoflow - Basic class loading done.
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.content.Intent
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.content.Context
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.os.Bundle
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.view.View
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.animation.Animator
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.view.KeyEvent
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.view.MenuItem
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.view.Menu
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.content.res.Configuration
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.widget.AdapterView
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot create valid constructor for com.google.android.gms.internal.zzet, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot create valid constructor for com.google.android.gms.internal.zzg, because it is an interface and cannot substitute with subclass
+[main] INFO soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Generated main method:
+    public static void dummyMainMethod(java.lang.String[])
+    {
+        java.lang.String[] $r0;
+        int $i0, $i1, $i2;
+        digifit.virtuagym.foodtracker.FoodTrackerApp $r1;
+        digifit.virtuagym.foodtracker.services.ScheduledService $r2;
+        digifit.android.common.KillNotificationService $r3;
+        android.os.IBinder $r4, $r22;
+        digifit.virtuagym.foodtracker.services.ScheduledPlanNotificationService $r5;
+        com.google.android.gms.analytics.CampaignTrackingReceiver $r6;
+        digifit.virtuagym.foodtracker.ui.BecomeProClubActivity $r7;
+        digifit.virtuagym.foodtracker.ui.NewPlanActivity $r8;
+        digifit.virtuagym.foodtracker.ui.NewPlanActivity$2 $r9;
+        digifit.virtuagym.foodtracker.views.FloatingActionButton $r10, $r16;
+        digifit.virtuagym.foodtracker.views.FloatingActionButton$1 $r11, $r17;
+        digifit.virtuagym.foodtracker.views.FloatingActionButton$1$1 $r12;
+        digifit.virtuagym.foodtracker.ui.NewPlanActivity$1 $r13, $r14;
+        digifit.virtuagym.foodtracker.ui.NewPlanActivity$1$1 $r15;
+        digifit.virtuagym.foodtracker.ui.MainActivity $r18;
+        boolean $z0, $z1, $z2, $z3, $z4, $z5, $z6, $z7;
+        digifit.virtuagym.foodtracker.ui.MainActivity$1 $r19;
+        digifit.virtuagym.foodtracker.ui.MainActivity$DrawerItemClickListener $r20;
+        digifit.virtuagym.foodtracker.sync.FoodSync $r21;
+        digifit.virtuagym.foodtracker.services.TaskButlerService $r23;
+        digifit.virtuagym.foodtracker.ui.BarcodeScannerActivity $r24;
+        com.facebook.LoginActivity $r25;
+        com.google.android.gms.analytics.CampaignTrackingService $r26;
+        digifit.virtuagym.foodtracker.ui.LoginActivity $r27;
+        digifit.virtuagym.foodtracker.ui.MySignupEmail $r28, $r31, $r33, $r36;
+        digifit.virtuagym.foodtracker.ui.MySignupEmail$13 $r29;
+        digifit.virtuagym.foodtracker.ui.LoginActivity$3 $r30;
+        digifit.virtuagym.foodtracker.ui.MySignupEmail$12 $r32;
+        digifit.virtuagym.foodtracker.ui.MySignupEmail$14 $r34;
+        digifit.virtuagym.foodtracker.ui.LoginActivity$8 $r35;
+        digifit.virtuagym.foodtracker.ui.MySignupEmail$15 $r37;
+        digifit.virtuagym.foodtracker.ui.LoginActivity$4 $r38;
+        digifit.virtuagym.foodtracker.ui.LoginActivity$6 $r39;
+        digifit.virtuagym.foodtracker.ui.LoginActivity$7 $r40;
+        com.google.android.gms.ads.AdActivity $r41;
+        com.google.android.gms.internal.zzer $r42;
+        com.google.android.gms.internal.zzif$zza $r43;
+        com.google.android.gms.internal.zzba $r44;
+        com.google.android.gms.internal.zzk $r45;
+        com.google.android.gms.internal.zzhy $r46;
+        com.google.android.gms.internal.zzif $r47;
+        digifit.virtuagym.foodtracker.services.OnBootReceiver $r48;
+
+        $r0 := @parameter0: java.lang.String[];
+
+        $i0 = 0;
+
+        $r1 = new digifit.virtuagym.foodtracker.FoodTrackerApp;
+
+        specialinvoke $r1.<digifit.virtuagym.foodtracker.FoodTrackerApp: void <init>()>();
+
+        virtualinvoke $r1.<digifit.virtuagym.foodtracker.MyDigifitApp: void onCreate()>();
+
+        <il.ac.tau.MyApplicationHolder: android.app.Application application> = $r1;
+
+     label001:
+        if $i0 == 0 goto label008;
+
+        $r2 = new digifit.virtuagym.foodtracker.services.ScheduledService;
+
+        specialinvoke $r2.<digifit.virtuagym.foodtracker.services.ScheduledService: void <init>()>();
+
+     label002:
+        if $i0 == 1 goto label003;
+
+        if $i0 == 2 goto label002;
+
+     label003:
+        if $i0 == 3 goto label006;
+
+     label004:
+        if $i0 == 4 goto label005;
+
+        virtualinvoke $r2.<digifit.virtuagym.foodtracker.services.ScheduledService: void onHandleIntent(android.content.Intent)>(null);
+
+     label005:
+        if $i0 == 5 goto label004;
+
+     label006:
+        if $i0 == 6 goto label007;
+
+        virtualinvoke $r2.<digifit.virtuagym.foodtracker.services.ScheduledService: void onHandleIntent(android.content.Intent)>(null);
+
+     label007:
+        if $i0 == 7 goto label006;
+
+        if $i0 == 8 goto label008;
+
+        if $i0 == 9 goto label006;
+
+     label008:
+        if $i0 == 10 goto label012;
+
+        $r3 = new digifit.android.common.KillNotificationService;
+
+        specialinvoke $r3.<digifit.android.common.KillNotificationService: void <init>()>();
+
+        virtualinvoke $r3.<digifit.android.common.KillNotificationService: void onCreate()>();
+
+     label009:
+        if $i0 == 11 goto label010;
+
+        $i1 = virtualinvoke $r3.<digifit.android.common.KillNotificationService: int onStartCommand(android.content.Intent,int,int)>(null, 0, 0);
+
+        if $i0 == 12 goto label009;
+
+     label010:
+        $r4 = virtualinvoke $r3.<digifit.android.common.KillNotificationService: android.os.IBinder onBind(android.content.Intent)>(null);
+
+     label011:
+        if $i0 == 14 goto label012;
+
+        if $i0 == 15 goto label011;
+
+     label012:
+        if $i0 == 16 goto label019;
+
+        $r5 = new digifit.virtuagym.foodtracker.services.ScheduledPlanNotificationService;
+
+        specialinvoke $r5.<digifit.virtuagym.foodtracker.services.ScheduledPlanNotificationService: void <init>()>();
+
+     label013:
+        if $i0 == 17 goto label014;
+
+        if $i0 == 18 goto label013;
+
+     label014:
+        if $i0 == 19 goto label017;
+
+     label015:
+        if $i0 == 20 goto label016;
+
+        virtualinvoke $r5.<digifit.virtuagym.foodtracker.services.ScheduledPlanNotificationService: void onHandleIntent(android.content.Intent)>(null);
+
+     label016:
+        if $i0 == 21 goto label015;
+
+     label017:
+        if $i0 == 22 goto label018;
+
+        virtualinvoke $r5.<digifit.virtuagym.foodtracker.services.ScheduledPlanNotificationService: void onHandleIntent(android.content.Intent)>(null);
+
+     label018:
+        if $i0 == 23 goto label017;
+
+        if $i0 == 24 goto label019;
+
+        if $i0 == 25 goto label017;
+
+     label019:
+        if $i0 == 26 goto label021;
+
+        $r6 = new com.google.android.gms.analytics.CampaignTrackingReceiver;
+
+        specialinvoke $r6.<com.google.android.gms.analytics.CampaignTrackingReceiver: void <init>()>();
+
+        if $i0 == 27 goto label021;
+
+     label020:
+        virtualinvoke $r6.<com.google.android.gms.analytics.CampaignTrackingReceiver: void onReceive(android.content.Context,android.content.Intent)>(null, null);
+
+        if $i0 == 29 goto label020;
+
+     label021:
+        if $i0 == 30 goto label025;
+
+        $r7 = new digifit.virtuagym.foodtracker.ui.BecomeProClubActivity;
+
+        specialinvoke $r7.<digifit.virtuagym.foodtracker.ui.BecomeProClubActivity: void <init>()>();
+
+        if $i0 == 31 goto label025;
+
+        virtualinvoke $r7.<digifit.virtuagym.foodtracker.ui.BecomeProClubActivity: void onCreate(android.os.Bundle)>(null);
+
+     label022:
+        virtualinvoke $r7.<digifit.virtuagym.foodtracker.digifit.virtuagym.common.ui.MyTrackedFragmentActivity: void onStart()>();
+
+     label023:
+        virtualinvoke $r7.<digifit.virtuagym.foodtracker.MyTrackedFacebookFragmentActivity: void onResume()>();
+
+        virtualinvoke $r7.<digifit.virtuagym.foodtracker.MyTrackedFacebookFragmentActivity: void onPause()>();
+
+        virtualinvoke $r7.<digifit.virtuagym.foodtracker.MyTrackedFacebookFragmentActivity: void onSaveInstanceState(android.os.Bundle)>(null);
+
+        if $i0 == 34 goto label023;
+
+        virtualinvoke $r7.<digifit.virtuagym.foodtracker.digifit.virtuagym.common.ui.MyTrackedFragmentActivity: void onStop()>();
+
+        if $i0 == 35 goto label024;
+
+        if $i0 == 36 goto label022;
+
+     label024:
+        virtualinvoke $r7.<digifit.virtuagym.foodtracker.MyTrackedFacebookFragmentActivity: void onDestroy()>();
+
+     label025:
+        if $i0 == 40 goto label035;
+
+        $r8 = new digifit.virtuagym.foodtracker.ui.NewPlanActivity;
+
+        specialinvoke $r8.<digifit.virtuagym.foodtracker.ui.NewPlanActivity: void <init>()>();
+
+        if $i0 == 41 goto label035;
+
+        virtualinvoke $r8.<digifit.virtuagym.foodtracker.ui.NewPlanActivity: void onCreate(android.os.Bundle)>(null);
+
+     label026:
+        virtualinvoke $r8.<digifit.virtuagym.foodtracker.ui.NewPlanActivity: void onResume()>();
+
+        if $i0 == 43 goto label034;
+
+     label027:
+        $r9 = new digifit.virtuagym.foodtracker.ui.NewPlanActivity$2;
+
+        specialinvoke $r9.<digifit.virtuagym.foodtracker.ui.NewPlanActivity$2: void <init>(digifit.virtuagym.foodtracker.ui.NewPlanActivity)>($r8);
+
+        if $i0 == 44 goto label028;
+
+        virtualinvoke $r9.<digifit.virtuagym.foodtracker.ui.NewPlanActivity$2: void onClick(android.view.View)>(null);
+
+     label028:
+        $r10 = new digifit.virtuagym.foodtracker.views.FloatingActionButton;
+
+        specialinvoke $r10.<digifit.virtuagym.foodtracker.views.FloatingActionButton: void <init>(android.content.Context)>($r8);
+
+        $r11 = new digifit.virtuagym.foodtracker.views.FloatingActionButton$1;
+
+        specialinvoke $r11.<digifit.virtuagym.foodtracker.views.FloatingActionButton$1: void <init>(digifit.virtuagym.foodtracker.views.FloatingActionButton,int)>($r10, 0);
+
+        $r12 = new digifit.virtuagym.foodtracker.views.FloatingActionButton$1$1;
+
+        specialinvoke $r12.<digifit.virtuagym.foodtracker.views.FloatingActionButton$1$1: void <init>(digifit.virtuagym.foodtracker.views.FloatingActionButton$1)>($r11);
+
+        if $i0 == 45 goto label029;
+
+        virtualinvoke $r12.<digifit.virtuagym.foodtracker.views.FloatingActionButton$1$1: void onAnimationEnd(android.animation.Animator)>(null);
+
+     label029:
+        if $i0 == 46 goto label030;
+
+        virtualinvoke $r8.<digifit.virtuagym.foodtracker.ui.NewPlanActivity: void onBackPressed()>();
+
+     label030:
+        $r13 = new digifit.virtuagym.foodtracker.ui.NewPlanActivity$1;
+
+        specialinvoke $r13.<digifit.virtuagym.foodtracker.ui.NewPlanActivity$1: void <init>(digifit.virtuagym.foodtracker.ui.NewPlanActivity)>($r8);
+
+        if $i0 == 47 goto label031;
+
+        virtualinvoke $r13.<digifit.virtuagym.foodtracker.ui.NewPlanActivity$1: void onClick(android.view.View)>(null);
+
+     label031:
+        $r14 = new digifit.virtuagym.foodtracker.ui.NewPlanActivity$1;
+
+        specialinvoke $r14.<digifit.virtuagym.foodtracker.ui.NewPlanActivity$1: void <init>(digifit.virtuagym.foodtracker.ui.NewPlanActivity)>($r8);
+
+        $r15 = new digifit.virtuagym.foodtracker.ui.NewPlanActivity$1$1;
+
+        specialinvoke $r15.<digifit.virtuagym.foodtracker.ui.NewPlanActivity$1$1: void <init>(digifit.virtuagym.foodtracker.ui.NewPlanActivity$1)>($r14);
+
+        if $i0 == 48 goto label032;
+
+        virtualinvoke $r15.<digifit.virtuagym.foodtracker.ui.NewPlanActivity$1$1: void onAnimationEnd(android.animation.Animator)>(null);
+
+     label032:
+        $r16 = new digifit.virtuagym.foodtracker.views.FloatingActionButton;
+
+        specialinvoke $r16.<digifit.virtuagym.foodtracker.views.FloatingActionButton: void <init>(android.content.Context)>($r8);
+
+        $r17 = new digifit.virtuagym.foodtracker.views.FloatingActionButton$1;
+
+        specialinvoke $r17.<digifit.virtuagym.foodtracker.views.FloatingActionButton$1: void <init>(digifit.virtuagym.foodtracker.views.FloatingActionButton,int)>($r16, 0);
+
+        if $i0 == 49 goto label033;
+
+        virtualinvoke $r17.<digifit.virtuagym.foodtracker.views.FloatingActionButton$1: void onAnimationEnd(android.animation.Animator)>(null);
+
+     label033:
+        if $i0 == 50 goto label027;
+
+     label034:
+        virtualinvoke $r8.<digifit.virtuagym.foodtracker.ui.NewPlanActivity: void onSaveInstanceState(android.os.Bundle)>(null);
+
+        if $i0 == 51 goto label026;
+
+        if $i0 == 52 goto label035;
+
+        if $i0 == 53 goto label026;
+
+     label035:
+        if $i0 == 55 goto label051;
+
+        $r18 = new digifit.virtuagym.foodtracker.ui.MainActivity;
+
+        specialinvoke $r18.<digifit.virtuagym.foodtracker.ui.MainActivity: void <init>()>();
+
+        if $i0 == 56 goto label051;
+
+        virtualinvoke $r18.<digifit.virtuagym.foodtracker.ui.MainActivity: void onCreate(android.os.Bundle)>(null);
+
+     label036:
+        virtualinvoke $r18.<digifit.virtuagym.foodtracker.digifit.virtuagym.common.ui.MyTrackedFragmentActivity: void onStart()>();
+
+        virtualinvoke $r18.<digifit.virtuagym.foodtracker.ui.MainActivity: void onPostCreate(android.os.Bundle)>(null);
+
+     label037:
+        virtualinvoke $r18.<digifit.virtuagym.foodtracker.ui.MainActivity: void onResume()>();
+
+        if $i0 == 58 goto label049;
+
+     label038:
+        if $i0 == 59 goto label039;
+
+        $z0 = virtualinvoke $r18.<digifit.virtuagym.foodtracker.ui.MainActivity: boolean onKeyDown(int,android.view.KeyEvent)>(0, null);
+
+     label039:
+        if $i0 == 60 goto label040;
+
+        $z1 = virtualinvoke $r18.<digifit.virtuagym.foodtracker.ui.MainActivity: boolean onOptionsItemSelected(android.view.MenuItem)>(null);
+
+     label040:
+        if $i0 == 61 goto label041;
+
+        $z2 = virtualinvoke $r18.<digifit.virtuagym.foodtracker.ui.MainActivity: boolean onKeyUp(int,android.view.KeyEvent)>(0, null);
+
+     label041:
+        if $i0 == 62 goto label042;
+
+        $z3 = virtualinvoke $r18.<digifit.virtuagym.foodtracker.ui.MainActivity: boolean onCreateOptionsMenu(android.view.Menu)>(null);
+
+     label042:
+        if $i0 == 63 goto label043;
+
+        virtualinvoke $r18.<digifit.virtuagym.foodtracker.ui.MainActivity: void onConfigurationChanged(android.content.res.Configuration)>(null);
+
+     label043:
+        if $i0 == 64 goto label044;
+
+        virtualinvoke $r18.<digifit.virtuagym.foodtracker.ui.MainActivity: void onActivityResult(int,int,android.content.Intent)>(0, 0, null);
+
+     label044:
+        if $i0 == 65 goto label045;
+
+        $z4 = virtualinvoke $r18.<digifit.virtuagym.foodtracker.ui.MainActivity: boolean onPrepareOptionsMenu(android.view.Menu)>(null);
+
+     label045:
+        if $i0 == 66 goto label046;
+
+        staticinvoke <digifit.virtuagym.foodtracker.ui.MainActivity: void <clinit>()>();
+
+     label046:
+        if $i0 == 67 goto label047;
+
+        virtualinvoke $r18.<digifit.virtuagym.foodtracker.ui.MainActivity: void onBackPressed()>();
+
+     label047:
+        $r19 = new digifit.virtuagym.foodtracker.ui.MainActivity$1;
+
+        specialinvoke $r19.<digifit.virtuagym.foodtracker.ui.MainActivity$1: void <init>(digifit.virtuagym.foodtracker.ui.MainActivity)>($r18);
+
+        $r20 = new digifit.virtuagym.foodtracker.ui.MainActivity$DrawerItemClickListener;
+
+        specialinvoke $r20.<digifit.virtuagym.foodtracker.ui.MainActivity$DrawerItemClickListener: void <init>(digifit.virtuagym.foodtracker.ui.MainActivity,digifit.virtuagym.foodtracker.ui.MainActivity$1)>($r18, $r19);
+
+        if $i0 == 68 goto label048;
+
+        virtualinvoke $r20.<digifit.virtuagym.foodtracker.ui.MainActivity$DrawerItemClickListener: void onItemClick(android.widget.AdapterView,android.view.View,int,long)>(null, null, 0, 0L);
+
+     label048:
+        if $i0 == 69 goto label038;
+
+     label049:
+        virtualinvoke $r18.<digifit.virtuagym.foodtracker.ui.MainActivity: void onPause()>();
+
+        virtualinvoke $r18.<digifit.virtuagym.foodtracker.MyTrackedFacebookFragmentActivity: void onSaveInstanceState(android.os.Bundle)>(null);
+
+        if $i0 == 70 goto label037;
+
+        virtualinvoke $r18.<digifit.virtuagym.foodtracker.ui.MainActivity: void onStop()>();
+
+        if $i0 == 71 goto label050;
+
+        if $i0 == 72 goto label036;
+
+     label050:
+        virtualinvoke $r18.<digifit.virtuagym.foodtracker.ui.MainActivity: void onDestroy()>();
+
+     label051:
+        if $i0 == 74 goto label060;
+
+        $r21 = new digifit.virtuagym.foodtracker.sync.FoodSync;
+
+        specialinvoke $r21.<digifit.virtuagym.foodtracker.sync.FoodSync: void <init>()>();
+
+        virtualinvoke $r21.<digifit.virtuagym.foodtracker.sync.FoodSync: void onCreate()>();
+
+     label052:
+        if $i0 == 75 goto label053;
+
+        $i2 = virtualinvoke $r21.<digifit.android.common.api.VitalenceSyncBase: int onStartCommand(android.content.Intent,int,int)>(null, 0, 0);
+
+        if $i0 == 76 goto label052;
+
+     label053:
+        if $i0 == 77 goto label056;
+
+     label054:
+        if $i0 == 78 goto label055;
+
+        virtualinvoke $r21.<digifit.virtuagym.foodtracker.sync.FoodSync: void onTaskRemoved(android.content.Intent)>(null);
+
+     label055:
+        if $i0 == 79 goto label054;
+
+     label056:
+        $r22 = virtualinvoke $r21.<digifit.virtuagym.foodtracker.sync.FoodSync: android.os.IBinder onBind(android.content.Intent)>(null);
+
+     label057:
+        if $i0 == 80 goto label058;
+
+        virtualinvoke $r21.<digifit.virtuagym.foodtracker.sync.FoodSync: void onTaskRemoved(android.content.Intent)>(null);
+
+     label058:
+        if $i0 == 81 goto label057;
+
+        $z5 = virtualinvoke $r21.<digifit.virtuagym.foodtracker.sync.FoodSync: boolean onUnbind(android.content.Intent)>(null);
+
+        if $i0 == 82 goto label059;
+
+        if $i0 == 83 goto label057;
+
+     label059:
+        virtualinvoke $r21.<digifit.virtuagym.foodtracker.sync.FoodSync: void onDestroy()>();
+
+     label060:
+        if $i0 == 85 goto label067;
+
+        $r23 = new digifit.virtuagym.foodtracker.services.TaskButlerService;
+
+        specialinvoke $r23.<digifit.virtuagym.foodtracker.services.TaskButlerService: void <init>()>();
+
+        virtualinvoke $r23.<digifit.virtuagym.foodtracker.services.WakefulIntentService: void onCreate()>();
+
+        virtualinvoke $r23.<digifit.virtuagym.foodtracker.services.WakefulIntentService: void onStart(android.content.Intent,int)>(null, 0);
+
+     label061:
+        if $i0 == 86 goto label062;
+
+        if $i0 == 87 goto label061;
+
+     label062:
+        if $i0 == 88 goto label065;
+
+     label063:
+        if $i0 == 89 goto label064;
+
+        virtualinvoke $r23.<digifit.virtuagym.foodtracker.services.TaskButlerService: void onHandleIntent(android.content.Intent)>(null);
+
+     label064:
+        if $i0 == 90 goto label063;
+
+     label065:
+        if $i0 == 91 goto label066;
+
+        virtualinvoke $r23.<digifit.virtuagym.foodtracker.services.TaskButlerService: void onHandleIntent(android.content.Intent)>(null);
+
+     label066:
+        if $i0 == 92 goto label065;
+
+        if $i0 == 93 goto label067;
+
+        if $i0 == 94 goto label065;
+
+     label067:
+        if $i0 == 95 goto label072;
+
+        $r24 = new digifit.virtuagym.foodtracker.ui.BarcodeScannerActivity;
+
+        specialinvoke $r24.<digifit.virtuagym.foodtracker.ui.BarcodeScannerActivity: void <init>()>();
+
+        if $i0 == 96 goto label072;
+
+        virtualinvoke $r24.<digifit.virtuagym.foodtracker.ui.BarcodeScannerActivity: void onCreate(android.os.Bundle)>(null);
+
+     label068:
+        if $i0 == 98 goto label071;
+
+     label069:
+        if $i0 == 99 goto label070;
+
+        virtualinvoke $r24.<digifit.virtuagym.foodtracker.ui.BarcodeScannerActivity: void onBackPressed()>();
+
+     label070:
+        if $i0 == 100 goto label069;
+
+     label071:
+        if $i0 == 101 goto label068;
+
+        if $i0 == 102 goto label072;
+
+        if $i0 == 103 goto label068;
+
+     label072:
+        if $i0 == 105 goto label078;
+
+        $r25 = new com.facebook.LoginActivity;
+
+        specialinvoke $r25.<com.facebook.LoginActivity: void <init>()>();
+
+        if $i0 == 106 goto label078;
+
+        virtualinvoke $r25.<com.facebook.LoginActivity: void onCreate(android.os.Bundle)>(null);
+
+     label073:
+        virtualinvoke $r25.<com.facebook.LoginActivity: void onResume()>();
+
+        if $i0 == 108 goto label077;
+
+     label074:
+        if $i0 == 109 goto label075;
+
+        staticinvoke <com.facebook.LoginActivity: void <clinit>()>();
+
+     label075:
+        if $i0 == 110 goto label076;
+
+        virtualinvoke $r25.<com.facebook.LoginActivity: void onActivityResult(int,int,android.content.Intent)>(0, 0, null);
+
+     label076:
+        if $i0 == 111 goto label074;
+
+     label077:
+        virtualinvoke $r25.<com.facebook.LoginActivity: void onPause()>();
+
+        virtualinvoke $r25.<com.facebook.LoginActivity: void onSaveInstanceState(android.os.Bundle)>(null);
+
+        if $i0 == 112 goto label073;
+
+        if $i0 == 113 goto label078;
+
+        if $i0 == 114 goto label073;
+
+     label078:
+        if $i0 == 116 goto label081;
+
+        $r26 = new com.google.android.gms.analytics.CampaignTrackingService;
+
+        specialinvoke $r26.<com.google.android.gms.analytics.CampaignTrackingService: void <init>()>();
+
+     label079:
+        if $i0 == 117 goto label080;
+
+        if $i0 == 118 goto label079;
+
+     label080:
+        if $i0 == 120 goto label081;
+
+        if $i0 == 121 goto label080;
+
+     label081:
+        if $i0 == 122 goto label096;
+
+        $r27 = new digifit.virtuagym.foodtracker.ui.LoginActivity;
+
+        specialinvoke $r27.<digifit.virtuagym.foodtracker.ui.LoginActivity: void <init>()>();
+
+        if $i0 == 123 goto label096;
+
+        virtualinvoke $r27.<digifit.virtuagym.foodtracker.ui.LoginActivity: void onCreate(android.os.Bundle)>(null);
+
+     label082:
+        virtualinvoke $r27.<digifit.virtuagym.foodtracker.ui.LoginActivity: void onResume()>();
+
+        if $i0 == 125 goto label095;
+
+     label083:
+        $r28 = new digifit.virtuagym.foodtracker.ui.MySignupEmail;
+
+        specialinvoke $r28.<digifit.virtuagym.foodtracker.ui.MySignupEmail: void <init>()>();
+
+        $r29 = new digifit.virtuagym.foodtracker.ui.MySignupEmail$13;
+
+        specialinvoke $r29.<digifit.virtuagym.foodtracker.ui.MySignupEmail$13: void <init>(digifit.virtuagym.foodtracker.ui.MySignupEmail)>($r28);
+
+        if $i0 == 126 goto label084;
+
+        $z6 = virtualinvoke $r29.<digifit.virtuagym.foodtracker.ui.MySignupEmail$13: boolean onKey(android.view.View,int,android.view.KeyEvent)>(null, 0, null);
+
+     label084:
+        $r30 = new digifit.virtuagym.foodtracker.ui.LoginActivity$3;
+
+        specialinvoke $r30.<digifit.virtuagym.foodtracker.ui.LoginActivity$3: void <init>(digifit.virtuagym.foodtracker.ui.LoginActivity)>($r27);
+
+        if $i0 == 127 goto label085;
+
+        virtualinvoke $r30.<digifit.virtuagym.foodtracker.ui.LoginActivity$3: void onClick(android.view.View)>(null);
+
+     label085:
+        $r31 = new digifit.virtuagym.foodtracker.ui.MySignupEmail;
+
+        specialinvoke $r31.<digifit.virtuagym.foodtracker.ui.MySignupEmail: void <init>()>();
+
+        $r32 = new digifit.virtuagym.foodtracker.ui.MySignupEmail$12;
+
+        specialinvoke $r32.<digifit.virtuagym.foodtracker.ui.MySignupEmail$12: void <init>(digifit.virtuagym.foodtracker.ui.MySignupEmail)>($r31);
+
+        if $i0 == 128 goto label086;
+
+        virtualinvoke $r32.<digifit.virtuagym.foodtracker.ui.MySignupEmail$12: void onClick(android.view.View)>(null);
+
+     label086:
+        $r33 = new digifit.virtuagym.foodtracker.ui.MySignupEmail;
+
+        specialinvoke $r33.<digifit.virtuagym.foodtracker.ui.MySignupEmail: void <init>()>();
+
+        $r34 = new digifit.virtuagym.foodtracker.ui.MySignupEmail$14;
+
+        specialinvoke $r34.<digifit.virtuagym.foodtracker.ui.MySignupEmail$14: void <init>(digifit.virtuagym.foodtracker.ui.MySignupEmail)>($r33);
+
+        if $i0 == 129 goto label087;
+
+        virtualinvoke $r34.<digifit.virtuagym.foodtracker.ui.MySignupEmail$14: void onClick(android.view.View)>(null);
+
+     label087:
+        $r35 = new digifit.virtuagym.foodtracker.ui.LoginActivity$8;
+
+        specialinvoke $r35.<digifit.virtuagym.foodtracker.ui.LoginActivity$8: void <init>(digifit.virtuagym.foodtracker.ui.LoginActivity)>($r27);
+
+        if $i0 == 130 goto label088;
+
+        virtualinvoke $r35.<digifit.virtuagym.foodtracker.ui.LoginActivity$8: void onAnimationCancel(android.animation.Animator)>(null);
+
+     label088:
+        if $i0 == 131 goto label089;
+
+        virtualinvoke $r35.<digifit.virtuagym.foodtracker.ui.LoginActivity$8: void onAnimationEnd(android.animation.Animator)>(null);
+
+     label089:
+        $r36 = new digifit.virtuagym.foodtracker.ui.MySignupEmail;
+
+        specialinvoke $r36.<digifit.virtuagym.foodtracker.ui.MySignupEmail: void <init>()>();
+
+        $r37 = new digifit.virtuagym.foodtracker.ui.MySignupEmail$15;
+
+        specialinvoke $r37.<digifit.virtuagym.foodtracker.ui.MySignupEmail$15: void <init>(digifit.virtuagym.foodtracker.ui.MySignupEmail)>($r36);
+
+        if $i0 == 132 goto label090;
+
+        $z7 = virtualinvoke $r37.<digifit.virtuagym.foodtracker.ui.MySignupEmail$15: boolean onKey(android.view.View,int,android.view.KeyEvent)>(null, 0, null);
+
+     label090:
+        $r38 = new digifit.virtuagym.foodtracker.ui.LoginActivity$4;
+
+        specialinvoke $r38.<digifit.virtuagym.foodtracker.ui.LoginActivity$4: void <init>(digifit.virtuagym.foodtracker.ui.LoginActivity)>($r27);
+
+        if $i0 == 133 goto label091;
+
+        virtualinvoke $r38.<digifit.virtuagym.foodtracker.ui.LoginActivity$4: void onClick(android.view.View)>(null);
+
+     label091:
+        $r39 = new digifit.virtuagym.foodtracker.ui.LoginActivity$6;
+
+        specialinvoke $r39.<digifit.virtuagym.foodtracker.ui.LoginActivity$6: void <init>(digifit.virtuagym.foodtracker.ui.LoginActivity)>($r27);
+
+        if $i0 == 134 goto label092;
+
+        virtualinvoke $r39.<digifit.virtuagym.foodtracker.ui.LoginActivity$6: void onAnimationEnd(android.animation.Animator)>(null);
+
+     label092:
+        $r40 = new digifit.virtuagym.foodtracker.ui.LoginActivity$7;
+
+        specialinvoke $r40.<digifit.virtuagym.foodtracker.ui.LoginActivity$7: void <init>(digifit.virtuagym.foodtracker.ui.LoginActivity)>($r27);
+
+        if $i0 == 135 goto label093;
+
+        virtualinvoke $r40.<digifit.virtuagym.foodtracker.ui.LoginActivity$7: void onAnimationEnd(android.animation.Animator)>(null);
+
+     label093:
+        if $i0 == 136 goto label094;
+
+        virtualinvoke $r27.<digifit.virtuagym.foodtracker.ui.LoginActivity: void onBackPressed()>();
+
+     label094:
+        if $i0 == 137 goto label083;
+
+     label095:
+        virtualinvoke $r27.<digifit.virtuagym.foodtracker.ui.LoginActivity: void onPause()>();
+
+        if $i0 == 138 goto label082;
+
+        if $i0 == 139 goto label096;
+
+        if $i0 == 140 goto label082;
+
+     label096:
+        if $i0 == 142 goto label105;
+
+        $r41 = new com.google.android.gms.ads.AdActivity;
+
+        specialinvoke $r41.<com.google.android.gms.ads.AdActivity: void <init>()>();
+
+        if $i0 == 143 goto label105;
+
+        virtualinvoke $r41.<com.google.android.gms.ads.AdActivity: void onCreate(android.os.Bundle)>(null);
+
+     label097:
+        virtualinvoke $r41.<com.google.android.gms.ads.AdActivity: void onStart()>();
+
+     label098:
+        virtualinvoke $r41.<com.google.android.gms.ads.AdActivity: void onResume()>();
+
+        if $i0 == 145 goto label103;
+
+     label099:
+        $r42 = new com.google.android.gms.internal.zzer;
+
+        specialinvoke $r42.<com.google.android.gms.internal.zzer: void <init>(android.content.Context,int,com.google.android.gms.internal.zzet)>($r41, 0, null);
+
+        if $i0 == 146 goto label100;
+
+        virtualinvoke $r42.<com.google.android.gms.internal.zzer: void onClick(android.view.View)>(null);
+
+     label100:
+        $r43 = new com.google.android.gms.internal.zzif$zza;
+
+        specialinvoke $r43.<com.google.android.gms.internal.zzif$zza: void <init>(android.content.Context)>($r41);
+
+        $r44 = new com.google.android.gms.internal.zzba;
+
+        specialinvoke $r44.<com.google.android.gms.internal.zzba: void <init>()>();
+
+        $r45 = new com.google.android.gms.internal.zzk;
+
+        specialinvoke $r45.<com.google.android.gms.internal.zzk: void <init>(com.google.android.gms.internal.zzg)>(null);
+
+        $r46 = new com.google.android.gms.internal.zzhy;
+
+        specialinvoke $r46.<com.google.android.gms.internal.zzhy: void <init>(int,int,boolean)>(0, 0, false);
+
+        $r47 = new com.google.android.gms.internal.zzif;
+
+        specialinvoke $r47.<com.google.android.gms.internal.zzif: void <init>(com.google.android.gms.internal.zzif$zza,com.google.android.gms.internal.zzba,boolean,boolean,com.google.android.gms.internal.zzk,com.google.android.gms.internal.zzhy)>($r43, $r44, false, false, $r45, $r46);
+
+        if $i0 == 147 goto label101;
+
+        virtualinvoke $r47.<com.google.android.gms.internal.zzif: void onDownloadStart(java.lang.String,java.lang.String,java.lang.String,java.lang.String,long)>("", "", "", "", 0L);
+
+     label101:
+        if $i0 == 148 goto label102;
+
+        virtualinvoke $r47.<com.google.android.gms.internal.zzif: void onGlobalLayout()>();
+
+     label102:
+        if $i0 == 149 goto label099;
+
+     label103:
+        virtualinvoke $r41.<com.google.android.gms.ads.AdActivity: void onPause()>();
+
+        virtualinvoke $r41.<com.google.android.gms.ads.AdActivity: void onSaveInstanceState(android.os.Bundle)>(null);
+
+        if $i0 == 150 goto label098;
+
+        virtualinvoke $r41.<com.google.android.gms.ads.AdActivity: void onStop()>();
+
+        if $i0 == 151 goto label104;
+
+        virtualinvoke $r41.<com.google.android.gms.ads.AdActivity: void onRestart()>();
+
+        if $i0 == 152 goto label097;
+
+     label104:
+        virtualinvoke $r41.<com.google.android.gms.ads.AdActivity: void onDestroy()>();
+
+     label105:
+        if $i0 == 154 goto label107;
+
+        $r48 = new digifit.virtuagym.foodtracker.services.OnBootReceiver;
+
+        specialinvoke $r48.<digifit.virtuagym.foodtracker.services.OnBootReceiver: void <init>()>();
+
+        if $i0 == 155 goto label107;
+
+     label106:
+        virtualinvoke $r48.<digifit.virtuagym.foodtracker.services.OnBootReceiver: void onReceive(android.content.Context,android.content.Intent)>(null, null);
+
+        if $i0 == 157 goto label106;
+
+     label107:
+        if $i0 == 159 goto label001;
+
+        virtualinvoke $r1.<digifit.virtuagym.foodtracker.MyDigifitApp: void onTerminate()>();
+
+        return;
+    }
+
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 5.0 seconds.
+[Spark] Solution found in 5.0 seconds.
+[main] INFO soot.jimple.infoflow.Infoflow - Callgraph construction took 5.109205683 seconds
+[main] INFO soot.jimple.infoflow.codeOptimization.InterproceduralConstantValuePropagator - Removing side-effect free methods is disabled
+[main] INFO soot.jimple.infoflow.Infoflow - Dead code elimination took 0.282847118 seconds
+[main] INFO soot.jimple.infoflow.Infoflow - Callgraph has 11907 edges
+[main] INFO soot.jimple.infoflow.Infoflow - Starting Taint Analysis
+[main] INFO soot.jimple.infoflow.data.FlowDroidMemoryManager - Initializing FlowDroid memory manager...
+[main] INFO soot.jimple.infoflow.data.FlowDroidMemoryManager - FDMM: Path data erasure enabled
+[main] INFO soot.jimple.infoflow.android.InfoflowAndroidConfiguration - Implicit flow tracking is NOT enabled
+[main] INFO soot.jimple.infoflow.android.InfoflowAndroidConfiguration - Exceptional flow tracking is enabled
+[main] INFO soot.jimple.infoflow.android.InfoflowAndroidConfiguration - Running with a maximum access path length of 5
+[main] INFO soot.jimple.infoflow.android.InfoflowAndroidConfiguration - Using path-agnostic result collection
+[main] INFO soot.jimple.infoflow.android.InfoflowAndroidConfiguration - Recursive access path shortening is enabled
+[main] INFO soot.jimple.infoflow.android.InfoflowAndroidConfiguration - Taint analysis enabled: true
+[main] INFO soot.jimple.infoflow.Infoflow - Looking for sources and sinks...
+Layout control with ID 16908290 not found
+[main] INFO soot.jimple.infoflow.Infoflow - Source lookup done, found 61 sources and 210 sinks.
+Layout control with ID 16908290 not found
+Layout control with ID 16908290 not found
+Layout control with ID 16908290 not found
+[main] INFO soot.jimple.infoflow.Infoflow - Taint wrapper hits: 33077
+[main] INFO soot.jimple.infoflow.Infoflow - Taint wrapper misses: 184963
+[main] INFO soot.jimple.infoflow.Infoflow - IFDS problem with 425390 forward and 304145 backward edges solved, processing 13 results...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextInsensitiveSourceFinder - Obtainted 13 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextInsensitiveSourceFinder - Building path 1 with task id 0
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextInsensitiveSourceFinder - Building path 2 with task id 1
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextInsensitiveSourceFinder - Building path 3 with task id 2
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextInsensitiveSourceFinder - Building path 4 with task id 3
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextInsensitiveSourceFinder - Building path 5 with task id 4
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextInsensitiveSourceFinder - Building path 6 with task id 5
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextInsensitiveSourceFinder - Building path 7 with task id 6
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextInsensitiveSourceFinder - Building path 8 with task id 7
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextInsensitiveSourceFinder - Building path 9 with task id 8
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextInsensitiveSourceFinder - Building path 10 with task id 9
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextInsensitiveSourceFinder - Building path 11 with task id 10
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextInsensitiveSourceFinder - Building path 12 with task id 11
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextInsensitiveSourceFinder - Building path 13 with task id 12
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextInsensitiveSourceFinder - Path processing took 0.014351255 seconds in total
+[main] INFO soot.jimple.infoflow.Infoflow - The sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>($r7, $r9) in method <com.facebook.Session: void finishAuthOrReauth(com.facebook.AccessToken,java.lang.Exception)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.Infoflow - - $r1 := @parameter0: android.os.Bundle in method <com.facebook.LoginActivity: void onCreate(android.os.Bundle)>
+[main] INFO soot.jimple.infoflow.Infoflow - The sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>($r2, $r1) in method <digifit.virtuagym.foodtracker.util.DigifitIabHelper: void c(java.lang.String)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.Infoflow - - $r1 := @parameter2: android.content.Intent in method <digifit.virtuagym.foodtracker.ui.MainActivity: void onActivityResult(int,int,android.content.Intent)>
+[main] INFO soot.jimple.infoflow.Infoflow - The sink $r5 = virtualinvoke $r3.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r4, $r2, null, null, null) in method <com.facebook.internal.AttributionIdentifiers: com.facebook.internal.AttributionIdentifiers getAttributionIdentifiers(android.content.Context)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.Infoflow - - $r1 := @parameter0: android.os.Bundle in method <com.facebook.LoginActivity: void onCreate(android.os.Bundle)>
+[main] INFO soot.jimple.infoflow.Infoflow - The sink virtualinvoke $r2.<android.os.Bundle: void putLong(java.lang.String,long)>("date", $l2) in method <digifit.virtuagym.foodtracker.ui.MainActivity: void onActivityResult(int,int,android.content.Intent)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.Infoflow - - $r1 := @parameter2: android.content.Intent in method <digifit.virtuagym.foodtracker.ui.MainActivity: void onActivityResult(int,int,android.content.Intent)>
+[main] INFO soot.jimple.infoflow.Infoflow - The sink virtualinvoke $r3.<java.io.OutputStream: void write(byte[])>($r5) in method <com.facebook.Request$Serializer: void write(java.lang.String,java.lang.Object[])> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.Infoflow - - $r7 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i3) in method <com.facebook.internal.AttributionIdentifiers: com.facebook.internal.AttributionIdentifiers getAttributionIdentifiers(android.content.Context)>
+[main] INFO soot.jimple.infoflow.Infoflow - - $r7 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i4) in method <com.facebook.internal.AttributionIdentifiers: com.facebook.internal.AttributionIdentifiers getAttributionIdentifiers(android.content.Context)>
+[main] INFO soot.jimple.infoflow.Infoflow - - $r1 := @parameter0: android.os.Bundle in method <com.facebook.LoginActivity: void onCreate(android.os.Bundle)>
+[main] INFO soot.jimple.infoflow.Infoflow - The sink virtualinvoke $r1.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("callingPackage", $r2) in method <com.facebook.LoginActivity: void onSaveInstanceState(android.os.Bundle)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.Infoflow - - $r1 := @parameter0: android.os.Bundle in method <com.facebook.LoginActivity: void onSaveInstanceState(android.os.Bundle)>
+[main] INFO soot.jimple.infoflow.Infoflow - - $r1 := @parameter0: android.os.Bundle in method <com.facebook.LoginActivity: void onCreate(android.os.Bundle)>
+[main] INFO soot.jimple.infoflow.Infoflow - The sink interfaceinvoke $r25.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>($r10, $r1) in method <com.facebook.Settings: com.facebook.Response publishInstallAndWaitForResponse(android.content.Context,java.lang.String,boolean)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.Infoflow - - $r1 := @parameter0: android.os.Bundle in method <com.facebook.LoginActivity: void onCreate(android.os.Bundle)>
+[main] INFO soot.jimple.infoflow.Infoflow - The sink staticinvoke <android.util.Log: int e(java.lang.String,java.lang.String)>($r2, $r1) in method <digifit.virtuagym.foodtracker.util.DigifitIabHelper: void d(java.lang.String)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.Infoflow - - $r1 := @parameter2: android.content.Intent in method <digifit.virtuagym.foodtracker.ui.MainActivity: void onActivityResult(int,int,android.content.Intent)>
+[main] INFO soot.jimple.infoflow.Infoflow - The sink interfaceinvoke $r25.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putLong(java.lang.String,long)>($r9, $l0) in method <com.facebook.Settings: com.facebook.Response publishInstallAndWaitForResponse(android.content.Context,java.lang.String,boolean)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.Infoflow - - $r1 := @parameter0: android.os.Bundle in method <com.facebook.LoginActivity: void onCreate(android.os.Bundle)>
+[main] INFO soot.jimple.infoflow.Infoflow - The sink virtualinvoke $r2.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("barcode", $r3) in method <digifit.virtuagym.foodtracker.ui.MainActivity: void onActivityResult(int,int,android.content.Intent)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.Infoflow - - $r1 := @parameter2: android.content.Intent in method <digifit.virtuagym.foodtracker.ui.MainActivity: void onActivityResult(int,int,android.content.Intent)>
+[main] INFO soot.jimple.infoflow.Infoflow - The sink virtualinvoke $r3.<java.io.OutputStream: void write(byte[])>($r2) in method <com.facebook.Request$Serializer: void writeBytes(java.lang.String,byte[])> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.Infoflow - - $r1 := @parameter0: android.os.Bundle in method <com.facebook.LoginActivity: void onCreate(android.os.Bundle)>
+[main] INFO soot.jimple.infoflow.Infoflow - The sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>("MainActivity", $r3) in method <digifit.virtuagym.foodtracker.ui.MainActivity: void onActivityResult(int,int,android.content.Intent)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.Infoflow - - $i1 := @parameter1: int in method <digifit.virtuagym.foodtracker.ui.MainActivity: void onActivityResult(int,int,android.content.Intent)>
+[main] INFO soot.jimple.infoflow.Infoflow - - $r1 := @parameter2: android.content.Intent in method <digifit.virtuagym.foodtracker.ui.MainActivity: void onActivityResult(int,int,android.content.Intent)>
+[main] INFO soot.jimple.infoflow.Infoflow - - $i0 := @parameter0: int in method <digifit.virtuagym.foodtracker.ui.MainActivity: void onActivityResult(int,int,android.content.Intent)>
+Found a flow to sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>($r7, $r9), from the following sources:
+	- $r1 := @parameter0: android.os.Bundle (in <com.facebook.LoginActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>($r2, $r1), from the following sources:
+	- $r1 := @parameter2: android.content.Intent (in <digifit.virtuagym.foodtracker.ui.MainActivity: void onActivityResult(int,int,android.content.Intent)>)
+Found a flow to sink $r5 = virtualinvoke $r3.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r4, $r2, null, null, null), from the following sources:
+	- $r1 := @parameter0: android.os.Bundle (in <com.facebook.LoginActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r2.<android.os.Bundle: void putLong(java.lang.String,long)>("date", $l2), from the following sources:
+	- $r1 := @parameter2: android.content.Intent (in <digifit.virtuagym.foodtracker.ui.MainActivity: void onActivityResult(int,int,android.content.Intent)>)
+Found a flow to sink virtualinvoke $r3.<java.io.OutputStream: void write(byte[])>($r5), from the following sources:
+	- $r7 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i3) (in <com.facebook.internal.AttributionIdentifiers: com.facebook.internal.AttributionIdentifiers getAttributionIdentifiers(android.content.Context)>)
+	- $r7 = interfaceinvoke $r5.<android.database.Cursor: java.lang.String getString(int)>($i4) (in <com.facebook.internal.AttributionIdentifiers: com.facebook.internal.AttributionIdentifiers getAttributionIdentifiers(android.content.Context)>)
+	- $r1 := @parameter0: android.os.Bundle (in <com.facebook.LoginActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("callingPackage", $r2), from the following sources:
+	- $r1 := @parameter0: android.os.Bundle (in <com.facebook.LoginActivity: void onSaveInstanceState(android.os.Bundle)>)
+	- $r1 := @parameter0: android.os.Bundle (in <com.facebook.LoginActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink interfaceinvoke $r25.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>($r10, $r1), from the following sources:
+	- $r1 := @parameter0: android.os.Bundle (in <com.facebook.LoginActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink staticinvoke <android.util.Log: int e(java.lang.String,java.lang.String)>($r2, $r1), from the following sources:
+	- $r1 := @parameter2: android.content.Intent (in <digifit.virtuagym.foodtracker.ui.MainActivity: void onActivityResult(int,int,android.content.Intent)>)
+Found a flow to sink interfaceinvoke $r25.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putLong(java.lang.String,long)>($r9, $l0), from the following sources:
+	- $r1 := @parameter0: android.os.Bundle (in <com.facebook.LoginActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r2.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("barcode", $r3), from the following sources:
+	- $r1 := @parameter2: android.content.Intent (in <digifit.virtuagym.foodtracker.ui.MainActivity: void onActivityResult(int,int,android.content.Intent)>)
+Found a flow to sink virtualinvoke $r3.<java.io.OutputStream: void write(byte[])>($r2), from the following sources:
+	- $r1 := @parameter0: android.os.Bundle (in <com.facebook.LoginActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>("MainActivity", $r3), from the following sources:
+	- $i1 := @parameter1: int (in <digifit.virtuagym.foodtracker.ui.MainActivity: void onActivityResult(int,int,android.content.Intent)>)
+	- $r1 := @parameter2: android.content.Intent (in <digifit.virtuagym.foodtracker.ui.MainActivity: void onActivityResult(int,int,android.content.Intent)>)
+	- $i0 := @parameter0: int (in <digifit.virtuagym.foodtracker.ui.MainActivity: void onActivityResult(int,int,android.content.Intent)>)
+Maximum memory consumption: 2406.958096 MB
+Analysis has run for 31.30637018 seconds

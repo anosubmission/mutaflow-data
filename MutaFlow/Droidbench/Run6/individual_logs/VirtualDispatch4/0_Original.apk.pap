@@ -1,0 +1,5 @@
+--------- beginning of main
+--------- beginning of system
+05-03 11:54:50.189 20173 20173 I MyOwnTag: <MutaFlowTag>dfa660df-c93e-4066-b789-ddbd86509c34<MutaFlowTag><android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>	48	16	5	void factoryTest()	de.ecspride.MainActivity<MutaFlowTag>+49 1234<MutaFlowTag>constant
+05-03 11:55:10.027 20173 20173 I MyOwnTag: <MutaFlowTag>dfa660df-c93e-4066-b789-ddbd86509c34<MutaFlowTag><android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>	48	16	5	void factoryTest()	de.ecspride.MainActivity<MutaFlowTag>+49 1234<MutaFlowTag>constant
+05-03 11:55:25.572 20173 20173 I MyOwnTag: <MutaFlowTag>dfa660df-c93e-4066-b789-ddbd86509c34<MutaFlowTag><android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>	48	16	5	void factoryTest()	de.ecspride.MainActivity<MutaFlowTag>+49 1234<MutaFlowTag>constant

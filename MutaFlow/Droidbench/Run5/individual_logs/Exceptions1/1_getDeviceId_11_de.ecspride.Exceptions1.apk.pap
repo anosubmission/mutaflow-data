@@ -1,0 +1,4 @@
+--------- beginning of main
+--------- beginning of system
+--------- beginning of crash
+05-02 23:47:38.960 17491 17491 I MyOwnTag: <MutaFlowTag>ad013f6a-0b4b-4de8-8b78-b72dff39541c<MutaFlowTag><android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>	35	18	15	void onCreate(android.os.Bundle)	de.ecspride.Exceptions1<MutaFlowTag>+49 1234<MutaFlowTag>

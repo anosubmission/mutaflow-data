@@ -1,0 +1,92 @@
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Trying 127.0.0.1...
+Connected to localhost.
+Escape character is '^]'.
+Android Console: Authentication required
+Android Console: type 'auth <auth_token>' to authenticate
+Android Console: you can find your <auth_token> in 
+'/home/bj/.emulator_console_auth_token'
+OK
+p[K[Dpo[K[D[Dpow[K[D[D[Dpowe[K[D[D[D[Dpower[K[D[D[D[D[Dpower [K[D[D[D[D[D[Dpower c[K[D[D[D[D[D[D[Dpower ca[K[D[D[D[D[D[D[D[Dpower cap[K[D[D[D[D[D[D[D[D[Dpower capa[K[D[D[D[D[D[D[D[D[D[Dpower capac[K[D[D[D[D[D[D[D[D[D[D[Dpower capaci[K[D[D[D[D[D[D[D[D[D[D[D[Dpower capacit[K[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity[K[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity [K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 1[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 10[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 100[K
+KO: unknown command, try 'help'
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+	pkg: /data/local/tmp/0_Original.apk
+p[K[Dpo[K[D[Dpow[K[D[D[Dpowe[K[D[D[D[Dpower[K[D[D[D[D[Dpower [K[D[D[D[D[D[Dpower c[K[D[D[D[D[D[D[Dpower ca[K[D[D[D[D[D[D[D[Dpower cap[K[D[D[D[D[D[D[D[D[Dpower capa[K[D[D[D[D[D[D[D[D[D[Dpower capac[K[D[D[D[D[D[D[D[D[D[D[Dpower capaci[K[D[D[D[D[D[D[D[D[D[D[D[Dpower capacit[K[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity[K[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity [K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 1[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 10[K
+KO: unknown command, try 'help'
+Success
+Operation not allowed: java.lang.SecurityException: Package edu.mit.icc_component_not_in_manifest has not requested permission android.permission.READ_SMS
+ComponentNotInManifest1
+Trying 127.0.0.1...
+Connected to localhost.
+Escape character is '^]'.
+Android Console: Authentication required
+Android Console: type 'auth <auth_token>' to authenticate
+Android Console: you can find your <auth_token> in 
+'/home/bj/.emulator_console_auth_token'
+OK
+p[K[Dpo[K[D[Dpow[K[D[D[Dpowe[K[D[D[D[Dpower[K[D[D[D[D[Dpower [K[D[D[D[D[D[Dpower c[K[D[D[D[D[D[D[Dpower ca[K[D[D[D[D[D[D[D[Dpower cap[K[D[D[D[D[D[D[D[D[Dpower capa[K[D[D[D[D[D[D[D[D[D[Dpower capac[K[D[D[D[D[D[D[D[D[D[D[Dpower capaci[K[D[D[D[D[D[D[D[D[D[D[D[Dpower capacit[K[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity[K[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity [K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 1[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 10[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 100[K
+KO: unknown command, try 'help'
+:Monkey: seed=1000 count=10000
+:AllowPackage: edu.mit.icc_component_not_in_manifest
+:IncludeCategory: android.intent.category.LAUNCHER
+:IncludeCategory: android.intent.category.MONKEY
+// Event percentages:
+//   0: 15.0%
+//   1: 10.0%
+//   2: 2.0%
+//   3: 15.0%
+//   4: -0.0%
+//   5: -0.0%
+//   6: 25.0%
+//   7: 15.0%
+//   8: 2.0%
+//   9: 2.0%
+//   10: 1.0%
+//   11: 13.0%
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=edu.mit.icc_component_not_in_manifest/.OutFlowActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=edu.mit.icc_component_not_in_manifest/.OutFlowActivity } in package edu.mit.icc_component_not_in_manifest
+:Sending Touch (ACTION_DOWN): 0:(876.0,1684.0)
+:Sending Touch (ACTION_UP): 0:(902.46747,1661.4387)
+:Sending Touch (ACTION_DOWN): 0:(172.0,1223.0)
+:Sending Touch (ACTION_UP): 0:(173.65752,1223.0057)
+    // Rejecting start of Intent { cmp=com.android.messaging/.ui.conversation.ConversationActivity } in package com.android.messaging
+// CRASH: edu.mit.icc_component_not_in_manifest (pid 2252)
+// Short Msg: android.content.ActivityNotFoundException
+// Long Msg: android.content.ActivityNotFoundException: Unable to find explicit activity class {edu.mit.icc_component_not_in_manifest/edu.mit.icc_component_not_in_manifest.InFlowActivity}; have you declared this activity in your AndroidManifest.xml?
+// Build Label: Android/sdk_phone_x86_64/generic_x86_64:6.0/MASTER/2780065:userdebug/test-keys
+// Build Changelist: 2780065
+// Build Time: 1461115984000
+// java.lang.RuntimeException: Unable to start activity ComponentInfo{edu.mit.icc_component_not_in_manifest/edu.mit.icc_component_not_in_manifest.OutFlowActivity}: android.content.ActivityNotFoundException: Unable to find explicit activity class {edu.mit.icc_component_not_in_manifest/edu.mit.icc_component_not_in_manifest.InFlowActivity}; have you declared this activity in your AndroidManifest.xml?
+// 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2416)
+// 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2476)
+// 	at android.app.ActivityThread.-wrap11(ActivityThread.java)
+// 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1344)
+// 	at android.os.Handler.dispatchMessage(Handler.java:102)
+// 	at android.os.Looper.loop(Looper.java:148)
+// 	at android.app.ActivityThread.main(ActivityThread.java:5417)
+// 	at java.lang.reflect.Method.invoke(Native Method)
+// 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:726)
+// 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:616)
+// Caused by: android.content.ActivityNotFoundException: Unable to find explicit activity class {edu.mit.icc_component_not_in_manifest/edu.mit.icc_component_not_in_manifest.InFlowActivity}; have you declared this activity in your AndroidManifest.xml?
+// 	at android.app.Instrumentation.checkStartActivityResult(Instrumentation.java:1794)
+// 	at android.app.Instrumentation.execStartActivity(Instrumentation.java:1512)
+// 	at android.app.Activity.startActivityForResult(Activity.java:3917)
+// 	at android.app.Activity.startActivityForResult(Activity.java:3877)
+// 	at android.app.Activity.startActivity(Activity.java:4200)
+// 	at android.app.Activity.startActivity(Activity.java:4168)
+// 	at edu.mit.icc_component_not_in_manifest.OutFlowActivity.onCreate(OutFlowActivity.java:31)
+// 	at android.app.Activity.performCreate(Activity.java:6237)
+// 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1107)
+// 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2369)
+// 	... 9 more
+// 
+** Monkey aborted due to error.
+Events injected: 7
+:Sending rotation degree=0, persist=false
+:Dropped: keys=0 pointers=0 trackballs=0 flips=0 rotations=0
+## Network stats: elapsed time=443ms (0ms mobile, 0ms wifi, 443ms not connected)
+** System appears to have crashed at event 7 of 10000 using seed 1000
+p[K[Dpo[K[D[Dpow[K[D[D[Dpowe[K[D[D[D[Dpower[K[D[D[D[D[Dpower [K[D[D[D[D[D[Dpower c[K[D[D[D[D[D[D[Dpower ca[K[D[D[D[D[D[D[D[Dpower cap[K[D[D[D[D[D[D[D[D[Dpower capa[K[D[D[D[D[D[D[D[D[D[Dpower capac[K[D[D[D[D[D[D[D[D[D[D[Dpower capaci[K[D[D[D[D[D[D[D[D[D[D[D[Dpower capacit[K[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity[K[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity [K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 1[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 10[K
+KO: unknown command, try 'help'
+Success
+** No activities found to run, monkey aborted.

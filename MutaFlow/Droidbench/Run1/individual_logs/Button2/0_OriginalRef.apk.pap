@@ -1,0 +1,9 @@
+--------- beginning of main
+--------- beginning of system
+--------- beginning of crash
+03-18 22:43:53.147 10724 10724 I MyOwnTag: <MutaFlowTag>c7ed108a-64cf-428b-b684-b9e7b09a59b2<MutaFlowTag><android.util.Log: int i(java.lang.String,java.lang.String)>	48	16	11	void onClick(android.view.View)	de.ecspride.Button2$2<MutaFlowTag>TAG<MutaFlowTag>Button 2: null
+03-18 22:43:53.216 10724 10724 I MyOwnTag: <MutaFlowTag>c7ed108a-64cf-428b-b684-b9e7b09a59b2<MutaFlowTag><android.telephony.TelephonyManager: java.lang.String getDeviceId()>	55	16	5	void clickOnButton3(android.view.View)	de.ecspride.Button2<MutaFlowTag>000000000000000
+03-18 22:43:53.217 10724 10724 I MyOwnTag: <MutaFlowTag>c7ed108a-64cf-428b-b684-b9e7b09a59b2<MutaFlowTag><android.util.Log: int i(java.lang.String,java.lang.String)>	56	23	12	void clickOnButton3(android.view.View)	de.ecspride.Button2<MutaFlowTag>TAG<MutaFlowTag>Button3: 000000000000000
+03-18 22:43:53.253 10724 10724 I MyOwnTag: <MutaFlowTag>c7ed108a-64cf-428b-b684-b9e7b09a59b2<MutaFlowTag><android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>	35	11	6	void onClick(android.view.View)	de.ecspride.Button2$1<MutaFlowTag>+49 1234<MutaFlowTag>000000000000000
+03-18 22:43:53.701 10724 10724 I MyOwnTag: <MutaFlowTag>c7ed108a-64cf-428b-b684-b9e7b09a59b2<MutaFlowTag><android.util.Log: int i(java.lang.String,java.lang.String)>	36	18	13	void onClick(android.view.View)	de.ecspride.Button2$1<MutaFlowTag>TAG<MutaFlowTag>sendIMEI: 000000000000000
+03-18 22:43:53.733 10724 10724 I MyOwnTag: <MutaFlowTag>c7ed108a-64cf-428b-b684-b9e7b09a59b2<MutaFlowTag><android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>	35	11	6	void onClick(android.view.View)	de.ecspride.Button2$1<MutaFlowTag>+49 1234

@@ -1,0 +1,9 @@
+--------- beginning of main
+--------- beginning of system
+05-05 20:52:30.971 17132 17132 I MyOwnTag: <MutaFlowTag>26de9380-fabc-4067-8447-00da2f588c33<MutaFlowTag><android.util.Log: int i(java.lang.String,java.lang.String)>	19	13	3	void onPause()	de.ecspride.LogNoLeak<MutaFlowTag>TAG<MutaFlowTag>not tainted
+--------- beginning of crash
+05-05 20:52:37.153 17178 17178 I MyOwnTag: <MutaFlowTag>26de9380-fabc-4067-8447-00da2f588c33<MutaFlowTag><android.util.Log: int i(java.lang.String,java.lang.String)>	19	13	3	void onPause()	de.ecspride.LogNoLeak<MutaFlowTag>TAG<MutaFlowTag>not tainted
+05-05 20:52:41.110 17203 17203 I MyOwnTag: <MutaFlowTag>26de9380-fabc-4067-8447-00da2f588c33<MutaFlowTag><android.util.Log: int i(java.lang.String,java.lang.String)>	19	13	3	void onPause()	de.ecspride.LogNoLeak<MutaFlowTag>TAG<MutaFlowTag>not tainted
+05-05 20:52:43.861 17238 17238 I MyOwnTag: <MutaFlowTag>26de9380-fabc-4067-8447-00da2f588c33<MutaFlowTag><android.util.Log: int i(java.lang.String,java.lang.String)>	19	13	3	void onPause()	de.ecspride.LogNoLeak<MutaFlowTag>TAG<MutaFlowTag>not tainted
+05-05 20:52:47.480 17254 17254 I MyOwnTag: <MutaFlowTag>26de9380-fabc-4067-8447-00da2f588c33<MutaFlowTag><android.util.Log: int i(java.lang.String,java.lang.String)>	19	13	3	void onPause()	de.ecspride.LogNoLeak<MutaFlowTag>TAG<MutaFlowTag>not tainted
+05-05 20:52:51.619 17287 17287 I MyOwnTag: <MutaFlowTag>26de9380-fabc-4067-8447-00da2f588c33<MutaFlowTag><android.util.Log: int i(java.lang.String,java.lang.String)>	19	13	3	void onPause()	de.ecspride.LogNoLeak<MutaFlowTag>TAG<MutaFlowTag>not tainted

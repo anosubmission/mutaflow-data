@@ -1,0 +1,5 @@
+--------- beginning of main
+--------- beginning of system
+04-30 12:34:20.308  5406  5406 I MyOwnTag: <MutaFlowTag>483afb1e-e499-4d0d-b655-ec3113f39143<MutaFlowTag><android.telephony.TelephonyManager: java.lang.String getDeviceId()>	32	16	4	void onResume()	edu.mit.activity_asynchronous_event_ordering.MainActivity<MutaFlowTag>000000010000000
+--------- beginning of crash
+04-30 12:34:21.984  5451  5451 I MyOwnTag: <MutaFlowTag>483afb1e-e499-4d0d-b655-ec3113f39143<MutaFlowTag><android.telephony.TelephonyManager: java.lang.String getDeviceId()>	32	16	4	void onResume()	edu.mit.activity_asynchronous_event_ordering.MainActivity<MutaFlowTag>000000030000000

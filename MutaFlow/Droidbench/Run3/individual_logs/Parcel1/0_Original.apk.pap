@@ -1,0 +1,7 @@
+--------- beginning of main
+--------- beginning of system
+04-30 19:54:59.812 18497 18497 I MyOwnTag: <MutaFlowTag>f99047b9-3dcb-4817-bdcc-e6b5ebc16b12<MutaFlowTag><android.telephony.TelephonyManager: java.lang.String getDeviceId()>	40	10	7	void onCreate(android.os.Bundle)	edu.mit.parcel.MainActivity<MutaFlowTag>000000000000000
+04-30 19:54:59.813 18497 18497 I MyOwnTag: <MutaFlowTag>f99047b9-3dcb-4817-bdcc-e6b5ebc16b12<MutaFlowTag><android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>	69	34	22	void writeParcel(java.lang.String)	edu.mit.parcel.MainActivity<MutaFlowTag>+49 1234<MutaFlowTag>000000000000000
+--------- beginning of crash
+04-30 19:55:01.345 18546 18546 I MyOwnTag: <MutaFlowTag>f99047b9-3dcb-4817-bdcc-e6b5ebc16b12<MutaFlowTag><android.telephony.TelephonyManager: java.lang.String getDeviceId()>	40	10	7	void onCreate(android.os.Bundle)	edu.mit.parcel.MainActivity<MutaFlowTag>000000000000000
+04-30 19:55:01.346 18546 18546 I MyOwnTag: <MutaFlowTag>f99047b9-3dcb-4817-bdcc-e6b5ebc16b12<MutaFlowTag><android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>	69	34	22	void writeParcel(java.lang.String)	edu.mit.parcel.MainActivity<MutaFlowTag>+49 1234<MutaFlowTag>000000000000000

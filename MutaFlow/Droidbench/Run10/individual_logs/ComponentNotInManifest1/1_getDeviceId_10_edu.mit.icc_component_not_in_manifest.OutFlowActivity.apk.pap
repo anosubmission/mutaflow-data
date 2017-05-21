@@ -1,0 +1,5 @@
+--------- beginning of main
+--------- beginning of system
+05-05 22:37:23.196 27502 27502 I MyOwnTag: <MutaFlowTag>f9dc80a0-0319-4adb-8d92-da8468bbbefe<MutaFlowTag><android.telephony.TelephonyManager: java.lang.String getDeviceId()>	26	10	7	void onCreate(android.os.Bundle)	edu.mit.icc_component_not_in_manifest.OutFlowActivity<MutaFlowTag>000000050000000
+05-05 22:37:23.196 27502 27502 I MyOwnTag: <MutaFlowTag>f9dc80a0-0319-4adb-8d92-da8468bbbefe<MutaFlowTag><android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)>	29	13	10	void onCreate(android.os.Bundle)	edu.mit.icc_component_not_in_manifest.OutFlowActivity<MutaFlowTag>DroidBench<MutaFlowTag>000000050000000
+--------- beginning of crash

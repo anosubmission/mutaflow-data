@@ -1,0 +1,211 @@
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Trying 127.0.0.1...
+Connected to localhost.
+Escape character is '^]'.
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Android Console: Authentication required
+Android Console: type 'auth <auth_token>' to authenticate
+Android Console: you can find your <auth_token> in 
+'/home/bj/.emulator_console_auth_token'
+OK
+p[K[Dpo[K[D[Dpow[K[D[D[Dpowe[K[D[D[D[Dpower[K[D[D[D[D[Dpower [K[D[D[D[D[D[Dpower c[K[D[D[D[D[D[D[Dpower ca[K[D[D[D[D[D[D[D[Dpower cap[K[D[D[D[D[D[D[D[D[Dpower capa[K[D[D[D[D[D[D[D[D[D[Dpower capac[K[D[D[D[D[D[D[D[D[D[D[Dpower capaci[K[D[D[D[D[D[D[D[D[D[D[D[Dpower capacit[K[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity[K[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity [K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 1[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 10[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 100[K
+KO: unknown command, try 'help'
+	pkg: /data/local/tmp/1_getLatitude_17_de.ecspride.FactoryMethods1.apk
+p[K[Dpo[K[D[Dpow[K[D[D[Dpowe[K[D[D[D[Dpower[K[D[D[D[D[Dpower [K[D[D[D[D[D[Dpower c[K[D[D[D[D[D[D[Dpower ca[K[D[D[D[D[D[D[D[Dpower cap[K[D[D[D[D[D[D[D[D[Dpower capa[K[D[D[D[D[D[D[D[D[D[Dpower capac[K[D[D[D[D[D[D[D[D[D[D[Dpower capaci[K[D[D[D[D[D[D[D[D[D[D[D[Dpower capacit[K[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity[K[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity [K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 1[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 10[K
+KO: unknown command, try 'help'
+Success
+Operation not allowed: java.lang.SecurityException: Package de.ecspride has not requested permission android.permission.READ_SMS
+FactoryMethods1
+:Monkey: seed=1000 count=10000
+:AllowPackage: de.ecspride
+:IncludeCategory: android.intent.category.LAUNCHER
+:IncludeCategory: android.intent.category.MONKEY
+// Event percentages:
+//   0: 15.0%
+//   1: 10.0%
+//   2: 2.0%
+//   3: 15.0%
+//   4: -0.0%
+//   5: -0.0%
+//   6: 25.0%
+//   7: 15.0%
+//   8: 2.0%
+//   9: 2.0%
+//   10: 1.0%
+//   11: 13.0%
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=de.ecspride/.FactoryMethods1;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=de.ecspride/.FactoryMethods1 } in package de.ecspride
+:Sending Touch (ACTION_DOWN): 0:(876.0,1684.0)
+:Sending Touch (ACTION_UP): 0:(902.46747,1661.4387)
+:Sending Touch (ACTION_DOWN): 0:(172.0,1223.0)
+:Sending Touch (ACTION_UP): 0:(173.65752,1223.0057)
+Trying 127.0.0.1...
+Connected to localhost.
+Escape character is '^]'.
+Android Console: Authentication required
+Android Console: type 'auth <auth_token>' to authenticate
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=de.ecspride/.FactoryMethods1;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=de.ecspride/.FactoryMethods1 } in package de.ecspride
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,4.0)
+Android Console: you can find your <auth_token> in 
+'/home/bj/.emulator_console_auth_token'
+OK
+p[K[Dpo[K[D[Dpow[K[D[D[Dpowe[K[D[D[D[Dpower[K[D[D[D[D[Dpower [K[D[D[D[D[D[Dpower c[K[D[D[D[D[D[D[Dpower ca[K[D[D[D[D[D[D[D[Dpower cap[K[D[D[D[D[D[D[D[D[Dpower capa[K[D[D[D[D[D[D[D[D[D[Dpower capac[K[D[D[D[D[D[D[D[D[D[D[Dpower capaci[K[D[D[D[D[D[D[D[D[D[D[D[Dpower capacit[K[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity[K[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity [K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 1[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 10[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 100[K
+KO: unknown command, try 'help'
+:Sending Touch (ACTION_DOWN): 0:(387.0,1409.0)
+:Sending Touch (ACTION_UP): 0:(390.03946,1407.4384)
+:Sending Touch (ACTION_DOWN): 0:(466.0,640.0)
+:Sending Touch (ACTION_UP): 0:(425.2828,671.216)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-1.0)
+:Sending Touch (ACTION_DOWN): 0:(5.0,1210.0)
+:Sending Touch (ACTION_UP): 0:(15.715435,1209.2615)
+:Sending Touch (ACTION_DOWN): 0:(376.0,359.0)
+:Sending Touch (ACTION_UP): 0:(396.78586,384.71213)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,4.0)
+:Sending Touch (ACTION_DOWN): 0:(247.0,1036.0)
+:Sending Touch (ACTION_UP): 0:(246.3602,1038.824)
+:Sending Touch (ACTION_DOWN): 0:(1059.0,1088.0)
+:Sending Touch (ACTION_UP): 0:(1061.2198,1094.0178)
+:Sending Touch (ACTION_DOWN): 0:(511.0,1254.0)
+:Sending Touch (ACTION_UP): 0:(488.05945,1255.3915)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,3.0)
+    //[calendar_time:2017-05-05 23:34:19.924  system_uptime:12151735]
+    // Sending event #100
+:Sending Trackball (ACTION_MOVE): 0:(4.0,0.0)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=de.ecspride/.FactoryMethods1;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=de.ecspride/.FactoryMethods1 } in package de.ecspride
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(532.0,105.0)
+:Sending Touch (ACTION_UP): 0:(546.7557,90.9559)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(375.0,1119.0)
+    //[calendar_time:2017-05-05 23:34:20.162  system_uptime:12151973]
+    // Sending event #200
+:Sending Touch (ACTION_UP): 0:(373.80206,1083.4492)
+:Sending Touch (ACTION_DOWN): 0:(223.0,632.0)
+:Sending Touch (ACTION_UP): 0:(214.88182,629.07574)
+:Sending Touch (ACTION_DOWN): 0:(759.0,632.0)
+:Sending Touch (ACTION_UP): 0:(776.2017,738.6602)
+:Sending Touch (ACTION_DOWN): 0:(805.0,1695.0)
+:Sending Touch (ACTION_UP): 0:(751.6157,1758.1327)
+:Sending Touch (ACTION_DOWN): 0:(583.0,702.0)
+:Sending Touch (ACTION_UP): 0:(575.4605,675.7692)
+:Sending Touch (ACTION_DOWN): 0:(226.0,1400.0)
+:Sending Touch (ACTION_UP): 0:(226.16568,1398.5045)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-5.0)
+:Sending Touch (ACTION_DOWN): 0:(576.0,1642.0)
+:Sending Touch (ACTION_UP): 0:(573.3063,1673.7833)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-4.0)
+:Sending Touch (ACTION_DOWN): 0:(150.0,82.0)
+:Sending Touch (ACTION_UP): 0:(136.58412,76.71119)
+:Sending Touch (ACTION_DOWN): 0:(595.0,1329.0)
+:Sending Touch (ACTION_UP): 0:(591.8541,1346.228)
+:Sending Touch (ACTION_DOWN): 0:(579.0,944.0)
+:Sending Touch (ACTION_UP): 0:(577.6276,942.5118)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,4.0)
+:Sending Touch (ACTION_DOWN): 0:(607.0,1079.0)
+    //[calendar_time:2017-05-05 23:34:20.242  system_uptime:12152054]
+    // Sending event #300
+:Sending Touch (ACTION_UP): 0:(600.5517,1058.7704)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-4.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(1036.0,1323.0)
+:Sending Touch (ACTION_UP): 0:(1034.6403,1322.6475)
+:Sending Touch (ACTION_DOWN): 0:(176.0,1756.0)
+:Sending Touch (ACTION_UP): 0:(227.18475,1749.6067)
+:Sending Touch (ACTION_DOWN): 0:(78.0,1052.0)
+:Sending Touch (ACTION_UP): 0:(75.65133,1056.4895)
+:Sending Touch (ACTION_DOWN): 0:(601.0,551.0)
+:Sending Touch (ACTION_UP): 0:(590.7859,560.5001)
+:Sending Touch (ACTION_DOWN): 0:(354.0,1695.0)
+:Sending Touch (ACTION_UP): 0:(369.03598,1696.5215)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-5.0)
+:Sending Flip keyboardOpen=false
+Got IOException performing flipjava.io.IOException: write failed: EINVAL (Invalid argument)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-5.0)
+:Sending Touch (ACTION_DOWN): 0:(434.0,584.0)
+:Sending Touch (ACTION_UP): 0:(434.26718,578.70557)
+:Sending Touch (ACTION_DOWN): 0:(982.0,1403.0)
+:Sending Touch (ACTION_UP): 0:(981.27655,1392.4197)
+:Sending Touch (ACTION_DOWN): 0:(27.0,701.0)
+:Sending Touch (ACTION_UP): 0:(96.14123,640.7303)
+    //[calendar_time:2017-05-05 23:34:20.312  system_uptime:12152123]
+    // Sending event #400
+    //[calendar_time:2017-05-05 23:34:20.312  system_uptime:12152123]
+    // Sending event #400
+:Sending Touch (ACTION_DOWN): 0:(972.0,1720.0)
+:Sending Touch (ACTION_UP): 0:(979.57007,1724.3789)
+:Sending Touch (ACTION_DOWN): 0:(530.0,770.0)
+:Sending Touch (ACTION_UP): 0:(525.73315,769.74817)
+:Sending Touch (ACTION_DOWN): 0:(772.0,39.0)
+:Sending Touch (ACTION_UP): 0:(770.79596,156.18459)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-1.0)
+:Sending Touch (ACTION_DOWN): 0:(261.0,1451.0)
+:Sending Touch (ACTION_UP): 0:(314.80087,1406.8955)
+:Sending Flip keyboardOpen=true
+Got IOException performing flipjava.io.IOException: write failed: EINVAL (Invalid argument)
+    // Injection Failed
+:Sending Touch (ACTION_DOWN): 0:(1079.0,544.0)
+:Sending Touch (ACTION_UP): 0:(1077.3096,537.08154)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-1.0)
+:Sending Touch (ACTION_DOWN): 0:(439.0,1472.0)
+:Sending Touch (ACTION_UP): 0:(348.94446,1467.614)
+:Sending Touch (ACTION_DOWN): 0:(207.0,997.0)
+:Sending Touch (ACTION_UP): 0:(251.63728,1012.81213)
+    //[calendar_time:2017-05-05 23:34:20.510  system_uptime:12152321]
+    // Sending event #500
+    //[calendar_time:2017-05-05 23:34:20.510  system_uptime:12152321]
+    // Sending event #500
+:Sending Touch (ACTION_DOWN): 0:(449.0,506.0)
+:Sending Touch (ACTION_UP): 0:(442.18195,517.5887)
+:Sending Touch (ACTION_DOWN): 0:(951.0,1346.0)
+:Sending Touch (ACTION_UP): 0:(941.9875,1349.2194)
+:Sending Touch (ACTION_DOWN): 0:(315.0,225.0)
+:Sending Touch (ACTION_UP): 0:(316.8445,218.64165)
+:Sending Touch (ACTION_DOWN): 0:(394.0,1475.0)
+:Sending Touch (ACTION_UP): 0:(392.82663,1471.1758)
+:Sending Touch (ACTION_DOWN): 0:(765.0,1527.0)
+:Sending Touch (ACTION_UP): 0:(763.45856,1537.1611)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,2.0)
+// CRASH: de.ecspride (pid 20670)
+// Short Msg: java.lang.NullPointerException
+// Long Msg: java.lang.NullPointerException: Attempt to invoke virtual method 'double android.location.Location.getLatitude()' on a null object reference
+// Build Label: Android/sdk_phone_x86_64/generic_x86_64:6.0/MASTER/2780065:userdebug/test-keys
+// Build Changelist: 2780065
+// Build Time: 1461115984000
+// java.lang.RuntimeException: Unable to start activity ComponentInfo{de.ecspride/de.ecspride.FactoryMethods1}: java.lang.NullPointerException: Attempt to invoke virtual method 'double android.location.Location.getLatitude()' on a null object reference
+// 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2416)
+// 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2476)
+// 	at android.app.ActivityThread.-wrap11(ActivityThread.java)
+// 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1344)
+// 	at android.os.Handler.dispatchMessage(Handler.java:102)
+// 	at android.os.Looper.loop(Looper.java:148)
+// 	at android.app.ActivityThread.main(ActivityThread.java:5417)
+// 	at java.lang.reflect.Method.invoke(Native Method)
+// 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:726)
+// 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:616)
+// Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'double android.location.Location.getLatitude()' on a null object reference
+// 	at de.ecspride.FactoryMethods1.onCreate(FactoryMethods1.java:37)
+// 	at android.app.Activity.performCreate(Activity.java:6237)
+// 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1107)
+// 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2369)
+// 	... 9 more
+// 
+p[K[Dpo[K[D[Dpow[K[D[D[Dpowe[K[D[D[D[Dpower[K[D[D[D[D[Dpower [K[D[D[D[D[D[Dpower c[K[D[D[D[D[D[D[Dpower ca[K[D[D[D[D[D[D[D[Dpower cap[K[D[D[D[D[D[D[D[D[Dpower capa[K[D[D[D[D[D[D[D[D[D[Dpower capac[K[D[D[D[D[D[D[D[D[D[D[Dpower capaci[K[D[D[D[D[D[D[D[D[D[D[D[Dpower capacit[K[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity[K[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity [K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 1[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 10[K
+KO: unknown command, try 'help'
+    // Injection Failed
+** Monkey aborted due to error.
+Events injected: 534
+:Sending rotation degree=0, persist=false
+:Dropped: keys=1 pointers=0 trackballs=0 flips=2 rotations=0
+## Network stats: elapsed time=1321ms (0ms mobile, 0ms wifi, 1321ms not connected)
+** System appears to have crashed at event 534 of 10000 using seed 1000
+Success
+** No activities found to run, monkey aborted.

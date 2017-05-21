@@ -1,0 +1,5 @@
+--------- beginning of main
+--------- beginning of system
+05-03 10:05:49.104  3570  3570 I MyOwnTag: <MutaFlowTag>0a99b00d-d587-4ed2-a76a-48787c92e35f<MutaFlowTag><android.telephony.TelephonyManager: java.lang.String getDeviceId()>	20	12	7	void onCreate(android.os.Bundle)	de.ecspride.Button1
+05-03 10:05:49.911  3570  3570 I MyOwnTag: <MutaFlowTag>0a99b00d-d587-4ed2-a76a-48787c92e35f<MutaFlowTag><android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>	26	22	8	void sendMessage(android.view.View)	de.ecspride.Button1<MutaFlowTag>+49
+--------- beginning of crash

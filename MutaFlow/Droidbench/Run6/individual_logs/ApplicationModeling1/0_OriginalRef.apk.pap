@@ -1,0 +1,9 @@
+--------- beginning of main
+--------- beginning of system
+05-03 09:17:55.308 15065 15065 I MyOwnTag: <MutaFlowTag>7a3b8d77-c018-4e25-b643-1f18cf50eaa0<MutaFlowTag><android.telephony.TelephonyManager: java.lang.String getDeviceId()>	27	10	7	void onCreate(android.os.Bundle)	edu.mit.application_modeling.MainActivity
+05-03 09:17:57.687 15065 15065 I MyOwnTag: <MutaFlowTag>7a3b8d77-c018-4e25-b643-1f18cf50eaa0<MutaFlowTag><android.telephony.TelephonyManager: java.lang.String getDeviceId()>	27	10	7	void onCreate(android.os.Bundle)	edu.mit.application_modeling.MainActivity
+05-03 09:18:08.184 15065 15065 I MyOwnTag: <MutaFlowTag>7a3b8d77-c018-4e25-b643-1f18cf50eaa0<MutaFlowTag><android.telephony.TelephonyManager: java.lang.String getDeviceId()>	27	10	7	void onCreate(android.os.Bundle)	edu.mit.application_modeling.MainActivity
+05-03 09:18:12.419 15065 15065 I MyOwnTag: <MutaFlowTag>7a3b8d77-c018-4e25-b643-1f18cf50eaa0<MutaFlowTag><android.telephony.TelephonyManager: java.lang.String getDeviceId()>	27	10	7	void onCreate(android.os.Bundle)	edu.mit.application_modeling.MainActivity
+05-03 09:18:18.617 15065 15065 I MyOwnTag: <MutaFlowTag>7a3b8d77-c018-4e25-b643-1f18cf50eaa0<MutaFlowTag><android.telephony.TelephonyManager: java.lang.String getDeviceId()>	27	10	7	void onCreate(android.os.Bundle)	edu.mit.application_modeling.MainActivity
+05-03 09:18:20.317 15065 15065 I MyOwnTag: <MutaFlowTag>7a3b8d77-c018-4e25-b643-1f18cf50eaa0<MutaFlowTag><android.telephony.TelephonyManager: java.lang.String getDeviceId()>	27	10	7	void onCreate(android.os.Bundle)	edu.mit.application_modeling.MainActivity
+05-03 09:18:24.319 15065 15065 I MyOwnTag: <MutaFlowTag>7a3b8d77-c018-4e25-b643-1f18cf50eaa0<MutaFlowTag><android.telephony.TelephonyManager: java.lang.String getDeviceId()>	27	10	7	void onCreate(android.os.Bundle)	edu.mit.application_modeling.MainActivity

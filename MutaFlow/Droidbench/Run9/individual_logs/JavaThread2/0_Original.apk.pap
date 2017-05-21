@@ -1,0 +1,11 @@
+--------- beginning of main
+--------- beginning of system
+05-04 23:05:21.589 19355 19355 I MyOwnTag: <MutaFlowTag>8cb771dc-bd68-4feb-b7ee-37891462deba<MutaFlowTag><android.telephony.TelephonyManager: java.lang.String getDeviceId()>	31	11	8	void onCreate(android.os.Bundle)	de.ecspride.MainActivity<MutaFlowTag>000000000000000
+05-04 23:05:21.592 19355 19368 I MyOwnTag: <MutaFlowTag>8cb771dc-bd68-4feb-b7ee-37891462deba<MutaFlowTag><android.util.Log: int d(java.lang.String,java.lang.String)>	37	10	3	void run()	de.ecspride.MainActivity$1<MutaFlowTag>DroidBench<MutaFlowTag>000000000000000
+05-04 23:05:33.667 19355 19355 I MyOwnTag: <MutaFlowTag>8cb771dc-bd68-4feb-b7ee-37891462deba<MutaFlowTag><android.telephony.TelephonyManager: java.lang.String getDeviceId()>	31	11	8	void onCreate(android.os.Bundle)	de.ecspride.MainActivity<MutaFlowTag>000000000000000
+05-04 23:05:33.670 19355 19412 I MyOwnTag: <MutaFlowTag>8cb771dc-bd68-4feb-b7ee-37891462deba<MutaFlowTag><android.util.Log: int d(java.lang.String,java.lang.String)>	37	10	3	void run()	de.ecspride.MainActivity$1<MutaFlowTag>DroidBench<MutaFlowTag>000000000000000
+05-04 23:05:40.201 19355 19355 I MyOwnTag: <MutaFlowTag>8cb771dc-bd68-4feb-b7ee-37891462deba<MutaFlowTag><android.telephony.TelephonyManager: java.lang.String getDeviceId()>	31	11	8	void onCreate(android.os.Bundle)	de.ecspride.MainActivity<MutaFlowTag>000000000000000
+05-04 23:05:40.205 19355 19437 I MyOwnTag: <MutaFlowTag>8cb771dc-bd68-4feb-b7ee-37891462deba<MutaFlowTag><android.util.Log: int d(java.lang.String,java.lang.String)>	37	10	3	void run()	de.ecspride.MainActivity$1<MutaFlowTag>DroidBench<MutaFlowTag>000000000000000
+05-04 23:05:58.268 19355 19355 I MyOwnTag: <MutaFlowTag>8cb771dc-bd68-4feb-b7ee-37891462deba<MutaFlowTag><android.telephony.TelephonyManager: java.lang.String getDeviceId()>	31	11	8	void onCreate(android.os.Bundle)	de.ecspride.MainActivity<MutaFlowTag>000000000000000
+05-04 23:05:58.269 19355 19497 I MyOwnTag: <MutaFlowTag>8cb771dc-bd68-4feb-b7ee-37891462deba<MutaFlowTag><android.util.Log: int d(java.lang.String,java.lang.String)>	37	10	3	void run()	de.ecspride.MainActivity$1<MutaFlowTag>DroidBench<MutaFlowTag>000000000000000
+--------- beginning of crash

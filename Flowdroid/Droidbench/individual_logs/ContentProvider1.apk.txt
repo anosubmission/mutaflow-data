@@ -1,0 +1,490 @@
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/anonymous/FlowDroid/soot-trunk.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/anonymous/FlowDroid/slf4j-simple-1.7.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.SimpleLoggerFactory]
+[main] INFO soot.jimple.infoflow.taintWrappers.EasyTaintWrapper - Loaded wrapper entries for 70 classes and 11 exclusions.
+[main] INFO soot.jimple.infoflow.android.SetupApplication - ARSC file parsing took 0.034505066 seconds
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.os.Bundle
+[main] INFO soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Generated main method:
+    public static void dummyMainMethod(java.lang.String[])
+    {
+        java.lang.String[] $r0;
+        int $i0;
+        de.ecspride.MyContentProvider $r1;
+        boolean $z0;
+        de.ecspride.MainActivity $r2;
+
+        $r0 := @parameter0: java.lang.String[];
+
+        $i0 = 0;
+
+     label1:
+        $r1 = new de.ecspride.MyContentProvider;
+
+        specialinvoke $r1.<de.ecspride.MyContentProvider: void <init>()>();
+
+        if $i0 == 0 goto label2;
+
+        $z0 = virtualinvoke $r1.<de.ecspride.MyContentProvider: boolean onCreate()>();
+
+     label2:
+        if $i0 == 1 goto label1;
+
+     label3:
+        if $i0 == 5 goto label5;
+
+        $r2 = new de.ecspride.MainActivity;
+
+        specialinvoke $r2.<de.ecspride.MainActivity: void <init>()>();
+
+        if $i0 == 6 goto label5;
+
+        virtualinvoke $r2.<de.ecspride.MainActivity: void onCreate(android.os.Bundle)>(null);
+
+     label4:
+        if $i0 == 9 goto label5;
+
+        if $i0 == 10 goto label4;
+
+     label5:
+        if $i0 == 12 goto label3;
+
+        return;
+    }
+
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Collecting callbacks in DEFAULT mode...
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.1 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+Callback analysis done.
+Warning: LinearLayout is a phantom class!
+Warning: de.ecspride.LinearLayout is a phantom class!
+Warning: android.view.LinearLayout is a phantom class!
+Found 1 layout controls in file res/layout/abc_action_bar_decor.xml
+Warning: de.ecspride.android.support.v7.internal.widget.ActionBarContainer is a phantom class!
+Warning: android.view.android.support.v7.internal.widget.ActionBarContainer is a phantom class!
+Warning: android.widget.android.support.v7.internal.widget.ActionBarContainer is a phantom class!
+Warning: android.webkit.android.support.v7.internal.widget.ActionBarContainer is a phantom class!
+Could not find layout class android.support.v7.internal.widget.ActionBarContainer
+Warning: de.ecspride.android.support.v7.internal.widget.ActionBarView is a phantom class!
+Warning: android.view.android.support.v7.internal.widget.ActionBarView is a phantom class!
+Warning: android.widget.android.support.v7.internal.widget.ActionBarView is a phantom class!
+Warning: android.webkit.android.support.v7.internal.widget.ActionBarView is a phantom class!
+Could not find layout class android.support.v7.internal.widget.ActionBarView
+Warning: de.ecspride.android.support.v7.internal.widget.ActionBarContextView is a phantom class!
+Warning: android.view.android.support.v7.internal.widget.ActionBarContextView is a phantom class!
+Warning: android.widget.android.support.v7.internal.widget.ActionBarContextView is a phantom class!
+Warning: android.webkit.android.support.v7.internal.widget.ActionBarContextView is a phantom class!
+Could not find layout class android.support.v7.internal.widget.ActionBarContextView
+Warning: FrameLayout is a phantom class!
+Warning: de.ecspride.FrameLayout is a phantom class!
+Warning: android.view.FrameLayout is a phantom class!
+Could not find layout class android.support.v7.internal.widget.ActionBarContainer
+Found 2 layout controls in file res/layout/abc_action_bar_decor_include.xml
+Warning: de.ecspride.android.support.v7.internal.widget.ActionBarOverlayLayout is a phantom class!
+Warning: android.view.android.support.v7.internal.widget.ActionBarOverlayLayout is a phantom class!
+Warning: android.widget.android.support.v7.internal.widget.ActionBarOverlayLayout is a phantom class!
+Warning: android.webkit.android.support.v7.internal.widget.ActionBarOverlayLayout is a phantom class!
+Could not find layout class android.support.v7.internal.widget.ActionBarOverlayLayout
+Could not find layout class android.support.v7.internal.widget.ActionBarContainer
+Could not find layout class android.support.v7.internal.widget.ActionBarView
+Could not find layout class android.support.v7.internal.widget.ActionBarContextView
+Warning: ImageView is a phantom class!
+Warning: de.ecspride.ImageView is a phantom class!
+Warning: android.view.ImageView is a phantom class!
+Could not find layout class android.support.v7.internal.widget.ActionBarContainer
+Found 3 layout controls in file res/layout/abc_action_bar_decor_overlay.xml
+Warning: view is a phantom class!
+Warning: de.ecspride.view is a phantom class!
+Warning: android.view.view is a phantom class!
+Warning: android.widget.view is a phantom class!
+Warning: android.webkit.view is a phantom class!
+Could not find layout class view
+Found 4 layout controls in file res/layout/abc_action_bar_home.xml
+Could not find layout class view
+Found 4 layout controls in file res/layout/abc_action_bar_tab.xml
+Warning: de.ecspride.android.support.v7.internal.widget.LinearLayoutICS is a phantom class!
+Warning: android.view.android.support.v7.internal.widget.LinearLayoutICS is a phantom class!
+Warning: android.widget.android.support.v7.internal.widget.LinearLayoutICS is a phantom class!
+Warning: android.webkit.android.support.v7.internal.widget.LinearLayoutICS is a phantom class!
+Could not find layout class android.support.v7.internal.widget.LinearLayoutICS
+Found 4 layout controls in file res/layout/abc_action_bar_tabbar.xml
+Warning: TextView is a phantom class!
+Warning: de.ecspride.TextView is a phantom class!
+Warning: android.view.TextView is a phantom class!
+Found 5 layout controls in file res/layout/abc_action_bar_title_item.xml
+Found 6 layout controls in file res/layout/abc_action_bar_view_list_nav_layout.xml
+Warning: de.ecspride.android.support.v7.internal.view.menu.ActionMenuItemView is a phantom class!
+Warning: android.view.android.support.v7.internal.view.menu.ActionMenuItemView is a phantom class!
+Warning: android.widget.android.support.v7.internal.view.menu.ActionMenuItemView is a phantom class!
+Warning: android.webkit.android.support.v7.internal.view.menu.ActionMenuItemView is a phantom class!
+Could not find layout class android.support.v7.internal.view.menu.ActionMenuItemView
+Found 6 layout controls in file res/layout/abc_action_menu_item_layout.xml
+Warning: de.ecspride.android.support.v7.internal.view.menu.ActionMenuView is a phantom class!
+Warning: android.view.android.support.v7.internal.view.menu.ActionMenuView is a phantom class!
+Warning: android.widget.android.support.v7.internal.view.menu.ActionMenuView is a phantom class!
+Warning: android.webkit.android.support.v7.internal.view.menu.ActionMenuView is a phantom class!
+Could not find layout class android.support.v7.internal.view.menu.ActionMenuView
+Found 6 layout controls in file res/layout/abc_action_menu_layout.xml
+Could not find layout class android.support.v7.internal.widget.ActionBarContextView
+Found 6 layout controls in file res/layout/abc_action_mode_bar.xml
+Found 7 layout controls in file res/layout/abc_action_mode_close_item.xml
+Could not find layout class android.support.v7.internal.widget.LinearLayoutICS
+Found 7 layout controls in file res/layout/abc_activity_chooser_view.xml
+Found 8 layout controls in file res/layout/abc_activity_chooser_view_include.xml
+Found 9 layout controls in file res/layout/abc_activity_chooser_view_list_item.xml
+Warning: de.ecspride.android.support.v7.internal.view.menu.ExpandedMenuView is a phantom class!
+Warning: android.view.android.support.v7.internal.view.menu.ExpandedMenuView is a phantom class!
+Warning: android.widget.android.support.v7.internal.view.menu.ExpandedMenuView is a phantom class!
+Warning: android.webkit.android.support.v7.internal.view.menu.ExpandedMenuView is a phantom class!
+Could not find layout class android.support.v7.internal.view.menu.ExpandedMenuView
+Found 9 layout controls in file res/layout/abc_expanded_menu_layout.xml
+Warning: CheckBox is a phantom class!
+Warning: de.ecspride.CheckBox is a phantom class!
+Warning: android.view.CheckBox is a phantom class!
+Found 10 layout controls in file res/layout/abc_list_menu_item_checkbox.xml
+Found 11 layout controls in file res/layout/abc_list_menu_item_icon.xml
+Warning: de.ecspride.android.support.v7.internal.view.menu.ListMenuItemView is a phantom class!
+Warning: android.view.android.support.v7.internal.view.menu.ListMenuItemView is a phantom class!
+Warning: android.widget.android.support.v7.internal.view.menu.ListMenuItemView is a phantom class!
+Warning: android.webkit.android.support.v7.internal.view.menu.ListMenuItemView is a phantom class!
+Could not find layout class android.support.v7.internal.view.menu.ListMenuItemView
+Warning: RelativeLayout is a phantom class!
+Warning: de.ecspride.RelativeLayout is a phantom class!
+Warning: android.view.RelativeLayout is a phantom class!
+Found 12 layout controls in file res/layout/abc_list_menu_item_layout.xml
+Warning: RadioButton is a phantom class!
+Warning: de.ecspride.RadioButton is a phantom class!
+Warning: android.view.RadioButton is a phantom class!
+Found 13 layout controls in file res/layout/abc_list_menu_item_radio.xml
+Could not find layout class android.support.v7.internal.view.menu.ListMenuItemView
+Found 14 layout controls in file res/layout/abc_popup_menu_item_layout.xml
+Found 15 layout controls in file res/layout/abc_search_dropdown_item_icons_2line.xml
+Could not find layout class view
+Found 16 layout controls in file res/layout/abc_search_view.xml
+Found 17 layout controls in file res/layout/abc_simple_decor.xml
+Found 18 layout controls in file res/layout/activity_main.xml
+Found 19 layout controls in file res/layout/fragment_main.xml
+Found 20 layout controls in file res/layout/support_simple_spinner_dropdown_item.xml
+Warning: de.ecspride.android.support.v7.internal.widget.NativeActionModeAwareLayout is a phantom class!
+Warning: android.view.android.support.v7.internal.widget.NativeActionModeAwareLayout is a phantom class!
+Warning: android.widget.android.support.v7.internal.widget.NativeActionModeAwareLayout is a phantom class!
+Warning: android.webkit.android.support.v7.internal.widget.NativeActionModeAwareLayout is a phantom class!
+Could not find layout class android.support.v7.internal.widget.NativeActionModeAwareLayout
+Found 20 layout controls in file res/layout-v11/abc_action_bar_decor.xml
+Could not find layout class android.support.v7.internal.widget.NativeActionModeAwareLayout
+Found 21 layout controls in file res/layout-v11/abc_simple_decor.xml
+Found 22 layout controls in file res/layout-v14/abc_activity_chooser_view.xml
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.net.Uri
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.content.ContentValues
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.os.Bundle
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.view.Menu
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.view.MenuItem
+[main] INFO soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Generated main method:
+    public static void dummyMainMethod(java.lang.String[])
+    {
+        java.lang.String[] $r0, $r3, $r4, $r6, $r8;
+        int $i0, $i1, $i2;
+        de.ecspride.MyContentProvider $r1;
+        boolean $z0, $z1, $z2;
+        android.net.Uri $r2;
+        android.database.Cursor $r5;
+        java.lang.String $r7;
+        de.ecspride.MainActivity $r9;
+
+        $r0 := @parameter0: java.lang.String[];
+
+        $i0 = 0;
+
+     label01:
+        $r1 = new de.ecspride.MyContentProvider;
+
+        specialinvoke $r1.<de.ecspride.MyContentProvider: void <init>()>();
+
+        if $i0 == 0 goto label02;
+
+        $z0 = virtualinvoke $r1.<de.ecspride.MyContentProvider: boolean onCreate()>();
+
+     label02:
+        if $i0 == 1 goto label01;
+
+     label03:
+        if $i0 == 2 goto label10;
+
+        if $i0 == 3 goto label10;
+
+        if $i0 == 4 goto label10;
+
+     label04:
+        if $i0 == 5 goto label05;
+
+        $r2 = virtualinvoke $r1.<de.ecspride.MyContentProvider: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>(null, null);
+
+     label05:
+        if $i0 == 6 goto label06;
+
+        $r3 = newarray (java.lang.String)[1];
+
+        $r3[0] = "";
+
+        $r4 = newarray (java.lang.String)[1];
+
+        $r4[0] = "";
+
+        $r5 = virtualinvoke $r1.<de.ecspride.MyContentProvider: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>(null, $r3, "", $r4, "");
+
+     label06:
+        if $i0 == 7 goto label07;
+
+        $r6 = newarray (java.lang.String)[1];
+
+        $r6[0] = "";
+
+        $i1 = virtualinvoke $r1.<de.ecspride.MyContentProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>(null, "", $r6);
+
+     label07:
+        if $i0 == 8 goto label08;
+
+        $r7 = virtualinvoke $r1.<de.ecspride.MyContentProvider: java.lang.String getType(android.net.Uri)>(null);
+
+     label08:
+        if $i0 == 9 goto label09;
+
+        $r8 = newarray (java.lang.String)[1];
+
+        $r8[0] = "";
+
+        $i2 = virtualinvoke $r1.<de.ecspride.MyContentProvider: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>(null, null, "", $r8);
+
+     label09:
+        if $i0 == 10 goto label04;
+
+     label10:
+        if $i0 == 11 goto label16;
+
+        $r9 = new de.ecspride.MainActivity;
+
+        specialinvoke $r9.<de.ecspride.MainActivity: void <init>()>();
+
+        if $i0 == 12 goto label16;
+
+        virtualinvoke $r9.<de.ecspride.MainActivity: void onCreate(android.os.Bundle)>(null);
+
+     label11:
+        if $i0 == 14 goto label15;
+
+     label12:
+        if $i0 == 15 goto label13;
+
+        $z1 = virtualinvoke $r9.<de.ecspride.MainActivity: boolean onCreateOptionsMenu(android.view.Menu)>(null);
+
+     label13:
+        if $i0 == 16 goto label14;
+
+        $z2 = virtualinvoke $r9.<de.ecspride.MainActivity: boolean onOptionsItemSelected(android.view.MenuItem)>(null);
+
+     label14:
+        if $i0 == 17 goto label12;
+
+     label15:
+        if $i0 == 18 goto label11;
+
+        if $i0 == 19 goto label16;
+
+        if $i0 == 20 goto label11;
+
+     label16:
+        if $i0 == 22 goto label03;
+
+        return;
+    }
+
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+Running incremental callback analysis for 2 components...
+Incremental callback analysis done.
+Found 9 callback methods for 2 components
+Found {res/layout/abc_list_menu_item_radio.xml=[2131034159 - android.widget.RadioButton], res/layout/abc_action_bar_view_list_nav_layout.xml=[-1 - android.widget.LinearLayout], res/layout/abc_action_bar_decor_include.xml=[2131034133 - android.widget.FrameLayout], res/layout/activity_main.xml=[2131034172 - android.widget.FrameLayout], res/layout/abc_popup_menu_item_layout.xml=[-1 - android.widget.RelativeLayout, 2131034158 - android.widget.TextView, 2131034155 - android.widget.TextView], res/layout/abc_search_dropdown_item_icons_2line.xml=[-1 - android.widget.RelativeLayout, 16908308 - android.widget.TextView, 2131034160 - android.widget.ImageView, 16908309 - android.widget.TextView, 16908295 - android.widget.ImageView, 16908296 - android.widget.ImageView], res/layout/abc_search_view.xml=[2131034163 - android.widget.ImageView, 2131034168 - android.widget.ImageView, 2131034166 - android.widget.LinearLayout, 2131034162 - android.widget.TextView, 2131034169 - android.widget.LinearLayout, 2131034165 - android.widget.ImageView, 2131034164 - android.widget.LinearLayout, 2131034161 - android.widget.LinearLayout, 2131034170 - android.widget.ImageView, 2131034171 - android.widget.ImageView], res/layout-v14/abc_activity_chooser_view.xml=[2131034149 - android.widget.LinearLayout], res/layout/abc_activity_chooser_view_list_item.xml=[2131034153 - android.widget.LinearLayout, 2131034154 - android.widget.ImageView, 2131034155 - android.widget.TextView, -1 - android.widget.LinearLayout], res/layout/abc_activity_chooser_view_include.xml=[2131034152 - android.widget.FrameLayout, 2131034151 - android.widget.ImageView, 2131034150 - android.widget.FrameLayout], res/layout/abc_action_bar_decor_overlay.xml=[2131034144 - android.widget.LinearLayout, 2131034133 - android.widget.FrameLayout, -1 - android.widget.ImageView], res/layout/abc_action_bar_home.xml=[2131034132 - android.widget.ImageView, 2131034145 - android.widget.ImageView], res/layout/abc_action_mode_close_item.xml=[2131034148 - android.widget.LinearLayout, -1 - android.widget.ImageView], res/layout/abc_list_menu_item_layout.xml=[-1 - android.widget.RelativeLayout, 2131034158 - android.widget.TextView, 2131034155 - android.widget.TextView], res/layout/abc_action_bar_title_item.xml=[2131034146 - android.widget.TextView, 2131034147 - android.widget.TextView, 2131034145 - android.widget.ImageView, -1 - android.widget.LinearLayout], res/layout/abc_list_menu_item_checkbox.xml=[2131034157 - android.widget.CheckBox], res/layout/fragment_main.xml=[-1 - android.widget.RelativeLayout, -1 - android.widget.TextView], res/layout/abc_action_bar_decor.xml=[-1 - android.widget.LinearLayout], res/layout/abc_simple_decor.xml=[2131034138 - android.widget.LinearLayout, 2131034133 - android.widget.FrameLayout], res/layout/support_simple_spinner_dropdown_item.xml=[16908308 - android.widget.TextView], res/layout-v11/abc_simple_decor.xml=[2131034133 - android.widget.FrameLayout], res/layout/abc_list_menu_item_icon.xml=[2131034154 - android.widget.ImageView]} layout controls
+Entry point calculation done.
+Created a SourceSinkManager with 16 sources, 102 sinks, and 9 callback methods.
+Running data flow analysis...
+Running data flow analysis on apks/EmulatorDetection/ContentProvider1.apk with 16 sources and 102 sinks...
+Starting infoflow computation...
+[main] INFO soot.jimple.infoflow.Infoflow - Resetting Soot...
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+[main] INFO soot.jimple.infoflow.Infoflow - Basic class loading done.
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.net.Uri
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.content.ContentValues
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.os.Bundle
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.view.MenuItem
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.view.Menu
+[main] INFO soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Generated main method:
+    public static void dummyMainMethod(java.lang.String[])
+    {
+        java.lang.String[] $r0, $r2, $r5, $r6, $r7;
+        int $i0, $i1, $i2;
+        de.ecspride.MyContentProvider $r1;
+        boolean $z0, $z1, $z2;
+        android.net.Uri $r3;
+        java.lang.String $r4;
+        android.database.Cursor $r8;
+        de.ecspride.MainActivity $r9;
+
+        $r0 := @parameter0: java.lang.String[];
+
+        $i0 = 0;
+
+     label01:
+        $r1 = new de.ecspride.MyContentProvider;
+
+        specialinvoke $r1.<de.ecspride.MyContentProvider: void <init>()>();
+
+        if $i0 == 0 goto label02;
+
+        $z0 = virtualinvoke $r1.<de.ecspride.MyContentProvider: boolean onCreate()>();
+
+     label02:
+        if $i0 == 1 goto label01;
+
+     label03:
+        if $i0 == 2 goto label10;
+
+        if $i0 == 3 goto label10;
+
+        if $i0 == 4 goto label10;
+
+     label04:
+        if $i0 == 5 goto label05;
+
+        $r2 = newarray (java.lang.String)[1];
+
+        $r2[0] = "";
+
+        $i1 = virtualinvoke $r1.<de.ecspride.MyContentProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>(null, "", $r2);
+
+     label05:
+        if $i0 == 6 goto label06;
+
+        $r3 = virtualinvoke $r1.<de.ecspride.MyContentProvider: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>(null, null);
+
+     label06:
+        if $i0 == 7 goto label07;
+
+        $r4 = virtualinvoke $r1.<de.ecspride.MyContentProvider: java.lang.String getType(android.net.Uri)>(null);
+
+     label07:
+        if $i0 == 8 goto label08;
+
+        $r5 = newarray (java.lang.String)[1];
+
+        $r5[0] = "";
+
+        $i2 = virtualinvoke $r1.<de.ecspride.MyContentProvider: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>(null, null, "", $r5);
+
+     label08:
+        if $i0 == 9 goto label09;
+
+        $r6 = newarray (java.lang.String)[1];
+
+        $r6[0] = "";
+
+        $r7 = newarray (java.lang.String)[1];
+
+        $r7[0] = "";
+
+        $r8 = virtualinvoke $r1.<de.ecspride.MyContentProvider: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>(null, $r6, "", $r7, "");
+
+     label09:
+        if $i0 == 10 goto label04;
+
+     label10:
+        if $i0 == 11 goto label16;
+
+        $r9 = new de.ecspride.MainActivity;
+
+        specialinvoke $r9.<de.ecspride.MainActivity: void <init>()>();
+
+        if $i0 == 12 goto label16;
+
+        virtualinvoke $r9.<de.ecspride.MainActivity: void onCreate(android.os.Bundle)>(null);
+
+     label11:
+        if $i0 == 14 goto label15;
+
+     label12:
+        if $i0 == 15 goto label13;
+
+        $z1 = virtualinvoke $r9.<de.ecspride.MainActivity: boolean onOptionsItemSelected(android.view.MenuItem)>(null);
+
+     label13:
+        if $i0 == 16 goto label14;
+
+        $z2 = virtualinvoke $r9.<de.ecspride.MainActivity: boolean onCreateOptionsMenu(android.view.Menu)>(null);
+
+     label14:
+        if $i0 == 17 goto label12;
+
+     label15:
+        if $i0 == 18 goto label11;
+
+        if $i0 == 19 goto label16;
+
+        if $i0 == 20 goto label11;
+
+     label16:
+        if $i0 == 22 goto label03;
+
+        return;
+    }
+
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+[main] INFO soot.jimple.infoflow.Infoflow - Callgraph construction took 0.04902663 seconds
+[main] INFO soot.jimple.infoflow.codeOptimization.InterproceduralConstantValuePropagator - Removing side-effect free methods is disabled
+[main] INFO soot.jimple.infoflow.Infoflow - Dead code elimination took 0.014603907 seconds
+[main] INFO soot.jimple.infoflow.Infoflow - Callgraph has 32 edges
+[main] INFO soot.jimple.infoflow.Infoflow - Starting Taint Analysis
+[main] INFO soot.jimple.infoflow.data.FlowDroidMemoryManager - Initializing FlowDroid memory manager...
+[main] INFO soot.jimple.infoflow.data.FlowDroidMemoryManager - FDMM: Path data erasure enabled
+[main] INFO soot.jimple.infoflow.android.InfoflowAndroidConfiguration - Implicit flow tracking is NOT enabled
+[main] INFO soot.jimple.infoflow.android.InfoflowAndroidConfiguration - Exceptional flow tracking is enabled
+[main] INFO soot.jimple.infoflow.android.InfoflowAndroidConfiguration - Running with a maximum access path length of 5
+[main] INFO soot.jimple.infoflow.android.InfoflowAndroidConfiguration - Using path-agnostic result collection
+[main] INFO soot.jimple.infoflow.android.InfoflowAndroidConfiguration - Recursive access path shortening is enabled
+[main] INFO soot.jimple.infoflow.android.InfoflowAndroidConfiguration - Taint analysis enabled: true
+[main] INFO soot.jimple.infoflow.Infoflow - Looking for sources and sinks...
+[main] INFO soot.jimple.infoflow.Infoflow - Source lookup done, found 20 sources and 2 sinks.
+[main] INFO soot.jimple.infoflow.Infoflow - Taint wrapper hits: 0
+[main] INFO soot.jimple.infoflow.Infoflow - Taint wrapper misses: 13
+[main] INFO soot.jimple.infoflow.Infoflow - IFDS problem with 172 forward and 31 backward edges solved, processing 2 results...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextInsensitiveSourceFinder - Obtainted 2 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextInsensitiveSourceFinder - Building path 1 with task id 0
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextInsensitiveSourceFinder - Building path 2 with task id 1
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextInsensitiveSourceFinder - Path processing took 0.012314947 seconds in total
+[main] INFO soot.jimple.infoflow.Infoflow - The sink virtualinvoke $r8.<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>("+49 1234", null, $r7, null, null) in method <de.ecspride.MainActivity: void onCreate(android.os.Bundle)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.Infoflow - - $r7 = virtualinvoke $r6.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() in method <de.ecspride.MainActivity: void onCreate(android.os.Bundle)>
+[main] INFO soot.jimple.infoflow.Infoflow - The sink staticinvoke <android.util.Log: int v(java.lang.String,java.lang.String)>("DROIDBENCH", $r7) in method <de.ecspride.MainActivity: void onCreate(android.os.Bundle)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.Infoflow - - $r7 = virtualinvoke $r6.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() in method <de.ecspride.MainActivity: void onCreate(android.os.Bundle)>
+Found a flow to sink virtualinvoke $r8.<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>("+49 1234", null, $r7, null, null), from the following sources:
+	- $r7 = virtualinvoke $r6.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <de.ecspride.MainActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink staticinvoke <android.util.Log: int v(java.lang.String,java.lang.String)>("DROIDBENCH", $r7), from the following sources:
+	- $r7 = virtualinvoke $r6.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <de.ecspride.MainActivity: void onCreate(android.os.Bundle)>)
+Maximum memory consumption: 371.145008 MB
+Analysis has run for 5.997982984 seconds

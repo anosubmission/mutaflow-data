@@ -1,0 +1,9 @@
+--------- beginning of main
+--------- beginning of system
+05-03 12:22:26.502  1460  1460 I MyOwnTag: <MutaFlowTag>0b2308ce-d70d-4352-96a9-c34ccaaaf646<MutaFlowTag><android.telephony.TelephonyManager: java.lang.String getDeviceId()>	40	5	5	void <clinit>()	edu.mit.clinit.Test<MutaFlowTag>000000000000000
+05-03 12:22:26.502  1460  1460 I MyOwnTag: <MutaFlowTag>0b2308ce-d70d-4352-96a9-c34ccaaaf646<MutaFlowTag><android.util.Log: int i(java.lang.String,java.lang.String)>	33	13	10	void onCreate(android.os.Bundle)	edu.mit.clinit.MainActivity<MutaFlowTag>DroidBench<MutaFlowTag>000000000000000
+05-03 12:22:37.202  1460  1460 I MyOwnTag: <MutaFlowTag>0b2308ce-d70d-4352-96a9-c34ccaaaf646<MutaFlowTag><android.util.Log: int i(java.lang.String,java.lang.String)>	33	13	10	void onCreate(android.os.Bundle)	edu.mit.clinit.MainActivity<MutaFlowTag>DroidBench<MutaFlowTag>
+05-03 12:22:40.778  1460  1460 I MyOwnTag: <MutaFlowTag>0b2308ce-d70d-4352-96a9-c34ccaaaf646<MutaFlowTag><android.util.Log: int i(java.lang.String,java.lang.String)>	33	13	10	void onCreate(android.os.Bundle)	edu.mit.clinit.MainActivity<MutaFlowTag>DroidBench<MutaFlowTag>
+05-03 12:22:50.975  1460  1460 I MyOwnTag: <MutaFlowTag>0b2308ce-d70d-4352-96a9-c34ccaaaf646<MutaFlowTag><android.util.Log: int i(java.lang.String,java.lang.String)>	33	13	10	void onCreate(android.os.Bundle)	edu.mit.clinit.MainActivity<MutaFlowTag>DroidBench<MutaFlowTag>
+05-03 12:22:52.488  1460  1460 I MyOwnTag: <MutaFlowTag>0b2308ce-d70d-4352-96a9-c34ccaaaf646<MutaFlowTag><android.util.Log: int i(java.lang.String,java.lang.String)>	33	13	10	void onCreate(android.os.Bundle)	edu.mit.clinit.MainActivity<MutaFlowTag>DroidBench<MutaFlowTag>
+05-03 12:22:56.398  1460  1460 I MyOwnTag: <MutaFlowTag>0b2308ce-d70d-4352-96a9-c34ccaaaf646<MutaFlowTag><android.util.Log: int i(java.lang.String,java.lang.String)>	33	13	10	void onCreate(android.os.Bundle)	edu.mit.clinit.MainActivity<MutaFlowTag>DroidBench<MutaFlowTag>

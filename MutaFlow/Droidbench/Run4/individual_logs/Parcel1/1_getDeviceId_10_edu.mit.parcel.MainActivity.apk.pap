@@ -1,0 +1,5 @@
+--------- beginning of main
+--------- beginning of system
+05-02 15:56:46.732 18906 18906 I MyOwnTag: <MutaFlowTag>f9d412bd-5ee7-4a5a-902c-8fd37edf04ad<MutaFlowTag><android.telephony.TelephonyManager: java.lang.String getDeviceId()>	40	10	7	void onCreate(android.os.Bundle)	edu.mit.parcel.MainActivity<MutaFlowTag>000000040000000
+05-02 15:56:46.732 18906 18906 I MyOwnTag: <MutaFlowTag>f9d412bd-5ee7-4a5a-902c-8fd37edf04ad<MutaFlowTag><android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>	69	34	22	void writeParcel(java.lang.String)	edu.mit.parcel.MainActivity<MutaFlowTag>+49 1234<MutaFlowTag>000000040000000
+--------- beginning of crash

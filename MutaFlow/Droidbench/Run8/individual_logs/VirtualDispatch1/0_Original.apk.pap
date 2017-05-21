@@ -1,0 +1,5 @@
+--------- beginning of main
+--------- beginning of system
+05-04 12:54:36.938 12281 12281 I MyOwnTag: <MutaFlowTag>9cdef7bc-8af4-4998-8adb-f299f5fdd976<MutaFlowTag><android.telephony.TelephonyManager: java.lang.String getDeviceId()>	34	29	7	void onCreate(android.os.Bundle)	de.ecspride.VirtualDispatch1
+05-04 12:54:37.493 12281 12281 I MyOwnTag: <MutaFlowTag>9cdef7bc-8af4-4998-8adb-f299f5fdd976<MutaFlowTag><android.util.Log: int i(java.lang.String,java.lang.String)>	13	7	3	void logData()	de.ecspride.DataLeak<MutaFlowTag>LOG
+--------- beginning of crash

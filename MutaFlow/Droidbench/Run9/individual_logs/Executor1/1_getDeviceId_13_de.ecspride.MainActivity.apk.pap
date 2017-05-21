@@ -1,0 +1,9 @@
+--------- beginning of main
+--------- beginning of system
+05-04 23:09:10.480 20612 20612 I MyOwnTag: <MutaFlowTag>c31b9570-2d06-4dad-af91-8707967ae03d<MutaFlowTag><android.telephony.TelephonyManager: java.lang.String getDeviceId()>	33	13	10	void onCreate(android.os.Bundle)	de.ecspride.MainActivity<MutaFlowTag>000000010000000
+05-04 23:09:10.489 20612 20631 I MyOwnTag: <MutaFlowTag>c31b9570-2d06-4dad-af91-8707967ae03d<MutaFlowTag><android.util.Log: int d(java.lang.String,java.lang.String)>	46	10	3	void run()	de.ecspride.MainActivity$MyRunnable<MutaFlowTag>DroidBench<MutaFlowTag>000000010000000
+--------- beginning of crash
+05-04 23:09:27.665 20612 20612 I MyOwnTag: <MutaFlowTag>c31b9570-2d06-4dad-af91-8707967ae03d<MutaFlowTag><android.telephony.TelephonyManager: java.lang.String getDeviceId()>	33	13	10	void onCreate(android.os.Bundle)	de.ecspride.MainActivity<MutaFlowTag>000000010000000
+05-04 23:09:27.672 20612 20713 I MyOwnTag: <MutaFlowTag>c31b9570-2d06-4dad-af91-8707967ae03d<MutaFlowTag><android.util.Log: int d(java.lang.String,java.lang.String)>	46	10	3	void run()	de.ecspride.MainActivity$MyRunnable<MutaFlowTag>DroidBench<MutaFlowTag>000000010000000
+05-04 23:09:45.002 20612 20612 I MyOwnTag: <MutaFlowTag>c31b9570-2d06-4dad-af91-8707967ae03d<MutaFlowTag><android.telephony.TelephonyManager: java.lang.String getDeviceId()>	33	13	10	void onCreate(android.os.Bundle)	de.ecspride.MainActivity<MutaFlowTag>000000010000000
+05-04 23:09:45.004 20612 20775 I MyOwnTag: <MutaFlowTag>c31b9570-2d06-4dad-af91-8707967ae03d<MutaFlowTag><android.util.Log: int d(java.lang.String,java.lang.String)>	46	10	3	void run()	de.ecspride.MainActivity$MyRunnable<MutaFlowTag>DroidBench<MutaFlowTag>000000010000000

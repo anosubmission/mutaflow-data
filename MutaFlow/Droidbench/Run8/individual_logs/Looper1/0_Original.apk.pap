@@ -1,0 +1,5 @@
+--------- beginning of main
+--------- beginning of system
+05-04 12:39:50.691  5497  5497 I MyOwnTag: <MutaFlowTag>e7136273-93a1-4b95-9159-86d5d1936ac6<MutaFlowTag><android.telephony.TelephonyManager: java.lang.String getDeviceId()>	40	23	20	void onCreate(android.os.Bundle)	de.ecspride.MainActivity
+05-04 12:39:57.323  5497  5497 I MyOwnTag: <MutaFlowTag>e7136273-93a1-4b95-9159-86d5d1936ac6<MutaFlowTag><android.telephony.TelephonyManager: java.lang.String getDeviceId()>	40	23	20	void onCreate(android.os.Bundle)	de.ecspride.MainActivity
+05-04 12:40:29.103  5497  5497 I MyOwnTag: <MutaFlowTag>e7136273-93a1-4b95-9159-86d5d1936ac6<MutaFlowTag><android.telephony.TelephonyManager: java.lang.String getDeviceId()>	40	23	20	void onCreate(android.os.Bundle)	de.ecspride.MainActivity

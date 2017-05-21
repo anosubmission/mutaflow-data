@@ -1,0 +1,7 @@
+--------- beginning of main
+--------- beginning of system
+04-30 12:54:24.898 13108 13108 I MyOwnTag: <MutaFlowTag>4420b90a-12ae-4b34-91f4-f0641c3ae030<MutaFlowTag><android.telephony.TelephonyManager: java.lang.String getSubscriberId()>	21	19	5	void onSaveInstanceState(android.os.Bundle)	de.ecspride.MainActivity<MutaFlowTag>310260000000000
+04-30 12:54:38.542 13108 13108 I MyOwnTag: <MutaFlowTag>4420b90a-12ae-4b34-91f4-f0641c3ae030<MutaFlowTag><android.telephony.TelephonyManager: java.lang.String getSubscriberId()>	21	19	5	void onSaveInstanceState(android.os.Bundle)	de.ecspride.MainActivity<MutaFlowTag>310260000000000
+04-30 12:54:49.943 13108 13108 I MyOwnTag: <MutaFlowTag>4420b90a-12ae-4b34-91f4-f0641c3ae030<MutaFlowTag><android.telephony.TelephonyManager: java.lang.String getSubscriberId()>	21	19	5	void onSaveInstanceState(android.os.Bundle)	de.ecspride.MainActivity<MutaFlowTag>310260000000000
+04-30 12:54:49.983 13108 13108 I MyOwnTag: <MutaFlowTag>4420b90a-12ae-4b34-91f4-f0641c3ae030<MutaFlowTag><android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>	27	13	5	void onRestoreInstanceState(android.os.Bundle)	de.ecspride.MainActivity<MutaFlowTag>+49 1234
+--------- beginning of crash

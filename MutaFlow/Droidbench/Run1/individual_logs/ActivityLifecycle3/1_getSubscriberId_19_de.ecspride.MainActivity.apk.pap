@@ -1,0 +1,3 @@
+--------- beginning of main
+--------- beginning of system
+03-18 21:22:28.450 12235 12235 I MyOwnTag: <MutaFlowTag>24ace1c3-4be7-4344-8594-fa3681c39953<MutaFlowTag><android.telephony.TelephonyManager: java.lang.String getSubscriberId()>	21	19	5	void onSaveInstanceState(android.os.Bundle)	de.ecspride.MainActivity<MutaFlowTag>310260090000000

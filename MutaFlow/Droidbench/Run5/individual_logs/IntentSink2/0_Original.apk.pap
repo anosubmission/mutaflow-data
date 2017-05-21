@@ -1,0 +1,5 @@
+--------- beginning of main
+--------- beginning of system
+05-02 23:04:16.240 25612 25612 I MyOwnTag: <MutaFlowTag>9f690d36-95d9-487b-ba0a-1a3f77dd30c5<MutaFlowTag><android.telephony.TelephonyManager: java.lang.String getDeviceId()>	23	15	7	void startIntent(android.view.View)	de.ecspride.IntentSink2
+05-02 23:04:16.240 25612 25612 I MyOwnTag: <MutaFlowTag>9f690d36-95d9-487b-ba0a-1a3f77dd30c5<MutaFlowTag><android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)>	27	21	13	void startIntent(android.view.View)	de.ecspride.IntentSink2<MutaFlowTag>id
+--------- beginning of crash

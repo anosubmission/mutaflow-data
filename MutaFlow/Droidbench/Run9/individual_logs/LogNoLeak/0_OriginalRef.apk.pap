@@ -1,0 +1,11 @@
+--------- beginning of main
+--------- beginning of system
+05-04 20:37:00.153 21695 21695 I MyOwnTag: <MutaFlowTag>26de9380-fabc-4067-8447-00da2f588c33<MutaFlowTag><android.util.Log: int i(java.lang.String,java.lang.String)>	19	13	3	void onPause()	de.ecspride.LogNoLeak<MutaFlowTag>TAG<MutaFlowTag>not tainted
+--------- beginning of crash
+05-04 20:37:02.518 21756 21756 I MyOwnTag: <MutaFlowTag>26de9380-fabc-4067-8447-00da2f588c33<MutaFlowTag><android.util.Log: int i(java.lang.String,java.lang.String)>	19	13	3	void onPause()	de.ecspride.LogNoLeak<MutaFlowTag>TAG<MutaFlowTag>not tainted
+05-04 20:37:06.902 21793 21793 I MyOwnTag: <MutaFlowTag>26de9380-fabc-4067-8447-00da2f588c33<MutaFlowTag><android.util.Log: int i(java.lang.String,java.lang.String)>	19	13	3	void onPause()	de.ecspride.LogNoLeak<MutaFlowTag>TAG<MutaFlowTag>not tainted
+05-04 20:37:08.853 21809 21809 I MyOwnTag: <MutaFlowTag>26de9380-fabc-4067-8447-00da2f588c33<MutaFlowTag><android.util.Log: int i(java.lang.String,java.lang.String)>	19	13	3	void onPause()	de.ecspride.LogNoLeak<MutaFlowTag>TAG<MutaFlowTag>not tainted
+05-04 20:37:13.324 21840 21840 I MyOwnTag: <MutaFlowTag>26de9380-fabc-4067-8447-00da2f588c33<MutaFlowTag><android.util.Log: int i(java.lang.String,java.lang.String)>	19	13	3	void onPause()	de.ecspride.LogNoLeak<MutaFlowTag>TAG<MutaFlowTag>not tainted
+05-04 20:37:19.960 21905 21905 I MyOwnTag: <MutaFlowTag>26de9380-fabc-4067-8447-00da2f588c33<MutaFlowTag><android.util.Log: int i(java.lang.String,java.lang.String)>	19	13	3	void onPause()	de.ecspride.LogNoLeak<MutaFlowTag>TAG<MutaFlowTag>not tainted
+05-04 20:37:23.336 21921 21921 I MyOwnTag: <MutaFlowTag>26de9380-fabc-4067-8447-00da2f588c33<MutaFlowTag><android.util.Log: int i(java.lang.String,java.lang.String)>	19	13	3	void onPause()	de.ecspride.LogNoLeak<MutaFlowTag>TAG<MutaFlowTag>not tainted
+05-04 20:37:27.783 21954 21954 I MyOwnTag: <MutaFlowTag>26de9380-fabc-4067-8447-00da2f588c33<MutaFlowTag><android.util.Log: int i(java.lang.String,java.lang.String)>	19	13	3	void onPause()	de.ecspride.LogNoLeak<MutaFlowTag>TAG<MutaFlowTag>not tainted

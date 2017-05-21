@@ -1,0 +1,3577 @@
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/anonymous/FlowDroid/soot-trunk.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/anonymous/FlowDroid/slf4j-simple-1.7.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.SimpleLoggerFactory]
+[main] INFO soot.jimple.infoflow.taintWrappers.EasyTaintWrapper - Loaded wrapper entries for 70 classes and 11 exclusions.
+[main] INFO soot.jimple.infoflow.android.SetupApplication - ARSC file parsing took 0.040711254 seconds
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+Warning: android.net.http.AndroidHttpClient is a phantom class!
+Warning: android.support.v4.content.WakefulBroadcastReceiver is a phantom class!
+Warning: android.support.v4.util.ArrayMap is a phantom class!
+Warning: android.support.v4.util.SimpleArrayMap is a phantom class!
+Warning: android.support.v7.media.MediaRouteSelector$Builder is a phantom class!
+Warning: android.support.v7.media.MediaRouteSelector is a phantom class!
+Warning: android.support.v7.media.MediaRouter$Callback is a phantom class!
+Warning: android.support.v7.media.MediaRouter$RouteInfo is a phantom class!
+Warning: android.support.v7.media.MediaRouter is a phantom class!
+Warning: org.apache.http.HttpResponse is a phantom class!
+Warning: org.apache.http.client.HttpClient is a phantom class!
+Warning: org.apache.http.Header is a phantom class!
+Warning: org.apache.http.StatusLine is a phantom class!
+Warning: org.apache.http.HttpEntity is a phantom class!
+Warning: org.apache.http.client.methods.HttpEntityEnclosingRequestBase is a phantom class!
+Warning: org.apache.http.client.methods.HttpUriRequest is a phantom class!
+Warning: org.apache.http.HttpEntityEnclosingRequest is a phantom class!
+Warning: org.apache.http.HttpHost is a phantom class!
+Warning: org.apache.http.HttpRequest is a phantom class!
+Warning: org.apache.http.NameValuePair is a phantom class!
+Warning: org.apache.http.ProtocolVersion is a phantom class!
+Warning: org.apache.http.RequestLine is a phantom class!
+Warning: org.apache.http.client.ClientProtocolException is a phantom class!
+Warning: org.apache.http.client.methods.HttpDelete is a phantom class!
+Warning: org.apache.http.client.methods.HttpGet is a phantom class!
+Warning: org.apache.http.client.methods.HttpHead is a phantom class!
+Warning: org.apache.http.client.methods.HttpOptions is a phantom class!
+Warning: org.apache.http.client.methods.HttpPost is a phantom class!
+Warning: org.apache.http.client.methods.HttpPut is a phantom class!
+Warning: org.apache.http.client.methods.HttpTrace is a phantom class!
+Warning: org.apache.http.client.utils.URLEncodedUtils is a phantom class!
+Warning: org.apache.http.conn.ClientConnectionManager is a phantom class!
+Warning: org.apache.http.entity.BasicHttpEntity is a phantom class!
+Warning: org.apache.http.entity.ByteArrayEntity is a phantom class!
+Warning: org.apache.http.impl.client.DefaultHttpClient is a phantom class!
+Warning: org.apache.http.impl.cookie.DateParseException is a phantom class!
+Warning: org.apache.http.impl.cookie.DateUtils is a phantom class!
+Warning: org.apache.http.message.BasicHeader is a phantom class!
+Warning: org.apache.http.message.BasicHttpEntityEnclosingRequest is a phantom class!
+Warning: org.apache.http.message.BasicHttpResponse is a phantom class!
+Warning: org.apache.http.message.BasicStatusLine is a phantom class!
+Warning: org.apache.http.params.BasicHttpParams is a phantom class!
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.os.Bundle
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.content.Context
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.content.Intent
+[main] INFO soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Generated main method:
+    public static void dummyMainMethod(java.lang.String[])
+    {
+        java.lang.String[] $r0;
+        int $i0;
+        com.jsdev.pfei.KegelApplication $r1;
+        com.jsdev.pfei.MainActivity $r2;
+        com.jsdev.pfei.receivers.AlarmReceiver $r3;
+        com.jsdev.pfei.SetReminderActivity $r4;
+        com.jsdev.pfei.InfoActivity $r5;
+        com.jsdev.pfei.UpgradeActivity $r6;
+        com.jsdev.pfei.CueActivity $r7;
+        com.jsdev.pfei.NewsActivity $r8;
+        com.jsdev.pfei.ResultsActivity $r9;
+        com.jsdev.pfei.receivers.BootReceiver $r10;
+        com.jsdev.pfei.SettingsActivity $r11;
+        com.jsdev.pfei.ReminderActivity $r12;
+        com.jsdev.pfei.OtherActivity $r13;
+        com.jsdev.pfei.LevelActivity $r14;
+        com.jsdev.pfei.EditActivity $r15;
+        com.jsdev.pfei.StartActivity $r16;
+
+        $r0 := @parameter0: java.lang.String[];
+
+        $i0 = 0;
+
+        $r1 = new com.jsdev.pfei.KegelApplication;
+
+        specialinvoke $r1.<com.jsdev.pfei.KegelApplication: void <init>()>();
+
+        virtualinvoke $r1.<com.jsdev.pfei.KegelApplication: void onCreate()>();
+
+        <il.ac.tau.MyApplicationHolder: android.app.Application application> = $r1;
+
+     label01:
+        if $i0 == 0 goto label04;
+
+        $r2 = new com.jsdev.pfei.MainActivity;
+
+        specialinvoke $r2.<com.jsdev.pfei.MainActivity: void <init>()>();
+
+        if $i0 == 1 goto label04;
+
+        virtualinvoke $r2.<com.jsdev.pfei.MainActivity: void onCreate(android.os.Bundle)>(null);
+
+     label02:
+        virtualinvoke $r2.<com.jsdev.pfei.MainActivity: void onResume()>();
+
+        if $i0 == 3 goto label02;
+
+        if $i0 == 4 goto label03;
+
+        if $i0 == 5 goto label02;
+
+     label03:
+        virtualinvoke $r2.<com.jsdev.pfei.MainActivity: void onDestroy()>();
+
+     label04:
+        if $i0 == 7 goto label06;
+
+        $r3 = new com.jsdev.pfei.receivers.AlarmReceiver;
+
+        specialinvoke $r3.<com.jsdev.pfei.receivers.AlarmReceiver: void <init>()>();
+
+        if $i0 == 8 goto label06;
+
+     label05:
+        virtualinvoke $r3.<com.jsdev.pfei.receivers.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>(null, null);
+
+        if $i0 == 10 goto label05;
+
+     label06:
+        if $i0 == 11 goto label08;
+
+        $r4 = new com.jsdev.pfei.SetReminderActivity;
+
+        specialinvoke $r4.<com.jsdev.pfei.SetReminderActivity: void <init>()>();
+
+        if $i0 == 12 goto label08;
+
+        virtualinvoke $r4.<com.jsdev.pfei.SetReminderActivity: void onCreate(android.os.Bundle)>(null);
+
+     label07:
+        if $i0 == 15 goto label08;
+
+        if $i0 == 16 goto label07;
+
+     label08:
+        if $i0 == 18 goto label10;
+
+        $r5 = new com.jsdev.pfei.InfoActivity;
+
+        specialinvoke $r5.<com.jsdev.pfei.InfoActivity: void <init>()>();
+
+        if $i0 == 19 goto label10;
+
+        virtualinvoke $r5.<com.jsdev.pfei.InfoActivity: void onCreate(android.os.Bundle)>(null);
+
+     label09:
+        if $i0 == 22 goto label10;
+
+        if $i0 == 23 goto label09;
+
+     label10:
+        if $i0 == 25 goto label13;
+
+        $r6 = new com.jsdev.pfei.UpgradeActivity;
+
+        specialinvoke $r6.<com.jsdev.pfei.UpgradeActivity: void <init>()>();
+
+        if $i0 == 26 goto label13;
+
+        virtualinvoke $r6.<com.jsdev.pfei.UpgradeActivity: void onCreate(android.os.Bundle)>(null);
+
+     label11:
+        virtualinvoke $r6.<com.jsdev.pfei.UpgradeActivity: void onResume()>();
+
+        if $i0 == 28 goto label11;
+
+        if $i0 == 29 goto label12;
+
+        if $i0 == 30 goto label11;
+
+     label12:
+        virtualinvoke $r6.<com.jsdev.pfei.UpgradeActivity: void onDestroy()>();
+
+     label13:
+        if $i0 == 32 goto label15;
+
+        $r7 = new com.jsdev.pfei.CueActivity;
+
+        specialinvoke $r7.<com.jsdev.pfei.CueActivity: void <init>()>();
+
+        if $i0 == 33 goto label15;
+
+        virtualinvoke $r7.<com.jsdev.pfei.CueActivity: void onCreate(android.os.Bundle)>(null);
+
+     label14:
+        if $i0 == 36 goto label15;
+
+        if $i0 == 37 goto label14;
+
+     label15:
+        if $i0 == 39 goto label17;
+
+        $r8 = new com.jsdev.pfei.NewsActivity;
+
+        specialinvoke $r8.<com.jsdev.pfei.NewsActivity: void <init>()>();
+
+        if $i0 == 40 goto label17;
+
+        virtualinvoke $r8.<com.jsdev.pfei.NewsActivity: void onCreate(android.os.Bundle)>(null);
+
+     label16:
+        if $i0 == 43 goto label17;
+
+        if $i0 == 44 goto label16;
+
+     label17:
+        if $i0 == 46 goto label19;
+
+        $r9 = new com.jsdev.pfei.ResultsActivity;
+
+        specialinvoke $r9.<com.jsdev.pfei.ResultsActivity: void <init>()>();
+
+        if $i0 == 47 goto label19;
+
+        virtualinvoke $r9.<com.jsdev.pfei.ResultsActivity: void onCreate(android.os.Bundle)>(null);
+
+     label18:
+        if $i0 == 50 goto label19;
+
+        if $i0 == 51 goto label18;
+
+     label19:
+        if $i0 == 53 goto label21;
+
+        $r10 = new com.jsdev.pfei.receivers.BootReceiver;
+
+        specialinvoke $r10.<com.jsdev.pfei.receivers.BootReceiver: void <init>()>();
+
+        if $i0 == 54 goto label21;
+
+     label20:
+        virtualinvoke $r10.<com.jsdev.pfei.receivers.BootReceiver: void onReceive(android.content.Context,android.content.Intent)>(null, null);
+
+        if $i0 == 56 goto label20;
+
+     label21:
+        if $i0 == 57 goto label23;
+
+        $r11 = new com.jsdev.pfei.SettingsActivity;
+
+        specialinvoke $r11.<com.jsdev.pfei.SettingsActivity: void <init>()>();
+
+        if $i0 == 58 goto label23;
+
+        virtualinvoke $r11.<com.jsdev.pfei.SettingsActivity: void onCreate(android.os.Bundle)>(null);
+
+     label22:
+        if $i0 == 61 goto label23;
+
+        if $i0 == 62 goto label22;
+
+     label23:
+        if $i0 == 64 goto label25;
+
+        $r12 = new com.jsdev.pfei.ReminderActivity;
+
+        specialinvoke $r12.<com.jsdev.pfei.ReminderActivity: void <init>()>();
+
+        if $i0 == 65 goto label25;
+
+        virtualinvoke $r12.<com.jsdev.pfei.ReminderActivity: void onCreate(android.os.Bundle)>(null);
+
+     label24:
+        if $i0 == 68 goto label25;
+
+        if $i0 == 69 goto label24;
+
+     label25:
+        if $i0 == 71 goto label27;
+
+        $r13 = new com.jsdev.pfei.OtherActivity;
+
+        specialinvoke $r13.<com.jsdev.pfei.OtherActivity: void <init>()>();
+
+        if $i0 == 72 goto label27;
+
+        virtualinvoke $r13.<com.jsdev.pfei.OtherActivity: void onCreate(android.os.Bundle)>(null);
+
+     label26:
+        if $i0 == 75 goto label27;
+
+        if $i0 == 76 goto label26;
+
+     label27:
+        if $i0 == 78 goto label29;
+
+        $r14 = new com.jsdev.pfei.LevelActivity;
+
+        specialinvoke $r14.<com.jsdev.pfei.LevelActivity: void <init>()>();
+
+        if $i0 == 79 goto label29;
+
+        virtualinvoke $r14.<com.jsdev.pfei.LevelActivity: void onCreate(android.os.Bundle)>(null);
+
+     label28:
+        if $i0 == 82 goto label29;
+
+        if $i0 == 83 goto label28;
+
+     label29:
+        if $i0 == 85 goto label31;
+
+        $r15 = new com.jsdev.pfei.EditActivity;
+
+        specialinvoke $r15.<com.jsdev.pfei.EditActivity: void <init>()>();
+
+        if $i0 == 86 goto label31;
+
+        virtualinvoke $r15.<com.jsdev.pfei.EditActivity: void onCreate(android.os.Bundle)>(null);
+
+     label30:
+        if $i0 == 89 goto label31;
+
+        if $i0 == 90 goto label30;
+
+     label31:
+        if $i0 == 92 goto label33;
+
+        $r16 = new com.jsdev.pfei.StartActivity;
+
+        specialinvoke $r16.<com.jsdev.pfei.StartActivity: void <init>()>();
+
+        if $i0 == 93 goto label33;
+
+        virtualinvoke $r16.<com.jsdev.pfei.StartActivity: void onCreate(android.os.Bundle)>(null);
+
+     label32:
+        virtualinvoke $r16.<com.jsdev.pfei.StartActivity: void onPause()>();
+
+        if $i0 == 95 goto label32;
+
+        if $i0 == 96 goto label33;
+
+        if $i0 == 97 goto label32;
+
+     label33:
+        if $i0 == 101 goto label01;
+
+        return;
+    }
+
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Collecting callbacks in DEFAULT mode...
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.1 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 2.3 seconds.
+[Spark] Solution found in 2.3 seconds.
+Callback analysis done.
+Warning: LinearLayout is a phantom class!
+Warning: com.jsdev.pfei.LinearLayout is a phantom class!
+Warning: android.view.LinearLayout is a phantom class!
+Warning: RelativeLayout is a phantom class!
+Warning: com.jsdev.pfei.RelativeLayout is a phantom class!
+Warning: android.view.RelativeLayout is a phantom class!
+Found 1 layout controls in file res/layout-xlarge-v4/activity_level.xml
+Warning: ImageButton is a phantom class!
+Warning: com.jsdev.pfei.ImageButton is a phantom class!
+Warning: android.view.ImageButton is a phantom class!
+Warning: ImageView is a phantom class!
+Warning: com.jsdev.pfei.ImageView is a phantom class!
+Warning: android.view.ImageView is a phantom class!
+Found 2 layout controls in file res/layout-xlarge-v4/activity_start.xml
+Warning: CheckBox is a phantom class!
+Warning: com.jsdev.pfei.CheckBox is a phantom class!
+Warning: android.view.CheckBox is a phantom class!
+Found 3 layout controls in file res/layout/activity_cues.xml
+Warning: requestFocus is a phantom class!
+Warning: com.jsdev.pfei.requestFocus is a phantom class!
+Warning: android.view.requestFocus is a phantom class!
+Warning: android.widget.requestFocus is a phantom class!
+Warning: android.webkit.requestFocus is a phantom class!
+Could not find layout class requestFocus
+Found 4 layout controls in file res/layout/activity_edit.xml
+Warning: ScrollView is a phantom class!
+Warning: com.jsdev.pfei.ScrollView is a phantom class!
+Warning: android.view.ScrollView is a phantom class!
+Found 5 layout controls in file res/layout/activity_info.xml
+Found 6 layout controls in file res/layout/activity_level.xml
+Found 7 layout controls in file res/layout/activity_main.xml
+Warning: View is a phantom class!
+Warning: com.jsdev.pfei.View is a phantom class!
+Found 8 layout controls in file res/layout/activity_other.xml
+Found 9 layout controls in file res/layout/activity_reminder.xml
+Found 10 layout controls in file res/layout/activity_results.xml
+Found 11 layout controls in file res/layout/activity_set_reminder.xml
+Warning: RadioGroup is a phantom class!
+Warning: com.jsdev.pfei.RadioGroup is a phantom class!
+Warning: android.view.RadioGroup is a phantom class!
+Found 12 layout controls in file res/layout/activity_settings.xml
+Found 13 layout controls in file res/layout/activity_start.xml
+Found 14 layout controls in file res/layout/activity_upgrade.xml
+Found 15 layout controls in file res/layout/news.xml
+Warning: view is a phantom class!
+Warning: com.jsdev.pfei.view is a phantom class!
+Warning: android.view.view is a phantom class!
+Warning: android.widget.view is a phantom class!
+Warning: android.webkit.view is a phantom class!
+Could not find layout class view
+Found 15 layout controls in file res/layout/number_picker_with_selector_wheel.xml
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+Warning: android.net.http.AndroidHttpClient is a phantom class!
+Warning: android.support.v4.content.WakefulBroadcastReceiver is a phantom class!
+Warning: android.support.v4.util.ArrayMap is a phantom class!
+Warning: android.support.v4.util.SimpleArrayMap is a phantom class!
+Warning: android.support.v7.media.MediaRouteSelector$Builder is a phantom class!
+Warning: android.support.v7.media.MediaRouteSelector is a phantom class!
+Warning: android.support.v7.media.MediaRouter$Callback is a phantom class!
+Warning: android.support.v7.media.MediaRouter$RouteInfo is a phantom class!
+Warning: android.support.v7.media.MediaRouter is a phantom class!
+Warning: org.apache.http.HttpResponse is a phantom class!
+Warning: org.apache.http.client.HttpClient is a phantom class!
+Warning: org.apache.http.Header is a phantom class!
+Warning: org.apache.http.StatusLine is a phantom class!
+Warning: org.apache.http.HttpEntity is a phantom class!
+Warning: org.apache.http.client.methods.HttpEntityEnclosingRequestBase is a phantom class!
+Warning: org.apache.http.client.methods.HttpUriRequest is a phantom class!
+Warning: org.apache.http.HttpEntityEnclosingRequest is a phantom class!
+Warning: org.apache.http.HttpHost is a phantom class!
+Warning: org.apache.http.HttpRequest is a phantom class!
+Warning: org.apache.http.NameValuePair is a phantom class!
+Warning: org.apache.http.ProtocolVersion is a phantom class!
+Warning: org.apache.http.RequestLine is a phantom class!
+Warning: org.apache.http.client.ClientProtocolException is a phantom class!
+Warning: org.apache.http.client.methods.HttpDelete is a phantom class!
+Warning: org.apache.http.client.methods.HttpGet is a phantom class!
+Warning: org.apache.http.client.methods.HttpHead is a phantom class!
+Warning: org.apache.http.client.methods.HttpOptions is a phantom class!
+Warning: org.apache.http.client.methods.HttpPost is a phantom class!
+Warning: org.apache.http.client.methods.HttpPut is a phantom class!
+Warning: org.apache.http.client.methods.HttpTrace is a phantom class!
+Warning: org.apache.http.client.utils.URLEncodedUtils is a phantom class!
+Warning: org.apache.http.conn.ClientConnectionManager is a phantom class!
+Warning: org.apache.http.entity.BasicHttpEntity is a phantom class!
+Warning: org.apache.http.entity.ByteArrayEntity is a phantom class!
+Warning: org.apache.http.impl.client.DefaultHttpClient is a phantom class!
+Warning: org.apache.http.impl.cookie.DateParseException is a phantom class!
+Warning: org.apache.http.impl.cookie.DateUtils is a phantom class!
+Warning: org.apache.http.message.BasicHeader is a phantom class!
+Warning: org.apache.http.message.BasicHttpEntityEnclosingRequest is a phantom class!
+Warning: org.apache.http.message.BasicHttpResponse is a phantom class!
+Warning: org.apache.http.message.BasicStatusLine is a phantom class!
+Warning: org.apache.http.params.BasicHttpParams is a phantom class!
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.os.Bundle
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.view.View
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.view.Menu
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.content.Context
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.content.Intent
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.widget.CompoundButton
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.content.DialogInterface
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.widget.RadioGroup
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.media.MediaPlayer
+[main] INFO soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Generated main method:
+    public static void dummyMainMethod(java.lang.String[])
+    {
+        java.lang.String[] $r0;
+        int $i0;
+        com.jsdev.pfei.KegelApplication $r1;
+        com.jsdev.pfei.MainActivity $r2;
+        com.jsdev.pfei.MainActivity$11 $r3;
+        com.jsdev.pfei.MainActivity$10 $r4;
+        com.jsdev.pfei.MainActivity$6 $r5;
+        com.jsdev.pfei.MainActivity$7 $r6;
+        com.jsdev.pfei.MainActivity$4 $r7;
+        com.jsdev.pfei.MainActivity$8 $r8;
+        com.jsdev.pfei.MainActivity$3 $r9;
+        com.jsdev.pfei.MainActivity$9 $r10;
+        boolean $z0;
+        com.jsdev.pfei.MainActivity$5 $r11;
+        com.jsdev.pfei.receivers.AlarmReceiver $r12;
+        com.jsdev.pfei.SetReminderActivity $r13;
+        com.jsdev.pfei.SetReminderActivity$1 $r14;
+        com.jsdev.pfei.SetReminderActivity$3 $r15;
+        com.jsdev.pfei.SetReminderActivity$2 $r16;
+        com.jsdev.pfei.SetReminderActivity$4 $r17;
+        com.jsdev.pfei.InfoActivity $r18;
+        com.jsdev.pfei.InfoActivity$1 $r19;
+        com.jsdev.pfei.UpgradeActivity $r20;
+        com.jsdev.pfei.UpgradeActivity$3 $r21;
+        com.jsdev.pfei.UpgradeActivity$8 $r22;
+        com.jsdev.pfei.UpgradeActivity$6 $r23;
+        com.jsdev.pfei.UpgradeActivity$7 $r24;
+        com.jsdev.pfei.UpgradeActivity$9 $r25;
+        com.jsdev.pfei.UpgradeActivity$4 $r26;
+        com.jsdev.pfei.UpgradeActivity$5 $r27;
+        com.jsdev.pfei.CueActivity $r28;
+        com.jsdev.pfei.CueActivity$2 $r29;
+        com.jsdev.pfei.CueActivity$4 $r30;
+        com.jsdev.pfei.CueActivity$1 $r31;
+        com.jsdev.pfei.CueActivity$3 $r32;
+        com.jsdev.pfei.NewsActivity $r33;
+        com.jsdev.pfei.ResultsActivity $r34;
+        com.jsdev.pfei.ResultsActivity$1 $r35;
+        com.jsdev.pfei.receivers.BootReceiver $r36;
+        com.jsdev.pfei.SettingsActivity $r37;
+        com.jsdev.pfei.SettingsActivity$2 $r38;
+        com.jsdev.pfei.SettingsActivity$4 $r39;
+        com.jsdev.pfei.SettingsActivity$3 $r40;
+        com.jsdev.pfei.SettingsActivity$1 $r41;
+        com.jsdev.pfei.SettingsActivity$6 $r42;
+        com.jsdev.pfei.SettingsActivity$5 $r43;
+        com.jsdev.pfei.ReminderActivity $r44;
+        com.jsdev.pfei.ReminderActivity$6 $r45;
+        com.jsdev.pfei.ReminderActivity$3 $r46;
+        com.jsdev.pfei.ReminderActivity$5 $r47;
+        com.jsdev.pfei.ReminderActivity$1 $r48;
+        com.jsdev.pfei.ReminderActivity$7 $r49;
+        com.jsdev.pfei.ReminderActivity$2 $r50;
+        com.jsdev.pfei.ReminderActivity$4 $r51;
+        com.jsdev.pfei.OtherActivity $r52;
+        com.jsdev.pfei.LevelActivity $r53;
+        com.jsdev.pfei.LevelActivity$1 $r54;
+        com.jsdev.pfei.LevelActivity$7 $r55;
+        com.jsdev.pfei.EditActivity $r56;
+        com.jsdev.pfei.StartActivity $r57;
+        com.jsdev.pfei.StartActivity$3 $r58;
+        com.jsdev.pfei.StartActivity$5 $r59;
+        com.jsdev.pfei.StartActivity$4 $r60;
+        com.jsdev.pfei.StartActivity$6 $r61;
+
+        $r0 := @parameter0: java.lang.String[];
+
+        $i0 = 0;
+
+        $r1 = new com.jsdev.pfei.KegelApplication;
+
+        specialinvoke $r1.<com.jsdev.pfei.KegelApplication: void <init>()>();
+
+     label001:
+        if $i0 == 1 goto label001;
+
+        virtualinvoke $r1.<com.jsdev.pfei.KegelApplication: void onCreate()>();
+
+        <il.ac.tau.MyApplicationHolder: android.app.Application application> = $r1;
+
+     label002:
+        if $i0 == 2 goto label018;
+
+        $r2 = new com.jsdev.pfei.MainActivity;
+
+        specialinvoke $r2.<com.jsdev.pfei.MainActivity: void <init>()>();
+
+        if $i0 == 3 goto label018;
+
+        virtualinvoke $r2.<com.jsdev.pfei.MainActivity: void onCreate(android.os.Bundle)>(null);
+
+     label003:
+        virtualinvoke $r2.<com.jsdev.pfei.MainActivity: void onResume()>();
+
+        if $i0 == 5 goto label016;
+
+     label004:
+        $r3 = new com.jsdev.pfei.MainActivity$11;
+
+        specialinvoke $r3.<com.jsdev.pfei.MainActivity$11: void <init>(com.jsdev.pfei.MainActivity)>($r2);
+
+        if $i0 == 6 goto label005;
+
+        virtualinvoke $r3.<com.jsdev.pfei.MainActivity$11: void onClick(android.view.View)>(null);
+
+     label005:
+        $r4 = new com.jsdev.pfei.MainActivity$10;
+
+        specialinvoke $r4.<com.jsdev.pfei.MainActivity$10: void <init>(com.jsdev.pfei.MainActivity)>($r2);
+
+        if $i0 == 7 goto label006;
+
+        virtualinvoke $r4.<com.jsdev.pfei.MainActivity$10: void onClick(android.view.View)>(null);
+
+     label006:
+        $r5 = new com.jsdev.pfei.MainActivity$6;
+
+        specialinvoke $r5.<com.jsdev.pfei.MainActivity$6: void <init>(com.jsdev.pfei.MainActivity)>($r2);
+
+        if $i0 == 8 goto label007;
+
+        virtualinvoke $r5.<com.jsdev.pfei.MainActivity$6: void onClick(android.view.View)>(null);
+
+     label007:
+        $r6 = new com.jsdev.pfei.MainActivity$7;
+
+        specialinvoke $r6.<com.jsdev.pfei.MainActivity$7: void <init>(com.jsdev.pfei.MainActivity)>($r2);
+
+        if $i0 == 9 goto label008;
+
+        virtualinvoke $r6.<com.jsdev.pfei.MainActivity$7: void onClick(android.view.View)>(null);
+
+     label008:
+        $r7 = new com.jsdev.pfei.MainActivity$4;
+
+        specialinvoke $r7.<com.jsdev.pfei.MainActivity$4: void <init>(com.jsdev.pfei.MainActivity)>($r2);
+
+        if $i0 == 10 goto label009;
+
+        virtualinvoke $r7.<com.jsdev.pfei.MainActivity$4: void onClick(android.view.View)>(null);
+
+     label009:
+        $r8 = new com.jsdev.pfei.MainActivity$8;
+
+        specialinvoke $r8.<com.jsdev.pfei.MainActivity$8: void <init>(com.jsdev.pfei.MainActivity)>($r2);
+
+        if $i0 == 11 goto label010;
+
+        virtualinvoke $r8.<com.jsdev.pfei.MainActivity$8: void onClick(android.view.View)>(null);
+
+     label010:
+        $r9 = new com.jsdev.pfei.MainActivity$3;
+
+        specialinvoke $r9.<com.jsdev.pfei.MainActivity$3: void <init>(com.jsdev.pfei.MainActivity)>($r2);
+
+        if $i0 == 12 goto label011;
+
+        virtualinvoke $r9.<com.jsdev.pfei.MainActivity$3: void onClick(android.view.View)>(null);
+
+     label011:
+        $r10 = new com.jsdev.pfei.MainActivity$9;
+
+        specialinvoke $r10.<com.jsdev.pfei.MainActivity$9: void <init>(com.jsdev.pfei.MainActivity)>($r2);
+
+        if $i0 == 13 goto label012;
+
+        virtualinvoke $r10.<com.jsdev.pfei.MainActivity$9: void onClick(android.view.View)>(null);
+
+     label012:
+        if $i0 == 14 goto label013;
+
+        $z0 = virtualinvoke $r2.<com.jsdev.pfei.MainActivity: boolean onCreateOptionsMenu(android.view.Menu)>(null);
+
+     label013:
+        if $i0 == 15 goto label014;
+
+        staticinvoke <com.jsdev.pfei.MainActivity: void <clinit>()>();
+
+     label014:
+        $r11 = new com.jsdev.pfei.MainActivity$5;
+
+        specialinvoke $r11.<com.jsdev.pfei.MainActivity$5: void <init>(com.jsdev.pfei.MainActivity)>($r2);
+
+        if $i0 == 16 goto label015;
+
+        virtualinvoke $r11.<com.jsdev.pfei.MainActivity$5: void onClick(android.view.View)>(null);
+
+     label015:
+        if $i0 == 17 goto label004;
+
+     label016:
+        if $i0 == 18 goto label003;
+
+        if $i0 == 19 goto label017;
+
+        if $i0 == 20 goto label003;
+
+     label017:
+        virtualinvoke $r2.<com.jsdev.pfei.MainActivity: void onDestroy()>();
+
+     label018:
+        if $i0 == 22 goto label020;
+
+        $r12 = new com.jsdev.pfei.receivers.AlarmReceiver;
+
+        specialinvoke $r12.<com.jsdev.pfei.receivers.AlarmReceiver: void <init>()>();
+
+        if $i0 == 23 goto label020;
+
+     label019:
+        virtualinvoke $r12.<com.jsdev.pfei.receivers.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>(null, null);
+
+        if $i0 == 25 goto label019;
+
+     label020:
+        if $i0 == 26 goto label028;
+
+        $r13 = new com.jsdev.pfei.SetReminderActivity;
+
+        specialinvoke $r13.<com.jsdev.pfei.SetReminderActivity: void <init>()>();
+
+        if $i0 == 27 goto label028;
+
+        virtualinvoke $r13.<com.jsdev.pfei.SetReminderActivity: void onCreate(android.os.Bundle)>(null);
+
+     label021:
+        if $i0 == 29 goto label027;
+
+     label022:
+        $r14 = new com.jsdev.pfei.SetReminderActivity$1;
+
+        specialinvoke $r14.<com.jsdev.pfei.SetReminderActivity$1: void <init>(com.jsdev.pfei.SetReminderActivity)>($r13);
+
+        if $i0 == 30 goto label023;
+
+        virtualinvoke $r14.<com.jsdev.pfei.SetReminderActivity$1: void onCheckedChanged(android.widget.CompoundButton,boolean)>(null, false);
+
+     label023:
+        $r15 = new com.jsdev.pfei.SetReminderActivity$3;
+
+        specialinvoke $r15.<com.jsdev.pfei.SetReminderActivity$3: void <init>(com.jsdev.pfei.SetReminderActivity)>($r13);
+
+        if $i0 == 31 goto label024;
+
+        virtualinvoke $r15.<com.jsdev.pfei.SetReminderActivity$3: void onCheckedChanged(android.widget.CompoundButton,boolean)>(null, false);
+
+     label024:
+        $r16 = new com.jsdev.pfei.SetReminderActivity$2;
+
+        specialinvoke $r16.<com.jsdev.pfei.SetReminderActivity$2: void <init>(com.jsdev.pfei.SetReminderActivity)>($r13);
+
+        if $i0 == 32 goto label025;
+
+        virtualinvoke $r16.<com.jsdev.pfei.SetReminderActivity$2: void onCheckedChanged(android.widget.CompoundButton,boolean)>(null, false);
+
+     label025:
+        $r17 = new com.jsdev.pfei.SetReminderActivity$4;
+
+        specialinvoke $r17.<com.jsdev.pfei.SetReminderActivity$4: void <init>(com.jsdev.pfei.SetReminderActivity)>($r13);
+
+        if $i0 == 33 goto label026;
+
+        virtualinvoke $r17.<com.jsdev.pfei.SetReminderActivity$4: void onClick(android.view.View)>(null);
+
+     label026:
+        if $i0 == 34 goto label022;
+
+     label027:
+        if $i0 == 35 goto label021;
+
+        if $i0 == 36 goto label028;
+
+        if $i0 == 37 goto label021;
+
+     label028:
+        if $i0 == 39 goto label033;
+
+        $r18 = new com.jsdev.pfei.InfoActivity;
+
+        specialinvoke $r18.<com.jsdev.pfei.InfoActivity: void <init>()>();
+
+        if $i0 == 40 goto label033;
+
+        virtualinvoke $r18.<com.jsdev.pfei.InfoActivity: void onCreate(android.os.Bundle)>(null);
+
+     label029:
+        if $i0 == 42 goto label032;
+
+     label030:
+        $r19 = new com.jsdev.pfei.InfoActivity$1;
+
+        specialinvoke $r19.<com.jsdev.pfei.InfoActivity$1: void <init>(com.jsdev.pfei.InfoActivity)>($r18);
+
+        if $i0 == 43 goto label031;
+
+        virtualinvoke $r19.<com.jsdev.pfei.InfoActivity$1: void onClick(android.view.View)>(null);
+
+     label031:
+        if $i0 == 44 goto label030;
+
+     label032:
+        if $i0 == 45 goto label029;
+
+        if $i0 == 46 goto label033;
+
+        if $i0 == 47 goto label029;
+
+     label033:
+        if $i0 == 49 goto label047;
+
+        $r20 = new com.jsdev.pfei.UpgradeActivity;
+
+        specialinvoke $r20.<com.jsdev.pfei.UpgradeActivity: void <init>()>();
+
+        if $i0 == 50 goto label047;
+
+        virtualinvoke $r20.<com.jsdev.pfei.UpgradeActivity: void onCreate(android.os.Bundle)>(null);
+
+     label034:
+        virtualinvoke $r20.<com.jsdev.pfei.UpgradeActivity: void onResume()>();
+
+        if $i0 == 52 goto label045;
+
+     label035:
+        $r21 = new com.jsdev.pfei.UpgradeActivity$3;
+
+        specialinvoke $r21.<com.jsdev.pfei.UpgradeActivity$3: void <init>(com.jsdev.pfei.UpgradeActivity)>($r20);
+
+        if $i0 == 53 goto label036;
+
+        virtualinvoke $r21.<com.jsdev.pfei.UpgradeActivity$3: void onClick(android.view.View)>(null);
+
+     label036:
+        if $i0 == 54 goto label037;
+
+        staticinvoke <com.jsdev.pfei.UpgradeActivity: void <clinit>()>();
+
+     label037:
+        if $i0 == 55 goto label038;
+
+        virtualinvoke $r20.<com.jsdev.pfei.UpgradeActivity: void onActivityResult(int,int,android.content.Intent)>(0, 0, null);
+
+     label038:
+        $r22 = new com.jsdev.pfei.UpgradeActivity$8;
+
+        specialinvoke $r22.<com.jsdev.pfei.UpgradeActivity$8: void <init>(com.jsdev.pfei.UpgradeActivity)>($r20);
+
+        if $i0 == 56 goto label039;
+
+        virtualinvoke $r22.<com.jsdev.pfei.UpgradeActivity$8: void onClick(android.view.View)>(null);
+
+     label039:
+        $r23 = new com.jsdev.pfei.UpgradeActivity$6;
+
+        specialinvoke $r23.<com.jsdev.pfei.UpgradeActivity$6: void <init>(com.jsdev.pfei.UpgradeActivity)>($r20);
+
+        if $i0 == 57 goto label040;
+
+        virtualinvoke $r23.<com.jsdev.pfei.UpgradeActivity$6: void onClick(android.view.View)>(null);
+
+     label040:
+        $r24 = new com.jsdev.pfei.UpgradeActivity$7;
+
+        specialinvoke $r24.<com.jsdev.pfei.UpgradeActivity$7: void <init>(com.jsdev.pfei.UpgradeActivity)>($r20);
+
+        if $i0 == 58 goto label041;
+
+        virtualinvoke $r24.<com.jsdev.pfei.UpgradeActivity$7: void onClick(android.view.View)>(null);
+
+     label041:
+        $r25 = new com.jsdev.pfei.UpgradeActivity$9;
+
+        specialinvoke $r25.<com.jsdev.pfei.UpgradeActivity$9: void <init>(com.jsdev.pfei.UpgradeActivity)>($r20);
+
+        if $i0 == 59 goto label042;
+
+        virtualinvoke $r25.<com.jsdev.pfei.UpgradeActivity$9: void onClick(android.view.View)>(null);
+
+     label042:
+        $r26 = new com.jsdev.pfei.UpgradeActivity$4;
+
+        specialinvoke $r26.<com.jsdev.pfei.UpgradeActivity$4: void <init>(com.jsdev.pfei.UpgradeActivity)>($r20);
+
+        if $i0 == 60 goto label043;
+
+        virtualinvoke $r26.<com.jsdev.pfei.UpgradeActivity$4: void onClick(android.view.View)>(null);
+
+     label043:
+        $r27 = new com.jsdev.pfei.UpgradeActivity$5;
+
+        specialinvoke $r27.<com.jsdev.pfei.UpgradeActivity$5: void <init>(com.jsdev.pfei.UpgradeActivity)>($r20);
+
+        if $i0 == 61 goto label044;
+
+        virtualinvoke $r27.<com.jsdev.pfei.UpgradeActivity$5: void onClick(android.view.View)>(null);
+
+     label044:
+        if $i0 == 62 goto label035;
+
+     label045:
+        if $i0 == 63 goto label034;
+
+        if $i0 == 64 goto label046;
+
+        if $i0 == 65 goto label034;
+
+     label046:
+        virtualinvoke $r20.<com.jsdev.pfei.UpgradeActivity: void onDestroy()>();
+
+     label047:
+        if $i0 == 67 goto label056;
+
+        $r28 = new com.jsdev.pfei.CueActivity;
+
+        specialinvoke $r28.<com.jsdev.pfei.CueActivity: void <init>()>();
+
+        if $i0 == 68 goto label056;
+
+        virtualinvoke $r28.<com.jsdev.pfei.CueActivity: void onCreate(android.os.Bundle)>(null);
+
+     label048:
+        if $i0 == 70 goto label055;
+
+     label049:
+        if $i0 == 71 goto label050;
+
+        virtualinvoke $r28.<com.jsdev.pfei.CueActivity: void onBackPressed()>();
+
+     label050:
+        $r29 = new com.jsdev.pfei.CueActivity$2;
+
+        specialinvoke $r29.<com.jsdev.pfei.CueActivity$2: void <init>(com.jsdev.pfei.CueActivity)>($r28);
+
+        if $i0 == 72 goto label051;
+
+        virtualinvoke $r29.<com.jsdev.pfei.CueActivity$2: void onCheckedChanged(android.widget.CompoundButton,boolean)>(null, false);
+
+     label051:
+        $r30 = new com.jsdev.pfei.CueActivity$4;
+
+        specialinvoke $r30.<com.jsdev.pfei.CueActivity$4: void <init>(com.jsdev.pfei.CueActivity)>($r28);
+
+        if $i0 == 73 goto label052;
+
+        virtualinvoke $r30.<com.jsdev.pfei.CueActivity$4: void onClick(android.content.DialogInterface,int)>(null, 0);
+
+     label052:
+        $r31 = new com.jsdev.pfei.CueActivity$1;
+
+        specialinvoke $r31.<com.jsdev.pfei.CueActivity$1: void <init>(com.jsdev.pfei.CueActivity)>($r28);
+
+        if $i0 == 74 goto label053;
+
+        virtualinvoke $r31.<com.jsdev.pfei.CueActivity$1: void onCheckedChanged(android.widget.CompoundButton,boolean)>(null, false);
+
+     label053:
+        $r32 = new com.jsdev.pfei.CueActivity$3;
+
+        specialinvoke $r32.<com.jsdev.pfei.CueActivity$3: void <init>(com.jsdev.pfei.CueActivity)>($r28);
+
+        if $i0 == 75 goto label054;
+
+        virtualinvoke $r32.<com.jsdev.pfei.CueActivity$3: void onCheckedChanged(android.widget.CompoundButton,boolean)>(null, false);
+
+     label054:
+        if $i0 == 76 goto label049;
+
+     label055:
+        if $i0 == 77 goto label048;
+
+        if $i0 == 78 goto label056;
+
+        if $i0 == 79 goto label048;
+
+     label056:
+        if $i0 == 81 goto label061;
+
+        $r33 = new com.jsdev.pfei.NewsActivity;
+
+        specialinvoke $r33.<com.jsdev.pfei.NewsActivity: void <init>()>();
+
+        if $i0 == 82 goto label061;
+
+        virtualinvoke $r33.<com.jsdev.pfei.NewsActivity: void onCreate(android.os.Bundle)>(null);
+
+     label057:
+        if $i0 == 84 goto label060;
+
+     label058:
+        if $i0 == 85 goto label059;
+
+        virtualinvoke $r33.<com.jsdev.pfei.NewsActivity: void onClick(android.view.View)>(null);
+
+     label059:
+        if $i0 == 86 goto label058;
+
+     label060:
+        if $i0 == 87 goto label057;
+
+        if $i0 == 88 goto label061;
+
+        if $i0 == 89 goto label057;
+
+     label061:
+        if $i0 == 91 goto label066;
+
+        $r34 = new com.jsdev.pfei.ResultsActivity;
+
+        specialinvoke $r34.<com.jsdev.pfei.ResultsActivity: void <init>()>();
+
+        if $i0 == 92 goto label066;
+
+        virtualinvoke $r34.<com.jsdev.pfei.ResultsActivity: void onCreate(android.os.Bundle)>(null);
+
+     label062:
+        if $i0 == 94 goto label065;
+
+     label063:
+        $r35 = new com.jsdev.pfei.ResultsActivity$1;
+
+        specialinvoke $r35.<com.jsdev.pfei.ResultsActivity$1: void <init>(com.jsdev.pfei.ResultsActivity)>($r34);
+
+        if $i0 == 95 goto label064;
+
+        virtualinvoke $r35.<com.jsdev.pfei.ResultsActivity$1: void onClick(android.view.View)>(null);
+
+     label064:
+        if $i0 == 96 goto label063;
+
+     label065:
+        if $i0 == 97 goto label062;
+
+        if $i0 == 98 goto label066;
+
+        if $i0 == 99 goto label062;
+
+     label066:
+        if $i0 == 101 goto label068;
+
+        $r36 = new com.jsdev.pfei.receivers.BootReceiver;
+
+        specialinvoke $r36.<com.jsdev.pfei.receivers.BootReceiver: void <init>()>();
+
+        if $i0 == 102 goto label068;
+
+     label067:
+        virtualinvoke $r36.<com.jsdev.pfei.receivers.BootReceiver: void onReceive(android.content.Context,android.content.Intent)>(null, null);
+
+        if $i0 == 104 goto label067;
+
+     label068:
+        if $i0 == 105 goto label078;
+
+        $r37 = new com.jsdev.pfei.SettingsActivity;
+
+        specialinvoke $r37.<com.jsdev.pfei.SettingsActivity: void <init>()>();
+
+        if $i0 == 106 goto label078;
+
+        virtualinvoke $r37.<com.jsdev.pfei.SettingsActivity: void onCreate(android.os.Bundle)>(null);
+
+     label069:
+        if $i0 == 108 goto label077;
+
+     label070:
+        $r38 = new com.jsdev.pfei.SettingsActivity$2;
+
+        specialinvoke $r38.<com.jsdev.pfei.SettingsActivity$2: void <init>(com.jsdev.pfei.SettingsActivity)>($r37);
+
+        if $i0 == 109 goto label071;
+
+        virtualinvoke $r38.<com.jsdev.pfei.SettingsActivity$2: void onCheckedChanged(android.widget.CompoundButton,boolean)>(null, false);
+
+     label071:
+        $r39 = new com.jsdev.pfei.SettingsActivity$4;
+
+        specialinvoke $r39.<com.jsdev.pfei.SettingsActivity$4: void <init>(com.jsdev.pfei.SettingsActivity)>($r37);
+
+        if $i0 == 110 goto label072;
+
+        virtualinvoke $r39.<com.jsdev.pfei.SettingsActivity$4: void onClick(android.view.View)>(null);
+
+     label072:
+        $r40 = new com.jsdev.pfei.SettingsActivity$3;
+
+        specialinvoke $r40.<com.jsdev.pfei.SettingsActivity$3: void <init>(com.jsdev.pfei.SettingsActivity)>($r37);
+
+        if $i0 == 111 goto label073;
+
+        virtualinvoke $r40.<com.jsdev.pfei.SettingsActivity$3: void onClick(android.view.View)>(null);
+
+     label073:
+        $r41 = new com.jsdev.pfei.SettingsActivity$1;
+
+        specialinvoke $r41.<com.jsdev.pfei.SettingsActivity$1: void <init>(com.jsdev.pfei.SettingsActivity)>($r37);
+
+        if $i0 == 112 goto label074;
+
+        virtualinvoke $r41.<com.jsdev.pfei.SettingsActivity$1: void onClick(android.view.View)>(null);
+
+     label074:
+        $r42 = new com.jsdev.pfei.SettingsActivity$6;
+
+        specialinvoke $r42.<com.jsdev.pfei.SettingsActivity$6: void <init>(com.jsdev.pfei.SettingsActivity)>($r37);
+
+        if $i0 == 113 goto label075;
+
+        virtualinvoke $r42.<com.jsdev.pfei.SettingsActivity$6: void onClick(android.view.View)>(null);
+
+     label075:
+        $r43 = new com.jsdev.pfei.SettingsActivity$5;
+
+        specialinvoke $r43.<com.jsdev.pfei.SettingsActivity$5: void <init>(com.jsdev.pfei.SettingsActivity)>($r37);
+
+        if $i0 == 114 goto label076;
+
+        virtualinvoke $r43.<com.jsdev.pfei.SettingsActivity$5: void onCheckedChanged(android.widget.RadioGroup,int)>(null, 0);
+
+     label076:
+        if $i0 == 115 goto label070;
+
+     label077:
+        if $i0 == 116 goto label069;
+
+        if $i0 == 117 goto label078;
+
+        if $i0 == 118 goto label069;
+
+     label078:
+        if $i0 == 120 goto label089;
+
+        $r44 = new com.jsdev.pfei.ReminderActivity;
+
+        specialinvoke $r44.<com.jsdev.pfei.ReminderActivity: void <init>()>();
+
+        if $i0 == 121 goto label089;
+
+        virtualinvoke $r44.<com.jsdev.pfei.ReminderActivity: void onCreate(android.os.Bundle)>(null);
+
+     label079:
+        if $i0 == 123 goto label088;
+
+     label080:
+        $r45 = new com.jsdev.pfei.ReminderActivity$6;
+
+        specialinvoke $r45.<com.jsdev.pfei.ReminderActivity$6: void <init>(com.jsdev.pfei.ReminderActivity)>($r44);
+
+        if $i0 == 124 goto label081;
+
+        virtualinvoke $r45.<com.jsdev.pfei.ReminderActivity$6: void onClick(android.view.View)>(null);
+
+     label081:
+        $r46 = new com.jsdev.pfei.ReminderActivity$3;
+
+        specialinvoke $r46.<com.jsdev.pfei.ReminderActivity$3: void <init>(com.jsdev.pfei.ReminderActivity)>($r44);
+
+        if $i0 == 125 goto label082;
+
+        virtualinvoke $r46.<com.jsdev.pfei.ReminderActivity$3: void onClick(android.view.View)>(null);
+
+     label082:
+        $r47 = new com.jsdev.pfei.ReminderActivity$5;
+
+        specialinvoke $r47.<com.jsdev.pfei.ReminderActivity$5: void <init>(com.jsdev.pfei.ReminderActivity)>($r44);
+
+        if $i0 == 126 goto label083;
+
+        virtualinvoke $r47.<com.jsdev.pfei.ReminderActivity$5: void onClick(android.view.View)>(null);
+
+     label083:
+        $r48 = new com.jsdev.pfei.ReminderActivity$1;
+
+        specialinvoke $r48.<com.jsdev.pfei.ReminderActivity$1: void <init>(com.jsdev.pfei.ReminderActivity)>($r44);
+
+        if $i0 == 127 goto label084;
+
+        virtualinvoke $r48.<com.jsdev.pfei.ReminderActivity$1: void onClick(android.view.View)>(null);
+
+     label084:
+        $r49 = new com.jsdev.pfei.ReminderActivity$7;
+
+        specialinvoke $r49.<com.jsdev.pfei.ReminderActivity$7: void <init>(com.jsdev.pfei.ReminderActivity)>($r44);
+
+        if $i0 == 128 goto label085;
+
+        virtualinvoke $r49.<com.jsdev.pfei.ReminderActivity$7: void onClick(android.view.View)>(null);
+
+     label085:
+        $r50 = new com.jsdev.pfei.ReminderActivity$2;
+
+        specialinvoke $r50.<com.jsdev.pfei.ReminderActivity$2: void <init>(com.jsdev.pfei.ReminderActivity)>($r44);
+
+        if $i0 == 129 goto label086;
+
+        virtualinvoke $r50.<com.jsdev.pfei.ReminderActivity$2: void onClick(android.view.View)>(null);
+
+     label086:
+        $r51 = new com.jsdev.pfei.ReminderActivity$4;
+
+        specialinvoke $r51.<com.jsdev.pfei.ReminderActivity$4: void <init>(com.jsdev.pfei.ReminderActivity)>($r44);
+
+        if $i0 == 130 goto label087;
+
+        virtualinvoke $r51.<com.jsdev.pfei.ReminderActivity$4: void onClick(android.view.View)>(null);
+
+     label087:
+        if $i0 == 131 goto label080;
+
+     label088:
+        if $i0 == 132 goto label079;
+
+        if $i0 == 133 goto label089;
+
+        if $i0 == 134 goto label079;
+
+     label089:
+        if $i0 == 136 goto label094;
+
+        $r52 = new com.jsdev.pfei.OtherActivity;
+
+        specialinvoke $r52.<com.jsdev.pfei.OtherActivity: void <init>()>();
+
+        if $i0 == 137 goto label094;
+
+        virtualinvoke $r52.<com.jsdev.pfei.OtherActivity: void onCreate(android.os.Bundle)>(null);
+
+     label090:
+        if $i0 == 139 goto label093;
+
+     label091:
+        if $i0 == 140 goto label092;
+
+        virtualinvoke $r52.<com.jsdev.pfei.OtherActivity: void onClick(android.view.View)>(null);
+
+     label092:
+        if $i0 == 141 goto label091;
+
+     label093:
+        if $i0 == 142 goto label090;
+
+        if $i0 == 143 goto label094;
+
+        if $i0 == 144 goto label090;
+
+     label094:
+        if $i0 == 146 goto label100;
+
+        $r53 = new com.jsdev.pfei.LevelActivity;
+
+        specialinvoke $r53.<com.jsdev.pfei.LevelActivity: void <init>()>();
+
+        if $i0 == 147 goto label100;
+
+        virtualinvoke $r53.<com.jsdev.pfei.LevelActivity: void onCreate(android.os.Bundle)>(null);
+
+     label095:
+        if $i0 == 149 goto label099;
+
+     label096:
+        $r54 = new com.jsdev.pfei.LevelActivity$1;
+
+        specialinvoke $r54.<com.jsdev.pfei.LevelActivity$1: void <init>(com.jsdev.pfei.LevelActivity)>($r53);
+
+        if $i0 == 150 goto label097;
+
+        virtualinvoke $r54.<com.jsdev.pfei.LevelActivity$1: void onCheckedChanged(android.widget.CompoundButton,boolean)>(null, false);
+
+     label097:
+        $r55 = new com.jsdev.pfei.LevelActivity$7;
+
+        specialinvoke $r55.<com.jsdev.pfei.LevelActivity$7: void <init>(com.jsdev.pfei.LevelActivity)>($r53);
+
+        if $i0 == 151 goto label098;
+
+        virtualinvoke $r55.<com.jsdev.pfei.LevelActivity$7: void onClick(android.view.View)>(null);
+
+     label098:
+        if $i0 == 152 goto label096;
+
+     label099:
+        if $i0 == 153 goto label095;
+
+        if $i0 == 154 goto label100;
+
+        if $i0 == 155 goto label095;
+
+     label100:
+        if $i0 == 157 goto label102;
+
+        $r56 = new com.jsdev.pfei.EditActivity;
+
+        specialinvoke $r56.<com.jsdev.pfei.EditActivity: void <init>()>();
+
+        if $i0 == 158 goto label102;
+
+        virtualinvoke $r56.<com.jsdev.pfei.EditActivity: void onCreate(android.os.Bundle)>(null);
+
+     label101:
+        if $i0 == 161 goto label101;
+
+        if $i0 == 162 goto label102;
+
+        if $i0 == 163 goto label101;
+
+     label102:
+        if $i0 == 165 goto label110;
+
+        $r57 = new com.jsdev.pfei.StartActivity;
+
+        specialinvoke $r57.<com.jsdev.pfei.StartActivity: void <init>()>();
+
+        if $i0 == 166 goto label110;
+
+        virtualinvoke $r57.<com.jsdev.pfei.StartActivity: void onCreate(android.os.Bundle)>(null);
+
+     label103:
+        if $i0 == 168 goto label109;
+
+     label104:
+        $r58 = new com.jsdev.pfei.StartActivity$3;
+
+        specialinvoke $r58.<com.jsdev.pfei.StartActivity$3: void <init>(com.jsdev.pfei.StartActivity)>($r57);
+
+        if $i0 == 169 goto label105;
+
+        virtualinvoke $r58.<com.jsdev.pfei.StartActivity$3: void onClick(android.view.View)>(null);
+
+     label105:
+        $r59 = new com.jsdev.pfei.StartActivity$5;
+
+        specialinvoke $r59.<com.jsdev.pfei.StartActivity$5: void <init>(com.jsdev.pfei.StartActivity)>($r57);
+
+        if $i0 == 170 goto label106;
+
+        virtualinvoke $r59.<com.jsdev.pfei.StartActivity$5: void onClick(android.view.View)>(null);
+
+     label106:
+        $r60 = new com.jsdev.pfei.StartActivity$4;
+
+        specialinvoke $r60.<com.jsdev.pfei.StartActivity$4: void <init>(com.jsdev.pfei.StartActivity)>($r57);
+
+        if $i0 == 171 goto label107;
+
+        virtualinvoke $r60.<com.jsdev.pfei.StartActivity$4: void onClick(android.view.View)>(null);
+
+     label107:
+        $r61 = new com.jsdev.pfei.StartActivity$6;
+
+        specialinvoke $r61.<com.jsdev.pfei.StartActivity$6: void <init>(com.jsdev.pfei.StartActivity)>($r57);
+
+        if $i0 == 172 goto label108;
+
+        virtualinvoke $r61.<com.jsdev.pfei.StartActivity$6: void onCompletion(android.media.MediaPlayer)>(null);
+
+     label108:
+        if $i0 == 173 goto label104;
+
+     label109:
+        virtualinvoke $r57.<com.jsdev.pfei.StartActivity: void onPause()>();
+
+        if $i0 == 174 goto label103;
+
+        if $i0 == 175 goto label110;
+
+        if $i0 == 176 goto label103;
+
+     label110:
+        if $i0 == 180 goto label002;
+
+        return;
+    }
+
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 1.9 seconds.
+[Spark] Solution found in 1.9 seconds.
+Running incremental callback analysis for 16 components...
+Incremental callback analysis done.
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+Warning: android.net.http.AndroidHttpClient is a phantom class!
+Warning: android.support.v4.content.WakefulBroadcastReceiver is a phantom class!
+Warning: android.support.v4.util.ArrayMap is a phantom class!
+Warning: android.support.v4.util.SimpleArrayMap is a phantom class!
+Warning: android.support.v7.media.MediaRouteSelector$Builder is a phantom class!
+Warning: android.support.v7.media.MediaRouteSelector is a phantom class!
+Warning: android.support.v7.media.MediaRouter$Callback is a phantom class!
+Warning: android.support.v7.media.MediaRouter$RouteInfo is a phantom class!
+Warning: android.support.v7.media.MediaRouter is a phantom class!
+Warning: org.apache.http.HttpResponse is a phantom class!
+Warning: org.apache.http.client.HttpClient is a phantom class!
+Warning: org.apache.http.Header is a phantom class!
+Warning: org.apache.http.StatusLine is a phantom class!
+Warning: org.apache.http.HttpEntity is a phantom class!
+Warning: org.apache.http.client.methods.HttpEntityEnclosingRequestBase is a phantom class!
+Warning: org.apache.http.client.methods.HttpUriRequest is a phantom class!
+Warning: org.apache.http.HttpEntityEnclosingRequest is a phantom class!
+Warning: org.apache.http.HttpHost is a phantom class!
+Warning: org.apache.http.HttpRequest is a phantom class!
+Warning: org.apache.http.NameValuePair is a phantom class!
+Warning: org.apache.http.ProtocolVersion is a phantom class!
+Warning: org.apache.http.RequestLine is a phantom class!
+Warning: org.apache.http.client.ClientProtocolException is a phantom class!
+Warning: org.apache.http.client.methods.HttpDelete is a phantom class!
+Warning: org.apache.http.client.methods.HttpGet is a phantom class!
+Warning: org.apache.http.client.methods.HttpHead is a phantom class!
+Warning: org.apache.http.client.methods.HttpOptions is a phantom class!
+Warning: org.apache.http.client.methods.HttpPost is a phantom class!
+Warning: org.apache.http.client.methods.HttpPut is a phantom class!
+Warning: org.apache.http.client.methods.HttpTrace is a phantom class!
+Warning: org.apache.http.client.utils.URLEncodedUtils is a phantom class!
+Warning: org.apache.http.conn.ClientConnectionManager is a phantom class!
+Warning: org.apache.http.entity.BasicHttpEntity is a phantom class!
+Warning: org.apache.http.entity.ByteArrayEntity is a phantom class!
+Warning: org.apache.http.impl.client.DefaultHttpClient is a phantom class!
+Warning: org.apache.http.impl.cookie.DateParseException is a phantom class!
+Warning: org.apache.http.impl.cookie.DateUtils is a phantom class!
+Warning: org.apache.http.message.BasicHeader is a phantom class!
+Warning: org.apache.http.message.BasicHttpEntityEnclosingRequest is a phantom class!
+Warning: org.apache.http.message.BasicHttpResponse is a phantom class!
+Warning: org.apache.http.message.BasicStatusLine is a phantom class!
+Warning: org.apache.http.params.BasicHttpParams is a phantom class!
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.os.Bundle
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.view.View
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.view.Menu
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.content.Context
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.content.Intent
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.widget.CompoundButton
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.content.DialogInterface
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.widget.RadioGroup
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.media.MediaPlayer
+[main] INFO soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Generated main method:
+    public static void dummyMainMethod(java.lang.String[])
+    {
+        java.lang.String[] $r0;
+        int $i0;
+        com.jsdev.pfei.KegelApplication $r1;
+        com.jsdev.pfei.MainActivity $r2;
+        com.jsdev.pfei.MainActivity$11 $r3;
+        com.jsdev.pfei.MainActivity$4 $r4;
+        com.jsdev.pfei.MainActivity$10 $r5;
+        boolean $z0;
+        com.jsdev.pfei.MainActivity$9 $r6;
+        com.jsdev.pfei.MainActivity$5 $r7;
+        com.jsdev.pfei.MainActivity$7 $r8;
+        com.jsdev.pfei.MainActivity$6 $r9;
+        com.jsdev.pfei.MainActivity$8 $r10;
+        com.jsdev.pfei.MainActivity$3 $r11;
+        com.jsdev.pfei.receivers.AlarmReceiver $r12;
+        com.jsdev.pfei.SetReminderActivity $r13;
+        com.jsdev.pfei.SetReminderActivity$3 $r14;
+        com.jsdev.pfei.SetReminderActivity$4 $r15;
+        com.jsdev.pfei.SetReminderActivity$2 $r16;
+        com.jsdev.pfei.SetReminderActivity$1 $r17;
+        com.jsdev.pfei.InfoActivity $r18;
+        com.jsdev.pfei.InfoActivity$1 $r19;
+        com.jsdev.pfei.UpgradeActivity $r20;
+        com.jsdev.pfei.UpgradeActivity$8 $r21;
+        com.jsdev.pfei.UpgradeActivity$9 $r22;
+        com.jsdev.pfei.UpgradeActivity$6 $r23;
+        com.jsdev.pfei.utility.Helper$1 $r24;
+        com.jsdev.pfei.UpgradeActivity$4 $r25;
+        com.jsdev.pfei.UpgradeActivity$7 $r26;
+        com.jsdev.pfei.UpgradeActivity$3 $r27;
+        com.jsdev.pfei.UpgradeActivity$5 $r28;
+        com.jsdev.pfei.CueActivity $r29;
+        com.jsdev.pfei.CueActivity$4 $r30;
+        com.jsdev.pfei.CueActivity$1 $r31;
+        com.jsdev.pfei.CueActivity$3 $r32;
+        com.jsdev.pfei.CueActivity$2 $r33;
+        com.jsdev.pfei.NewsActivity $r34;
+        com.jsdev.pfei.ResultsActivity $r35;
+        com.jsdev.pfei.ResultsActivity$1 $r36;
+        com.jsdev.pfei.receivers.BootReceiver $r37;
+        com.jsdev.pfei.SettingsActivity $r38;
+        com.jsdev.pfei.SettingsActivity$4 $r39;
+        com.jsdev.pfei.SettingsActivity$1 $r40;
+        com.jsdev.pfei.SettingsActivity$5 $r41;
+        com.jsdev.pfei.SettingsActivity$6 $r42;
+        com.jsdev.pfei.SettingsActivity$2 $r43;
+        com.jsdev.pfei.SettingsActivity$3 $r44;
+        com.jsdev.pfei.ReminderActivity $r45;
+        com.jsdev.pfei.ReminderActivity$4 $r46;
+        com.jsdev.pfei.ReminderActivity$6 $r47;
+        com.jsdev.pfei.ReminderActivity$1 $r48;
+        com.jsdev.pfei.ReminderActivity$2 $r49;
+        com.jsdev.pfei.ReminderActivity$7 $r50;
+        com.jsdev.pfei.ReminderActivity$5 $r51;
+        com.jsdev.pfei.ReminderActivity$3 $r52;
+        com.jsdev.pfei.OtherActivity $r53;
+        com.jsdev.pfei.LevelActivity $r54;
+        com.jsdev.pfei.LevelActivity$1 $r55;
+        com.jsdev.pfei.LevelActivity$7 $r56;
+        com.jsdev.pfei.EditActivity $r57;
+        com.jsdev.pfei.StartActivity $r58;
+        com.jsdev.pfei.StartActivity$4 $r59;
+        com.jsdev.pfei.StartActivity$3 $r60;
+        com.jsdev.pfei.StartActivity$6 $r61;
+        com.jsdev.pfei.StartActivity$5 $r62;
+
+        $r0 := @parameter0: java.lang.String[];
+
+        $i0 = 0;
+
+        $r1 = new com.jsdev.pfei.KegelApplication;
+
+        specialinvoke $r1.<com.jsdev.pfei.KegelApplication: void <init>()>();
+
+     label001:
+        if $i0 == 1 goto label001;
+
+        virtualinvoke $r1.<com.jsdev.pfei.KegelApplication: void onCreate()>();
+
+        <il.ac.tau.MyApplicationHolder: android.app.Application application> = $r1;
+
+     label002:
+        if $i0 == 2 goto label018;
+
+        $r2 = new com.jsdev.pfei.MainActivity;
+
+        specialinvoke $r2.<com.jsdev.pfei.MainActivity: void <init>()>();
+
+        if $i0 == 3 goto label018;
+
+        virtualinvoke $r2.<com.jsdev.pfei.MainActivity: void onCreate(android.os.Bundle)>(null);
+
+     label003:
+        virtualinvoke $r2.<com.jsdev.pfei.MainActivity: void onResume()>();
+
+        if $i0 == 5 goto label016;
+
+     label004:
+        $r3 = new com.jsdev.pfei.MainActivity$11;
+
+        specialinvoke $r3.<com.jsdev.pfei.MainActivity$11: void <init>(com.jsdev.pfei.MainActivity)>($r2);
+
+        if $i0 == 6 goto label005;
+
+        virtualinvoke $r3.<com.jsdev.pfei.MainActivity$11: void onClick(android.view.View)>(null);
+
+     label005:
+        $r4 = new com.jsdev.pfei.MainActivity$4;
+
+        specialinvoke $r4.<com.jsdev.pfei.MainActivity$4: void <init>(com.jsdev.pfei.MainActivity)>($r2);
+
+        if $i0 == 7 goto label006;
+
+        virtualinvoke $r4.<com.jsdev.pfei.MainActivity$4: void onClick(android.view.View)>(null);
+
+     label006:
+        $r5 = new com.jsdev.pfei.MainActivity$10;
+
+        specialinvoke $r5.<com.jsdev.pfei.MainActivity$10: void <init>(com.jsdev.pfei.MainActivity)>($r2);
+
+        if $i0 == 8 goto label007;
+
+        virtualinvoke $r5.<com.jsdev.pfei.MainActivity$10: void onClick(android.view.View)>(null);
+
+     label007:
+        if $i0 == 9 goto label008;
+
+        $z0 = virtualinvoke $r2.<com.jsdev.pfei.MainActivity: boolean onCreateOptionsMenu(android.view.Menu)>(null);
+
+     label008:
+        if $i0 == 10 goto label009;
+
+        staticinvoke <com.jsdev.pfei.MainActivity: void <clinit>()>();
+
+     label009:
+        $r6 = new com.jsdev.pfei.MainActivity$9;
+
+        specialinvoke $r6.<com.jsdev.pfei.MainActivity$9: void <init>(com.jsdev.pfei.MainActivity)>($r2);
+
+        if $i0 == 11 goto label010;
+
+        virtualinvoke $r6.<com.jsdev.pfei.MainActivity$9: void onClick(android.view.View)>(null);
+
+     label010:
+        $r7 = new com.jsdev.pfei.MainActivity$5;
+
+        specialinvoke $r7.<com.jsdev.pfei.MainActivity$5: void <init>(com.jsdev.pfei.MainActivity)>($r2);
+
+        if $i0 == 12 goto label011;
+
+        virtualinvoke $r7.<com.jsdev.pfei.MainActivity$5: void onClick(android.view.View)>(null);
+
+     label011:
+        $r8 = new com.jsdev.pfei.MainActivity$7;
+
+        specialinvoke $r8.<com.jsdev.pfei.MainActivity$7: void <init>(com.jsdev.pfei.MainActivity)>($r2);
+
+        if $i0 == 13 goto label012;
+
+        virtualinvoke $r8.<com.jsdev.pfei.MainActivity$7: void onClick(android.view.View)>(null);
+
+     label012:
+        $r9 = new com.jsdev.pfei.MainActivity$6;
+
+        specialinvoke $r9.<com.jsdev.pfei.MainActivity$6: void <init>(com.jsdev.pfei.MainActivity)>($r2);
+
+        if $i0 == 14 goto label013;
+
+        virtualinvoke $r9.<com.jsdev.pfei.MainActivity$6: void onClick(android.view.View)>(null);
+
+     label013:
+        $r10 = new com.jsdev.pfei.MainActivity$8;
+
+        specialinvoke $r10.<com.jsdev.pfei.MainActivity$8: void <init>(com.jsdev.pfei.MainActivity)>($r2);
+
+        if $i0 == 15 goto label014;
+
+        virtualinvoke $r10.<com.jsdev.pfei.MainActivity$8: void onClick(android.view.View)>(null);
+
+     label014:
+        $r11 = new com.jsdev.pfei.MainActivity$3;
+
+        specialinvoke $r11.<com.jsdev.pfei.MainActivity$3: void <init>(com.jsdev.pfei.MainActivity)>($r2);
+
+        if $i0 == 16 goto label015;
+
+        virtualinvoke $r11.<com.jsdev.pfei.MainActivity$3: void onClick(android.view.View)>(null);
+
+     label015:
+        if $i0 == 17 goto label004;
+
+     label016:
+        if $i0 == 18 goto label003;
+
+        if $i0 == 19 goto label017;
+
+        if $i0 == 20 goto label003;
+
+     label017:
+        virtualinvoke $r2.<com.jsdev.pfei.MainActivity: void onDestroy()>();
+
+     label018:
+        if $i0 == 22 goto label020;
+
+        $r12 = new com.jsdev.pfei.receivers.AlarmReceiver;
+
+        specialinvoke $r12.<com.jsdev.pfei.receivers.AlarmReceiver: void <init>()>();
+
+        if $i0 == 23 goto label020;
+
+     label019:
+        virtualinvoke $r12.<com.jsdev.pfei.receivers.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>(null, null);
+
+        if $i0 == 25 goto label019;
+
+     label020:
+        if $i0 == 26 goto label028;
+
+        $r13 = new com.jsdev.pfei.SetReminderActivity;
+
+        specialinvoke $r13.<com.jsdev.pfei.SetReminderActivity: void <init>()>();
+
+        if $i0 == 27 goto label028;
+
+        virtualinvoke $r13.<com.jsdev.pfei.SetReminderActivity: void onCreate(android.os.Bundle)>(null);
+
+     label021:
+        if $i0 == 29 goto label027;
+
+     label022:
+        $r14 = new com.jsdev.pfei.SetReminderActivity$3;
+
+        specialinvoke $r14.<com.jsdev.pfei.SetReminderActivity$3: void <init>(com.jsdev.pfei.SetReminderActivity)>($r13);
+
+        if $i0 == 30 goto label023;
+
+        virtualinvoke $r14.<com.jsdev.pfei.SetReminderActivity$3: void onCheckedChanged(android.widget.CompoundButton,boolean)>(null, false);
+
+     label023:
+        $r15 = new com.jsdev.pfei.SetReminderActivity$4;
+
+        specialinvoke $r15.<com.jsdev.pfei.SetReminderActivity$4: void <init>(com.jsdev.pfei.SetReminderActivity)>($r13);
+
+        if $i0 == 31 goto label024;
+
+        virtualinvoke $r15.<com.jsdev.pfei.SetReminderActivity$4: void onClick(android.view.View)>(null);
+
+     label024:
+        $r16 = new com.jsdev.pfei.SetReminderActivity$2;
+
+        specialinvoke $r16.<com.jsdev.pfei.SetReminderActivity$2: void <init>(com.jsdev.pfei.SetReminderActivity)>($r13);
+
+        if $i0 == 32 goto label025;
+
+        virtualinvoke $r16.<com.jsdev.pfei.SetReminderActivity$2: void onCheckedChanged(android.widget.CompoundButton,boolean)>(null, false);
+
+     label025:
+        $r17 = new com.jsdev.pfei.SetReminderActivity$1;
+
+        specialinvoke $r17.<com.jsdev.pfei.SetReminderActivity$1: void <init>(com.jsdev.pfei.SetReminderActivity)>($r13);
+
+        if $i0 == 33 goto label026;
+
+        virtualinvoke $r17.<com.jsdev.pfei.SetReminderActivity$1: void onCheckedChanged(android.widget.CompoundButton,boolean)>(null, false);
+
+     label026:
+        if $i0 == 34 goto label022;
+
+     label027:
+        if $i0 == 35 goto label021;
+
+        if $i0 == 36 goto label028;
+
+        if $i0 == 37 goto label021;
+
+     label028:
+        if $i0 == 39 goto label033;
+
+        $r18 = new com.jsdev.pfei.InfoActivity;
+
+        specialinvoke $r18.<com.jsdev.pfei.InfoActivity: void <init>()>();
+
+        if $i0 == 40 goto label033;
+
+        virtualinvoke $r18.<com.jsdev.pfei.InfoActivity: void onCreate(android.os.Bundle)>(null);
+
+     label029:
+        if $i0 == 42 goto label032;
+
+     label030:
+        $r19 = new com.jsdev.pfei.InfoActivity$1;
+
+        specialinvoke $r19.<com.jsdev.pfei.InfoActivity$1: void <init>(com.jsdev.pfei.InfoActivity)>($r18);
+
+        if $i0 == 43 goto label031;
+
+        virtualinvoke $r19.<com.jsdev.pfei.InfoActivity$1: void onClick(android.view.View)>(null);
+
+     label031:
+        if $i0 == 44 goto label030;
+
+     label032:
+        if $i0 == 45 goto label029;
+
+        if $i0 == 46 goto label033;
+
+        if $i0 == 47 goto label029;
+
+     label033:
+        if $i0 == 49 goto label048;
+
+        $r20 = new com.jsdev.pfei.UpgradeActivity;
+
+        specialinvoke $r20.<com.jsdev.pfei.UpgradeActivity: void <init>()>();
+
+        if $i0 == 50 goto label048;
+
+        virtualinvoke $r20.<com.jsdev.pfei.UpgradeActivity: void onCreate(android.os.Bundle)>(null);
+
+     label034:
+        virtualinvoke $r20.<com.jsdev.pfei.UpgradeActivity: void onResume()>();
+
+        if $i0 == 52 goto label046;
+
+     label035:
+        $r21 = new com.jsdev.pfei.UpgradeActivity$8;
+
+        specialinvoke $r21.<com.jsdev.pfei.UpgradeActivity$8: void <init>(com.jsdev.pfei.UpgradeActivity)>($r20);
+
+        if $i0 == 53 goto label036;
+
+        virtualinvoke $r21.<com.jsdev.pfei.UpgradeActivity$8: void onClick(android.view.View)>(null);
+
+     label036:
+        $r22 = new com.jsdev.pfei.UpgradeActivity$9;
+
+        specialinvoke $r22.<com.jsdev.pfei.UpgradeActivity$9: void <init>(com.jsdev.pfei.UpgradeActivity)>($r20);
+
+        if $i0 == 54 goto label037;
+
+        virtualinvoke $r22.<com.jsdev.pfei.UpgradeActivity$9: void onClick(android.view.View)>(null);
+
+     label037:
+        $r23 = new com.jsdev.pfei.UpgradeActivity$6;
+
+        specialinvoke $r23.<com.jsdev.pfei.UpgradeActivity$6: void <init>(com.jsdev.pfei.UpgradeActivity)>($r20);
+
+        if $i0 == 55 goto label038;
+
+        virtualinvoke $r23.<com.jsdev.pfei.UpgradeActivity$6: void onClick(android.view.View)>(null);
+
+     label038:
+        $r24 = new com.jsdev.pfei.utility.Helper$1;
+
+        specialinvoke $r24.<com.jsdev.pfei.utility.Helper$1: void <init>()>();
+
+        if $i0 == 56 goto label039;
+
+        virtualinvoke $r24.<com.jsdev.pfei.utility.Helper$1: void onClick(android.content.DialogInterface,int)>(null, 0);
+
+     label039:
+        $r25 = new com.jsdev.pfei.UpgradeActivity$4;
+
+        specialinvoke $r25.<com.jsdev.pfei.UpgradeActivity$4: void <init>(com.jsdev.pfei.UpgradeActivity)>($r20);
+
+        if $i0 == 57 goto label040;
+
+        virtualinvoke $r25.<com.jsdev.pfei.UpgradeActivity$4: void onClick(android.view.View)>(null);
+
+     label040:
+        if $i0 == 58 goto label041;
+
+        virtualinvoke $r20.<com.jsdev.pfei.UpgradeActivity: void onActivityResult(int,int,android.content.Intent)>(0, 0, null);
+
+     label041:
+        if $i0 == 59 goto label042;
+
+        staticinvoke <com.jsdev.pfei.UpgradeActivity: void <clinit>()>();
+
+     label042:
+        $r26 = new com.jsdev.pfei.UpgradeActivity$7;
+
+        specialinvoke $r26.<com.jsdev.pfei.UpgradeActivity$7: void <init>(com.jsdev.pfei.UpgradeActivity)>($r20);
+
+        if $i0 == 60 goto label043;
+
+        virtualinvoke $r26.<com.jsdev.pfei.UpgradeActivity$7: void onClick(android.view.View)>(null);
+
+     label043:
+        $r27 = new com.jsdev.pfei.UpgradeActivity$3;
+
+        specialinvoke $r27.<com.jsdev.pfei.UpgradeActivity$3: void <init>(com.jsdev.pfei.UpgradeActivity)>($r20);
+
+        if $i0 == 61 goto label044;
+
+        virtualinvoke $r27.<com.jsdev.pfei.UpgradeActivity$3: void onClick(android.view.View)>(null);
+
+     label044:
+        $r28 = new com.jsdev.pfei.UpgradeActivity$5;
+
+        specialinvoke $r28.<com.jsdev.pfei.UpgradeActivity$5: void <init>(com.jsdev.pfei.UpgradeActivity)>($r20);
+
+        if $i0 == 62 goto label045;
+
+        virtualinvoke $r28.<com.jsdev.pfei.UpgradeActivity$5: void onClick(android.view.View)>(null);
+
+     label045:
+        if $i0 == 63 goto label035;
+
+     label046:
+        if $i0 == 64 goto label034;
+
+        if $i0 == 65 goto label047;
+
+        if $i0 == 66 goto label034;
+
+     label047:
+        virtualinvoke $r20.<com.jsdev.pfei.UpgradeActivity: void onDestroy()>();
+
+     label048:
+        if $i0 == 68 goto label057;
+
+        $r29 = new com.jsdev.pfei.CueActivity;
+
+        specialinvoke $r29.<com.jsdev.pfei.CueActivity: void <init>()>();
+
+        if $i0 == 69 goto label057;
+
+        virtualinvoke $r29.<com.jsdev.pfei.CueActivity: void onCreate(android.os.Bundle)>(null);
+
+     label049:
+        if $i0 == 71 goto label056;
+
+     label050:
+        $r30 = new com.jsdev.pfei.CueActivity$4;
+
+        specialinvoke $r30.<com.jsdev.pfei.CueActivity$4: void <init>(com.jsdev.pfei.CueActivity)>($r29);
+
+        if $i0 == 72 goto label051;
+
+        virtualinvoke $r30.<com.jsdev.pfei.CueActivity$4: void onClick(android.content.DialogInterface,int)>(null, 0);
+
+     label051:
+        if $i0 == 73 goto label052;
+
+        virtualinvoke $r29.<com.jsdev.pfei.CueActivity: void onBackPressed()>();
+
+     label052:
+        $r31 = new com.jsdev.pfei.CueActivity$1;
+
+        specialinvoke $r31.<com.jsdev.pfei.CueActivity$1: void <init>(com.jsdev.pfei.CueActivity)>($r29);
+
+        if $i0 == 74 goto label053;
+
+        virtualinvoke $r31.<com.jsdev.pfei.CueActivity$1: void onCheckedChanged(android.widget.CompoundButton,boolean)>(null, false);
+
+     label053:
+        $r32 = new com.jsdev.pfei.CueActivity$3;
+
+        specialinvoke $r32.<com.jsdev.pfei.CueActivity$3: void <init>(com.jsdev.pfei.CueActivity)>($r29);
+
+        if $i0 == 75 goto label054;
+
+        virtualinvoke $r32.<com.jsdev.pfei.CueActivity$3: void onCheckedChanged(android.widget.CompoundButton,boolean)>(null, false);
+
+     label054:
+        $r33 = new com.jsdev.pfei.CueActivity$2;
+
+        specialinvoke $r33.<com.jsdev.pfei.CueActivity$2: void <init>(com.jsdev.pfei.CueActivity)>($r29);
+
+        if $i0 == 76 goto label055;
+
+        virtualinvoke $r33.<com.jsdev.pfei.CueActivity$2: void onCheckedChanged(android.widget.CompoundButton,boolean)>(null, false);
+
+     label055:
+        if $i0 == 77 goto label050;
+
+     label056:
+        if $i0 == 78 goto label049;
+
+        if $i0 == 79 goto label057;
+
+        if $i0 == 80 goto label049;
+
+     label057:
+        if $i0 == 82 goto label062;
+
+        $r34 = new com.jsdev.pfei.NewsActivity;
+
+        specialinvoke $r34.<com.jsdev.pfei.NewsActivity: void <init>()>();
+
+        if $i0 == 83 goto label062;
+
+        virtualinvoke $r34.<com.jsdev.pfei.NewsActivity: void onCreate(android.os.Bundle)>(null);
+
+     label058:
+        if $i0 == 85 goto label061;
+
+     label059:
+        if $i0 == 86 goto label060;
+
+        virtualinvoke $r34.<com.jsdev.pfei.NewsActivity: void onClick(android.view.View)>(null);
+
+     label060:
+        if $i0 == 87 goto label059;
+
+     label061:
+        if $i0 == 88 goto label058;
+
+        if $i0 == 89 goto label062;
+
+        if $i0 == 90 goto label058;
+
+     label062:
+        if $i0 == 92 goto label067;
+
+        $r35 = new com.jsdev.pfei.ResultsActivity;
+
+        specialinvoke $r35.<com.jsdev.pfei.ResultsActivity: void <init>()>();
+
+        if $i0 == 93 goto label067;
+
+        virtualinvoke $r35.<com.jsdev.pfei.ResultsActivity: void onCreate(android.os.Bundle)>(null);
+
+     label063:
+        if $i0 == 95 goto label066;
+
+     label064:
+        $r36 = new com.jsdev.pfei.ResultsActivity$1;
+
+        specialinvoke $r36.<com.jsdev.pfei.ResultsActivity$1: void <init>(com.jsdev.pfei.ResultsActivity)>($r35);
+
+        if $i0 == 96 goto label065;
+
+        virtualinvoke $r36.<com.jsdev.pfei.ResultsActivity$1: void onClick(android.view.View)>(null);
+
+     label065:
+        if $i0 == 97 goto label064;
+
+     label066:
+        if $i0 == 98 goto label063;
+
+        if $i0 == 99 goto label067;
+
+        if $i0 == 100 goto label063;
+
+     label067:
+        if $i0 == 102 goto label069;
+
+        $r37 = new com.jsdev.pfei.receivers.BootReceiver;
+
+        specialinvoke $r37.<com.jsdev.pfei.receivers.BootReceiver: void <init>()>();
+
+        if $i0 == 103 goto label069;
+
+     label068:
+        virtualinvoke $r37.<com.jsdev.pfei.receivers.BootReceiver: void onReceive(android.content.Context,android.content.Intent)>(null, null);
+
+        if $i0 == 105 goto label068;
+
+     label069:
+        if $i0 == 106 goto label079;
+
+        $r38 = new com.jsdev.pfei.SettingsActivity;
+
+        specialinvoke $r38.<com.jsdev.pfei.SettingsActivity: void <init>()>();
+
+        if $i0 == 107 goto label079;
+
+        virtualinvoke $r38.<com.jsdev.pfei.SettingsActivity: void onCreate(android.os.Bundle)>(null);
+
+     label070:
+        if $i0 == 109 goto label078;
+
+     label071:
+        $r39 = new com.jsdev.pfei.SettingsActivity$4;
+
+        specialinvoke $r39.<com.jsdev.pfei.SettingsActivity$4: void <init>(com.jsdev.pfei.SettingsActivity)>($r38);
+
+        if $i0 == 110 goto label072;
+
+        virtualinvoke $r39.<com.jsdev.pfei.SettingsActivity$4: void onClick(android.view.View)>(null);
+
+     label072:
+        $r40 = new com.jsdev.pfei.SettingsActivity$1;
+
+        specialinvoke $r40.<com.jsdev.pfei.SettingsActivity$1: void <init>(com.jsdev.pfei.SettingsActivity)>($r38);
+
+        if $i0 == 111 goto label073;
+
+        virtualinvoke $r40.<com.jsdev.pfei.SettingsActivity$1: void onClick(android.view.View)>(null);
+
+     label073:
+        $r41 = new com.jsdev.pfei.SettingsActivity$5;
+
+        specialinvoke $r41.<com.jsdev.pfei.SettingsActivity$5: void <init>(com.jsdev.pfei.SettingsActivity)>($r38);
+
+        if $i0 == 112 goto label074;
+
+        virtualinvoke $r41.<com.jsdev.pfei.SettingsActivity$5: void onCheckedChanged(android.widget.RadioGroup,int)>(null, 0);
+
+     label074:
+        $r42 = new com.jsdev.pfei.SettingsActivity$6;
+
+        specialinvoke $r42.<com.jsdev.pfei.SettingsActivity$6: void <init>(com.jsdev.pfei.SettingsActivity)>($r38);
+
+        if $i0 == 113 goto label075;
+
+        virtualinvoke $r42.<com.jsdev.pfei.SettingsActivity$6: void onClick(android.view.View)>(null);
+
+     label075:
+        $r43 = new com.jsdev.pfei.SettingsActivity$2;
+
+        specialinvoke $r43.<com.jsdev.pfei.SettingsActivity$2: void <init>(com.jsdev.pfei.SettingsActivity)>($r38);
+
+        if $i0 == 114 goto label076;
+
+        virtualinvoke $r43.<com.jsdev.pfei.SettingsActivity$2: void onCheckedChanged(android.widget.CompoundButton,boolean)>(null, false);
+
+     label076:
+        $r44 = new com.jsdev.pfei.SettingsActivity$3;
+
+        specialinvoke $r44.<com.jsdev.pfei.SettingsActivity$3: void <init>(com.jsdev.pfei.SettingsActivity)>($r38);
+
+        if $i0 == 115 goto label077;
+
+        virtualinvoke $r44.<com.jsdev.pfei.SettingsActivity$3: void onClick(android.view.View)>(null);
+
+     label077:
+        if $i0 == 116 goto label071;
+
+     label078:
+        if $i0 == 117 goto label070;
+
+        if $i0 == 118 goto label079;
+
+        if $i0 == 119 goto label070;
+
+     label079:
+        if $i0 == 121 goto label090;
+
+        $r45 = new com.jsdev.pfei.ReminderActivity;
+
+        specialinvoke $r45.<com.jsdev.pfei.ReminderActivity: void <init>()>();
+
+        if $i0 == 122 goto label090;
+
+        virtualinvoke $r45.<com.jsdev.pfei.ReminderActivity: void onCreate(android.os.Bundle)>(null);
+
+     label080:
+        if $i0 == 124 goto label089;
+
+     label081:
+        $r46 = new com.jsdev.pfei.ReminderActivity$4;
+
+        specialinvoke $r46.<com.jsdev.pfei.ReminderActivity$4: void <init>(com.jsdev.pfei.ReminderActivity)>($r45);
+
+        if $i0 == 125 goto label082;
+
+        virtualinvoke $r46.<com.jsdev.pfei.ReminderActivity$4: void onClick(android.view.View)>(null);
+
+     label082:
+        $r47 = new com.jsdev.pfei.ReminderActivity$6;
+
+        specialinvoke $r47.<com.jsdev.pfei.ReminderActivity$6: void <init>(com.jsdev.pfei.ReminderActivity)>($r45);
+
+        if $i0 == 126 goto label083;
+
+        virtualinvoke $r47.<com.jsdev.pfei.ReminderActivity$6: void onClick(android.view.View)>(null);
+
+     label083:
+        $r48 = new com.jsdev.pfei.ReminderActivity$1;
+
+        specialinvoke $r48.<com.jsdev.pfei.ReminderActivity$1: void <init>(com.jsdev.pfei.ReminderActivity)>($r45);
+
+        if $i0 == 127 goto label084;
+
+        virtualinvoke $r48.<com.jsdev.pfei.ReminderActivity$1: void onClick(android.view.View)>(null);
+
+     label084:
+        $r49 = new com.jsdev.pfei.ReminderActivity$2;
+
+        specialinvoke $r49.<com.jsdev.pfei.ReminderActivity$2: void <init>(com.jsdev.pfei.ReminderActivity)>($r45);
+
+        if $i0 == 128 goto label085;
+
+        virtualinvoke $r49.<com.jsdev.pfei.ReminderActivity$2: void onClick(android.view.View)>(null);
+
+     label085:
+        $r50 = new com.jsdev.pfei.ReminderActivity$7;
+
+        specialinvoke $r50.<com.jsdev.pfei.ReminderActivity$7: void <init>(com.jsdev.pfei.ReminderActivity)>($r45);
+
+        if $i0 == 129 goto label086;
+
+        virtualinvoke $r50.<com.jsdev.pfei.ReminderActivity$7: void onClick(android.view.View)>(null);
+
+     label086:
+        $r51 = new com.jsdev.pfei.ReminderActivity$5;
+
+        specialinvoke $r51.<com.jsdev.pfei.ReminderActivity$5: void <init>(com.jsdev.pfei.ReminderActivity)>($r45);
+
+        if $i0 == 130 goto label087;
+
+        virtualinvoke $r51.<com.jsdev.pfei.ReminderActivity$5: void onClick(android.view.View)>(null);
+
+     label087:
+        $r52 = new com.jsdev.pfei.ReminderActivity$3;
+
+        specialinvoke $r52.<com.jsdev.pfei.ReminderActivity$3: void <init>(com.jsdev.pfei.ReminderActivity)>($r45);
+
+        if $i0 == 131 goto label088;
+
+        virtualinvoke $r52.<com.jsdev.pfei.ReminderActivity$3: void onClick(android.view.View)>(null);
+
+     label088:
+        if $i0 == 132 goto label081;
+
+     label089:
+        if $i0 == 133 goto label080;
+
+        if $i0 == 134 goto label090;
+
+        if $i0 == 135 goto label080;
+
+     label090:
+        if $i0 == 137 goto label095;
+
+        $r53 = new com.jsdev.pfei.OtherActivity;
+
+        specialinvoke $r53.<com.jsdev.pfei.OtherActivity: void <init>()>();
+
+        if $i0 == 138 goto label095;
+
+        virtualinvoke $r53.<com.jsdev.pfei.OtherActivity: void onCreate(android.os.Bundle)>(null);
+
+     label091:
+        if $i0 == 140 goto label094;
+
+     label092:
+        if $i0 == 141 goto label093;
+
+        virtualinvoke $r53.<com.jsdev.pfei.OtherActivity: void onClick(android.view.View)>(null);
+
+     label093:
+        if $i0 == 142 goto label092;
+
+     label094:
+        if $i0 == 143 goto label091;
+
+        if $i0 == 144 goto label095;
+
+        if $i0 == 145 goto label091;
+
+     label095:
+        if $i0 == 147 goto label101;
+
+        $r54 = new com.jsdev.pfei.LevelActivity;
+
+        specialinvoke $r54.<com.jsdev.pfei.LevelActivity: void <init>()>();
+
+        if $i0 == 148 goto label101;
+
+        virtualinvoke $r54.<com.jsdev.pfei.LevelActivity: void onCreate(android.os.Bundle)>(null);
+
+     label096:
+        if $i0 == 150 goto label100;
+
+     label097:
+        $r55 = new com.jsdev.pfei.LevelActivity$1;
+
+        specialinvoke $r55.<com.jsdev.pfei.LevelActivity$1: void <init>(com.jsdev.pfei.LevelActivity)>($r54);
+
+        if $i0 == 151 goto label098;
+
+        virtualinvoke $r55.<com.jsdev.pfei.LevelActivity$1: void onCheckedChanged(android.widget.CompoundButton,boolean)>(null, false);
+
+     label098:
+        $r56 = new com.jsdev.pfei.LevelActivity$7;
+
+        specialinvoke $r56.<com.jsdev.pfei.LevelActivity$7: void <init>(com.jsdev.pfei.LevelActivity)>($r54);
+
+        if $i0 == 152 goto label099;
+
+        virtualinvoke $r56.<com.jsdev.pfei.LevelActivity$7: void onClick(android.view.View)>(null);
+
+     label099:
+        if $i0 == 153 goto label097;
+
+     label100:
+        if $i0 == 154 goto label096;
+
+        if $i0 == 155 goto label101;
+
+        if $i0 == 156 goto label096;
+
+     label101:
+        if $i0 == 158 goto label103;
+
+        $r57 = new com.jsdev.pfei.EditActivity;
+
+        specialinvoke $r57.<com.jsdev.pfei.EditActivity: void <init>()>();
+
+        if $i0 == 159 goto label103;
+
+        virtualinvoke $r57.<com.jsdev.pfei.EditActivity: void onCreate(android.os.Bundle)>(null);
+
+     label102:
+        if $i0 == 162 goto label102;
+
+        if $i0 == 163 goto label103;
+
+        if $i0 == 164 goto label102;
+
+     label103:
+        if $i0 == 166 goto label111;
+
+        $r58 = new com.jsdev.pfei.StartActivity;
+
+        specialinvoke $r58.<com.jsdev.pfei.StartActivity: void <init>()>();
+
+        if $i0 == 167 goto label111;
+
+        virtualinvoke $r58.<com.jsdev.pfei.StartActivity: void onCreate(android.os.Bundle)>(null);
+
+     label104:
+        if $i0 == 169 goto label110;
+
+     label105:
+        $r59 = new com.jsdev.pfei.StartActivity$4;
+
+        specialinvoke $r59.<com.jsdev.pfei.StartActivity$4: void <init>(com.jsdev.pfei.StartActivity)>($r58);
+
+        if $i0 == 170 goto label106;
+
+        virtualinvoke $r59.<com.jsdev.pfei.StartActivity$4: void onClick(android.view.View)>(null);
+
+     label106:
+        $r60 = new com.jsdev.pfei.StartActivity$3;
+
+        specialinvoke $r60.<com.jsdev.pfei.StartActivity$3: void <init>(com.jsdev.pfei.StartActivity)>($r58);
+
+        if $i0 == 171 goto label107;
+
+        virtualinvoke $r60.<com.jsdev.pfei.StartActivity$3: void onClick(android.view.View)>(null);
+
+     label107:
+        $r61 = new com.jsdev.pfei.StartActivity$6;
+
+        specialinvoke $r61.<com.jsdev.pfei.StartActivity$6: void <init>(com.jsdev.pfei.StartActivity)>($r58);
+
+        if $i0 == 172 goto label108;
+
+        virtualinvoke $r61.<com.jsdev.pfei.StartActivity$6: void onCompletion(android.media.MediaPlayer)>(null);
+
+     label108:
+        $r62 = new com.jsdev.pfei.StartActivity$5;
+
+        specialinvoke $r62.<com.jsdev.pfei.StartActivity$5: void <init>(com.jsdev.pfei.StartActivity)>($r58);
+
+        if $i0 == 173 goto label109;
+
+        virtualinvoke $r62.<com.jsdev.pfei.StartActivity$5: void onClick(android.view.View)>(null);
+
+     label109:
+        if $i0 == 174 goto label105;
+
+     label110:
+        virtualinvoke $r58.<com.jsdev.pfei.StartActivity: void onPause()>();
+
+        if $i0 == 175 goto label104;
+
+        if $i0 == 176 goto label111;
+
+        if $i0 == 177 goto label104;
+
+     label111:
+        if $i0 == 181 goto label002;
+
+        return;
+    }
+
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 1.7 seconds.
+[Spark] Solution found in 1.7 seconds.
+Running incremental callback analysis for 0 components...
+Incremental callback analysis done.
+Callback method onNewsClick not found in class com.jsdev.pfei.MainActivity
+Found 94 callback methods for 16 components
+Found {res/layout/activity_info.xml=[2131230768 - android.widget.LinearLayout, 2131230777 - android.widget.RelativeLayout, -1 - com.jsdev.pfei.views.CustomTypefaceTextView, 2131230776 - android.widget.RelativeLayout, -1 - android.widget.ScrollView, 2131230778 - com.jsdev.pfei.views.CustomTypefaceButton], res/layout/activity_other.xml=[-1 - android.widget.LinearLayout, -1 - android.widget.ImageView, -1 - android.widget.RelativeLayout, 2131230804 - android.widget.LinearLayout, -1 - android.view.View, 2131230803 - android.widget.LinearLayout, -1 - com.jsdev.pfei.views.RegularText, 2131230807 - android.widget.LinearLayout, 2131230805 - android.widget.LinearLayout, 2131230806 - android.widget.LinearLayout], res/layout/activity_main.xml=[-1 - android.widget.LinearLayout, -1 - android.widget.ImageView, 2131230795 - com.jsdev.pfei.views.CustomTypefaceTextView, -1 - android.widget.RelativeLayout, 2131230791 - android.widget.LinearLayout, 2131230793 - com.jsdev.pfei.views.CustomTypefaceTextView, 2131230794 - com.jsdev.pfei.views.CustomTypefaceTextView, 2131230792 - com.jsdev.pfei.views.CustomTypefaceTextView, 2131230802 - com.jsdev.pfei.views.RegularText, 2131230798 - com.jsdev.pfei.views.CustomTypefaceButton, 2131230800 - com.jsdev.pfei.views.CustomTypefaceButton, 2131230801 - com.jsdev.pfei.views.CustomTypefaceButton, 2131230799 - com.jsdev.pfei.views.CustomTypefaceButton, 2131230796 - com.jsdev.pfei.views.CustomTypefaceButton, 2131230797 - com.jsdev.pfei.views.CustomTypefaceButton], res/layout/activity_upgrade.xml=[2131230768 - android.widget.LinearLayout, 2131230864 - com.jsdev.pfei.views.CustomTypefaceButton, 2131230865 - com.jsdev.pfei.views.CustomTypefaceButton, -1 - android.widget.RelativeLayout, 2131230862 - com.jsdev.pfei.views.CustomTypefaceButton, 2131230863 - com.jsdev.pfei.views.CustomTypefaceButton, 2131230861 - com.jsdev.pfei.views.CustomTypefaceButton, 2131230860 - android.widget.LinearLayout, -1 - com.jsdev.pfei.views.CustomTypefaceTextView, 2131230769 - com.jsdev.pfei.views.CustomTypefaceTextView, 2131230866 - com.jsdev.pfei.views.CustomTypefaceButton, 2131230867 - com.jsdev.pfei.views.CustomTypefaceButton], res/layout/activity_level.xml=[2131230768 - android.widget.LinearLayout, -1 - android.widget.LinearLayout, -1 - android.widget.RelativeLayout, 2131230781 - android.widget.LinearLayout, 2131230782 - com.jsdev.pfei.views.CustomTypefaceToggleButton, 2131230783 - android.widget.LinearLayout, 2131230786 - android.widget.LinearLayout, 2131230779 - android.widget.LinearLayout, 2131230788 - net.simonvt.numberpicker.NumberPicker, 2131230785 - net.simonvt.numberpicker.NumberPicker, 2131230784 - net.simonvt.numberpicker.NumberPicker, 2131230789 - net.simonvt.numberpicker.NumberPicker, 2131230787 - net.simonvt.numberpicker.NumberPicker, -1 - com.jsdev.pfei.views.CustomTypefaceTextView, 2131230780 - com.jsdev.pfei.views.CustomTypefaceTextView, 2131230769 - com.jsdev.pfei.views.CustomTypefaceTextView, 2131230790 - com.jsdev.pfei.views.CustomTypefaceButton], res/layout-xlarge-v4/activity_start.xml=[-1 - android.widget.LinearLayout, -1 - android.widget.ImageView, 2131230858 - android.widget.LinearLayout, 2131230850 - android.widget.LinearLayout, 2131230859 - com.jsdev.pfei.views.CustomTypefaceTextView, 2131230845 - android.widget.RelativeLayout, 2131230851 - com.jsdev.pfei.views.CustomTypefaceTextView, 2131230855 - android.widget.ImageButton, 2131230856 - android.widget.ImageButton, 2131230857 - android.widget.ImageButton, 2131230849 - com.jsdev.pfei.views.FlipImageView, 2131230848 - android.widget.RelativeLayout, 2131230847 - android.widget.RelativeLayout, 2131230853 - com.jsdev.pfei.views.CustomTypefaceTextView, 2131230854 - com.jsdev.pfei.views.CustomTypefaceTextView, 2131230844 - android.widget.RelativeLayout, 2131230852 - com.jsdev.pfei.views.CustomTypefaceTextView, 2131230846 - com.jsdev.pfei.views.CustomTypefaceTextView], res/layout/activity_set_reminder.xml=[2131230768 - android.widget.LinearLayout, 2131230824 - android.widget.LinearLayout, -1 - android.widget.RelativeLayout, 2131230828 - com.jsdev.pfei.views.CustomTypefaceTextView, 2131230826 - com.jsdev.pfei.views.CustomTypefaceToggleButton, 2131230829 - com.jsdev.pfei.views.CustomTypefaceToggleButton, 2131230830 - com.jsdev.pfei.views.CustomTypefaceToggleButton, -1 - com.jsdev.pfei.views.CustomTypefaceTextView, 2131230825 - com.jsdev.pfei.views.CustomTypefaceTextView, 2131230827 - android.widget.RelativeLayout], res/layout/activity_reminder.xml=[2131230768 - android.widget.LinearLayout, 2131230809 - com.jsdev.pfei.views.CustomTypefaceButton, -1 - android.widget.RelativeLayout, 2131230816 - com.jsdev.pfei.views.CustomTypefaceTextView, 2131230814 - com.jsdev.pfei.views.CustomTypefaceButton, 2131230817 - com.jsdev.pfei.views.CustomTypefaceButton, 2131230810 - com.jsdev.pfei.views.CustomTypefaceButton, 2131230813 - com.jsdev.pfei.views.CustomTypefaceButton, 2131230811 - com.jsdev.pfei.views.CustomTypefaceButton, 2131230812 - com.jsdev.pfei.views.CustomTypefaceButton, 2131230808 - android.widget.ScrollView, -1 - com.jsdev.pfei.views.CustomTypefaceTextView, 2131230815 - android.widget.LinearLayout], res/layout/news.xml=[-1 - android.widget.LinearLayout, 2131230868 - android.widget.ImageView, -1 - android.view.View, -1 - com.jsdev.pfei.views.RegularText, 2131230869 - com.jsdev.pfei.views.RegularText], res/layout-xlarge-v4/activity_level.xml=[2131230768 - android.widget.LinearLayout, -1 - android.widget.LinearLayout, -1 - android.widget.RelativeLayout, 2131230781 - android.widget.LinearLayout, 2131230782 - com.jsdev.pfei.views.CustomTypefaceToggleButton, 2131230783 - android.widget.LinearLayout, 2131230786 - android.widget.LinearLayout, 2131230779 - android.widget.LinearLayout, 2131230788 - net.simonvt.numberpicker.NumberPicker, 2131230785 - net.simonvt.numberpicker.NumberPicker, 2131230784 - net.simonvt.numberpicker.NumberPicker, 2131230789 - net.simonvt.numberpicker.NumberPicker, 2131230787 - net.simonvt.numberpicker.NumberPicker, -1 - com.jsdev.pfei.views.CustomTypefaceTextView, 2131230780 - com.jsdev.pfei.views.CustomTypefaceTextView, 2131230769 - com.jsdev.pfei.views.CustomTypefaceTextView, 2131230790 - com.jsdev.pfei.views.CustomTypefaceButton], res/layout/activity_cues.xml=[2131230768 - android.widget.LinearLayout, 2131230771 - android.widget.CheckBox, 2131230772 - android.widget.CheckBox, -1 - android.widget.RelativeLayout, 2131230767 - android.widget.LinearLayout, -1 - com.jsdev.pfei.views.CustomTypefaceTextView, 2131230769 - com.jsdev.pfei.views.CustomTypefaceTextView, 2131230770 - android.widget.CheckBox], res/layout/activity_start.xml=[-1 - android.widget.LinearLayout, -1 - android.widget.ImageView, 2131230858 - android.widget.LinearLayout, 2131230850 - android.widget.LinearLayout, 2131230859 - com.jsdev.pfei.views.CustomTypefaceTextView, 2131230845 - android.widget.RelativeLayout, 2131230851 - com.jsdev.pfei.views.CustomTypefaceTextView, 2131230855 - android.widget.ImageButton, 2131230856 - android.widget.ImageButton, 2131230857 - android.widget.ImageButton, 2131230849 - com.jsdev.pfei.views.FlipImageView, 2131230848 - android.widget.RelativeLayout, 2131230847 - android.widget.RelativeLayout, 2131230853 - com.jsdev.pfei.views.CustomTypefaceTextView, 2131230854 - com.jsdev.pfei.views.CustomTypefaceTextView, 2131230844 - android.widget.RelativeLayout, 2131230852 - com.jsdev.pfei.views.CustomTypefaceTextView, 2131230846 - com.jsdev.pfei.views.CustomTypefaceTextView], res/layout/activity_settings.xml=[2131230768 - android.widget.LinearLayout, 2131230832 - com.jsdev.pfei.views.CustomTypefaceButton, 2131230840 - com.jsdev.pfei.views.CustomTypefaceRadioButton, -1 - android.widget.RelativeLayout, 2131230833 - com.jsdev.pfei.views.CustomTypefaceButton, 2131230835 - android.widget.RelativeLayout, 2131230839 - com.jsdev.pfei.views.CustomTypefaceRadioButton, 2131230842 - com.jsdev.pfei.views.CustomTypefaceTextView, 2131230836 - com.jsdev.pfei.views.CustomTypefaceToggleButton, 2131230831 - android.widget.LinearLayout, 2131230837 - android.widget.LinearLayout, -1 - com.jsdev.pfei.views.CustomTypefaceTextView, 2131230838 - android.widget.RadioGroup, 2131230834 - com.jsdev.pfei.views.CustomTypefaceButton, 2131230841 - com.jsdev.pfei.views.CustomTypefaceRadioButton, 2131230843 - com.jsdev.pfei.views.CustomTypefaceButton], res/layout/activity_edit.xml=[2131230774 - com.jsdev.pfei.views.CustomTypefaceTextView, -1 - android.widget.RelativeLayout, 2131230775 - com.jsdev.pfei.views.CustomTypefaceEditText, -1 - com.jsdev.pfei.views.CustomTypefaceTextView, 2131230773 - android.widget.LinearLayout], res/layout/activity_results.xml=[2131230768 - android.widget.LinearLayout, -1 - android.widget.RelativeLayout, 2131230823 - com.jsdev.pfei.views.CustomTypefaceButton, 2131230819 - com.jsdev.pfei.views.CustomTypefaceTextView, 2131230822 - com.jsdev.pfei.views.CustomTypefaceTextView, 2131230820 - com.jsdev.pfei.views.CustomTypefaceTextView, 2131230821 - com.jsdev.pfei.views.CustomTypefaceTextView, 2131230818 - android.widget.LinearLayout, 2131230769 - com.jsdev.pfei.views.CustomTypefaceTextView]} layout controls
+Entry point calculation done.
+Created a SourceSinkManager with 16 sources, 102 sinks, and 94 callback methods.
+Running data flow analysis...
+Running data flow analysis on apks/health2/com.jsdev.pfei.apk with 16 sources and 102 sinks...
+Starting infoflow computation...
+[main] INFO soot.jimple.infoflow.Infoflow - Resetting Soot...
+Warning: android.net.http.AndroidHttpClient is a phantom class!
+Warning: android.support.v4.content.WakefulBroadcastReceiver is a phantom class!
+Warning: android.support.v4.util.ArrayMap is a phantom class!
+Warning: android.support.v4.util.SimpleArrayMap is a phantom class!
+Warning: android.support.v7.media.MediaRouteSelector$Builder is a phantom class!
+Warning: android.support.v7.media.MediaRouteSelector is a phantom class!
+Warning: android.support.v7.media.MediaRouter$Callback is a phantom class!
+Warning: android.support.v7.media.MediaRouter$RouteInfo is a phantom class!
+Warning: android.support.v7.media.MediaRouter is a phantom class!
+Warning: org.apache.http.HttpResponse is a phantom class!
+Warning: org.apache.http.client.HttpClient is a phantom class!
+Warning: org.apache.http.Header is a phantom class!
+Warning: org.apache.http.StatusLine is a phantom class!
+Warning: org.apache.http.HttpEntity is a phantom class!
+Warning: org.apache.http.client.methods.HttpEntityEnclosingRequestBase is a phantom class!
+Warning: org.apache.http.client.methods.HttpUriRequest is a phantom class!
+Warning: org.apache.http.HttpEntityEnclosingRequest is a phantom class!
+Warning: org.apache.http.HttpHost is a phantom class!
+Warning: org.apache.http.HttpRequest is a phantom class!
+Warning: org.apache.http.NameValuePair is a phantom class!
+Warning: org.apache.http.ProtocolVersion is a phantom class!
+Warning: org.apache.http.RequestLine is a phantom class!
+Warning: org.apache.http.client.ClientProtocolException is a phantom class!
+Warning: org.apache.http.client.methods.HttpDelete is a phantom class!
+Warning: org.apache.http.client.methods.HttpGet is a phantom class!
+Warning: org.apache.http.client.methods.HttpHead is a phantom class!
+Warning: org.apache.http.client.methods.HttpOptions is a phantom class!
+Warning: org.apache.http.client.methods.HttpPost is a phantom class!
+Warning: org.apache.http.client.methods.HttpPut is a phantom class!
+Warning: org.apache.http.client.methods.HttpTrace is a phantom class!
+Warning: org.apache.http.client.utils.URLEncodedUtils is a phantom class!
+Warning: org.apache.http.conn.ClientConnectionManager is a phantom class!
+Warning: org.apache.http.entity.BasicHttpEntity is a phantom class!
+Warning: org.apache.http.entity.ByteArrayEntity is a phantom class!
+Warning: org.apache.http.impl.client.DefaultHttpClient is a phantom class!
+Warning: org.apache.http.impl.cookie.DateParseException is a phantom class!
+Warning: org.apache.http.impl.cookie.DateUtils is a phantom class!
+Warning: org.apache.http.message.BasicHeader is a phantom class!
+Warning: org.apache.http.message.BasicHttpEntityEnclosingRequest is a phantom class!
+Warning: org.apache.http.message.BasicHttpResponse is a phantom class!
+Warning: org.apache.http.message.BasicStatusLine is a phantom class!
+Warning: org.apache.http.params.BasicHttpParams is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+[main] INFO soot.jimple.infoflow.Infoflow - Basic class loading done.
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.os.Bundle
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.view.View
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.view.Menu
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.content.Context
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.content.Intent
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.widget.CompoundButton
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.content.DialogInterface
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.widget.RadioGroup
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.view.MotionEvent
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.graphics.Canvas
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.view.accessibility.AccessibilityEvent
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.view.KeyEvent
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.media.MediaPlayer
+[main] INFO soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Generated main method:
+    public static void dummyMainMethod(java.lang.String[])
+    {
+        java.lang.String[] $r0;
+        int $i0, $i1, $i2;
+        com.jsdev.pfei.KegelApplication $r1;
+        com.jsdev.pfei.MainActivity $r2;
+        com.jsdev.pfei.MainActivity$4 $r3;
+        com.jsdev.pfei.MainActivity$3 $r4;
+        boolean $z0, $z1, $z2, $z3, $z4, $z5, $z6;
+        com.jsdev.pfei.MainActivity$6 $r5;
+        com.jsdev.pfei.MainActivity$7 $r6;
+        com.jsdev.pfei.MainActivity$5 $r7;
+        com.jsdev.pfei.MainActivity$11 $r8;
+        com.jsdev.pfei.MainActivity$10 $r9;
+        com.jsdev.pfei.MainActivity$8 $r10;
+        com.jsdev.pfei.MainActivity$9 $r11;
+        com.jsdev.pfei.receivers.AlarmReceiver $r12;
+        com.jsdev.pfei.SetReminderActivity $r13;
+        com.jsdev.pfei.SetReminderActivity$4 $r14;
+        com.jsdev.pfei.SetReminderActivity$1 $r15;
+        com.jsdev.pfei.SetReminderActivity$3 $r16;
+        com.jsdev.pfei.SetReminderActivity$2 $r17;
+        com.jsdev.pfei.InfoActivity $r18;
+        com.jsdev.pfei.InfoActivity$1 $r19;
+        com.jsdev.pfei.UpgradeActivity $r20;
+        com.jsdev.pfei.UpgradeActivity$6 $r21;
+        com.jsdev.pfei.UpgradeActivity$9 $r22;
+        com.jsdev.pfei.utility.Helper$1 $r23;
+        com.jsdev.pfei.UpgradeActivity$7 $r24;
+        com.jsdev.pfei.UpgradeActivity$4 $r25;
+        com.jsdev.pfei.UpgradeActivity$5 $r26;
+        com.jsdev.pfei.UpgradeActivity$8 $r27;
+        com.jsdev.pfei.UpgradeActivity$3 $r28;
+        com.jsdev.pfei.CueActivity $r29;
+        com.jsdev.pfei.CueActivity$1 $r30;
+        com.jsdev.pfei.CueActivity$3 $r31;
+        com.jsdev.pfei.CueActivity$4 $r32;
+        com.jsdev.pfei.CueActivity$2 $r33;
+        com.jsdev.pfei.NewsActivity $r34;
+        com.jsdev.pfei.ResultsActivity $r35;
+        com.jsdev.pfei.ResultsActivity$1 $r36;
+        com.jsdev.pfei.receivers.BootReceiver $r37;
+        com.jsdev.pfei.SettingsActivity $r38;
+        com.jsdev.pfei.SettingsActivity$4 $r39;
+        com.jsdev.pfei.SettingsActivity$1 $r40;
+        com.jsdev.pfei.SettingsActivity$2 $r41;
+        com.jsdev.pfei.SettingsActivity$3 $r42;
+        com.jsdev.pfei.SettingsActivity$5 $r43;
+        com.jsdev.pfei.SettingsActivity$6 $r44;
+        com.jsdev.pfei.ReminderActivity $r45;
+        com.jsdev.pfei.ReminderActivity$4 $r46;
+        com.jsdev.pfei.ReminderActivity$5 $r47;
+        com.jsdev.pfei.ReminderActivity$2 $r48;
+        com.jsdev.pfei.ReminderActivity$1 $r49;
+        com.jsdev.pfei.ReminderActivity$7 $r50;
+        com.jsdev.pfei.ReminderActivity$6 $r51;
+        com.jsdev.pfei.ReminderActivity$3 $r52;
+        com.jsdev.pfei.OtherActivity $r53;
+        com.jsdev.pfei.LevelActivity $r54;
+        com.jsdev.pfei.LevelActivity$1 $r55;
+        com.jsdev.pfei.LevelActivity$7 $r56;
+        net.simonvt.numberpicker.NumberPicker $r57;
+        float $f0, $f1;
+        android.view.accessibility.AccessibilityNodeProvider $r58;
+        com.jsdev.pfei.EditActivity $r59;
+        com.jsdev.pfei.StartActivity $r60;
+        com.jsdev.pfei.StartActivity$3 $r61;
+        com.jsdev.pfei.StartActivity$4 $r62;
+        com.jsdev.pfei.StartActivity$5 $r63;
+        com.jsdev.pfei.StartActivity$6 $r64;
+
+        $r0 := @parameter0: java.lang.String[];
+
+        $i0 = 0;
+
+        $r1 = new com.jsdev.pfei.KegelApplication;
+
+        specialinvoke $r1.<com.jsdev.pfei.KegelApplication: void <init>()>();
+
+     label001:
+        if $i0 == 1 goto label001;
+
+        virtualinvoke $r1.<com.jsdev.pfei.KegelApplication: void onCreate()>();
+
+        <il.ac.tau.MyApplicationHolder: android.app.Application application> = $r1;
+
+     label002:
+        if $i0 == 2 goto label018;
+
+        $r2 = new com.jsdev.pfei.MainActivity;
+
+        specialinvoke $r2.<com.jsdev.pfei.MainActivity: void <init>()>();
+
+        if $i0 == 3 goto label018;
+
+        virtualinvoke $r2.<com.jsdev.pfei.MainActivity: void onCreate(android.os.Bundle)>(null);
+
+     label003:
+        virtualinvoke $r2.<com.jsdev.pfei.MainActivity: void onResume()>();
+
+        if $i0 == 5 goto label016;
+
+     label004:
+        $r3 = new com.jsdev.pfei.MainActivity$4;
+
+        specialinvoke $r3.<com.jsdev.pfei.MainActivity$4: void <init>(com.jsdev.pfei.MainActivity)>($r2);
+
+        if $i0 == 6 goto label005;
+
+        virtualinvoke $r3.<com.jsdev.pfei.MainActivity$4: void onClick(android.view.View)>(null);
+
+     label005:
+        $r4 = new com.jsdev.pfei.MainActivity$3;
+
+        specialinvoke $r4.<com.jsdev.pfei.MainActivity$3: void <init>(com.jsdev.pfei.MainActivity)>($r2);
+
+        if $i0 == 7 goto label006;
+
+        virtualinvoke $r4.<com.jsdev.pfei.MainActivity$3: void onClick(android.view.View)>(null);
+
+     label006:
+        if $i0 == 8 goto label007;
+
+        $z0 = virtualinvoke $r2.<com.jsdev.pfei.MainActivity: boolean onCreateOptionsMenu(android.view.Menu)>(null);
+
+     label007:
+        if $i0 == 9 goto label008;
+
+        staticinvoke <com.jsdev.pfei.MainActivity: void <clinit>()>();
+
+     label008:
+        $r5 = new com.jsdev.pfei.MainActivity$6;
+
+        specialinvoke $r5.<com.jsdev.pfei.MainActivity$6: void <init>(com.jsdev.pfei.MainActivity)>($r2);
+
+        if $i0 == 10 goto label009;
+
+        virtualinvoke $r5.<com.jsdev.pfei.MainActivity$6: void onClick(android.view.View)>(null);
+
+     label009:
+        $r6 = new com.jsdev.pfei.MainActivity$7;
+
+        specialinvoke $r6.<com.jsdev.pfei.MainActivity$7: void <init>(com.jsdev.pfei.MainActivity)>($r2);
+
+        if $i0 == 11 goto label010;
+
+        virtualinvoke $r6.<com.jsdev.pfei.MainActivity$7: void onClick(android.view.View)>(null);
+
+     label010:
+        $r7 = new com.jsdev.pfei.MainActivity$5;
+
+        specialinvoke $r7.<com.jsdev.pfei.MainActivity$5: void <init>(com.jsdev.pfei.MainActivity)>($r2);
+
+        if $i0 == 12 goto label011;
+
+        virtualinvoke $r7.<com.jsdev.pfei.MainActivity$5: void onClick(android.view.View)>(null);
+
+     label011:
+        $r8 = new com.jsdev.pfei.MainActivity$11;
+
+        specialinvoke $r8.<com.jsdev.pfei.MainActivity$11: void <init>(com.jsdev.pfei.MainActivity)>($r2);
+
+        if $i0 == 13 goto label012;
+
+        virtualinvoke $r8.<com.jsdev.pfei.MainActivity$11: void onClick(android.view.View)>(null);
+
+     label012:
+        $r9 = new com.jsdev.pfei.MainActivity$10;
+
+        specialinvoke $r9.<com.jsdev.pfei.MainActivity$10: void <init>(com.jsdev.pfei.MainActivity)>($r2);
+
+        if $i0 == 14 goto label013;
+
+        virtualinvoke $r9.<com.jsdev.pfei.MainActivity$10: void onClick(android.view.View)>(null);
+
+     label013:
+        $r10 = new com.jsdev.pfei.MainActivity$8;
+
+        specialinvoke $r10.<com.jsdev.pfei.MainActivity$8: void <init>(com.jsdev.pfei.MainActivity)>($r2);
+
+        if $i0 == 15 goto label014;
+
+        virtualinvoke $r10.<com.jsdev.pfei.MainActivity$8: void onClick(android.view.View)>(null);
+
+     label014:
+        $r11 = new com.jsdev.pfei.MainActivity$9;
+
+        specialinvoke $r11.<com.jsdev.pfei.MainActivity$9: void <init>(com.jsdev.pfei.MainActivity)>($r2);
+
+        if $i0 == 16 goto label015;
+
+        virtualinvoke $r11.<com.jsdev.pfei.MainActivity$9: void onClick(android.view.View)>(null);
+
+     label015:
+        if $i0 == 17 goto label004;
+
+     label016:
+        if $i0 == 18 goto label003;
+
+        if $i0 == 19 goto label017;
+
+        if $i0 == 20 goto label003;
+
+     label017:
+        virtualinvoke $r2.<com.jsdev.pfei.MainActivity: void onDestroy()>();
+
+     label018:
+        if $i0 == 22 goto label020;
+
+        $r12 = new com.jsdev.pfei.receivers.AlarmReceiver;
+
+        specialinvoke $r12.<com.jsdev.pfei.receivers.AlarmReceiver: void <init>()>();
+
+        if $i0 == 23 goto label020;
+
+     label019:
+        virtualinvoke $r12.<com.jsdev.pfei.receivers.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>(null, null);
+
+        if $i0 == 25 goto label019;
+
+     label020:
+        if $i0 == 26 goto label028;
+
+        $r13 = new com.jsdev.pfei.SetReminderActivity;
+
+        specialinvoke $r13.<com.jsdev.pfei.SetReminderActivity: void <init>()>();
+
+        if $i0 == 27 goto label028;
+
+        virtualinvoke $r13.<com.jsdev.pfei.SetReminderActivity: void onCreate(android.os.Bundle)>(null);
+
+     label021:
+        if $i0 == 29 goto label027;
+
+     label022:
+        $r14 = new com.jsdev.pfei.SetReminderActivity$4;
+
+        specialinvoke $r14.<com.jsdev.pfei.SetReminderActivity$4: void <init>(com.jsdev.pfei.SetReminderActivity)>($r13);
+
+        if $i0 == 30 goto label023;
+
+        virtualinvoke $r14.<com.jsdev.pfei.SetReminderActivity$4: void onClick(android.view.View)>(null);
+
+     label023:
+        $r15 = new com.jsdev.pfei.SetReminderActivity$1;
+
+        specialinvoke $r15.<com.jsdev.pfei.SetReminderActivity$1: void <init>(com.jsdev.pfei.SetReminderActivity)>($r13);
+
+        if $i0 == 31 goto label024;
+
+        virtualinvoke $r15.<com.jsdev.pfei.SetReminderActivity$1: void onCheckedChanged(android.widget.CompoundButton,boolean)>(null, false);
+
+     label024:
+        $r16 = new com.jsdev.pfei.SetReminderActivity$3;
+
+        specialinvoke $r16.<com.jsdev.pfei.SetReminderActivity$3: void <init>(com.jsdev.pfei.SetReminderActivity)>($r13);
+
+        if $i0 == 32 goto label025;
+
+        virtualinvoke $r16.<com.jsdev.pfei.SetReminderActivity$3: void onCheckedChanged(android.widget.CompoundButton,boolean)>(null, false);
+
+     label025:
+        $r17 = new com.jsdev.pfei.SetReminderActivity$2;
+
+        specialinvoke $r17.<com.jsdev.pfei.SetReminderActivity$2: void <init>(com.jsdev.pfei.SetReminderActivity)>($r13);
+
+        if $i0 == 33 goto label026;
+
+        virtualinvoke $r17.<com.jsdev.pfei.SetReminderActivity$2: void onCheckedChanged(android.widget.CompoundButton,boolean)>(null, false);
+
+     label026:
+        if $i0 == 34 goto label022;
+
+     label027:
+        if $i0 == 35 goto label021;
+
+        if $i0 == 36 goto label028;
+
+        if $i0 == 37 goto label021;
+
+     label028:
+        if $i0 == 39 goto label033;
+
+        $r18 = new com.jsdev.pfei.InfoActivity;
+
+        specialinvoke $r18.<com.jsdev.pfei.InfoActivity: void <init>()>();
+
+        if $i0 == 40 goto label033;
+
+        virtualinvoke $r18.<com.jsdev.pfei.InfoActivity: void onCreate(android.os.Bundle)>(null);
+
+     label029:
+        if $i0 == 42 goto label032;
+
+     label030:
+        $r19 = new com.jsdev.pfei.InfoActivity$1;
+
+        specialinvoke $r19.<com.jsdev.pfei.InfoActivity$1: void <init>(com.jsdev.pfei.InfoActivity)>($r18);
+
+        if $i0 == 43 goto label031;
+
+        virtualinvoke $r19.<com.jsdev.pfei.InfoActivity$1: void onClick(android.view.View)>(null);
+
+     label031:
+        if $i0 == 44 goto label030;
+
+     label032:
+        if $i0 == 45 goto label029;
+
+        if $i0 == 46 goto label033;
+
+        if $i0 == 47 goto label029;
+
+     label033:
+        if $i0 == 49 goto label048;
+
+        $r20 = new com.jsdev.pfei.UpgradeActivity;
+
+        specialinvoke $r20.<com.jsdev.pfei.UpgradeActivity: void <init>()>();
+
+        if $i0 == 50 goto label048;
+
+        virtualinvoke $r20.<com.jsdev.pfei.UpgradeActivity: void onCreate(android.os.Bundle)>(null);
+
+     label034:
+        virtualinvoke $r20.<com.jsdev.pfei.UpgradeActivity: void onResume()>();
+
+        if $i0 == 52 goto label046;
+
+     label035:
+        $r21 = new com.jsdev.pfei.UpgradeActivity$6;
+
+        specialinvoke $r21.<com.jsdev.pfei.UpgradeActivity$6: void <init>(com.jsdev.pfei.UpgradeActivity)>($r20);
+
+        if $i0 == 53 goto label036;
+
+        virtualinvoke $r21.<com.jsdev.pfei.UpgradeActivity$6: void onClick(android.view.View)>(null);
+
+     label036:
+        $r22 = new com.jsdev.pfei.UpgradeActivity$9;
+
+        specialinvoke $r22.<com.jsdev.pfei.UpgradeActivity$9: void <init>(com.jsdev.pfei.UpgradeActivity)>($r20);
+
+        if $i0 == 54 goto label037;
+
+        virtualinvoke $r22.<com.jsdev.pfei.UpgradeActivity$9: void onClick(android.view.View)>(null);
+
+     label037:
+        $r23 = new com.jsdev.pfei.utility.Helper$1;
+
+        specialinvoke $r23.<com.jsdev.pfei.utility.Helper$1: void <init>()>();
+
+        if $i0 == 55 goto label038;
+
+        virtualinvoke $r23.<com.jsdev.pfei.utility.Helper$1: void onClick(android.content.DialogInterface,int)>(null, 0);
+
+     label038:
+        if $i0 == 56 goto label039;
+
+        virtualinvoke $r20.<com.jsdev.pfei.UpgradeActivity: void onActivityResult(int,int,android.content.Intent)>(0, 0, null);
+
+     label039:
+        if $i0 == 57 goto label040;
+
+        staticinvoke <com.jsdev.pfei.UpgradeActivity: void <clinit>()>();
+
+     label040:
+        $r24 = new com.jsdev.pfei.UpgradeActivity$7;
+
+        specialinvoke $r24.<com.jsdev.pfei.UpgradeActivity$7: void <init>(com.jsdev.pfei.UpgradeActivity)>($r20);
+
+        if $i0 == 58 goto label041;
+
+        virtualinvoke $r24.<com.jsdev.pfei.UpgradeActivity$7: void onClick(android.view.View)>(null);
+
+     label041:
+        $r25 = new com.jsdev.pfei.UpgradeActivity$4;
+
+        specialinvoke $r25.<com.jsdev.pfei.UpgradeActivity$4: void <init>(com.jsdev.pfei.UpgradeActivity)>($r20);
+
+        if $i0 == 59 goto label042;
+
+        virtualinvoke $r25.<com.jsdev.pfei.UpgradeActivity$4: void onClick(android.view.View)>(null);
+
+     label042:
+        $r26 = new com.jsdev.pfei.UpgradeActivity$5;
+
+        specialinvoke $r26.<com.jsdev.pfei.UpgradeActivity$5: void <init>(com.jsdev.pfei.UpgradeActivity)>($r20);
+
+        if $i0 == 60 goto label043;
+
+        virtualinvoke $r26.<com.jsdev.pfei.UpgradeActivity$5: void onClick(android.view.View)>(null);
+
+     label043:
+        $r27 = new com.jsdev.pfei.UpgradeActivity$8;
+
+        specialinvoke $r27.<com.jsdev.pfei.UpgradeActivity$8: void <init>(com.jsdev.pfei.UpgradeActivity)>($r20);
+
+        if $i0 == 61 goto label044;
+
+        virtualinvoke $r27.<com.jsdev.pfei.UpgradeActivity$8: void onClick(android.view.View)>(null);
+
+     label044:
+        $r28 = new com.jsdev.pfei.UpgradeActivity$3;
+
+        specialinvoke $r28.<com.jsdev.pfei.UpgradeActivity$3: void <init>(com.jsdev.pfei.UpgradeActivity)>($r20);
+
+        if $i0 == 62 goto label045;
+
+        virtualinvoke $r28.<com.jsdev.pfei.UpgradeActivity$3: void onClick(android.view.View)>(null);
+
+     label045:
+        if $i0 == 63 goto label035;
+
+     label046:
+        if $i0 == 64 goto label034;
+
+        if $i0 == 65 goto label047;
+
+        if $i0 == 66 goto label034;
+
+     label047:
+        virtualinvoke $r20.<com.jsdev.pfei.UpgradeActivity: void onDestroy()>();
+
+     label048:
+        if $i0 == 68 goto label057;
+
+        $r29 = new com.jsdev.pfei.CueActivity;
+
+        specialinvoke $r29.<com.jsdev.pfei.CueActivity: void <init>()>();
+
+        if $i0 == 69 goto label057;
+
+        virtualinvoke $r29.<com.jsdev.pfei.CueActivity: void onCreate(android.os.Bundle)>(null);
+
+     label049:
+        if $i0 == 71 goto label056;
+
+     label050:
+        $r30 = new com.jsdev.pfei.CueActivity$1;
+
+        specialinvoke $r30.<com.jsdev.pfei.CueActivity$1: void <init>(com.jsdev.pfei.CueActivity)>($r29);
+
+        if $i0 == 72 goto label051;
+
+        virtualinvoke $r30.<com.jsdev.pfei.CueActivity$1: void onCheckedChanged(android.widget.CompoundButton,boolean)>(null, false);
+
+     label051:
+        $r31 = new com.jsdev.pfei.CueActivity$3;
+
+        specialinvoke $r31.<com.jsdev.pfei.CueActivity$3: void <init>(com.jsdev.pfei.CueActivity)>($r29);
+
+        if $i0 == 73 goto label052;
+
+        virtualinvoke $r31.<com.jsdev.pfei.CueActivity$3: void onCheckedChanged(android.widget.CompoundButton,boolean)>(null, false);
+
+     label052:
+        $r32 = new com.jsdev.pfei.CueActivity$4;
+
+        specialinvoke $r32.<com.jsdev.pfei.CueActivity$4: void <init>(com.jsdev.pfei.CueActivity)>($r29);
+
+        if $i0 == 74 goto label053;
+
+        virtualinvoke $r32.<com.jsdev.pfei.CueActivity$4: void onClick(android.content.DialogInterface,int)>(null, 0);
+
+     label053:
+        if $i0 == 75 goto label054;
+
+        virtualinvoke $r29.<com.jsdev.pfei.CueActivity: void onBackPressed()>();
+
+     label054:
+        $r33 = new com.jsdev.pfei.CueActivity$2;
+
+        specialinvoke $r33.<com.jsdev.pfei.CueActivity$2: void <init>(com.jsdev.pfei.CueActivity)>($r29);
+
+        if $i0 == 76 goto label055;
+
+        virtualinvoke $r33.<com.jsdev.pfei.CueActivity$2: void onCheckedChanged(android.widget.CompoundButton,boolean)>(null, false);
+
+     label055:
+        if $i0 == 77 goto label050;
+
+     label056:
+        if $i0 == 78 goto label049;
+
+        if $i0 == 79 goto label057;
+
+        if $i0 == 80 goto label049;
+
+     label057:
+        if $i0 == 82 goto label062;
+
+        $r34 = new com.jsdev.pfei.NewsActivity;
+
+        specialinvoke $r34.<com.jsdev.pfei.NewsActivity: void <init>()>();
+
+        if $i0 == 83 goto label062;
+
+        virtualinvoke $r34.<com.jsdev.pfei.NewsActivity: void onCreate(android.os.Bundle)>(null);
+
+     label058:
+        if $i0 == 85 goto label061;
+
+     label059:
+        if $i0 == 86 goto label060;
+
+        virtualinvoke $r34.<com.jsdev.pfei.NewsActivity: void onClick(android.view.View)>(null);
+
+     label060:
+        if $i0 == 87 goto label059;
+
+     label061:
+        if $i0 == 88 goto label058;
+
+        if $i0 == 89 goto label062;
+
+        if $i0 == 90 goto label058;
+
+     label062:
+        if $i0 == 92 goto label067;
+
+        $r35 = new com.jsdev.pfei.ResultsActivity;
+
+        specialinvoke $r35.<com.jsdev.pfei.ResultsActivity: void <init>()>();
+
+        if $i0 == 93 goto label067;
+
+        virtualinvoke $r35.<com.jsdev.pfei.ResultsActivity: void onCreate(android.os.Bundle)>(null);
+
+     label063:
+        if $i0 == 95 goto label066;
+
+     label064:
+        $r36 = new com.jsdev.pfei.ResultsActivity$1;
+
+        specialinvoke $r36.<com.jsdev.pfei.ResultsActivity$1: void <init>(com.jsdev.pfei.ResultsActivity)>($r35);
+
+        if $i0 == 96 goto label065;
+
+        virtualinvoke $r36.<com.jsdev.pfei.ResultsActivity$1: void onClick(android.view.View)>(null);
+
+     label065:
+        if $i0 == 97 goto label064;
+
+     label066:
+        if $i0 == 98 goto label063;
+
+        if $i0 == 99 goto label067;
+
+        if $i0 == 100 goto label063;
+
+     label067:
+        if $i0 == 102 goto label069;
+
+        $r37 = new com.jsdev.pfei.receivers.BootReceiver;
+
+        specialinvoke $r37.<com.jsdev.pfei.receivers.BootReceiver: void <init>()>();
+
+        if $i0 == 103 goto label069;
+
+     label068:
+        virtualinvoke $r37.<com.jsdev.pfei.receivers.BootReceiver: void onReceive(android.content.Context,android.content.Intent)>(null, null);
+
+        if $i0 == 105 goto label068;
+
+     label069:
+        if $i0 == 106 goto label079;
+
+        $r38 = new com.jsdev.pfei.SettingsActivity;
+
+        specialinvoke $r38.<com.jsdev.pfei.SettingsActivity: void <init>()>();
+
+        if $i0 == 107 goto label079;
+
+        virtualinvoke $r38.<com.jsdev.pfei.SettingsActivity: void onCreate(android.os.Bundle)>(null);
+
+     label070:
+        if $i0 == 109 goto label078;
+
+     label071:
+        $r39 = new com.jsdev.pfei.SettingsActivity$4;
+
+        specialinvoke $r39.<com.jsdev.pfei.SettingsActivity$4: void <init>(com.jsdev.pfei.SettingsActivity)>($r38);
+
+        if $i0 == 110 goto label072;
+
+        virtualinvoke $r39.<com.jsdev.pfei.SettingsActivity$4: void onClick(android.view.View)>(null);
+
+     label072:
+        $r40 = new com.jsdev.pfei.SettingsActivity$1;
+
+        specialinvoke $r40.<com.jsdev.pfei.SettingsActivity$1: void <init>(com.jsdev.pfei.SettingsActivity)>($r38);
+
+        if $i0 == 111 goto label073;
+
+        virtualinvoke $r40.<com.jsdev.pfei.SettingsActivity$1: void onClick(android.view.View)>(null);
+
+     label073:
+        $r41 = new com.jsdev.pfei.SettingsActivity$2;
+
+        specialinvoke $r41.<com.jsdev.pfei.SettingsActivity$2: void <init>(com.jsdev.pfei.SettingsActivity)>($r38);
+
+        if $i0 == 112 goto label074;
+
+        virtualinvoke $r41.<com.jsdev.pfei.SettingsActivity$2: void onCheckedChanged(android.widget.CompoundButton,boolean)>(null, false);
+
+     label074:
+        $r42 = new com.jsdev.pfei.SettingsActivity$3;
+
+        specialinvoke $r42.<com.jsdev.pfei.SettingsActivity$3: void <init>(com.jsdev.pfei.SettingsActivity)>($r38);
+
+        if $i0 == 113 goto label075;
+
+        virtualinvoke $r42.<com.jsdev.pfei.SettingsActivity$3: void onClick(android.view.View)>(null);
+
+     label075:
+        $r43 = new com.jsdev.pfei.SettingsActivity$5;
+
+        specialinvoke $r43.<com.jsdev.pfei.SettingsActivity$5: void <init>(com.jsdev.pfei.SettingsActivity)>($r38);
+
+        if $i0 == 114 goto label076;
+
+        virtualinvoke $r43.<com.jsdev.pfei.SettingsActivity$5: void onCheckedChanged(android.widget.RadioGroup,int)>(null, 0);
+
+     label076:
+        $r44 = new com.jsdev.pfei.SettingsActivity$6;
+
+        specialinvoke $r44.<com.jsdev.pfei.SettingsActivity$6: void <init>(com.jsdev.pfei.SettingsActivity)>($r38);
+
+        if $i0 == 115 goto label077;
+
+        virtualinvoke $r44.<com.jsdev.pfei.SettingsActivity$6: void onClick(android.view.View)>(null);
+
+     label077:
+        if $i0 == 116 goto label071;
+
+     label078:
+        if $i0 == 117 goto label070;
+
+        if $i0 == 118 goto label079;
+
+        if $i0 == 119 goto label070;
+
+     label079:
+        if $i0 == 121 goto label090;
+
+        $r45 = new com.jsdev.pfei.ReminderActivity;
+
+        specialinvoke $r45.<com.jsdev.pfei.ReminderActivity: void <init>()>();
+
+        if $i0 == 122 goto label090;
+
+        virtualinvoke $r45.<com.jsdev.pfei.ReminderActivity: void onCreate(android.os.Bundle)>(null);
+
+     label080:
+        if $i0 == 124 goto label089;
+
+     label081:
+        $r46 = new com.jsdev.pfei.ReminderActivity$4;
+
+        specialinvoke $r46.<com.jsdev.pfei.ReminderActivity$4: void <init>(com.jsdev.pfei.ReminderActivity)>($r45);
+
+        if $i0 == 125 goto label082;
+
+        virtualinvoke $r46.<com.jsdev.pfei.ReminderActivity$4: void onClick(android.view.View)>(null);
+
+     label082:
+        $r47 = new com.jsdev.pfei.ReminderActivity$5;
+
+        specialinvoke $r47.<com.jsdev.pfei.ReminderActivity$5: void <init>(com.jsdev.pfei.ReminderActivity)>($r45);
+
+        if $i0 == 126 goto label083;
+
+        virtualinvoke $r47.<com.jsdev.pfei.ReminderActivity$5: void onClick(android.view.View)>(null);
+
+     label083:
+        $r48 = new com.jsdev.pfei.ReminderActivity$2;
+
+        specialinvoke $r48.<com.jsdev.pfei.ReminderActivity$2: void <init>(com.jsdev.pfei.ReminderActivity)>($r45);
+
+        if $i0 == 127 goto label084;
+
+        virtualinvoke $r48.<com.jsdev.pfei.ReminderActivity$2: void onClick(android.view.View)>(null);
+
+     label084:
+        $r49 = new com.jsdev.pfei.ReminderActivity$1;
+
+        specialinvoke $r49.<com.jsdev.pfei.ReminderActivity$1: void <init>(com.jsdev.pfei.ReminderActivity)>($r45);
+
+        if $i0 == 128 goto label085;
+
+        virtualinvoke $r49.<com.jsdev.pfei.ReminderActivity$1: void onClick(android.view.View)>(null);
+
+     label085:
+        $r50 = new com.jsdev.pfei.ReminderActivity$7;
+
+        specialinvoke $r50.<com.jsdev.pfei.ReminderActivity$7: void <init>(com.jsdev.pfei.ReminderActivity)>($r45);
+
+        if $i0 == 129 goto label086;
+
+        virtualinvoke $r50.<com.jsdev.pfei.ReminderActivity$7: void onClick(android.view.View)>(null);
+
+     label086:
+        $r51 = new com.jsdev.pfei.ReminderActivity$6;
+
+        specialinvoke $r51.<com.jsdev.pfei.ReminderActivity$6: void <init>(com.jsdev.pfei.ReminderActivity)>($r45);
+
+        if $i0 == 130 goto label087;
+
+        virtualinvoke $r51.<com.jsdev.pfei.ReminderActivity$6: void onClick(android.view.View)>(null);
+
+     label087:
+        $r52 = new com.jsdev.pfei.ReminderActivity$3;
+
+        specialinvoke $r52.<com.jsdev.pfei.ReminderActivity$3: void <init>(com.jsdev.pfei.ReminderActivity)>($r45);
+
+        if $i0 == 131 goto label088;
+
+        virtualinvoke $r52.<com.jsdev.pfei.ReminderActivity$3: void onClick(android.view.View)>(null);
+
+     label088:
+        if $i0 == 132 goto label081;
+
+     label089:
+        if $i0 == 133 goto label080;
+
+        if $i0 == 134 goto label090;
+
+        if $i0 == 135 goto label080;
+
+     label090:
+        if $i0 == 137 goto label095;
+
+        $r53 = new com.jsdev.pfei.OtherActivity;
+
+        specialinvoke $r53.<com.jsdev.pfei.OtherActivity: void <init>()>();
+
+        if $i0 == 138 goto label095;
+
+        virtualinvoke $r53.<com.jsdev.pfei.OtherActivity: void onCreate(android.os.Bundle)>(null);
+
+     label091:
+        if $i0 == 140 goto label094;
+
+     label092:
+        if $i0 == 141 goto label093;
+
+        virtualinvoke $r53.<com.jsdev.pfei.OtherActivity: void onClick(android.view.View)>(null);
+
+     label093:
+        if $i0 == 142 goto label092;
+
+     label094:
+        if $i0 == 143 goto label091;
+
+        if $i0 == 144 goto label095;
+
+        if $i0 == 145 goto label091;
+
+     label095:
+        if $i0 == 147 goto label121;
+
+        $r54 = new com.jsdev.pfei.LevelActivity;
+
+        specialinvoke $r54.<com.jsdev.pfei.LevelActivity: void <init>()>();
+
+        if $i0 == 148 goto label121;
+
+        virtualinvoke $r54.<com.jsdev.pfei.LevelActivity: void onCreate(android.os.Bundle)>(null);
+
+     label096:
+        if $i0 == 150 goto label120;
+
+     label097:
+        $r55 = new com.jsdev.pfei.LevelActivity$1;
+
+        specialinvoke $r55.<com.jsdev.pfei.LevelActivity$1: void <init>(com.jsdev.pfei.LevelActivity)>($r54);
+
+        if $i0 == 151 goto label098;
+
+        virtualinvoke $r55.<com.jsdev.pfei.LevelActivity$1: void onCheckedChanged(android.widget.CompoundButton,boolean)>(null, false);
+
+     label098:
+        $r56 = new com.jsdev.pfei.LevelActivity$7;
+
+        specialinvoke $r56.<com.jsdev.pfei.LevelActivity$7: void <init>(com.jsdev.pfei.LevelActivity)>($r54);
+
+        if $i0 == 152 goto label099;
+
+        virtualinvoke $r56.<com.jsdev.pfei.LevelActivity$7: void onClick(android.view.View)>(null);
+
+     label099:
+        $r57 = new net.simonvt.numberpicker.NumberPicker;
+
+        specialinvoke $r57.<net.simonvt.numberpicker.NumberPicker: void <init>(android.content.Context)>($r54);
+
+        if $i0 == 153 goto label100;
+
+        $f0 = virtualinvoke $r57.<net.simonvt.numberpicker.NumberPicker: float getBottomFadingEdgeStrength()>();
+
+     label100:
+        if $i0 == 154 goto label101;
+
+        virtualinvoke $r57.<net.simonvt.numberpicker.NumberPicker: void scrollBy(int,int)>(0, 0);
+
+     label101:
+        if $i0 == 155 goto label102;
+
+        $r58 = virtualinvoke $r57.<net.simonvt.numberpicker.NumberPicker: android.view.accessibility.AccessibilityNodeProvider getAccessibilityNodeProvider()>();
+
+     label102:
+        if $i0 == 156 goto label103;
+
+        $z1 = virtualinvoke $r57.<net.simonvt.numberpicker.NumberPicker: boolean dispatchHoverEvent(android.view.MotionEvent)>(null);
+
+     label103:
+        if $i0 == 157 goto label104;
+
+        virtualinvoke $r57.<net.simonvt.numberpicker.NumberPicker: void onDraw(android.graphics.Canvas)>(null);
+
+     label104:
+        if $i0 == 158 goto label105;
+
+        $z2 = virtualinvoke $r57.<net.simonvt.numberpicker.NumberPicker: boolean onTouchEvent(android.view.MotionEvent)>(null);
+
+     label105:
+        if $i0 == 159 goto label106;
+
+        $z3 = virtualinvoke $r57.<net.simonvt.numberpicker.NumberPicker: boolean dispatchTouchEvent(android.view.MotionEvent)>(null);
+
+     label106:
+        if $i0 == 160 goto label107;
+
+        virtualinvoke $r57.<net.simonvt.numberpicker.NumberPicker: void onMeasure(int,int)>(0, 0);
+
+     label107:
+        if $i0 == 161 goto label108;
+
+        staticinvoke <net.simonvt.numberpicker.NumberPicker: void <clinit>()>();
+
+     label108:
+        if $i0 == 162 goto label109;
+
+        virtualinvoke $r57.<net.simonvt.numberpicker.NumberPicker: void computeScroll()>();
+
+     label109:
+        if $i0 == 163 goto label110;
+
+        $z4 = virtualinvoke $r57.<net.simonvt.numberpicker.NumberPicker: boolean onInterceptTouchEvent(android.view.MotionEvent)>(null);
+
+     label110:
+        if $i0 == 164 goto label111;
+
+        virtualinvoke $r57.<net.simonvt.numberpicker.NumberPicker: void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent)>(null);
+
+     label111:
+        if $i0 == 165 goto label112;
+
+        virtualinvoke $r57.<net.simonvt.numberpicker.NumberPicker: void onDetachedFromWindow()>();
+
+     label112:
+        if $i0 == 166 goto label113;
+
+        $f1 = virtualinvoke $r57.<net.simonvt.numberpicker.NumberPicker: float getTopFadingEdgeStrength()>();
+
+     label113:
+        if $i0 == 167 goto label114;
+
+        virtualinvoke $r57.<net.simonvt.numberpicker.NumberPicker: void setEnabled(boolean)>(false);
+
+     label114:
+        if $i0 == 168 goto label115;
+
+        virtualinvoke $r57.<net.simonvt.numberpicker.NumberPicker: void onLayout(boolean,int,int,int,int)>(false, 0, 0, 0, 0);
+
+     label115:
+        if $i0 == 169 goto label116;
+
+        $z5 = virtualinvoke $r57.<net.simonvt.numberpicker.NumberPicker: boolean dispatchKeyEvent(android.view.KeyEvent)>(null);
+
+     label116:
+        if $i0 == 170 goto label117;
+
+        $z6 = virtualinvoke $r57.<net.simonvt.numberpicker.NumberPicker: boolean dispatchTrackballEvent(android.view.MotionEvent)>(null);
+
+     label117:
+        if $i0 == 171 goto label118;
+
+        $i1 = staticinvoke <net.simonvt.numberpicker.NumberPicker: int resolveSizeAndState(int,int,int)>(0, 0, 0);
+
+     label118:
+        if $i0 == 172 goto label119;
+
+        $i2 = virtualinvoke $r57.<net.simonvt.numberpicker.NumberPicker: int getSolidColor()>();
+
+     label119:
+        if $i0 == 173 goto label097;
+
+     label120:
+        if $i0 == 174 goto label096;
+
+        if $i0 == 175 goto label121;
+
+        if $i0 == 176 goto label096;
+
+     label121:
+        if $i0 == 178 goto label123;
+
+        $r59 = new com.jsdev.pfei.EditActivity;
+
+        specialinvoke $r59.<com.jsdev.pfei.EditActivity: void <init>()>();
+
+        if $i0 == 179 goto label123;
+
+        virtualinvoke $r59.<com.jsdev.pfei.EditActivity: void onCreate(android.os.Bundle)>(null);
+
+     label122:
+        if $i0 == 182 goto label122;
+
+        if $i0 == 183 goto label123;
+
+        if $i0 == 184 goto label122;
+
+     label123:
+        if $i0 == 186 goto label131;
+
+        $r60 = new com.jsdev.pfei.StartActivity;
+
+        specialinvoke $r60.<com.jsdev.pfei.StartActivity: void <init>()>();
+
+        if $i0 == 187 goto label131;
+
+        virtualinvoke $r60.<com.jsdev.pfei.StartActivity: void onCreate(android.os.Bundle)>(null);
+
+     label124:
+        if $i0 == 189 goto label130;
+
+     label125:
+        $r61 = new com.jsdev.pfei.StartActivity$3;
+
+        specialinvoke $r61.<com.jsdev.pfei.StartActivity$3: void <init>(com.jsdev.pfei.StartActivity)>($r60);
+
+        if $i0 == 190 goto label126;
+
+        virtualinvoke $r61.<com.jsdev.pfei.StartActivity$3: void onClick(android.view.View)>(null);
+
+     label126:
+        $r62 = new com.jsdev.pfei.StartActivity$4;
+
+        specialinvoke $r62.<com.jsdev.pfei.StartActivity$4: void <init>(com.jsdev.pfei.StartActivity)>($r60);
+
+        if $i0 == 191 goto label127;
+
+        virtualinvoke $r62.<com.jsdev.pfei.StartActivity$4: void onClick(android.view.View)>(null);
+
+     label127:
+        $r63 = new com.jsdev.pfei.StartActivity$5;
+
+        specialinvoke $r63.<com.jsdev.pfei.StartActivity$5: void <init>(com.jsdev.pfei.StartActivity)>($r60);
+
+        if $i0 == 192 goto label128;
+
+        virtualinvoke $r63.<com.jsdev.pfei.StartActivity$5: void onClick(android.view.View)>(null);
+
+     label128:
+        $r64 = new com.jsdev.pfei.StartActivity$6;
+
+        specialinvoke $r64.<com.jsdev.pfei.StartActivity$6: void <init>(com.jsdev.pfei.StartActivity)>($r60);
+
+        if $i0 == 193 goto label129;
+
+        virtualinvoke $r64.<com.jsdev.pfei.StartActivity$6: void onCompletion(android.media.MediaPlayer)>(null);
+
+     label129:
+        if $i0 == 194 goto label125;
+
+     label130:
+        virtualinvoke $r60.<com.jsdev.pfei.StartActivity: void onPause()>();
+
+        if $i0 == 195 goto label124;
+
+        if $i0 == 196 goto label131;
+
+        if $i0 == 197 goto label124;
+
+     label131:
+        if $i0 == 201 goto label002;
+
+        return;
+    }
+
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 2.9 seconds.
+[Spark] Solution found in 2.9 seconds.
+[main] INFO soot.jimple.infoflow.Infoflow - Callgraph construction took 2.9591445 seconds
+[main] INFO soot.jimple.infoflow.codeOptimization.InterproceduralConstantValuePropagator - Removing side-effect free methods is disabled
+[main] INFO soot.jimple.infoflow.Infoflow - Dead code elimination took 0.195944487 seconds
+[main] INFO soot.jimple.infoflow.Infoflow - Callgraph has 5466 edges
+[main] INFO soot.jimple.infoflow.Infoflow - Starting Taint Analysis
+[main] INFO soot.jimple.infoflow.data.FlowDroidMemoryManager - Initializing FlowDroid memory manager...
+[main] INFO soot.jimple.infoflow.data.FlowDroidMemoryManager - FDMM: Path data erasure enabled
+[main] INFO soot.jimple.infoflow.android.InfoflowAndroidConfiguration - Implicit flow tracking is NOT enabled
+[main] INFO soot.jimple.infoflow.android.InfoflowAndroidConfiguration - Exceptional flow tracking is enabled
+[main] INFO soot.jimple.infoflow.android.InfoflowAndroidConfiguration - Running with a maximum access path length of 5
+[main] INFO soot.jimple.infoflow.android.InfoflowAndroidConfiguration - Using path-agnostic result collection
+[main] INFO soot.jimple.infoflow.android.InfoflowAndroidConfiguration - Recursive access path shortening is enabled
+[main] INFO soot.jimple.infoflow.android.InfoflowAndroidConfiguration - Taint analysis enabled: true
+[main] INFO soot.jimple.infoflow.Infoflow - Looking for sources and sinks...
+[main] INFO soot.jimple.infoflow.Infoflow - Source lookup done, found 101 sources and 71 sinks.
+[main] INFO soot.jimple.infoflow.Infoflow - Taint wrapper hits: 5788
+[main] INFO soot.jimple.infoflow.Infoflow - Taint wrapper misses: 66868
+[main] INFO soot.jimple.infoflow.Infoflow - IFDS problem with 203563 forward and 66999 backward edges solved, processing 27 results...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextInsensitiveSourceFinder - Obtainted 27 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextInsensitiveSourceFinder - Building path 1 with task id 0
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextInsensitiveSourceFinder - Building path 2 with task id 1
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextInsensitiveSourceFinder - Building path 3 with task id 2
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextInsensitiveSourceFinder - Building path 4 with task id 3
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextInsensitiveSourceFinder - Building path 5 with task id 4
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextInsensitiveSourceFinder - Building path 6 with task id 5
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextInsensitiveSourceFinder - Building path 7 with task id 6
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextInsensitiveSourceFinder - Building path 8 with task id 7
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextInsensitiveSourceFinder - Building path 9 with task id 8
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextInsensitiveSourceFinder - Building path 10 with task id 9
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextInsensitiveSourceFinder - Building path 11 with task id 10
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextInsensitiveSourceFinder - Building path 12 with task id 11
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextInsensitiveSourceFinder - Building path 13 with task id 12
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextInsensitiveSourceFinder - Building path 14 with task id 13
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextInsensitiveSourceFinder - Building path 15 with task id 14
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextInsensitiveSourceFinder - Building path 16 with task id 15
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextInsensitiveSourceFinder - Building path 17 with task id 16
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextInsensitiveSourceFinder - Building path 18 with task id 17
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextInsensitiveSourceFinder - Building path 19 with task id 18
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextInsensitiveSourceFinder - Building path 20 with task id 19
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextInsensitiveSourceFinder - Building path 21 with task id 20
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextInsensitiveSourceFinder - Building path 22 with task id 21
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextInsensitiveSourceFinder - Building path 23 with task id 22
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextInsensitiveSourceFinder - Building path 24 with task id 23
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextInsensitiveSourceFinder - Building path 25 with task id 24
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextInsensitiveSourceFinder - Building path 26 with task id 25
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextInsensitiveSourceFinder - Building path 27 with task id 26
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextInsensitiveSourceFinder - Path processing took 0.010674813 seconds in total
+[main] INFO soot.jimple.infoflow.Infoflow - The sink interfaceinvoke $r3.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putBoolean(java.lang.String,boolean)>("graphic", $z0) in method <com.jsdev.pfei.utility.Helper: void saveData(android.content.Context)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.Infoflow - - $r1 := @parameter0: android.content.Context in method <com.jsdev.pfei.receivers.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>
+[main] INFO soot.jimple.infoflow.Infoflow - - $z0 := @parameter1: boolean in method <com.jsdev.pfei.CueActivity$2: void onCheckedChanged(android.widget.CompoundButton,boolean)>
+[main] INFO soot.jimple.infoflow.Infoflow - - $r1 := @parameter0: android.content.Context in method <com.jsdev.pfei.receivers.BootReceiver: void onReceive(android.content.Context,android.content.Intent)>
+[main] INFO soot.jimple.infoflow.Infoflow - The sink staticinvoke <android.util.Log: int e(java.lang.String,java.lang.String)>($r2, $r1) in method <com.android.purchase.util.IabHelper: void logError(java.lang.String)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.Infoflow - - $r1 := @parameter2: android.content.Intent in method <com.jsdev.pfei.UpgradeActivity: void onActivityResult(int,int,android.content.Intent)>
+[main] INFO soot.jimple.infoflow.Infoflow - The sink interfaceinvoke $r3.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putInt(java.lang.String,int)>("reps", $i0) in method <com.jsdev.pfei.utility.Helper: void saveData(android.content.Context)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.Infoflow - - $r1 := @parameter0: android.content.Context in method <com.jsdev.pfei.receivers.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>
+[main] INFO soot.jimple.infoflow.Infoflow - - $r1 := @parameter0: android.content.Context in method <com.jsdev.pfei.receivers.BootReceiver: void onReceive(android.content.Context,android.content.Intent)>
+[main] INFO soot.jimple.infoflow.Infoflow - The sink interfaceinvoke $r3.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putBoolean(java.lang.String,boolean)>($r4, $z0) in method <com.jsdev.pfei.utility.Helper: void saveData(android.content.Context)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.Infoflow - - $r1 := @parameter0: android.content.Context in method <com.jsdev.pfei.receivers.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>
+[main] INFO soot.jimple.infoflow.Infoflow - - $z0 := @parameter1: boolean in method <com.jsdev.pfei.SetReminderActivity$1: void onCheckedChanged(android.widget.CompoundButton,boolean)>
+[main] INFO soot.jimple.infoflow.Infoflow - - $r1 := @parameter0: android.content.Context in method <com.jsdev.pfei.receivers.BootReceiver: void onReceive(android.content.Context,android.content.Intent)>
+[main] INFO soot.jimple.infoflow.Infoflow - The sink interfaceinvoke $r3.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putInt(java.lang.String,int)>("level", $i0) in method <com.jsdev.pfei.utility.Helper: void saveData(android.content.Context)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.Infoflow - - $r1 := @parameter0: android.content.Context in method <com.jsdev.pfei.receivers.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>
+[main] INFO soot.jimple.infoflow.Infoflow - - $r1 := @parameter0: android.content.Context in method <com.jsdev.pfei.receivers.BootReceiver: void onReceive(android.content.Context,android.content.Intent)>
+[main] INFO soot.jimple.infoflow.Infoflow - The sink interfaceinvoke $r3.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putInt(java.lang.String,int)>("current_level", $i0) in method <com.jsdev.pfei.utility.Helper: void saveData(android.content.Context)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.Infoflow - - $r1 := @parameter0: android.content.Context in method <com.jsdev.pfei.receivers.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>
+[main] INFO soot.jimple.infoflow.Infoflow - - $r1 := @parameter0: android.content.Context in method <com.jsdev.pfei.receivers.BootReceiver: void onReceive(android.content.Context,android.content.Intent)>
+[main] INFO soot.jimple.infoflow.Infoflow - The sink interfaceinvoke $r3.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putBoolean(java.lang.String,boolean)>($r4, $z0) in method <com.jsdev.pfei.utility.Helper: void saveData(android.content.Context)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.Infoflow - - $r1 := @parameter0: android.content.Context in method <com.jsdev.pfei.receivers.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>
+[main] INFO soot.jimple.infoflow.Infoflow - - $z0 := @parameter1: boolean in method <com.jsdev.pfei.SetReminderActivity$3: void onCheckedChanged(android.widget.CompoundButton,boolean)>
+[main] INFO soot.jimple.infoflow.Infoflow - - $r1 := @parameter0: android.content.Context in method <com.jsdev.pfei.receivers.BootReceiver: void onReceive(android.content.Context,android.content.Intent)>
+[main] INFO soot.jimple.infoflow.Infoflow - The sink interfaceinvoke $r3.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putInt(java.lang.String,int)>("current_session", $i0) in method <com.jsdev.pfei.utility.Helper: void saveData(android.content.Context)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.Infoflow - - $r1 := @parameter0: android.content.Context in method <com.jsdev.pfei.receivers.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>
+[main] INFO soot.jimple.infoflow.Infoflow - - $r1 := @parameter0: android.content.Context in method <com.jsdev.pfei.receivers.BootReceiver: void onReceive(android.content.Context,android.content.Intent)>
+[main] INFO soot.jimple.infoflow.Infoflow - The sink interfaceinvoke $r3.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putInt(java.lang.String,int)>("sess", $i0) in method <com.jsdev.pfei.utility.Helper: void saveData(android.content.Context)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.Infoflow - - $r1 := @parameter0: android.content.Context in method <com.jsdev.pfei.receivers.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>
+[main] INFO soot.jimple.infoflow.Infoflow - - $r1 := @parameter0: android.content.Context in method <com.jsdev.pfei.receivers.BootReceiver: void onReceive(android.content.Context,android.content.Intent)>
+[main] INFO soot.jimple.infoflow.Infoflow - The sink interfaceinvoke $r3.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putBoolean(java.lang.String,boolean)>($r4, $z0) in method <com.jsdev.pfei.utility.Helper: void saveData(android.content.Context)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.Infoflow - - $r1 := @parameter0: android.content.Context in method <com.jsdev.pfei.receivers.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>
+[main] INFO soot.jimple.infoflow.Infoflow - - $z0 := @parameter1: boolean in method <com.jsdev.pfei.SetReminderActivity$2: void onCheckedChanged(android.widget.CompoundButton,boolean)>
+[main] INFO soot.jimple.infoflow.Infoflow - - $r1 := @parameter0: android.content.Context in method <com.jsdev.pfei.receivers.BootReceiver: void onReceive(android.content.Context,android.content.Intent)>
+[main] INFO soot.jimple.infoflow.Infoflow - The sink interfaceinvoke $r3.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putBoolean(java.lang.String,boolean)>("reminder", $z0) in method <com.jsdev.pfei.utility.Helper: void saveData(android.content.Context)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.Infoflow - - $r1 := @parameter0: android.content.Context in method <com.jsdev.pfei.receivers.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>
+[main] INFO soot.jimple.infoflow.Infoflow - - $r1 := @parameter0: android.content.Context in method <com.jsdev.pfei.receivers.BootReceiver: void onReceive(android.content.Context,android.content.Intent)>
+[main] INFO soot.jimple.infoflow.Infoflow - The sink interfaceinvoke $r3.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putBoolean(java.lang.String,boolean)>("discreet", $z0) in method <com.jsdev.pfei.utility.Helper: void saveData(android.content.Context)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.Infoflow - - $r1 := @parameter0: android.content.Context in method <com.jsdev.pfei.receivers.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>
+[main] INFO soot.jimple.infoflow.Infoflow - - $r1 := @parameter0: android.content.Context in method <com.jsdev.pfei.receivers.BootReceiver: void onReceive(android.content.Context,android.content.Intent)>
+[main] INFO soot.jimple.infoflow.Infoflow - The sink interfaceinvoke $r3.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putBoolean(java.lang.String,boolean)>("is_custom", $z0) in method <com.jsdev.pfei.utility.Helper: void saveData(android.content.Context)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.Infoflow - - $z0 := @parameter1: boolean in method <com.jsdev.pfei.LevelActivity$1: void onCheckedChanged(android.widget.CompoundButton,boolean)>
+[main] INFO soot.jimple.infoflow.Infoflow - - $r1 := @parameter0: android.content.Context in method <com.jsdev.pfei.receivers.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>
+[main] INFO soot.jimple.infoflow.Infoflow - - $r1 := @parameter0: android.content.Context in method <com.jsdev.pfei.receivers.BootReceiver: void onReceive(android.content.Context,android.content.Intent)>
+[main] INFO soot.jimple.infoflow.Infoflow - The sink interfaceinvoke $r3.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putLong(java.lang.String,long)>("date", $l1) in method <com.jsdev.pfei.utility.Helper: void saveData(android.content.Context)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.Infoflow - - $r1 := @parameter0: android.content.Context in method <com.jsdev.pfei.receivers.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>
+[main] INFO soot.jimple.infoflow.Infoflow - - $r1 := @parameter0: android.content.Context in method <com.jsdev.pfei.receivers.BootReceiver: void onReceive(android.content.Context,android.content.Intent)>
+[main] INFO soot.jimple.infoflow.Infoflow - The sink interfaceinvoke $r3.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putBoolean(java.lang.String,boolean)>("chime", $z0) in method <com.jsdev.pfei.utility.Helper: void saveData(android.content.Context)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.Infoflow - - $r1 := @parameter0: android.content.Context in method <com.jsdev.pfei.receivers.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>
+[main] INFO soot.jimple.infoflow.Infoflow - - $z0 := @parameter1: boolean in method <com.jsdev.pfei.CueActivity$1: void onCheckedChanged(android.widget.CompoundButton,boolean)>
+[main] INFO soot.jimple.infoflow.Infoflow - - $r1 := @parameter0: android.content.Context in method <com.jsdev.pfei.receivers.BootReceiver: void onReceive(android.content.Context,android.content.Intent)>
+[main] INFO soot.jimple.infoflow.Infoflow - The sink interfaceinvoke $r3.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putBoolean(java.lang.String,boolean)>("custom", $z0) in method <com.jsdev.pfei.utility.Helper: void saveData(android.content.Context)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.Infoflow - - $r1 := @parameter0: android.content.Context in method <com.jsdev.pfei.receivers.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>
+[main] INFO soot.jimple.infoflow.Infoflow - - $r1 := @parameter0: android.content.Context in method <com.jsdev.pfei.receivers.BootReceiver: void onReceive(android.content.Context,android.content.Intent)>
+[main] INFO soot.jimple.infoflow.Infoflow - The sink interfaceinvoke $r3.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>("reminder_text", $r4) in method <com.jsdev.pfei.utility.Helper: void saveData(android.content.Context)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.Infoflow - - $r1 := @parameter0: android.content.Context in method <com.jsdev.pfei.receivers.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>
+[main] INFO soot.jimple.infoflow.Infoflow - - $r1 := @parameter0: android.content.Context in method <com.jsdev.pfei.receivers.BootReceiver: void onReceive(android.content.Context,android.content.Intent)>
+[main] INFO soot.jimple.infoflow.Infoflow - The sink interfaceinvoke $r3.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putBoolean(java.lang.String,boolean)>("edit", $z0) in method <com.jsdev.pfei.utility.Helper: void saveData(android.content.Context)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.Infoflow - - $r1 := @parameter0: android.content.Context in method <com.jsdev.pfei.receivers.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>
+[main] INFO soot.jimple.infoflow.Infoflow - - $r1 := @parameter0: android.content.Context in method <com.jsdev.pfei.receivers.BootReceiver: void onReceive(android.content.Context,android.content.Intent)>
+[main] INFO soot.jimple.infoflow.Infoflow - The sink interfaceinvoke $r3.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putLong(java.lang.String,long)>($r4, $l1) in method <com.jsdev.pfei.utility.Helper: void saveData(android.content.Context)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.Infoflow - - $r1 := @parameter0: android.content.Context in method <com.jsdev.pfei.receivers.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>
+[main] INFO soot.jimple.infoflow.Infoflow - - $r1 := @parameter0: android.content.Context in method <com.jsdev.pfei.receivers.BootReceiver: void onReceive(android.content.Context,android.content.Intent)>
+[main] INFO soot.jimple.infoflow.Infoflow - The sink interfaceinvoke $r3.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putInt(java.lang.String,int)>("colour", $i0) in method <com.jsdev.pfei.utility.Helper: void saveData(android.content.Context)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.Infoflow - - $r1 := @parameter0: android.content.Context in method <com.jsdev.pfei.receivers.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>
+[main] INFO soot.jimple.infoflow.Infoflow - - $r1 := @parameter0: android.content.Context in method <com.jsdev.pfei.receivers.BootReceiver: void onReceive(android.content.Context,android.content.Intent)>
+[main] INFO soot.jimple.infoflow.Infoflow - The sink interfaceinvoke $r3.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putInt(java.lang.String,int)>("rest", $i0) in method <com.jsdev.pfei.utility.Helper: void saveData(android.content.Context)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.Infoflow - - $r1 := @parameter0: android.content.Context in method <com.jsdev.pfei.receivers.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>
+[main] INFO soot.jimple.infoflow.Infoflow - - $r1 := @parameter0: android.content.Context in method <com.jsdev.pfei.receivers.BootReceiver: void onReceive(android.content.Context,android.content.Intent)>
+[main] INFO soot.jimple.infoflow.Infoflow - The sink interfaceinvoke $r3.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putBoolean(java.lang.String,boolean)>("ucolour", $z0) in method <com.jsdev.pfei.utility.Helper: void saveData(android.content.Context)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.Infoflow - - $r1 := @parameter0: android.content.Context in method <com.jsdev.pfei.receivers.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>
+[main] INFO soot.jimple.infoflow.Infoflow - - $r1 := @parameter0: android.content.Context in method <com.jsdev.pfei.receivers.BootReceiver: void onReceive(android.content.Context,android.content.Intent)>
+[main] INFO soot.jimple.infoflow.Infoflow - The sink interfaceinvoke $r3.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putInt(java.lang.String,int)>("squeeze", $i0) in method <com.jsdev.pfei.utility.Helper: void saveData(android.content.Context)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.Infoflow - - $r1 := @parameter0: android.content.Context in method <com.jsdev.pfei.receivers.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>
+[main] INFO soot.jimple.infoflow.Infoflow - - $r1 := @parameter0: android.content.Context in method <com.jsdev.pfei.receivers.BootReceiver: void onReceive(android.content.Context,android.content.Intent)>
+[main] INFO soot.jimple.infoflow.Infoflow - The sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>($r2, $r1) in method <com.android.purchase.util.IabHelper: void logDebug(java.lang.String)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.Infoflow - - $r1 := @parameter2: android.content.Intent in method <com.jsdev.pfei.UpgradeActivity: void onActivityResult(int,int,android.content.Intent)>
+[main] INFO soot.jimple.infoflow.Infoflow - The sink interfaceinvoke $r3.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putBoolean(java.lang.String,boolean)>("discrete", $z0) in method <com.jsdev.pfei.utility.Helper: void saveData(android.content.Context)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.Infoflow - - $r1 := @parameter0: android.content.Context in method <com.jsdev.pfei.receivers.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>
+[main] INFO soot.jimple.infoflow.Infoflow - - $z0 := @parameter1: boolean in method <com.jsdev.pfei.SettingsActivity$2: void onCheckedChanged(android.widget.CompoundButton,boolean)>
+[main] INFO soot.jimple.infoflow.Infoflow - - $r1 := @parameter0: android.content.Context in method <com.jsdev.pfei.receivers.BootReceiver: void onReceive(android.content.Context,android.content.Intent)>
+[main] INFO soot.jimple.infoflow.Infoflow - The sink interfaceinvoke $r3.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putBoolean(java.lang.String,boolean)>("vibration", $z0) in method <com.jsdev.pfei.utility.Helper: void saveData(android.content.Context)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.Infoflow - - $r1 := @parameter0: android.content.Context in method <com.jsdev.pfei.receivers.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>
+[main] INFO soot.jimple.infoflow.Infoflow - - $z0 := @parameter1: boolean in method <com.jsdev.pfei.CueActivity$3: void onCheckedChanged(android.widget.CompoundButton,boolean)>
+[main] INFO soot.jimple.infoflow.Infoflow - - $r1 := @parameter0: android.content.Context in method <com.jsdev.pfei.receivers.BootReceiver: void onReceive(android.content.Context,android.content.Intent)>
+[main] INFO soot.jimple.infoflow.Infoflow - The sink interfaceinvoke $r3.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putBoolean(java.lang.String,boolean)>("results", $z0) in method <com.jsdev.pfei.utility.Helper: void saveData(android.content.Context)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.Infoflow - - $r1 := @parameter0: android.content.Context in method <com.jsdev.pfei.receivers.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>
+[main] INFO soot.jimple.infoflow.Infoflow - - $r1 := @parameter0: android.content.Context in method <com.jsdev.pfei.receivers.BootReceiver: void onReceive(android.content.Context,android.content.Intent)>
+Found a flow to sink interfaceinvoke $r3.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putBoolean(java.lang.String,boolean)>("graphic", $z0), from the following sources:
+	- $r1 := @parameter0: android.content.Context (in <com.jsdev.pfei.receivers.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+	- $z0 := @parameter1: boolean (in <com.jsdev.pfei.CueActivity$2: void onCheckedChanged(android.widget.CompoundButton,boolean)>)
+	- $r1 := @parameter0: android.content.Context (in <com.jsdev.pfei.receivers.BootReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+Found a flow to sink staticinvoke <android.util.Log: int e(java.lang.String,java.lang.String)>($r2, $r1), from the following sources:
+	- $r1 := @parameter2: android.content.Intent (in <com.jsdev.pfei.UpgradeActivity: void onActivityResult(int,int,android.content.Intent)>)
+Found a flow to sink interfaceinvoke $r3.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putInt(java.lang.String,int)>("reps", $i0), from the following sources:
+	- $r1 := @parameter0: android.content.Context (in <com.jsdev.pfei.receivers.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+	- $r1 := @parameter0: android.content.Context (in <com.jsdev.pfei.receivers.BootReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+Found a flow to sink interfaceinvoke $r3.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putBoolean(java.lang.String,boolean)>($r4, $z0), from the following sources:
+	- $r1 := @parameter0: android.content.Context (in <com.jsdev.pfei.receivers.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+	- $z0 := @parameter1: boolean (in <com.jsdev.pfei.SetReminderActivity$1: void onCheckedChanged(android.widget.CompoundButton,boolean)>)
+	- $r1 := @parameter0: android.content.Context (in <com.jsdev.pfei.receivers.BootReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+Found a flow to sink interfaceinvoke $r3.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putInt(java.lang.String,int)>("level", $i0), from the following sources:
+	- $r1 := @parameter0: android.content.Context (in <com.jsdev.pfei.receivers.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+	- $r1 := @parameter0: android.content.Context (in <com.jsdev.pfei.receivers.BootReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+Found a flow to sink interfaceinvoke $r3.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putInt(java.lang.String,int)>("current_level", $i0), from the following sources:
+	- $r1 := @parameter0: android.content.Context (in <com.jsdev.pfei.receivers.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+	- $r1 := @parameter0: android.content.Context (in <com.jsdev.pfei.receivers.BootReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+Found a flow to sink interfaceinvoke $r3.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putBoolean(java.lang.String,boolean)>($r4, $z0), from the following sources:
+	- $r1 := @parameter0: android.content.Context (in <com.jsdev.pfei.receivers.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+	- $z0 := @parameter1: boolean (in <com.jsdev.pfei.SetReminderActivity$3: void onCheckedChanged(android.widget.CompoundButton,boolean)>)
+	- $r1 := @parameter0: android.content.Context (in <com.jsdev.pfei.receivers.BootReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+Found a flow to sink interfaceinvoke $r3.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putInt(java.lang.String,int)>("current_session", $i0), from the following sources:
+	- $r1 := @parameter0: android.content.Context (in <com.jsdev.pfei.receivers.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+	- $r1 := @parameter0: android.content.Context (in <com.jsdev.pfei.receivers.BootReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+Found a flow to sink interfaceinvoke $r3.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putInt(java.lang.String,int)>("sess", $i0), from the following sources:
+	- $r1 := @parameter0: android.content.Context (in <com.jsdev.pfei.receivers.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+	- $r1 := @parameter0: android.content.Context (in <com.jsdev.pfei.receivers.BootReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+Found a flow to sink interfaceinvoke $r3.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putBoolean(java.lang.String,boolean)>($r4, $z0), from the following sources:
+	- $r1 := @parameter0: android.content.Context (in <com.jsdev.pfei.receivers.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+	- $z0 := @parameter1: boolean (in <com.jsdev.pfei.SetReminderActivity$2: void onCheckedChanged(android.widget.CompoundButton,boolean)>)
+	- $r1 := @parameter0: android.content.Context (in <com.jsdev.pfei.receivers.BootReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+Found a flow to sink interfaceinvoke $r3.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putBoolean(java.lang.String,boolean)>("reminder", $z0), from the following sources:
+	- $r1 := @parameter0: android.content.Context (in <com.jsdev.pfei.receivers.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+	- $r1 := @parameter0: android.content.Context (in <com.jsdev.pfei.receivers.BootReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+Found a flow to sink interfaceinvoke $r3.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putBoolean(java.lang.String,boolean)>("discreet", $z0), from the following sources:
+	- $r1 := @parameter0: android.content.Context (in <com.jsdev.pfei.receivers.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+	- $r1 := @parameter0: android.content.Context (in <com.jsdev.pfei.receivers.BootReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+Found a flow to sink interfaceinvoke $r3.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putBoolean(java.lang.String,boolean)>("is_custom", $z0), from the following sources:
+	- $z0 := @parameter1: boolean (in <com.jsdev.pfei.LevelActivity$1: void onCheckedChanged(android.widget.CompoundButton,boolean)>)
+	- $r1 := @parameter0: android.content.Context (in <com.jsdev.pfei.receivers.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+	- $r1 := @parameter0: android.content.Context (in <com.jsdev.pfei.receivers.BootReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+Found a flow to sink interfaceinvoke $r3.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putLong(java.lang.String,long)>("date", $l1), from the following sources:
+	- $r1 := @parameter0: android.content.Context (in <com.jsdev.pfei.receivers.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+	- $r1 := @parameter0: android.content.Context (in <com.jsdev.pfei.receivers.BootReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+Found a flow to sink interfaceinvoke $r3.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putBoolean(java.lang.String,boolean)>("chime", $z0), from the following sources:
+	- $r1 := @parameter0: android.content.Context (in <com.jsdev.pfei.receivers.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+	- $z0 := @parameter1: boolean (in <com.jsdev.pfei.CueActivity$1: void onCheckedChanged(android.widget.CompoundButton,boolean)>)
+	- $r1 := @parameter0: android.content.Context (in <com.jsdev.pfei.receivers.BootReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+Found a flow to sink interfaceinvoke $r3.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putBoolean(java.lang.String,boolean)>("custom", $z0), from the following sources:
+	- $r1 := @parameter0: android.content.Context (in <com.jsdev.pfei.receivers.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+	- $r1 := @parameter0: android.content.Context (in <com.jsdev.pfei.receivers.BootReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+Found a flow to sink interfaceinvoke $r3.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>("reminder_text", $r4), from the following sources:
+	- $r1 := @parameter0: android.content.Context (in <com.jsdev.pfei.receivers.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+	- $r1 := @parameter0: android.content.Context (in <com.jsdev.pfei.receivers.BootReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+Found a flow to sink interfaceinvoke $r3.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putBoolean(java.lang.String,boolean)>("edit", $z0), from the following sources:
+	- $r1 := @parameter0: android.content.Context (in <com.jsdev.pfei.receivers.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+	- $r1 := @parameter0: android.content.Context (in <com.jsdev.pfei.receivers.BootReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+Found a flow to sink interfaceinvoke $r3.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putLong(java.lang.String,long)>($r4, $l1), from the following sources:
+	- $r1 := @parameter0: android.content.Context (in <com.jsdev.pfei.receivers.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+	- $r1 := @parameter0: android.content.Context (in <com.jsdev.pfei.receivers.BootReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+Found a flow to sink interfaceinvoke $r3.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putInt(java.lang.String,int)>("colour", $i0), from the following sources:
+	- $r1 := @parameter0: android.content.Context (in <com.jsdev.pfei.receivers.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+	- $r1 := @parameter0: android.content.Context (in <com.jsdev.pfei.receivers.BootReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+Found a flow to sink interfaceinvoke $r3.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putInt(java.lang.String,int)>("rest", $i0), from the following sources:
+	- $r1 := @parameter0: android.content.Context (in <com.jsdev.pfei.receivers.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+	- $r1 := @parameter0: android.content.Context (in <com.jsdev.pfei.receivers.BootReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+Found a flow to sink interfaceinvoke $r3.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putBoolean(java.lang.String,boolean)>("ucolour", $z0), from the following sources:
+	- $r1 := @parameter0: android.content.Context (in <com.jsdev.pfei.receivers.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+	- $r1 := @parameter0: android.content.Context (in <com.jsdev.pfei.receivers.BootReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+Found a flow to sink interfaceinvoke $r3.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putInt(java.lang.String,int)>("squeeze", $i0), from the following sources:
+	- $r1 := @parameter0: android.content.Context (in <com.jsdev.pfei.receivers.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+	- $r1 := @parameter0: android.content.Context (in <com.jsdev.pfei.receivers.BootReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+Found a flow to sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>($r2, $r1), from the following sources:
+	- $r1 := @parameter2: android.content.Intent (in <com.jsdev.pfei.UpgradeActivity: void onActivityResult(int,int,android.content.Intent)>)
+Found a flow to sink interfaceinvoke $r3.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putBoolean(java.lang.String,boolean)>("discrete", $z0), from the following sources:
+	- $r1 := @parameter0: android.content.Context (in <com.jsdev.pfei.receivers.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+	- $z0 := @parameter1: boolean (in <com.jsdev.pfei.SettingsActivity$2: void onCheckedChanged(android.widget.CompoundButton,boolean)>)
+	- $r1 := @parameter0: android.content.Context (in <com.jsdev.pfei.receivers.BootReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+Found a flow to sink interfaceinvoke $r3.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putBoolean(java.lang.String,boolean)>("vibration", $z0), from the following sources:
+	- $r1 := @parameter0: android.content.Context (in <com.jsdev.pfei.receivers.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+	- $z0 := @parameter1: boolean (in <com.jsdev.pfei.CueActivity$3: void onCheckedChanged(android.widget.CompoundButton,boolean)>)
+	- $r1 := @parameter0: android.content.Context (in <com.jsdev.pfei.receivers.BootReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+Found a flow to sink interfaceinvoke $r3.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putBoolean(java.lang.String,boolean)>("results", $z0), from the following sources:
+	- $r1 := @parameter0: android.content.Context (in <com.jsdev.pfei.receivers.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+	- $r1 := @parameter0: android.content.Context (in <com.jsdev.pfei.receivers.BootReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+Maximum memory consumption: 2079.188536 MB
+Analysis has run for 20.663944122 seconds

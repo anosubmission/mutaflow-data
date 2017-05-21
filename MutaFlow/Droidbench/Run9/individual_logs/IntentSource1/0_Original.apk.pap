@@ -1,0 +1,4 @@
+--------- beginning of main
+--------- beginning of system
+05-04 22:42:53.328  9485  9485 I MyOwnTag: <MutaFlowTag>e091b06c-f4e0-47f7-a3fd-cab4dcc317e7<MutaFlowTag><android.content.Intent: android.content.Intent setAction(java.lang.String)>	28	30	6	void onCreate(android.os.Bundle)	lu.uni.snt.serval.IntentSource1<MutaFlowTag>android.intent.action.MAIN
+--------- beginning of crash

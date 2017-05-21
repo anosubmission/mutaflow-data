@@ -1,0 +1,5 @@
+--------- beginning of main
+--------- beginning of system
+05-05 23:33:58.746 19838 19838 I MyOwnTag: <MutaFlowTag>12c15835-acd2-4403-9e2e-75e3c5392b11<MutaFlowTag><android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>	34	17	14	void onCreate(android.os.Bundle)	de.ecspride.Exceptions4<MutaFlowTag>+49 1234<MutaFlowTag>getDeviceId: Neither user 10358 nor current process has android.permission.READ_PHONE_STATE.
+--------- beginning of crash
+05-05 23:34:00.494 19924 19924 I MyOwnTag: <MutaFlowTag>12c15835-acd2-4403-9e2e-75e3c5392b11<MutaFlowTag><android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>	34	17	14	void onCreate(android.os.Bundle)	de.ecspride.Exceptions4<MutaFlowTag>+49 1234<MutaFlowTag>getDeviceId: Neither user 10358 nor current process has android.permission.READ_PHONE_STATE.

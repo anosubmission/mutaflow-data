@@ -1,0 +1,11 @@
+--------- beginning of main
+--------- beginning of system
+04-30 15:34:53.174 11836 11836 I MyOwnTag: <MutaFlowTag>e18d6d2f-dd0d-44e9-9c16-f755f2938aaa<MutaFlowTag><android.telephony.TelephonyManager: java.lang.String getDeviceId()>	31	12	9	void onCreate(android.os.Bundle)	de.ecspride.MainActivity<MutaFlowTag>000000020000000
+04-30 15:34:53.180 11836 11851 I MyOwnTag: <MutaFlowTag>e18d6d2f-dd0d-44e9-9c16-f755f2938aaa<MutaFlowTag><android.util.Log: int d(java.lang.String,java.lang.String)>	44	10	3	void run()	de.ecspride.MainActivity$MyThread<MutaFlowTag>DroidBench<MutaFlowTag>000000020000000
+04-30 15:35:13.615 11836 11836 I MyOwnTag: <MutaFlowTag>e18d6d2f-dd0d-44e9-9c16-f755f2938aaa<MutaFlowTag><android.telephony.TelephonyManager: java.lang.String getDeviceId()>	31	12	9	void onCreate(android.os.Bundle)	de.ecspride.MainActivity<MutaFlowTag>000000050000000
+04-30 15:35:13.625 11836 11956 I MyOwnTag: <MutaFlowTag>e18d6d2f-dd0d-44e9-9c16-f755f2938aaa<MutaFlowTag><android.util.Log: int d(java.lang.String,java.lang.String)>	44	10	3	void run()	de.ecspride.MainActivity$MyThread<MutaFlowTag>DroidBench<MutaFlowTag>000000050000000
+04-30 15:35:15.141 11836 11836 I MyOwnTag: <MutaFlowTag>e18d6d2f-dd0d-44e9-9c16-f755f2938aaa<MutaFlowTag><android.telephony.TelephonyManager: java.lang.String getDeviceId()>	31	12	9	void onCreate(android.os.Bundle)	de.ecspride.MainActivity<MutaFlowTag>000000010000000
+04-30 15:35:15.145 11836 11957 I MyOwnTag: <MutaFlowTag>e18d6d2f-dd0d-44e9-9c16-f755f2938aaa<MutaFlowTag><android.util.Log: int d(java.lang.String,java.lang.String)>	44	10	3	void run()	de.ecspride.MainActivity$MyThread<MutaFlowTag>DroidBench<MutaFlowTag>000000010000000
+--------- beginning of crash
+04-30 15:35:36.976 11836 11836 I MyOwnTag: <MutaFlowTag>e18d6d2f-dd0d-44e9-9c16-f755f2938aaa<MutaFlowTag><android.telephony.TelephonyManager: java.lang.String getDeviceId()>	31	12	9	void onCreate(android.os.Bundle)	de.ecspride.MainActivity<MutaFlowTag>000000040000000
+04-30 15:35:36.992 11836 12030 I MyOwnTag: <MutaFlowTag>e18d6d2f-dd0d-44e9-9c16-f755f2938aaa<MutaFlowTag><android.util.Log: int d(java.lang.String,java.lang.String)>	44	10	3	void run()	de.ecspride.MainActivity$MyThread<MutaFlowTag>DroidBench<MutaFlowTag>000000040000000

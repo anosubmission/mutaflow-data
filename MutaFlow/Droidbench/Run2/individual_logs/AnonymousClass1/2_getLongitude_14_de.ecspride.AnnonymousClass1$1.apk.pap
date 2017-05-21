@@ -1,0 +1,4 @@
+--------- beginning of main
+04-30 13:53:49.939  2761  2761 I MyOwnTag: <MutaFlowTag>0b61a318-c533-423b-9aa5-45bc27296a67<MutaFlowTag><android.location.Location: double getLatitude()>	54	13	3	void onLocationChanged(android.location.Location)	de.ecspride.LocationLeak1$MyLocationListener<MutaFlowTag>7.366666666666666
+04-30 13:53:49.939  2761  2761 I MyOwnTag: <MutaFlowTag>0b61a318-c533-423b-9aa5-45bc27296a67<MutaFlowTag><android.location.Location: double getLongitude()>	55	14	4	void onLocationChanged(android.location.Location)	de.ecspride.LocationLeak1$MyLocationListener<MutaFlowTag>80.54999833333333
+--------- beginning of system

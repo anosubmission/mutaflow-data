@@ -1,0 +1,4 @@
+--------- beginning of main
+--------- beginning of system
+05-04 20:33:31.453 20047 20047 I MyOwnTag: <MutaFlowTag>b20977bc-ff4d-42d5-8501-88ee7bebdb05<MutaFlowTag><android.util.Log: int v(java.lang.String,java.lang.String)>	16	12	9	void onCreate(android.os.Bundle)	de.ecspride.PrivateDataLeak2<MutaFlowTag>Password<MutaFlowTag>
+--------- beginning of crash

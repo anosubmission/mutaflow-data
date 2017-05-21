@@ -1,0 +1,5 @@
+--------- beginning of main
+--------- beginning of system
+05-04 11:34:02.151  4777  4777 I MyOwnTag: <MutaFlowTag>0bba00c1-97c1-49ea-84b2-cfecc9fb9912<MutaFlowTag><android.telephony.TelephonyManager: java.lang.String getDeviceId()>	21	9	6	void attachBaseContext(android.content.Context)	de.ecspride.MethodOverride1
+05-04 11:34:02.151  4777  4777 I MyOwnTag: <MutaFlowTag>0bba00c1-97c1-49ea-84b2-cfecc9fb9912<MutaFlowTag><android.util.Log: int d(java.lang.String,java.lang.String)>	22	10	7	void attachBaseContext(android.content.Context)	de.ecspride.MethodOverride1<MutaFlowTag>EX
+--------- beginning of crash

@@ -1,0 +1,3 @@
+--------- beginning of main
+--------- beginning of system
+05-05 20:23:13.537  3007  3007 I MyOwnTag: <MutaFlowTag>a7f90a1f-213f-4f3f-a463-f4db57a7e773<MutaFlowTag><android.telephony.TelephonyManager: java.lang.String getDeviceId()>	29	8	5	void onCreate()	de.ecspride.ApplicationLifecyle2<MutaFlowTag>null

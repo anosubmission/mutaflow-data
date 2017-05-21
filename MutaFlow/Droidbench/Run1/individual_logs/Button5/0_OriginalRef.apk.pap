@@ -1,0 +1,4 @@
+--------- beginning of main
+--------- beginning of system
+--------- beginning of crash
+03-18 22:41:42.640  9659  9659 I MyOwnTag: <MutaFlowTag>59dba0c2-b557-4d81-bed6-1b9728b119a4<MutaFlowTag><android.telephony.TelephonyManager: java.lang.String getDeviceId()>	32	12	7	void onCreate(android.os.Bundle)	edu.mit.button_object_allocation.Button1<MutaFlowTag>000000000000000

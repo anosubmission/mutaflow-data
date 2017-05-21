@@ -1,0 +1,88 @@
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Trying 127.0.0.1...
+Connected to localhost.
+Escape character is '^]'.
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+	pkg: /data/local/tmp/1_getDeviceId_11_de.ecspride.Exceptions2.apk
+Android Console: Authentication required
+Android Console: type 'auth <auth_token>' to authenticate
+Android Console: you can find your <auth_token> in 
+'/home/bj/.emulator_console_auth_token'
+OK
+p[K[Dpo[K[D[Dpow[K[D[D[Dpowe[K[D[D[D[Dpower[K[D[D[D[D[Dpower [K[D[D[D[D[D[Dpower c[K[D[D[D[D[D[D[Dpower ca[K[D[D[D[D[D[D[D[Dpower cap[K[D[D[D[D[D[D[D[D[Dpower capa[K[D[D[D[D[D[D[D[D[D[Dpower capac[K[D[D[D[D[D[D[D[D[D[D[Dpower capaci[K[D[D[D[D[D[D[D[D[D[D[D[Dpower capacit[K[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity[K[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity [K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 1[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 10[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 100[K
+KO: unknown command, try 'help'
+p[K[Dpo[K[D[Dpow[K[D[D[Dpowe[K[D[D[D[Dpower[K[D[D[D[D[Dpower [K[D[D[D[D[D[Dpower c[K[D[D[D[D[D[D[Dpower ca[K[D[D[D[D[D[D[D[Dpower cap[K[D[D[D[D[D[D[D[D[Dpower capa[K[D[D[D[D[D[D[D[D[D[Dpower capac[K[D[D[D[D[D[D[D[D[D[D[Dpower capaci[K[D[D[D[D[D[D[D[D[D[D[D[Dpower capacit[K[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity[K[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity [K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 1[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 10[K
+KO: unknown command, try 'help'
+Success
+Operation not allowed: java.lang.SecurityException: Package de.ecspride has not requested permission android.permission.READ_SMS
+Exceptions2
+:Monkey: seed=1000 count=10000
+:AllowPackage: de.ecspride
+:IncludeCategory: android.intent.category.LAUNCHER
+:IncludeCategory: android.intent.category.MONKEY
+// Event percentages:
+//   0: 15.0%
+//   1: 10.0%
+//   2: 2.0%
+//   3: 15.0%
+//   4: -0.0%
+//   5: -0.0%
+//   6: 25.0%
+//   7: 15.0%
+//   8: 2.0%
+//   9: 2.0%
+//   10: 1.0%
+//   11: 13.0%
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=de.ecspride/.Exceptions2;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=de.ecspride/.Exceptions2 } in package de.ecspride
+:Sending Touch (ACTION_DOWN): 0:(876.0,1684.0)
+:Sending Touch (ACTION_UP): 0:(902.46747,1661.4387)
+:Sending Touch (ACTION_DOWN): 0:(172.0,1223.0)
+:Sending Touch (ACTION_UP): 0:(173.65752,1223.0057)
+// CRASH: de.ecspride (pid 16002)
+// Short Msg: java.lang.IllegalArgumentException
+// Long Msg: java.lang.IllegalArgumentException: Invalid message body
+// Build Label: Android/sdk_phone_x86_64/generic_x86_64:6.0/MASTER/2780065:userdebug/test-keys
+// Build Changelist: 2780065
+// Build Time: 1461115984000
+// java.lang.RuntimeException: Unable to start activity ComponentInfo{de.ecspride/de.ecspride.Exceptions2}: java.lang.IllegalArgumentException: Invalid message body
+// 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2416)
+// 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2476)
+// 	at android.app.ActivityThread.-wrap11(ActivityThread.java)
+// 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1344)
+// 	at android.os.Handler.dispatchMessage(Handler.java:102)
+// 	at android.os.Looper.loop(Looper.java:148)
+// 	at android.app.ActivityThread.main(ActivityThread.java:5417)
+// 	at java.lang.reflect.Method.invoke(Native Method)
+// 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:726)
+// 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:616)
+// Caused by: java.lang.IllegalArgumentException: Invalid message body
+// 	at android.telephony.SmsManager.sendTextMessageInternal(SmsManager.java:305)
+// 	at android.telephony.SmsManager.sendTextMessage(SmsManager.java:293)
+// 	at de.ecspride.Exceptions2.onCreate(Exceptions2.java:37)
+// 	at android.app.Activity.performCreate(Activity.java:6237)
+// 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1107)
+// 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2369)
+// 	... 9 more
+// 
+e[KTrying 127.0.0.1...
+Connected to localhost.
+Escape character is '^]'.
+Android Console: Authentication required
+Android Console: type 'auth <auth_token>' to authenticate
+Android Console: you can find your <auth_token> in 
+'/home/bj/.emulator_console_auth_token'
+OK
+p[K[Dpo[K[D[Dpow[K[D[D[Dpowe[K[D[D[D[Dpower[K[D[D[D[D[Dpower [K[D[D[D[D[D[Dpower c[K[D[D[D[D[D[D[Dpower ca[K[D[D[D[D[D[D[D[Dpower cap[K[D[D[D[D[D[D[D[D[Dpower capa[K[D[D[D[D[D[D[D[D[D[Dpower capac[K[D[D[D[D[D[D[D[D[D[D[Dpower capaci[K[D[D[D[D[D[D[D[D[D[D[D[Dpower capacit[K[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity[K[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity [K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 1[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 10[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 100[K
+KO: unknown command, try 'help'
+** Monkey aborted due to error.
+Events injected: 7
+:Sending rotation degree=0, persist=false
+:Dropped: keys=0 pointers=0 trackballs=0 flips=0 rotations=0
+## Network stats: elapsed time=405ms (0ms mobile, 0ms wifi, 405ms not connected)
+** System appears to have crashed at event 7 of 10000 using seed 1000
+Success
+p[K[Dpo[K[D[Dpow[K[D[D[Dpowe[K[D[D[D[Dpower[K[D[D[D[D[Dpower [K[D[D[D[D[D[Dpower c[K[D[D[D[D[D[D[Dpower ca[K[D[D[D[D[D[D[D[Dpower cap[K[D[D[D[D[D[D[D[D[Dpower capa[K[D[D[D[D[D[D[D[D[D[Dpower capac[K[D[D[D[D[D[D[D[D[D[D[Dpower capaci[K[D[D[D[D[D[D[D[D[D[D[D[Dpower capacit[K[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity[K[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity [K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 1[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 10[K
+KO: unknown command, try 'help'
+** No activities found to run, monkey aborted.
+e[K

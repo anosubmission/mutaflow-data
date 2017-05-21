@@ -1,0 +1,1 @@
+mkdir: /Users/Anonymous/Documents/Uni/Paper/Anonymous/categories/healthandfitness: File exists

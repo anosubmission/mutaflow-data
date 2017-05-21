@@ -1,0 +1,738 @@
+source API name 	 line in source code 	 line in jimple code in class 	 line in jimple code in method 	 surrounding method 	 containing class 	 sink API name 	 line in source code 	 line in jimple code in class 	 line in jimple code in method 	 surrounding method 	 containing class 		
+													
+													
+ActivityCommunication1													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	16	10	7	void onCreate(android.os.Bundle)	de.ecspride.Activity2	<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>	16	10	7	void onCreate(android.os.Bundle)	de.ecspride.Activity1		
+													
+													
+ActivityCommunication2													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	32	10	7	void onCreate(android.os.Bundle)	edu.mit.icc_action_string_operations.OutFlowActivity	<android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)>	34	15	12	void onCreate(android.os.Bundle)	edu.mit.icc_action_string_operations.OutFlowActivity		
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	32	10	7	void onCreate(android.os.Bundle)	edu.mit.icc_action_string_operations.OutFlowActivity	<android.util.Log: int i(java.lang.String,java.lang.String)>	18	10	7	void onCreate(android.os.Bundle)	edu.mit.icc_action_string_operations.InFlowActivity		
+													
+													
+ActivityCommunication3													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	30	10	7	void onCreate(android.os.Bundle)	edu.mit.icc_componentname_class_constant.OutFlowActivity	<android.util.Log: int i(java.lang.String,java.lang.String)>	18	10	7	void onCreate(android.os.Bundle)	edu.mit.icc_componentname_class_constant.InFlowActivity		
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	30	10	7	void onCreate(android.os.Bundle)	edu.mit.icc_componentname_class_constant.OutFlowActivity	<android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)>	34	19	16	void onCreate(android.os.Bundle)	edu.mit.icc_componentname_class_constant.OutFlowActivity		
+													
+													
+ActivityCommunication4													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	32	10	7	void onCreate(android.os.Bundle)	edu.mit.icc_concat_action_string.OutFlowActivity	<android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)>	35	13	10	void onCreate(android.os.Bundle)	edu.mit.icc_concat_action_string.OutFlowActivity		
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	32	10	7	void onCreate(android.os.Bundle)	edu.mit.icc_concat_action_string.OutFlowActivity	<android.util.Log: int i(java.lang.String,java.lang.String)>	18	10	7	void onCreate(android.os.Bundle)	edu.mit.icc_concat_action_string.InFlowActivity		
+													
+													
+ActivityCommunication5													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	27	10	7	void onCreate(android.os.Bundle)	edu.mit.icc_intent_component_name.OutFlowActivity	<android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)>	33	16	13	void onCreate(android.os.Bundle)	edu.mit.icc_intent_component_name.OutFlowActivity		
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	27	10	7	void onCreate(android.os.Bundle)	edu.mit.icc_intent_component_name.OutFlowActivity	<android.util.Log: int i(java.lang.String,java.lang.String)>	18	10	7	void onCreate(android.os.Bundle)	edu.mit.icc_intent_component_name.InFlowActivity		
+													
+													
+ActivityCommunication6													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	31	10	7	void onCreate(android.os.Bundle)	edu.mit.icc_intent_passed_through_api.OutFlowActivity	<android.util.Log: int i(java.lang.String,java.lang.String)>	18	10	7	void onCreate(android.os.Bundle)	edu.mit.icc_intent_passed_through_api.InFlowActivity		
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	31	10	7	void onCreate(android.os.Bundle)	edu.mit.icc_intent_passed_through_api.OutFlowActivity	<android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)>	34	13	10	void onCreate(android.os.Bundle)	edu.mit.icc_intent_passed_through_api.OutFlowActivity		
+													
+													
+ActivityCommunication7													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	26	10	7	void onCreate(android.os.Bundle)	edu.mit.icc_non_constant_class_object.OutFlowActivity	<android.util.Log: int i(java.lang.String,java.lang.String)>	18	10	7	void onCreate(android.os.Bundle)	edu.mit.icc_non_constant_class_object.InFlowActivity		
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	26	10	7	void onCreate(android.os.Bundle)	edu.mit.icc_non_constant_class_object.OutFlowActivity	<android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)>	31	16	13	void onCreate(android.os.Bundle)	edu.mit.icc_non_constant_class_object.OutFlowActivity		
+													
+													
+ActivityCommunication8													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	java.lang.String getDeviceId()	29	10	7	void onCreate(android.os.Bundle)	edu.mit.icc_pass_action_string_through_api.OutFlowActivity	<android.util.Log: int i(java.lang.String,java.lang.String)>	int i(java.lang.String,java.lang.String)	18	10	7	void onCreate(android.os.Bundle)	edu.mit.icc_pass_action_string_through_api.InFlowActivity
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	java.lang.String getDeviceId()	29	10	7	void onCreate(android.os.Bundle)	edu.mit.icc_pass_action_string_through_api.OutFlowActivity	<android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)>	android.content.Intent putExtra(java.lang.String,java.lang.String)	37	18	15	void onCreate(android.os.Bundle)	edu.mit.icc_pass_action_string_through_api.OutFlowActivity
+													
+													
+ActivityLifecycle1													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	22	22	7	void onCreate(android.os.Bundle)	de.ecspride.ActivityLifecycle1	<java.net.URL: void <init>(java.lang.String)>	37	9	4	void connect()	de.ecspride.ActivityLifecycle1		
+													
+													
+ActivityLifecycle2													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	15	10	7	void onCreate(android.os.Bundle)	de.ecspride.MainActivity	<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>	13	10	5	void onResume()	de.ecspride.GeneralActivity		
+													
+													
+ActivityLifecycle3													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+													
+													
+ActivityLifecycle4													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	29	21	5	void onResume()	de.ecspride.MainActivity	<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>	22	15	5	void onPause()	de.ecspride.MainActivity		
+													
+													
+ActivitySavedState1													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	39	17	5	void onSaveInstanceState(android.os.Bundle)	edu.mit.activity_saved_state.MainActivity	<android.os.Bundle: void putString(java.lang.String,java.lang.String)>	42	18	6	void onSaveInstanceState(android.os.Bundle)	edu.mit.activity_saved_state.MainActivity		
+													
+													
+AnonymousClass1													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+													
+													
+ApplicationLifecycle1													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	28	8	5	void onCreate()	de.ecspride.ApplicationLifecyle1	<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>	19	13	5	void onResume()	de.ecspride.MainActivity		
+													
+													
+ApplicationLifecycle2													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+													
+													
+ApplicationLifecycle3													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	32	20	5	boolean onCreate()	de.ecspride.ContentProvider	<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>	27	8	5	void onCreate()	de.ecspride.ApplicationLifecyle3		
+													
+													
+ApplicationModeling1													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+													
+													
+ArrayAccess1													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+													
+													
+ArrayAccess2													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+													
+													
+ArrayCopy1													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	25	10	7	void onCreate(android.os.Bundle)	edu.mit.array_copy.MainActivity	<android.util.Log: int i(java.lang.String,java.lang.String)>	31	16	13	void onCreate(android.os.Bundle)	edu.mit.array_copy.MainActivity		
+													
+													
+ArrayToString1													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+													
+													
+AsynchronousEventOrdering1													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+													
+													
+AsyncTask1													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	34	14	11	void onCreate(android.os.Bundle)	de.ecspride.MainActivity	<android.util.Log: int d(java.lang.String,java.lang.String)>	41	19	4	java.lang.String doInBackground(java.lang.String[])	de.ecspride.MainActivity$MyAsyncTask		
+													
+													
+BroadcastReceiverLifecycle1													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+													
+													
+BroadcastReceiverLifecycle2													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	34	11	8	void onCreate(android.os.Bundle)	de.ecspride.MainActivity	<android.util.Log: int d(java.lang.String,java.lang.String)>	56	12	5	void onReceive(android.content.Context,android.content.Intent)	de.ecspride.MainActivity$MyReceiver		
+													
+													
+BroadcastTaintAndLeak1													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	44	19	4	void onDestroy()	edu.mit.icc_broadcast_programmatic_intentfilter.BroadcastTest	<android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)>	47	23	8	void onDestroy()	edu.mit.icc_broadcast_programmatic_intentfilter.BroadcastTest		
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	44	19	4	void onDestroy()	edu.mit.icc_broadcast_programmatic_intentfilter.BroadcastTest	<android.util.Log: int i(java.lang.String,java.lang.String)>	34	11	6	void onReceive(android.content.Context,android.content.Intent)	edu.mit.icc_broadcast_programmatic_intentfilter.BroadcastTest$1		
+													
+													
+Button1													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	20	12	7	void onCreate(android.os.Bundle)	de.ecspride.Button1	<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>	26	22	8	void sendMessage(android.view.View)	de.ecspride.Button1		
+													
+													
+Button2													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+													
+													
+Button3													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	20	12	7	void onClick(android.view.View)	de.ecspride.Button1Listener	<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>	18	11	6	void onClick(android.view.View)	de.ecspride.Button2Listener		
+													
+													
+Button4													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	31	12	7	void onCreate(android.os.Bundle)	de.ecspride.Button4	<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>	37	22	8	void sendMessage(android.view.View)	de.ecspride.Button4		
+													
+													
+Button5													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+													
+													
+Clone1													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	29	10	7	void onCreate(android.os.Bundle)	edu.mit.clone.MainActivity	<android.util.Log: int i(java.lang.String,java.lang.String)>	35	18	15	void onCreate(android.os.Bundle)	edu.mit.clone.MainActivity		
+													
+													
+ComponentNotInManifest1													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	26	10	7	void onCreate(android.os.Bundle)	edu.mit.icc_component_not_in_manifest.OutFlowActivity	<android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)>	29	13	10	void onCreate(android.os.Bundle)	edu.mit.icc_component_not_in_manifest.OutFlowActivity		
+													
+													
+ContentProvider1													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+													
+													
+DirectLeak1													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	17	11	8	void onCreate(android.os.Bundle)	de.ecspride.MainActivity	<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>	17	12	9	void onCreate(android.os.Bundle)	de.ecspride.MainActivity		
+													
+													
+Echoer													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+													
+													
+EventOrdering1													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	30	7	4	void writePreferences()	edu.mit.icc_event_ordering.InFlowActivity	<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>	34	10	7	void writePreferences()	edu.mit.icc_event_ordering.InFlowActivity		
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	30	7	4	void writePreferences()	edu.mit.icc_event_ordering.InFlowActivity	<android.util.Log: int i(java.lang.String,java.lang.String)>	23	19	7	void onCreate(android.os.Bundle)	edu.mit.icc_event_ordering.InFlowActivity		
+													
+													
+Exceptions1													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+													
+													
+Exceptions2													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+													
+													
+Exceptions3													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+													
+													
+Exceptions4													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+													
+													
+Executor1													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	33	13	10	void onCreate(android.os.Bundle)	de.ecspride.MainActivity	<android.util.Log: int d(java.lang.String,java.lang.String)>	46	10	3	void run()	de.ecspride.MainActivity$MyRunnable		
+													
+													
+FactoryMethods1													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+													
+													
+FieldSensitivity1													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+													
+													
+FieldSensitivity2													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+													
+													
+FieldSensitivity3													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+<android.telephony.TelephonyManager: java.lang.String getSimSerialNumber()>	19	13	10	void onCreate(android.os.Bundle)	de.ecspride.FieldSensitivity3	<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>	22	17	14	void onCreate(android.os.Bundle)	de.ecspride.FieldSensitivity3		
+													
+													
+FieldSensitivity4													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+													
+													
+FragmentLifecycle1													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	27	12	7	void onCreate(android.os.Bundle)	de.ecspride.MainActivity	<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>	15	11	6	void onActivityCreated(android.os.Bundle)	de.ecspride.ExampleFragment		
+													
+													
+FragmentLifecycle2													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+													
+													
+HashMapAccess1													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+													
+													
+IMEI1													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	31	10	7	void onCreate(android.os.Bundle)	de.ecspride.MainActivity	<android.util.Log: int d(java.lang.String,java.lang.String)>	47	26	23	void onCreate(android.os.Bundle)	de.ecspride.MainActivity		
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	31	10	7	void onCreate(android.os.Bundle)	de.ecspride.MainActivity	<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>	50	28	25	void onCreate(android.os.Bundle)	de.ecspride.MainActivity		
+													
+													
+ImplicitFlow1													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	27	227	7	void onCreate(android.os.Bundle)	de.ecspride.ImplicitFlow1	<android.util.Log: int i(java.lang.String,java.lang.String)>	77	219	3	void writeToLog(java.lang.String)	de.ecspride.ImplicitFlow1		
+													
+													
+ImplicitFlow2													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+													
+													
+ImplicitFlow3													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+													
+													
+ImplicitFlow4													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+													
+													
+InactiveActivity													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+													
+													
+InheritedObjects1													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	6	6	3	java.lang.String getInfo()	de.ecspride.VarA	<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>	27	16	13	void onCreate(android.os.Bundle)	de.ecspride.InheritedObjects1		
+													
+													
+IntentSink1													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	28	10	7	void onCreate(android.os.Bundle)	de.ecspride.IntentSink1	<android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)>	30	12	9	void onCreate(android.os.Bundle)	de.ecspride.IntentSink1		
+													
+													
+IntentSink2													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	23	15	7	void startIntent(android.view.View)	de.ecspride.IntentSink2	<android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)>	27	21	13	void startIntent(android.view.View)	de.ecspride.IntentSink2		
+													
+													
+IntentSource1													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+													
+													
+JavaThread1													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	31	12	9	void onCreate(android.os.Bundle)	de.ecspride.MainActivity	<android.util.Log: int d(java.lang.String,java.lang.String)>	44	10	3	void run()	de.ecspride.MainActivity$MyThread		
+													
+													
+JavaThread2													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	31	11	8	void onCreate(android.os.Bundle)	de.ecspride.MainActivity	<android.util.Log: int d(java.lang.String,java.lang.String)>	37	10	3	void run()	de.ecspride.MainActivity$1		
+													
+													
+Library2													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	10	8	5	java.lang.String getIMEI(android.content.Context)	de.ecspride.LibClass	<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>	20	12	9	void onCreate(android.os.Bundle)	de.ecspride.MainActivity		
+													
+													
+Lifecycle_EventOrdering1													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+													
+													
+ListAccess1													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+													
+													
+LocationLeak1													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+													
+													
+LocationLeak2													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+<android.location.Location: double getLatitude()>	56	16	3	void onLocationChanged(android.location.Location)	de.ecspride.LocationLeak2	<android.util.Log: int d(java.lang.String,java.lang.String)>	47	36	8	void onResume()	de.ecspride.LocationLeak2		
+<android.location.Location: double getLongitude()>	57	17	4	void onLocationChanged(android.location.Location)	de.ecspride.LocationLeak2	<android.util.Log: int d(java.lang.String,java.lang.String)>	48	42	14	void onResume()	de.ecspride.LocationLeak2		
+<android.location.Location: double getLatitude()>	56	16	3	void onLocationChanged(android.location.Location)	de.ecspride.LocationLeak2	<android.util.Log: int d(java.lang.String,java.lang.String)>	48	42	14	void onResume()	de.ecspride.LocationLeak2		
+<android.location.Location: double getLongitude()>	57	17	4	void onLocationChanged(android.location.Location)	de.ecspride.LocationLeak2	<android.util.Log: int d(java.lang.String,java.lang.String)>	47	36	8	void onResume()	de.ecspride.LocationLeak2		
+													
+													
+LocationLeak3													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+<android.location.Location: double getLongitude()>	17	11	6	void onLocationChanged(android.location.Location)	de.ecspride.MyLocationListener	<android.util.Log: int d(java.lang.String,java.lang.String)>	44	22	8	void onResume()	de.ecspride.LocationLeak3		
+													
+													
+LogNoLeak													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+													
+													
+Loop1													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	17	10	7	void onCreate(android.os.Bundle)	de.ecspride.LoopExample1	<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>	25	17	14	void onCreate(android.os.Bundle)	de.ecspride.LoopExample1		
+													
+													
+Loop2													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	17	10	7	void onCreate(android.os.Bundle)	de.ecspride.LoopExample2	<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>	27	15	12	void onCreate(android.os.Bundle)	de.ecspride.LoopExample2		
+													
+													
+Looper1													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	40	23	20	void onCreate(android.os.Bundle)	de.ecspride.MainActivity	<android.util.Log: int d(java.lang.String,java.lang.String)>	13	13	10	void handleMessage(android.os.Message)	de.ecspride.LooperThread$1		
+													
+													
+Merge1													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+													
+													
+MethodOverride1													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	21	9	6	void attachBaseContext(android.content.Context)	de.ecspride.MethodOverride1	<android.util.Log: int d(java.lang.String,java.lang.String)>	22	10	7	void attachBaseContext(android.content.Context)	de.ecspride.MethodOverride1		
+													
+													
+MultidimensionalArray1													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	26	10	7	void onCreate(android.os.Bundle)	edu.mit.array_slice.MainActivity	<android.util.Log: int i(java.lang.String,java.lang.String)>	32	20	17	void onCreate(android.os.Bundle)	edu.mit.array_slice.MainActivity		
+													
+													
+MultiHandlers1													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+													
+													
+Obfuscation1													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	33	10	7	void onCreate(android.os.Bundle)	de.ecspride.MainActivity	<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>	35	12	9	void onCreate(android.os.Bundle)	de.ecspride.MainActivity		
+													
+													
+ObjectSensitivity1													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+													
+													
+ObjectSensitivity2													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+													
+													
+Ordering1													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+													
+													
+Parcel1													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	40	10	7	void onCreate(android.os.Bundle)	edu.mit.parcel.MainActivity	<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>	69	34	22	void writeParcel(java.lang.String)	edu.mit.parcel.MainActivity		
+													
+													
+PlayStore1													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+													
+													
+PrivateDataLeak1													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+													
+													
+PrivateDataLeak2													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+													
+													
+PrivateDataLeak3													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	33	10	7	void onCreate(android.os.Bundle)	de.ecspride.MainActivity	<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>	58	36	14	void onResume()	de.ecspride.MainActivity		
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	33	10	7	void onCreate(android.os.Bundle)	de.ecspride.MainActivity	<java.io.OutputStream: void write(byte[])>	37	13	10	void onCreate(android.os.Bundle)	de.ecspride.MainActivity		
+													
+													
+PublicAPIField1													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	25	10	7	void onCreate(android.os.Bundle)	edu.mit.public_api_field.MainActivity	<android.util.Log: int i(java.lang.String,java.lang.String)>	30	26	23	void onCreate(android.os.Bundle)	edu.mit.public_api_field.MainActivity		
+													
+													
+PublicAPIField2													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	28	10	7	void onCreate(android.os.Bundle)	edu.mit.icc_intent_class_modeling.MainActivity	<android.content.Intent: android.content.Intent setAction(java.lang.String)>	31	13	10	void onCreate(android.os.Bundle)	edu.mit.icc_intent_class_modeling.MainActivity		
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	28	10	7	void onCreate(android.os.Bundle)	edu.mit.icc_intent_class_modeling.MainActivity	<android.util.Log: int i(java.lang.String,java.lang.String)>	33	15	12	void onCreate(android.os.Bundle)	edu.mit.icc_intent_class_modeling.MainActivity		
+													
+													
+Reflection1													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	20	13	10	void onCreate(android.os.Bundle)	de.ecspride.MainActivity	<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>	23	17	14	void onCreate(android.os.Bundle)	de.ecspride.MainActivity		
+													
+													
+Reflection10													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	35	10	7	void onCreate(android.os.Bundle)	lu.uni.snt.reflection10.MainActivity	<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>	45	23	20	void onCreate(android.os.Bundle)	lu.uni.snt.reflection10.MainActivity		
+													
+													
+Reflection11													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	36	10	7	void onCreate(android.os.Bundle)	lu.uni.snt.reflection11.MainActivity	<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>	32	24	21	void onCreate(android.os.Bundle)	lu.uni.snt.reflection11.InFlowActivity		
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	36	10	7	void onCreate(android.os.Bundle)	lu.uni.snt.reflection11.MainActivity	<android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)>	39	13	10	void onCreate(android.os.Bundle)	lu.uni.snt.reflection11.MainActivity		
+													
+													
+Reflection12													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	34	10	7	void onCreate(android.os.Bundle)	lu.uni.snt.reflection12.MainActivity	<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>	48	24	21	void onCreate(android.os.Bundle)	lu.uni.snt.reflection12.MainActivity		
+													
+													
+Reflection13													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	35	10	7	void onCreate(android.os.Bundle)	lu.uni.snt.reflection13.MainActivity	<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>	57	32	29	void onCreate(android.os.Bundle)	lu.uni.snt.reflection13.MainActivity		
+													
+													
+Reflection2													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	34	13	10	void onCreate(android.os.Bundle)	de.ecspride.MainActivity	<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>	37	17	14	void onCreate(android.os.Bundle)	de.ecspride.MainActivity		
+													
+													
+Reflection3													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	23	10	7	void onCreate(android.os.Bundle)	de.ecspride.MainActivity	<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>	34	25	22	void onCreate(android.os.Bundle)	de.ecspride.MainActivity		
+													
+													
+Reflection4													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	12	13	5	java.lang.String foo(android.content.Context)	de.ecspride.ConcreteClass	<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>	18	7	4	void bar(java.lang.String)	de.ecspride.ConcreteClass		
+													
+													
+Reflection5													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	32	10	7	void onCreate(android.os.Bundle)	lu.uni.snt.reflection5.MainActivity	<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>	39	21	18	void onCreate(android.os.Bundle)	lu.uni.snt.reflection5.MainActivity		
+													
+													
+Reflection6													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	34	10	7	void onCreate(android.os.Bundle)	lu.uni.snt.reflection6.MainActivity	<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>	49	28	25	void onCreate(android.os.Bundle)	lu.uni.snt.reflection6.MainActivity		
+													
+													
+Reflection7													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	34	10	7	void onCreate(android.os.Bundle)	lu.uni.snt.reflection7.MainActivity	<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>	48	30	27	void onCreate(android.os.Bundle)	lu.uni.snt.reflection7.MainActivity		
+													
+													
+Reflection8													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	34	14	11	void onCreate(android.os.Bundle)	lu.uni.snt.reflection8.MainActivity	<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>	37	18	15	void onCreate(android.os.Bundle)	lu.uni.snt.reflection8.MainActivity		
+													
+													
+Reflection9													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	36	10	7	void onCreate(android.os.Bundle)	lu.uni.snt.reflection9.MainActivity	<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>	48	22	19	void onCreate(android.os.Bundle)	lu.uni.snt.reflection9.MainActivity		
+													
+													
+RegisterGlobal1													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+													
+													
+RegisterGlobal2													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+													
+													
+SendSMS													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	23	14	9	void onClick(android.view.View)	org.cert.sendsms.Button1Listener	<android.util.Log: int i(java.lang.String,java.lang.String)>	25	20	15	void onClick(android.view.View)	org.cert.sendsms.Button1Listener		
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	23	14	9	void onClick(android.view.View)	org.cert.sendsms.Button1Listener	<android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)>	24	15	10	void onClick(android.view.View)	org.cert.sendsms.Button1Listener		
+													
+													
+Serialization1													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	33	10	7	void onCreate(android.os.Bundle)	edu.mit.serialization.MainActivity	<android.util.Log: int i(java.lang.String,java.lang.String)>	49	28	25	void onCreate(android.os.Bundle)	edu.mit.serialization.MainActivity		
+													
+													
+ServiceCommunication1													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	71	36	8	void sayHello(android.view.View)	edu.mit.icc_service_messages.ActivityMessenger	<android.util.Log: int i(java.lang.String,java.lang.String)>	48	17	12	void handleMessage(android.os.Message)	edu.mit.icc_service_messages.MessengerService$IncomingHandler		
+													
+													
+ServiceLifecycle1													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+													
+													
+ServiceLifecycle2													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	16	16	9	int onStartCommand(android.content.Intent,int,int)	edu.mit.service_lifecycle.MyService	<android.util.Log: int i(java.lang.String,java.lang.String)>	13	13	6	int onStartCommand(android.content.Intent,int,int)	edu.mit.service_lifecycle.MyService		
+													
+													
+SharedPreferenceChanged1													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	28	10	7	void onCreate(android.os.Bundle)	edu.mit.event_context_shared_pref_listener.MainActivity	<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>	35	14	11	void onCreate(android.os.Bundle)	edu.mit.event_context_shared_pref_listener.MainActivity		
+													
+													
+SharedPreferences1													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	28	10	7	void onCreate(android.os.Bundle)	edu.mit.shared_preferences.MainActivity	<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>	33	13	10	void onCreate(android.os.Bundle)	edu.mit.shared_preferences.MainActivity		
+													
+													
+Singletons1													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+													
+													
+SourceCodeSpecific1													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	31	34	19	void onCreate(android.os.Bundle)	de.ecspride.MainActivity	<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>	40	14	11	void sendSMS(java.util.Set,java.lang.String)	de.ecspride.MainActivity		
+													
+													
+StartActivityForResult1													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+													
+													
+StartProcessWithSecret1													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	28	10	7	void onCreate(android.os.Bundle)	edu.mit.non_sink_argument_flow.MainActivity	<java.lang.ProcessBuilder: java.lang.ProcessBuilder command(java.lang.String[])>	32	17	14	void onCreate(android.os.Bundle)	edu.mit.non_sink_argument_flow.MainActivity		
+													
+													
+StaticInitialization1													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	16	10	7	void onCreate(android.os.Bundle)	de.ecspride.MainActivity	<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>	23	3	3	void <clinit>()	de.ecspride.MainActivity$StaticInitClass1		
+													
+													
+StaticInitialization2													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+													
+													
+StaticInitialization3													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	40	5	5	void <clinit>()	edu.mit.clinit.Test	<android.util.Log: int i(java.lang.String,java.lang.String)>	33	13	10	void onCreate(android.os.Bundle)	edu.mit.clinit.MainActivity		
+													
+													
+StringFormatter1													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	26	10	7	void onCreate(android.os.Bundle)	edu.mit.string_formatter.MainActivity	<android.util.Log: int i(java.lang.String,java.lang.String)>	33	20	17	void onCreate(android.os.Bundle)	edu.mit.string_formatter.MainActivity		
+													
+													
+StringPatternMatching1													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	30	10	7	void onCreate(android.os.Bundle)	edu.mit.pattern_matcher.MainActivity	<android.util.Log: int i(java.lang.String,java.lang.String)>	37	16	13	void onCreate(android.os.Bundle)	edu.mit.pattern_matcher.MainActivity		
+													
+													
+StringToCharArray1													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	27	10	7	void onCreate(android.os.Bundle)	edu.mit.string_to_char.MainActivity	<android.util.Log: int i(java.lang.String,java.lang.String)>	36	19	16	void onCreate(android.os.Bundle)	edu.mit.string_to_char.MainActivity		
+													
+													
+StringToOutputStream1													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	28	10	7	void onCreate(android.os.Bundle)	edu.mit.outputstream.MainActivity	<android.util.Log: int i(java.lang.String,java.lang.String)>	36	17	14	void onCreate(android.os.Bundle)	edu.mit.outputstream.MainActivity		
+													
+													
+UnreachableCode													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+													
+													
+Unregister1													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+													
+													
+UnresolvableIntent1													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	38	15	7	void onCreate(android.os.Bundle)	edu.mit.icc_unresolvable_intent.OutFlowActivity	<android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)>	41	19	11	void onCreate(android.os.Bundle)	edu.mit.icc_unresolvable_intent.OutFlowActivity		
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	38	15	7	void onCreate(android.os.Bundle)	edu.mit.icc_unresolvable_intent.OutFlowActivity	<android.util.Log: int i(java.lang.String,java.lang.String)>	18	10	7	void onCreate(android.os.Bundle)	edu.mit.icc_unresolvable_intent.InFlowActivity		
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	38	15	7	void onCreate(android.os.Bundle)	edu.mit.icc_unresolvable_intent.OutFlowActivity	<android.util.Log: int i(java.lang.String,java.lang.String)>	21	9	6	void onCreate(android.os.Bundle)	edu.mit.icc_unresolvable_intent.InFlowActivity2		
+													
+													
+VirtualDispatch1													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	34	29	7	void onCreate(android.os.Bundle)	de.ecspride.VirtualDispatch1	<android.util.Log: int i(java.lang.String,java.lang.String)>	13	7	3	void logData()	de.ecspride.DataLeak		
+													
+													
+VirtualDispatch2													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>	55	6	3	java.lang.String f()	edu.mit.dynamic_dispatch.B	<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>	35	21	18	void onCreate(android.os.Bundle)	edu.mit.dynamic_dispatch.MainActivity		
+													
+													
+VirtualDispatch3													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													
+													
+													
+VirtualDispatch4													
+													
+MutaFlow found the following flows. Such without a number indicate flows, where a value was refound in the sink: 													

@@ -1,0 +1,5 @@
+--------- beginning of main
+--------- beginning of system
+05-02 22:29:05.715  8062  8062 I MyOwnTag: <MutaFlowTag>d7ed7f07-63ba-4db1-a3ec-8b26ebc2e8e5<MutaFlowTag><android.telephony.TelephonyManager: java.lang.String getDeviceId()>	27	227	7	void onCreate(android.os.Bundle)	de.ecspride.ImplicitFlow1<MutaFlowTag>null
+05-02 22:29:05.720  8062  8062 I MyOwnTag: <MutaFlowTag>d7ed7f07-63ba-4db1-a3ec-8b26ebc2e8e5<MutaFlowTag><android.util.Log: int i(java.lang.String,java.lang.String)>	77	219	3	void writeToLog(java.lang.String)	de.ecspride.ImplicitFlow1<MutaFlowTag>INFO<MutaFlowTag>
+--------- beginning of crash

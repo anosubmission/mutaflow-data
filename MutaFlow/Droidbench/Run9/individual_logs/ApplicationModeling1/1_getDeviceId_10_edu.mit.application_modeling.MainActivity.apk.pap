@@ -1,0 +1,10 @@
+--------- beginning of main
+--------- beginning of system
+05-04 20:29:57.341 18219 18219 I MyOwnTag: <MutaFlowTag>2b0f8001-5240-460a-aac2-ad374c7f7578<MutaFlowTag><android.telephony.TelephonyManager: java.lang.String getDeviceId()>	27	10	7	void onCreate(android.os.Bundle)	edu.mit.application_modeling.MainActivity<MutaFlowTag>000000020000000
+05-04 20:30:07.095 18219 18219 I MyOwnTag: <MutaFlowTag>2b0f8001-5240-460a-aac2-ad374c7f7578<MutaFlowTag><android.telephony.TelephonyManager: java.lang.String getDeviceId()>	27	10	7	void onCreate(android.os.Bundle)	edu.mit.application_modeling.MainActivity<MutaFlowTag>000000030000000
+05-04 20:30:11.469 18219 18219 I MyOwnTag: <MutaFlowTag>2b0f8001-5240-460a-aac2-ad374c7f7578<MutaFlowTag><android.telephony.TelephonyManager: java.lang.String getDeviceId()>	27	10	7	void onCreate(android.os.Bundle)	edu.mit.application_modeling.MainActivity<MutaFlowTag>000000010000000
+05-04 20:30:11.984 18219 18219 I MyOwnTag: <MutaFlowTag>2b0f8001-5240-460a-aac2-ad374c7f7578<MutaFlowTag><android.telephony.TelephonyManager: java.lang.String getDeviceId()>	27	10	7	void onCreate(android.os.Bundle)	edu.mit.application_modeling.MainActivity<MutaFlowTag>000000060000000
+05-04 20:30:18.121 18219 18219 I MyOwnTag: <MutaFlowTag>2b0f8001-5240-460a-aac2-ad374c7f7578<MutaFlowTag><android.telephony.TelephonyManager: java.lang.String getDeviceId()>	27	10	7	void onCreate(android.os.Bundle)	edu.mit.application_modeling.MainActivity<MutaFlowTag>000000080000000
+05-04 20:30:20.523 18219 18219 I MyOwnTag: <MutaFlowTag>2b0f8001-5240-460a-aac2-ad374c7f7578<MutaFlowTag><android.telephony.TelephonyManager: java.lang.String getDeviceId()>	27	10	7	void onCreate(android.os.Bundle)	edu.mit.application_modeling.MainActivity<MutaFlowTag>000000010000000
+05-04 20:30:23.939 18219 18219 I MyOwnTag: <MutaFlowTag>2b0f8001-5240-460a-aac2-ad374c7f7578<MutaFlowTag><android.telephony.TelephonyManager: java.lang.String getDeviceId()>	27	10	7	void onCreate(android.os.Bundle)	edu.mit.application_modeling.MainActivity<MutaFlowTag>000000010000000
+--------- beginning of crash

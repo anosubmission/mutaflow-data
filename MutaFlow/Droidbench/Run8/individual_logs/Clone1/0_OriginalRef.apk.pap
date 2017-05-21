@@ -1,0 +1,5 @@
+--------- beginning of main
+--------- beginning of system
+05-04 13:04:46.606 18435 18435 I MyOwnTag: <MutaFlowTag>71b27322-96a7-43fa-9062-bc721800cb04<MutaFlowTag><android.telephony.TelephonyManager: java.lang.String getDeviceId()>	29	10	7	void onCreate(android.os.Bundle)	edu.mit.clone.MainActivity
+05-04 13:04:46.606 18435 18435 I MyOwnTag: <MutaFlowTag>71b27322-96a7-43fa-9062-bc721800cb04<MutaFlowTag><android.util.Log: int i(java.lang.String,java.lang.String)>	35	18	15	void onCreate(android.os.Bundle)	edu.mit.clone.MainActivity<MutaFlowTag>DroidBench
+--------- beginning of crash

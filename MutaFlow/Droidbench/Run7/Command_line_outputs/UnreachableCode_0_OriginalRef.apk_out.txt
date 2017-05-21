@@ -1,0 +1,2625 @@
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Trying 127.0.0.1...
+Connected to localhost.
+Escape character is '^]'.
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+	pkg: /data/local/tmp/0_OriginalRef.apk
+Android Console: Authentication required
+Android Console: type 'auth <auth_token>' to authenticate
+Android Console: you can find your <auth_token> in 
+'/home/bj/.emulator_console_auth_token'
+OK
+p[K[Dpo[K[D[Dpow[K[D[D[Dpowe[K[D[D[D[Dpower[K[D[D[D[D[Dpower [K[D[D[D[D[D[Dpower c[K[D[D[D[D[D[D[Dpower ca[K[D[D[D[D[D[D[D[Dpower cap[K[D[D[D[D[D[D[D[D[Dpower capa[K[D[D[D[D[D[D[D[D[D[Dpower capac[K[D[D[D[D[D[D[D[D[D[D[Dpower capaci[K[D[D[D[D[D[D[D[D[D[D[D[Dpower capacit[K[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity[K[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity [K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 1[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 10[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 100[K
+KO: unknown command, try 'help'
+p[K[Dpo[K[D[Dpow[K[D[D[Dpowe[K[D[D[D[Dpower[K[D[D[D[D[Dpower [K[D[D[D[D[D[Dpower c[K[D[D[D[D[D[D[Dpower ca[K[D[D[D[D[D[D[D[Dpower cap[K[D[D[D[D[D[D[D[D[Dpower capa[K[D[D[D[D[D[D[D[D[D[Dpower capac[K[D[D[D[D[D[D[D[D[D[D[Dpower capaci[K[D[D[D[D[D[D[D[D[D[D[D[Dpower capacit[K[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity[K[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity [K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 1[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 10[K
+KO: unknown command, try 'help'
+Success
+Operation not allowed: java.lang.SecurityException: Package de.ecspride has not requested permission android.permission.READ_SMS
+UnreachableCode
+:Monkey: seed=1000 count=10000
+:AllowPackage: de.ecspride
+:IncludeCategory: android.intent.category.LAUNCHER
+:IncludeCategory: android.intent.category.MONKEY
+// Event percentages:
+//   0: 15.0%
+//   1: 10.0%
+//   2: 2.0%
+//   3: 15.0%
+//   4: -0.0%
+//   5: -0.0%
+//   6: 25.0%
+//   7: 15.0%
+//   8: 2.0%
+//   9: 2.0%
+//   10: 1.0%
+//   11: 13.0%
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=de.ecspride/.UnreachableCode;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=de.ecspride/.UnreachableCode } in package de.ecspride
+:Sending Touch (ACTION_DOWN): 0:(876.0,1684.0)
+:Sending Touch (ACTION_UP): 0:(902.46747,1661.4387)
+:Sending Touch (ACTION_DOWN): 0:(172.0,1223.0)
+    // Injection Failed
+:Sending Touch (ACTION_UP): 0:(173.65752,1223.0057)
+    // Injection Failed
+Trying 127.0.0.1...
+Connected to localhost.
+Escape character is '^]'.
+Android Console: Authentication required
+Android Console: type 'auth <auth_token>' to authenticate
+Android Console: you can find your <auth_token> in 
+'/home/bj/.emulator_console_auth_token'
+OK
+p[K[Dpo[K[D[Dpow[K[D[D[Dpowe[K[D[D[D[Dpower[K[D[D[D[D[Dpower [K[D[D[D[D[D[Dpower c[K[D[D[D[D[D[D[Dpower ca[K[D[D[D[D[D[D[D[Dpower cap[K[D[D[D[D[D[D[D[D[Dpower capa[K[D[D[D[D[D[D[D[D[D[Dpower capac[K[D[D[D[D[D[D[D[D[D[D[Dpower capaci[K[D[D[D[D[D[D[D[D[D[D[D[Dpower capacit[K[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity[K[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity [K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 1[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 10[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 100[K
+KO: unknown command, try 'help'
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=de.ecspride/.UnreachableCode;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=de.ecspride/.UnreachableCode } in package de.ecspride
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,4.0)
+:Sending Touch (ACTION_DOWN): 0:(387.0,1409.0)
+:Sending Touch (ACTION_UP): 0:(390.03946,1407.4384)
+:Sending Touch (ACTION_DOWN): 0:(466.0,640.0)
+:Sending Touch (ACTION_UP): 0:(425.2828,671.216)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-1.0)
+:Sending Touch (ACTION_DOWN): 0:(5.0,1210.0)
+:Sending Touch (ACTION_UP): 0:(15.715435,1209.2615)
+:Sending Touch (ACTION_DOWN): 0:(376.0,359.0)
+:Sending Touch (ACTION_UP): 0:(396.78586,384.71213)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,4.0)
+:Sending Touch (ACTION_DOWN): 0:(247.0,1036.0)
+:Sending Touch (ACTION_UP): 0:(246.3602,1038.824)
+:Sending Touch (ACTION_DOWN): 0:(1059.0,1088.0)
+:Sending Touch (ACTION_UP): 0:(1061.2198,1094.0178)
+:Sending Touch (ACTION_DOWN): 0:(511.0,1254.0)
+:Sending Touch (ACTION_UP): 0:(488.05945,1255.3915)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,3.0)
+    //[calendar_time:2017-05-03 22:29:17.969  system_uptime:13171076]
+    // Sending event #100
+    // Injection Failed
+p[K[Dpo[K[D[Dpow[K[D[D[Dpowe[K[D[D[D[Dpower[K[D[D[D[D[Dpower [K[D[D[D[D[D[Dpower c[K[D[D[D[D[D[D[Dpower ca[K[D[D[D[D[D[D[D[Dpower cap[K[D[D[D[D[D[D[D[D[Dpower capa[K[D[D[D[D[D[D[D[D[D[Dpower capac[K[D[D[D[D[D[D[D[D[D[D[Dpower capaci[K[D[D[D[D[D[D[D[D[D[D[D[Dpower capacit[K[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity[K[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity [K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 1[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 10[K
+KO: unknown command, try 'help'
+:Sending Trackball (ACTION_MOVE): 0:(4.0,0.0)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=de.ecspride/.UnreachableCode;end
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(532.0,105.0)
+:Sending Touch (ACTION_UP): 0:(546.7557,90.9559)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(375.0,1119.0)
+    //[calendar_time:2017-05-03 22:29:18.319  system_uptime:13171426]
+    // Sending event #200
+:Sending Touch (ACTION_UP): 0:(373.80206,1083.4492)
+:Sending Touch (ACTION_DOWN): 0:(223.0,632.0)
+:Sending Touch (ACTION_UP): 0:(214.88182,629.07574)
+:Sending Touch (ACTION_DOWN): 0:(759.0,632.0)
+:Sending Touch (ACTION_UP): 0:(776.2017,738.6602)
+:Sending Touch (ACTION_DOWN): 0:(805.0,1695.0)
+:Sending Touch (ACTION_UP): 0:(751.6157,1758.1327)
+:Sending Touch (ACTION_DOWN): 0:(583.0,702.0)
+:Sending Touch (ACTION_UP): 0:(575.4605,675.7692)
+:Sending Touch (ACTION_DOWN): 0:(226.0,1400.0)
+:Sending Touch (ACTION_UP): 0:(226.16568,1398.5045)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-5.0)
+:Sending Touch (ACTION_DOWN): 0:(576.0,1642.0)
+:Sending Touch (ACTION_UP): 0:(573.3063,1673.7833)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-4.0)
+:Sending Touch (ACTION_DOWN): 0:(150.0,82.0)
+:Sending Touch (ACTION_UP): 0:(136.58412,76.71119)
+:Sending Touch (ACTION_DOWN): 0:(595.0,1329.0)
+:Sending Touch (ACTION_UP): 0:(591.8541,1346.228)
+:Sending Touch (ACTION_DOWN): 0:(579.0,944.0)
+:Sending Touch (ACTION_UP): 0:(577.6276,942.5118)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,4.0)
+:Sending Touch (ACTION_DOWN): 0:(607.0,1079.0)
+    //[calendar_time:2017-05-03 22:29:18.418  system_uptime:13171524]
+    // Sending event #300
+:Sending Touch (ACTION_UP): 0:(600.5517,1058.7704)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-4.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(1036.0,1323.0)
+:Sending Touch (ACTION_UP): 0:(1034.6403,1322.6475)
+:Sending Touch (ACTION_DOWN): 0:(176.0,1756.0)
+:Sending Touch (ACTION_UP): 0:(227.18475,1749.6067)
+:Sending Touch (ACTION_DOWN): 0:(78.0,1052.0)
+:Sending Touch (ACTION_UP): 0:(75.65133,1056.4895)
+:Sending Touch (ACTION_DOWN): 0:(601.0,551.0)
+:Sending Touch (ACTION_UP): 0:(590.7859,560.5001)
+:Sending Touch (ACTION_DOWN): 0:(354.0,1695.0)
+:Sending Touch (ACTION_UP): 0:(369.03598,1696.5215)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-5.0)
+:Sending Flip keyboardOpen=false
+Got IOException performing flipjava.io.IOException: write failed: EINVAL (Invalid argument)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-5.0)
+:Sending Touch (ACTION_DOWN): 0:(434.0,584.0)
+:Sending Touch (ACTION_UP): 0:(434.26718,578.70557)
+:Sending Touch (ACTION_DOWN): 0:(982.0,1403.0)
+:Sending Touch (ACTION_UP): 0:(981.27655,1392.4197)
+:Sending Touch (ACTION_DOWN): 0:(27.0,701.0)
+:Sending Touch (ACTION_UP): 0:(96.14123,640.7303)
+    //[calendar_time:2017-05-03 22:29:18.500  system_uptime:13171607]
+    // Sending event #400
+    //[calendar_time:2017-05-03 22:29:18.500  system_uptime:13171607]
+    // Sending event #400
+:Sending Touch (ACTION_DOWN): 0:(972.0,1720.0)
+:Sending Touch (ACTION_UP): 0:(979.57007,1724.3789)
+:Sending Touch (ACTION_DOWN): 0:(530.0,770.0)
+:Sending Touch (ACTION_UP): 0:(525.73315,769.74817)
+:Sending Touch (ACTION_DOWN): 0:(772.0,39.0)
+:Sending Touch (ACTION_UP): 0:(770.79596,156.18459)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-1.0)
+:Sending Touch (ACTION_DOWN): 0:(261.0,1451.0)
+:Sending Touch (ACTION_UP): 0:(314.80087,1406.8955)
+:Sending Flip keyboardOpen=true
+Got IOException performing flipjava.io.IOException: write failed: EINVAL (Invalid argument)
+    // Injection Failed
+:Sending Touch (ACTION_DOWN): 0:(1079.0,544.0)
+:Sending Touch (ACTION_UP): 0:(1077.3096,537.08154)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-1.0)
+:Sending Touch (ACTION_DOWN): 0:(439.0,1472.0)
+:Sending Touch (ACTION_UP): 0:(348.94446,1467.614)
+:Sending Touch (ACTION_DOWN): 0:(207.0,997.0)
+:Sending Touch (ACTION_UP): 0:(251.63728,1012.81213)
+    //[calendar_time:2017-05-03 22:29:18.599  system_uptime:13171706]
+    // Sending event #500
+    //[calendar_time:2017-05-03 22:29:18.599  system_uptime:13171707]
+    // Sending event #500
+:Sending Touch (ACTION_DOWN): 0:(449.0,506.0)
+:Sending Touch (ACTION_UP): 0:(442.18195,517.5887)
+:Sending Touch (ACTION_DOWN): 0:(951.0,1346.0)
+:Sending Touch (ACTION_UP): 0:(941.9875,1349.2194)
+:Sending Touch (ACTION_DOWN): 0:(315.0,225.0)
+:Sending Touch (ACTION_UP): 0:(316.8445,218.64165)
+:Sending Touch (ACTION_DOWN): 0:(394.0,1475.0)
+:Sending Touch (ACTION_UP): 0:(392.82663,1471.1758)
+:Sending Touch (ACTION_DOWN): 0:(765.0,1527.0)
+:Sending Touch (ACTION_UP): 0:(763.45856,1537.1611)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(698.0,1750.0)
+:Sending Touch (ACTION_UP): 0:(712.8371,1753.9092)
+:Sending Touch (ACTION_DOWN): 0:(825.0,210.0)
+:Sending Touch (ACTION_UP): 0:(764.77203,266.2339)
+:Sending Touch (ACTION_DOWN): 0:(131.0,954.0)
+:Sending Touch (ACTION_UP): 0:(126.08591,941.93616)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,4.0)
+:Sending Touch (ACTION_DOWN): 0:(590.0,1376.0)
+:Sending Touch (ACTION_UP): 0:(590.16504,1375.4429)
+:Sending Touch (ACTION_DOWN): 0:(504.0,1543.0)
+:Sending Touch (ACTION_UP): 0:(595.29834,1583.9185)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=de.ecspride/.UnreachableCode;end
+:Sending Touch (ACTION_DOWN): 0:(824.0,500.0)
+    //[calendar_time:2017-05-03 22:29:18.716  system_uptime:13171823]
+    // Sending event #600
+:Sending Touch (ACTION_UP): 0:(867.7646,499.72833)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=de.ecspride/.UnreachableCode;end
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(847.0,1668.0)
+:Sending Touch (ACTION_UP): 0:(788.6511,1573.5115)
+:Sending Touch (ACTION_DOWN): 0:(728.0,1369.0)
+:Sending Touch (ACTION_UP): 0:(740.7002,1406.6844)
+:Sending Touch (ACTION_DOWN): 0:(802.0,107.0)
+:Sending Touch (ACTION_UP): 0:(805.8409,108.23265)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,3.0)
+:Sending Touch (ACTION_DOWN): 0:(745.0,653.0)
+:Sending Touch (ACTION_UP): 0:(770.11554,720.20685)
+:Sending Touch (ACTION_DOWN): 0:(704.0,568.0)
+:Sending Touch (ACTION_UP): 0:(701.6235,578.11694)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=de.ecspride/.UnreachableCode;end
+:Sending Touch (ACTION_DOWN): 0:(798.0,272.0)
+:Sending Touch (ACTION_UP): 0:(792.3293,269.17633)
+:Sending Touch (ACTION_DOWN): 0:(56.0,692.0)
+:Sending Touch (ACTION_UP): 0:(0.0,718.51556)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-2.0)
+    //[calendar_time:2017-05-03 22:29:18.779  system_uptime:13171886]
+    // Sending event #700
+:Sending Trackball (ACTION_MOVE): 0:(1.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-4.0)
+:Sending Touch (ACTION_DOWN): 0:(0.0,535.0)
+:Sending Touch (ACTION_UP): 0:(1.502567,534.9134)
+:Sending Touch (ACTION_DOWN): 0:(620.0,775.0)
+:Sending Touch (ACTION_UP): 0:(613.90405,763.1201)
+:Sending Touch (ACTION_DOWN): 0:(894.0,349.0)
+:Sending Touch (ACTION_UP): 0:(898.802,355.62466)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-2.0)
+:Sending Touch (ACTION_DOWN): 0:(382.0,1550.0)
+:Sending Touch (ACTION_UP): 0:(381.02448,1551.0155)
+:Sending Touch (ACTION_DOWN): 0:(1008.0,1037.0)
+:Sending Touch (ACTION_UP): 0:(1019.94525,1037.4288)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-5.0)
+    //[calendar_time:2017-05-03 22:29:18.868  system_uptime:13171975]
+    // Sending event #800
+:Sending Touch (ACTION_DOWN): 0:(457.0,927.0)
+:Sending Touch (ACTION_UP): 0:(448.8761,926.52124)
+:Sending Touch (ACTION_DOWN): 0:(282.0,343.0)
+:Sending Touch (ACTION_UP): 0:(314.2629,349.77542)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-5.0)
+:Sending Touch (ACTION_DOWN): 0:(967.0,1324.0)
+:Sending Touch (ACTION_UP): 0:(966.39154,1309.3401)
+:Sending Touch (ACTION_DOWN): 0:(274.0,1648.0)
+:Sending Touch (ACTION_UP): 0:(211.63292,1509.8385)
+:Sending Touch (ACTION_DOWN): 0:(695.0,453.0)
+:Sending Touch (ACTION_UP): 0:(691.59296,440.89923)
+:Sending Touch (ACTION_DOWN): 0:(700.0,1002.0)
+:Sending Touch (ACTION_UP): 0:(695.8861,996.62476)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-1.0)
+:Sending Touch (ACTION_DOWN): 0:(645.0,226.0)
+:Sending Touch (ACTION_UP): 0:(654.8783,223.1221)
+:Sending Touch (ACTION_DOWN): 0:(844.0,211.0)
+:Sending Touch (ACTION_UP): 0:(852.0952,212.85265)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(355.0,311.0)
+:Sending Touch (ACTION_UP): 0:(376.162,330.06088)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,3.0)
+    //[calendar_time:2017-05-03 22:29:18.933  system_uptime:13172039]
+    // Sending event #900
+:Sending Touch (ACTION_DOWN): 0:(186.0,365.0)
+:Sending Touch (ACTION_UP): 0:(185.13216,364.20316)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,1.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-2.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(500.0,1015.0)
+:Sending Touch (ACTION_UP): 0:(496.2572,1016.9292)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-4.0)
+:Sending Touch (ACTION_DOWN): 0:(626.0,36.0)
+:Sending Touch (ACTION_UP): 0:(570.176,0.0)
+:Sending Touch (ACTION_DOWN): 0:(746.0,133.0)
+:Sending Touch (ACTION_UP): 0:(740.604,126.84002)
+:Sending Touch (ACTION_DOWN): 0:(1069.0,384.0)
+:Sending Touch (ACTION_UP): 0:(1063.4297,391.8351)
+:Sending Touch (ACTION_DOWN): 0:(249.0,1722.0)
+:Sending Touch (ACTION_UP): 0:(252.1847,1732.9315)
+:Sending Touch (ACTION_DOWN): 0:(1038.0,1745.0)
+:Sending Touch (ACTION_UP): 0:(1041.6543,1751.8032)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,2.0)
+    //[calendar_time:2017-05-03 22:29:19.013  system_uptime:13172120]
+    // Sending event #1000
+:Sending Touch (ACTION_DOWN): 0:(1070.0,647.0)
+:Sending Touch (ACTION_UP): 0:(1072.7456,661.98083)
+:Sending Touch (ACTION_DOWN): 0:(673.0,980.0)
+:Sending Touch (ACTION_UP): 0:(611.4571,1023.76447)
+:Sending Touch (ACTION_DOWN): 0:(846.0,616.0)
+:Sending Touch (ACTION_UP): 0:(847.2085,621.7993)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(1059.0,986.0)
+:Sending Touch (ACTION_UP): 0:(1061.5161,990.3669)
+:Sending Touch (ACTION_DOWN): 0:(488.0,62.0)
+e[K:Sending Touch (ACTION_UP): 0:(480.73392,48.39081)
+Trying 127.0.0.1...
+Connected to localhost.
+Escape character is '^]'.
+Android Console: Authentication required
+:Sending Flip keyboardOpen=false
+Got IOException performing flipjava.io.IOException: write failed: EINVAL (Invalid argument)
+    // Injection Failed
+:Sending Touch (ACTION_DOWN): 0:(462.0,34.0)
+:Sending Touch (ACTION_UP): 0:(461.31744,50.10154)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,2.0)
+Android Console: type 'auth <auth_token>' to authenticate
+Android Console: you can find your <auth_token> in 
+'/home/bj/.emulator_console_auth_token'
+OK
+p[K[Dpo[K[D[Dpow[K[D[D[Dpowe[K[D[D[D[Dpower[K[D[D[D[D[Dpower [K[D[D[D[D[D[Dpower c[K[D[D[D[D[D[D[Dpower ca[K[D[D[D[D[D[D[D[Dpower cap[K[D[D[D[D[D[D[D[D[Dpower capa[K[D[D[D[D[D[D[D[D[D[Dpower capac[K[D[D[D[D[D[D[D[D[D[D[Dpower capaci[K[D[D[D[D[D[D[D[D[D[D[D[Dpower capacit[K[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity[K[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity [K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 1[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 10[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 100[K
+KO: unknown command, try 'help'
+:Sending Touch (ACTION_DOWN): 0:(1023.0,107.0)
+:Sending Touch (ACTION_UP): 0:(956.0875,54.25159)
+    //[calendar_time:2017-05-03 22:29:19.118  system_uptime:13172225]
+    // Sending event #1100
+    //[calendar_time:2017-05-03 22:29:19.118  system_uptime:13172225]
+    // Sending event #1100
+:Sending Trackball (ACTION_MOVE): 0:(1.0,3.0)
+:Sending Touch (ACTION_DOWN): 0:(712.0,1041.0)
+:Sending Touch (ACTION_UP): 0:(648.2538,1009.8585)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-3.0)
+:Sending Touch (ACTION_DOWN): 0:(62.0,1715.0)
+:Sending Touch (ACTION_UP): 0:(70.260506,1718.3699)
+:Sending Touch (ACTION_DOWN): 0:(6.0,1386.0)
+:Sending Touch (ACTION_UP): 0:(16.779644,1380.028)
+:Sending Touch (ACTION_DOWN): 0:(472.0,91.0)
+:Sending Touch (ACTION_UP): 0:(472.3833,96.26976)
+:Sending Touch (ACTION_DOWN): 0:(145.0,676.0)
+:Sending Touch (ACTION_UP): 0:(140.72893,653.9107)
+:Sending Touch (ACTION_DOWN): 0:(1016.0,1044.0)
+:Sending Touch (ACTION_UP): 0:(1052.9882,1035.8293)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(113.0,1129.0)
+:Sending Touch (ACTION_UP): 0:(121.35399,1132.0823)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-1.0)
+:Sending Touch (ACTION_DOWN): 0:(647.0,1401.0)
+:Sending Touch (ACTION_UP): 0:(745.7335,1292.6703)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,4.0)
+    //[calendar_time:2017-05-03 22:29:19.207  system_uptime:13172313]
+    // Sending event #1200
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-2.0)
+:Sending Touch (ACTION_DOWN): 0:(1013.0,217.0)
+:Sending Touch (ACTION_UP): 0:(1010.1739,199.9701)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-2.0)
+:Sending Touch (ACTION_DOWN): 0:(108.0,1375.0)
+:Sending Touch (ACTION_UP): 0:(150.68877,1334.707)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(255.0,1441.0)
+:Sending Touch (ACTION_UP): 0:(267.44736,1444.3524)
+:Sending Touch (ACTION_DOWN): 0:(834.0,209.0)
+:Sending Touch (ACTION_UP): 0:(790.32196,176.51665)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,1.0)
+    //[calendar_time:2017-05-03 22:29:19.328  system_uptime:13172435]
+    // Sending event #1300
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-2.0)
+:Sending Touch (ACTION_DOWN): 0:(614.0,118.0)
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+:Sending Touch (ACTION_UP): 0:(617.9894,67.47213)
+    // Injection Failed
+:Sending Touch (ACTION_DOWN): 0:(53.0,1306.0)
+    // Injection Failed
+:Sending Touch (ACTION_UP): 0:(44.050926,1305.8237)
+    // Injection Failed
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=de.ecspride/.UnreachableCode;end
+Events injected: 1
+## Network stats: elapsed time=59ms (0ms mobile, 0ms wifi, 59ms not connected)
+:Sending Touch (ACTION_DOWN): 0:(500.0,82.0)
+:Sending Touch (ACTION_UP): 0:(532.2576,74.82895)
+:Sending Touch (ACTION_DOWN): 0:(375.0,924.0)
+:Sending Touch (ACTION_UP): 0:(310.11713,979.7641)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(599.0,1238.0)
+:Sending Touch (ACTION_UP): 0:(599.44763,1255.5454)
+p[K[Dpo[K[D[Dpow[K[D[D[Dpowe[K[D[D[D[Dpower[K[D[D[D[D[Dpower [K[D[D[D[D[D[Dpower c[K[D[D[D[D[D[D[Dpower ca[K[D[D[D[D[D[D[D[Dpower cap[K[D[D[D[D[D[D[D[D[Dpower capa[K[D[D[D[D[D[D[D[D[D[Dpower capac[K[D[D[D[D[D[D[D[D[D[D[Dpower capaci[K[D[D[D[D[D[D[D[D[D[D[D[Dpower capacit[K[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity[K[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity [K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 1[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 10[K
+KO: unknown command, try 'help'
+:Sending Touch (ACTION_DOWN): 0:(628.0,1765.0)
+    //[calendar_time:2017-05-03 22:29:20.069  system_uptime:13173176]
+    // Sending event #1400
+:Sending Touch (ACTION_UP): 0:(647.8253,1722.9978)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(184.0,880.0)
+:Sending Touch (ACTION_UP): 0:(192.89929,872.93005)
+:Sending Touch (ACTION_DOWN): 0:(549.0,67.0)
+:Sending Touch (ACTION_UP): 0:(556.4805,0.0)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=de.ecspride/.UnreachableCode;end
+:Sending Touch (ACTION_DOWN): 0:(973.0,1420.0)
+:Sending Touch (ACTION_UP): 0:(960.65094,1419.0614)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,4.0)
+:Sending Touch (ACTION_DOWN): 0:(1065.0,506.0)
+:Sending Touch (ACTION_UP): 0:(1054.1494,478.64047)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-4.0)
+:Sending Touch (ACTION_DOWN): 0:(477.0,1000.0)
+:Sending Touch (ACTION_UP): 0:(481.0152,994.7565)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,4.0)
+:Sending Touch (ACTION_DOWN): 0:(351.0,698.0)
+    //[calendar_time:2017-05-03 22:29:20.338  system_uptime:13173445]
+    // Sending event #1500
+:Sending Touch (ACTION_UP): 0:(350.0019,693.0258)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(12.0,584.0)
+:Sending Touch (ACTION_UP): 0:(0.0,700.1166)
+:Sending Touch (ACTION_DOWN): 0:(420.0,238.0)
+:Sending Touch (ACTION_UP): 0:(431.33392,218.77109)
+:Sending Touch (ACTION_DOWN): 0:(992.0,1772.0)
+:Sending Touch (ACTION_UP): 0:(981.87775,1776.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-1.0)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=de.ecspride/.UnreachableCode;end
+:Sending Touch (ACTION_DOWN): 0:(813.0,313.0)
+:Sending Touch (ACTION_UP): 0:(804.5424,247.20305)
+:Sending Touch (ACTION_DOWN): 0:(457.0,1263.0)
+:Sending Touch (ACTION_UP): 0:(442.30203,1269.314)
+:Sending Touch (ACTION_DOWN): 0:(916.0,1277.0)
+:Sending Touch (ACTION_UP): 0:(787.23627,1322.0701)
+    //[calendar_time:2017-05-03 22:29:20.503  system_uptime:13173610]
+    // Sending event #1600
+    //[calendar_time:2017-05-03 22:29:20.503  system_uptime:13173610]
+    // Sending event #1600
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=de.ecspride/.UnreachableCode;end
+:Sending Touch (ACTION_DOWN): 0:(97.0,1051.0)
+:Sending Touch (ACTION_UP): 0:(0.0,1107.6873)
+:Sending Touch (ACTION_DOWN): 0:(131.0,353.0)
+:Sending Touch (ACTION_UP): 0:(136.21223,375.39044)
+:Sending Touch (ACTION_DOWN): 0:(178.0,574.0)
+:Sending Touch (ACTION_UP): 0:(169.15623,575.2324)
+:Sending Touch (ACTION_DOWN): 0:(604.0,474.0)
+:Sending Touch (ACTION_UP): 0:(582.66315,486.48074)
+:Sending Touch (ACTION_DOWN): 0:(657.0,78.0)
+:Sending Touch (ACTION_UP): 0:(642.9421,80.363785)
+:Sending Touch (ACTION_DOWN): 0:(54.0,917.0)
+:Sending Touch (ACTION_UP): 0:(55.24446,945.3585)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-5.0)
+:Sending Touch (ACTION_DOWN): 0:(924.0,734.0)
+:Sending Touch (ACTION_UP): 0:(944.42377,702.99615)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,4.0)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=de.ecspride/.UnreachableCode;end
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-3.0)
+    //[calendar_time:2017-05-03 22:29:20.599  system_uptime:13173705]
+    // Sending event #1700
+:Sending Trackball (ACTION_MOVE): 0:(1.0,3.0)
+:Sending Touch (ACTION_DOWN): 0:(214.0,386.0)
+:Sending Touch (ACTION_UP): 0:(252.29762,328.94772)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=de.ecspride/.UnreachableCode;end
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-4.0)
+:Sending Touch (ACTION_DOWN): 0:(150.0,1072.0)
+:Sending Touch (ACTION_UP): 0:(166.94673,1072.3978)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(781.0,1432.0)
+:Sending Touch (ACTION_UP): 0:(725.78503,1465.5447)
+:Sending Touch (ACTION_DOWN): 0:(811.0,216.0)
+:Sending Touch (ACTION_UP): 0:(808.04407,205.8984)
+:Sending Touch (ACTION_DOWN): 0:(759.0,232.0)
+:Sending Touch (ACTION_UP): 0:(751.4524,239.8593)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,0.0)
+    //[calendar_time:2017-05-03 22:29:20.703  system_uptime:13173810]
+    // Sending event #1800
+:Sending Flip keyboardOpen=true
+Got IOException performing flipjava.io.IOException: write failed: EINVAL (Invalid argument)
+    // Injection Failed
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=de.ecspride/.UnreachableCode;end
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,3.0)
+:Sending Touch (ACTION_DOWN): 0:(944.0,773.0)
+:Sending Touch (ACTION_UP): 0:(942.96326,771.7025)
+:Sending Touch (ACTION_DOWN): 0:(579.0,206.0)
+:Sending Touch (ACTION_UP): 0:(592.11774,206.22797)
+:Sending Touch (ACTION_DOWN): 0:(1073.0,43.0)
+:Sending Touch (ACTION_UP): 0:(1080.0,49.89783)
+:Sending Touch (ACTION_DOWN): 0:(225.0,971.0)
+:Sending Touch (ACTION_UP): 0:(220.82738,965.801)
+:Sending Touch (ACTION_DOWN): 0:(274.0,1227.0)
+:Sending Touch (ACTION_UP): 0:(292.9199,1214.9049)
+:Sending Touch (ACTION_DOWN): 0:(878.0,181.0)
+:Sending Touch (ACTION_UP): 0:(880.0543,148.83377)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=de.ecspride/.UnreachableCode;end
+:Sending Touch (ACTION_DOWN): 0:(271.0,137.0)
+:Sending Touch (ACTION_UP): 0:(267.81717,149.35373)
+:Sending Touch (ACTION_DOWN): 0:(850.0,894.0)
+:Sending Touch (ACTION_UP): 0:(841.6924,906.5832)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(389.0,1762.0)
+:Sending Touch (ACTION_UP): 0:(429.6649,1776.0)
+:Sending Touch (ACTION_DOWN): 0:(529.0,148.0)
+:Sending Touch (ACTION_UP): 0:(528.614,127.378784)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,4.0)
+    //[calendar_time:2017-05-03 22:29:20.831  system_uptime:13173939]
+    // Sending event #1900
+:Sending Touch (ACTION_DOWN): 0:(62.0,370.0)
+:Sending Touch (ACTION_UP): 0:(94.47375,422.7739)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,3.0)
+:Sending Touch (ACTION_DOWN): 0:(464.0,721.0)
+:Sending Touch (ACTION_UP): 0:(436.79816,769.648)
+:Sending Touch (ACTION_DOWN): 0:(307.0,743.0)
+:Sending Touch (ACTION_UP): 0:(266.12427,740.8)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=de.ecspride/.UnreachableCode;end
+:Sending Touch (ACTION_DOWN): 0:(641.0,397.0)
+:Sending Touch (ACTION_UP): 0:(772.3046,276.9511)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-5.0)
+:Sending Touch (ACTION_DOWN): 0:(610.0,349.0)
+:Sending Touch (ACTION_UP): 0:(470.7128,348.10052)
+:Sending Touch (ACTION_DOWN): 0:(845.0,520.0)
+:Sending Touch (ACTION_UP): 0:(869.4495,459.64658)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-2.0)
+    //[calendar_time:2017-05-03 22:29:20.940  system_uptime:13174047]
+    // Sending event #2000
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-1.0)
+:Sending Touch (ACTION_DOWN): 0:(42.0,846.0)
+:Sending Touch (ACTION_UP): 0:(45.325535,846.5315)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(999.0,1073.0)
+:Sending Touch (ACTION_UP): 0:(929.28094,1017.46533)
+:Sending Touch (ACTION_DOWN): 0:(614.0,228.0)
+:Sending Touch (ACTION_UP): 0:(543.24097,245.331)
+:Sending Touch (ACTION_DOWN): 0:(751.0,1738.0)
+:Sending Touch (ACTION_UP): 0:(738.13104,1732.9202)
+:Sending Touch (ACTION_DOWN): 0:(442.0,531.0)
+:Sending Touch (ACTION_UP): 0:(442.26706,529.3299)
+:Sending Touch (ACTION_DOWN): 0:(685.0,1398.0)
+:Sending Touch (ACTION_UP): 0:(682.85474,1402.7782)
+:Sending Touch (ACTION_DOWN): 0:(213.0,1207.0)
+:Sending Touch (ACTION_UP): 0:(224.68733,1206.5531)
+:Sending Touch (ACTION_DOWN): 0:(196.0,433.0)
+:Sending Touch (ACTION_UP): 0:(134.97552,446.22968)
+:Sending Touch (ACTION_DOWN): 0:(145.0,1429.0)
+:Sending Touch (ACTION_UP): 0:(147.16823,1440.4163)
+:Sending Touch (ACTION_DOWN): 0:(435.0,1158.0)
+:Sending Touch (ACTION_UP): 0:(430.59167,1160.086)
+:Sending Touch (ACTION_DOWN): 0:(47.0,1574.0)
+:Sending Touch (ACTION_UP): 0:(48.055614,1574.9187)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=de.ecspride/.UnreachableCode;end
+:Sending Touch (ACTION_DOWN): 0:(308.0,467.0)
+:Sending Touch (ACTION_UP): 0:(299.05453,467.9504)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-3.0)
+:Sending Touch (ACTION_DOWN): 0:(138.0,819.0)
+:Sending Touch (ACTION_UP): 0:(136.31389,817.80554)
+    //[calendar_time:2017-05-03 22:29:21.055  system_uptime:13174161]
+    // Sending event #2100
+    //[calendar_time:2017-05-03 22:29:21.055  system_uptime:13174161]
+    // Sending event #2100
+:Sending Touch (ACTION_DOWN): 0:(460.0,1703.0)
+:Sending Touch (ACTION_UP): 0:(466.49286,1708.5311)
+:Sending Touch (ACTION_DOWN): 0:(65.0,1384.0)
+:Sending Touch (ACTION_UP): 0:(0.0,1414.4731)
+e[KTrying 127.0.0.1...
+Connected to localhost.
+Escape character is '^]'.
+Android Console: Authentication required
+:Sending Touch (ACTION_DOWN): 0:(909.0,1303.0)
+:Sending Touch (ACTION_UP): 0:(905.41656,1311.0579)
+:Sending Touch (ACTION_DOWN): 0:(377.0,1695.0)
+:Sending Touch (ACTION_UP): 0:(397.88815,1699.249)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(345.0,862.0)
+:Sending Touch (ACTION_UP): 0:(341.55975,862.1141)
+:Sending Touch (ACTION_DOWN): 0:(630.0,94.0)
+Android Console: type 'auth <auth_token>' to authenticate
+Android Console: you can find your <auth_token> in 
+'/home/bj/.emulator_console_auth_token'
+OK
+p[K[Dpo[K[D[Dpow[K[D[D[Dpowe[K[D[D[D[Dpower[K[D[D[D[D[Dpower [K[D[D[D[D[D[Dpower c[K[D[D[D[D[D[D[Dpower ca[K[D[D[D[D[D[D[D[Dpower cap[K[D[D[D[D[D[D[D[D[Dpower capa[K[D[D[D[D[D[D[D[D[D[Dpower capac[K[D[D[D[D[D[D[D[D[D[D[Dpower capaci[K[D[D[D[D[D[D[D[D[D[D[D[Dpower capacit[K[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity[K[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity [K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 1[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 10[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 100[K
+KO: unknown command, try 'help'
+:Sending Touch (ACTION_UP): 0:(626.0008,93.741684)
+:Sending Touch (ACTION_DOWN): 0:(1053.0,1677.0)
+:Sending Touch (ACTION_UP): 0:(998.0654,1726.9445)
+:Sending Touch (ACTION_DOWN): 0:(676.0,994.0)
+:Sending Touch (ACTION_UP): 0:(676.09375,993.2117)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,3.0)
+:Sending Touch (ACTION_DOWN): 0:(212.0,680.0)
+:Sending Touch (ACTION_UP): 0:(211.72353,693.75574)
+:Sending Touch (ACTION_DOWN): 0:(785.0,780.0)
+:Sending Touch (ACTION_UP): 0:(802.41187,778.3052)
+:Sending Touch (ACTION_DOWN): 0:(63.0,1523.0)
+:Sending Touch (ACTION_UP): 0:(50.93551,1521.5244)
+:Sending Flip keyboardOpen=false
+Got IOException performing flipjava.io.IOException: write failed: EINVAL (Invalid argument)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(3.0,0.0)
+    //[calendar_time:2017-05-03 22:29:21.647  system_uptime:13174754]
+    // Sending event #2200
+:Sending Trackball (ACTION_MOVE): 0:(4.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-4.0)
+:Sending Touch (ACTION_DOWN): 0:(1065.0,953.0)
+:Sending Touch (ACTION_UP): 0:(1065.186,952.89056)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-4.0)
+:Sending Flip keyboardOpen=true
+Got IOException performing flipjava.io.IOException: write failed: EINVAL (Invalid argument)
+    // Injection Failed
+:Sending Touch (ACTION_DOWN): 0:(936.0,806.0)
+:Sending Touch (ACTION_UP): 0:(937.1835,800.1309)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(350.0,1292.0)
+:Sending Touch (ACTION_UP): 0:(351.19672,1299.2694)
+:Sending Touch (ACTION_DOWN): 0:(507.0,574.0)
+:Sending Touch (ACTION_UP): 0:(544.53406,553.803)
+p[K[Dpo[K[D[Dpow[K[D[D[Dpowe[K[D[D[D[Dpower[K[D[D[D[D[Dpower [K[D[D[D[D[D[Dpower c[K[D[D[D[D[D[D[Dpower ca[K[D[D[D[D[D[D[D[Dpower cap[K[D[D[D[D[D[D[D[D[Dpower capa[K[D[D[D[D[D[D[D[D[D[Dpower capac[K[D[D[D[D[D[D[D[D[D[D[Dpower capaci[K[D[D[D[D[D[D[D[D[D[D[D[Dpower capacit[K[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity[K[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity [K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 1[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 10[K
+KO: unknown command, try 'help'
+:Sending Touch (ACTION_DOWN): 0:(583.0,151.0)
+:Sending Touch (ACTION_UP): 0:(633.2213,176.14165)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,0.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,2.0)
+    //[calendar_time:2017-05-03 22:29:22.667  system_uptime:13175774]
+    // Sending event #2300
+:Sending Touch (ACTION_DOWN): 0:(344.0,16.0)
+:Sending Touch (ACTION_UP): 0:(347.10062,20.287714)
+:Sending Touch (ACTION_DOWN): 0:(475.0,1167.0)
+:Sending Touch (ACTION_UP): 0:(489.05338,1195.7427)
+:Sending Touch (ACTION_DOWN): 0:(215.0,781.0)
+:Sending Touch (ACTION_UP): 0:(221.03827,779.32446)
+:Sending Touch (ACTION_DOWN): 0:(398.0,886.0)
+:Sending Touch (ACTION_UP): 0:(394.5614,877.22723)
+Trying 127.0.0.1...
+Connected to localhost.
+Escape character is '^]'.
+Android Console: Authentication required
+Android Console: type 'auth <auth_token>' to authenticate
+Android Console: you can find your <auth_token> in 
+'/home/bj/.emulator_console_auth_token'
+OK
+p[K[Dpo[K[D[Dpow[K[D[D[Dpowe[K[D[D[D[Dpower[K[D[D[D[D[Dpower [K[D[D[D[D[D[Dpower c[K[D[D[D[D[D[D[Dpower ca[K[D[D[D[D[D[D[D[Dpower cap[K[D[D[D[D[D[D[D[D[Dpower capa[K[D[D[D[D[D[D[D[D[D[Dpower capac[K[D[D[D[D[D[D[D[D[D[D[Dpower capaci[K[D[D[D[D[D[D[D[D[D[D[D[Dpower capacit[K[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity[K[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity [K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 1[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 10[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 100[K
+KO: unknown command, try 'help'
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(600.0,1772.0)
+:Sending Touch (ACTION_UP): 0:(700.3796,1776.0)
+p[K[Dpo[K[D[Dpow[K[D[D[Dpowe[K[D[D[D[Dpower[K[D[D[D[D[Dpower [K[D[D[D[D[D[Dpower c[K[D[D[D[D[D[D[Dpower ca[K[D[D[D[D[D[D[D[Dpower cap[K[D[D[D[D[D[D[D[D[Dpower capa[K[D[D[D[D[D[D[D[D[D[Dpower capac[K[D[D[D[D[D[D[D[D[D[D[Dpower capaci[K[D[D[D[D[D[D[D[D[D[D[D[Dpower capacit[K[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity[K[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity [K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 1[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 10[K
+KO: unknown command, try 'help'
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,1.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(3.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-3.0)
+    //[calendar_time:2017-05-03 22:29:24.714  system_uptime:13177820]
+    // Sending event #2400
+:Sending Touch (ACTION_DOWN): 0:(370.0,1522.0)
+:Sending Touch (ACTION_UP): 0:(374.3404,1518.6302)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(744.0,437.0)
+:Sending Touch (ACTION_UP): 0:(742.68475,438.5805)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-4.0)
+:Sending Touch (ACTION_DOWN): 0:(698.0,1637.0)
+:Sending Touch (ACTION_UP): 0:(700.4297,1630.0675)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-3.0)
+:Sending Touch (ACTION_DOWN): 0:(316.0,796.0)
+:Sending Touch (ACTION_UP): 0:(312.0393,800.0826)
+:Sending Flip keyboardOpen=false
+Got IOException performing flipjava.io.IOException: write failed: EINVAL (Invalid argument)
+    // Injection Failed
+:Sending Touch (ACTION_DOWN): 0:(320.0,189.0)
+:Sending Touch (ACTION_UP): 0:(316.25763,190.42464)
+    //[calendar_time:2017-05-03 22:29:25.051  system_uptime:13178158]
+    // Sending event #2500
+    //[calendar_time:2017-05-03 22:29:25.051  system_uptime:13178158]
+    // Sending event #2500
+:Sending Touch (ACTION_DOWN): 0:(268.0,167.0)
+:Sending Touch (ACTION_UP): 0:(251.2936,159.15868)
+:Sending Touch (ACTION_DOWN): 0:(957.0,1643.0)
+:Sending Touch (ACTION_UP): 0:(959.681,1640.5853)
+e[KTrying 127.0.0.1...
+Connected to localhost.
+Escape character is '^]'.
+Android Console: Authentication required
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=de.ecspride/.UnreachableCode;end
+Android Console: type 'auth <auth_token>' to authenticate
+Android Console: you can find your <auth_token> in 
+'/home/bj/.emulator_console_auth_token'
+OK
+p[K[Dpo[K[D[Dpow[K[D[D[Dpowe[K[D[D[D[Dpower[K[D[D[D[D[Dpower [K[D[D[D[D[D[Dpower c[K[D[D[D[D[D[D[Dpower ca[K[D[D[D[D[D[D[D[Dpower cap[K[D[D[D[D[D[D[D[D[Dpower capa[K[D[D[D[D[D[D[D[D[D[Dpower capac[K[D[D[D[D[D[D[D[D[D[D[Dpower capaci[K[D[D[D[D[D[D[D[D[D[D[D[Dpower capacit[K[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity[K[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity [K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 1[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 10[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 100[K
+KO: unknown command, try 'help'
+:Sending Touch (ACTION_DOWN): 0:(549.0,456.0)
+:Sending Touch (ACTION_UP): 0:(548.907,453.45813)
+:Sending Touch (ACTION_DOWN): 0:(158.0,451.0)
+:Sending Touch (ACTION_UP): 0:(159.31065,438.86642)
+:Sending Touch (ACTION_DOWN): 0:(738.0,1320.0)
+:Sending Touch (ACTION_UP): 0:(760.675,1300.8606)
+:Sending Touch (ACTION_DOWN): 0:(288.0,1097.0)
+:Sending Touch (ACTION_UP): 0:(227.08217,1118.5767)
+:Sending Touch (ACTION_DOWN): 0:(644.0,455.0)
+:Sending Touch (ACTION_UP): 0:(731.40424,356.46005)
+:Sending Touch (ACTION_DOWN): 0:(856.0,1445.0)
+:Sending Touch (ACTION_UP): 0:(852.1505,1445.9069)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-3.0)
+p[K[Dpo[K[D[Dpow[K[D[D[Dpowe[K[D[D[D[Dpower[K[D[D[D[D[Dpower [K[D[D[D[D[D[Dpower c[K[D[D[D[D[D[D[Dpower ca[K[D[D[D[D[D[D[D[Dpower cap[K[D[D[D[D[D[D[D[D[Dpower capa[K[D[D[D[D[D[D[D[D[D[Dpower capac[K[D[D[D[D[D[D[D[D[D[D[Dpower capaci[K[D[D[D[D[D[D[D[D[D[D[D[Dpower capacit[K[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity[K[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity [K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 1[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 10[K
+KO: unknown command, try 'help'
+Events injected: 1
+## Network stats: elapsed time=445ms (0ms mobile, 0ms wifi, 445ms not connected)
+:Sending Touch (ACTION_DOWN): 0:(284.0,475.0)
+:Sending Touch (ACTION_UP): 0:(279.73026,474.6822)
+:Sending Touch (ACTION_DOWN): 0:(1040.0,1553.0)
+:Sending Touch (ACTION_UP): 0:(1053.8225,1554.9761)
+:Sending Touch (ACTION_DOWN): 0:(71.0,763.0)
+:Sending Touch (ACTION_UP): 0:(74.940834,766.00134)
+:Sending Touch (ACTION_DOWN): 0:(866.0,687.0)
+:Sending Touch (ACTION_UP): 0:(862.65796,693.8124)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,0.0)
+    //[calendar_time:2017-05-03 22:29:26.499  system_uptime:13179606]
+    // Sending event #2600
+:Sending Touch (ACTION_DOWN): 0:(912.0,935.0)
+:Sending Touch (ACTION_UP): 0:(900.86676,952.05756)
+:Sending Touch (ACTION_DOWN): 0:(139.0,1123.0)
+:Sending Touch (ACTION_UP): 0:(141.41187,1125.8546)
+:Sending Touch (ACTION_DOWN): 0:(335.0,123.0)
+:Sending Touch (ACTION_UP): 0:(334.50208,128.85472)
+:Sending Flip keyboardOpen=true
+Got IOException performing flipjava.io.IOException: write failed: EINVAL (Invalid argument)
+    // Injection Failed
+:Sending Touch (ACTION_DOWN): 0:(1026.0,1368.0)
+:Sending Touch (ACTION_UP): 0:(1023.1417,1369.8354)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-4.0)
+:Sending Flip keyboardOpen=false
+Got IOException performing flipjava.io.IOException: write failed: EINVAL (Invalid argument)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(0.0,4.0)
+:Sending Flip keyboardOpen=true
+Got IOException performing flipjava.io.IOException: write failed: EINVAL (Invalid argument)
+    // Injection Failed
+:Sending Touch (ACTION_DOWN): 0:(797.0,1497.0)
+:Sending Touch (ACTION_UP): 0:(795.77246,1494.4634)
+Trying 127.0.0.1...
+Connected to localhost.
+Escape character is '^]'.
+Android Console: Authentication required
+Android Console: type 'auth <auth_token>' to authenticate
+Android Console: you can find your <auth_token> in 
+'/home/bj/.emulator_console_auth_token'
+OK
+p[K[Dpo[K[D[Dpow[K[D[D[Dpowe[K[D[D[D[Dpower[K[D[D[D[D[Dpower [K[D[D[D[D[D[Dpower c[K[D[D[D[D[D[D[Dpower ca[K[D[D[D[D[D[D[D[Dpower cap[K[D[D[D[D[D[D[D[D[Dpower capa[K[D[D[D[D[D[D[D[D[D[Dpower capac[K[D[D[D[D[D[D[D[D[D[D[Dpower capaci[K[D[D[D[D[D[D[D[D[D[D[D[Dpower capacit[K[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity[K[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity [K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 1[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 10[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 100[K
+KO: unknown command, try 'help'
+:Sending Touch (ACTION_DOWN): 0:(207.0,493.0)
+:Sending Touch (ACTION_UP): 0:(240.83595,555.9328)
+:Sending Touch (ACTION_DOWN): 0:(884.0,324.0)
+:Sending Touch (ACTION_UP): 0:(873.3354,311.97104)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(129.0,782.0)
+:Sending Touch (ACTION_UP): 0:(141.37453,789.28156)
+:Sending Touch (ACTION_DOWN): 0:(198.0,801.0)
+:Sending Touch (ACTION_UP): 0:(211.36407,756.9377)
+    //[calendar_time:2017-05-03 22:29:27.227  system_uptime:13180334]
+    // Sending event #2700
+    //[calendar_time:2017-05-03 22:29:27.227  system_uptime:13180334]
+    // Sending event #2700
+:Sending Trackball (ACTION_MOVE): 0:(4.0,0.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-3.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-3.0)
+:Sending Touch (ACTION_DOWN): 0:(378.0,1280.0)
+:Sending Touch (ACTION_UP): 0:(304.33,1409.2507)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-4.0)
+:Sending Touch (ACTION_DOWN): 0:(1014.0,773.0)
+:Sending Touch (ACTION_UP): 0:(1025.5051,772.4474)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-1.0)
+:Sending Touch (ACTION_DOWN): 0:(340.0,383.0)
+:Sending Touch (ACTION_UP): 0:(365.23502,384.7942)
+:Sending Touch (ACTION_DOWN): 0:(857.0,1593.0)
+:Sending Touch (ACTION_UP): 0:(872.82306,1599.2997)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,4.0)
+    //[calendar_time:2017-05-03 22:29:27.317  system_uptime:13180424]
+    // Sending event #2800
+:Sending Touch (ACTION_DOWN): 0:(178.0,1184.0)
+:Sending Touch (ACTION_UP): 0:(150.61171,1282.9626)
+:Sending Touch (ACTION_DOWN): 0:(498.0,594.0)
+:Sending Touch (ACTION_UP): 0:(509.4551,595.1958)
+:Sending Touch (ACTION_DOWN): 0:(866.0,1642.0)
+:Sending Touch (ACTION_UP): 0:(916.07385,1673.4232)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-5.0)
+:Sending Touch (ACTION_DOWN): 0:(636.0,167.0)
+:Sending Touch (ACTION_UP): 0:(619.3804,215.8873)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-5.0)
+    //[calendar_time:2017-05-03 22:29:27.454  system_uptime:13180560]
+    // Sending event #2900
+:Sending Touch (ACTION_DOWN): 0:(167.0,1155.0)
+    // Injection Failed
+    // Injection Failed
+:Sending Touch (ACTION_UP): 0:(168.71826,1145.853)
+    // Injection Failed
+:Sending Touch (ACTION_DOWN): 0:(300.0,292.0)
+:Sending Touch (ACTION_UP): 0:(337.10516,328.10623)
+:Sending Touch (ACTION_DOWN): 0:(626.0,192.0)
+:Sending Touch (ACTION_UP): 0:(625.3341,180.89902)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(390.0,404.0)
+:Sending Touch (ACTION_UP): 0:(383.76566,398.71518)
+p[K[Dpo[K[D[Dpow[K[D[D[Dpowe[K[D[D[D[Dpower[K[D[D[D[D[Dpower [K[D[D[D[D[D[Dpower c[K[D[D[D[D[D[D[Dpower ca[K[D[D[D[D[D[D[D[Dpower cap[K[D[D[D[D[D[D[D[D[Dpower capa[K[D[D[D[D[D[D[D[D[D[Dpower capac[K[D[D[D[D[D[D[D[D[D[D[Dpower capaci[K[D[D[D[D[D[D[D[D[D[D[D[Dpower capacit[K[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity[K[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity [K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 1[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 10[K
+KO: unknown command, try 'help'
+:Sending Touch (ACTION_DOWN): 0:(228.0,625.0)
+:Sending Touch (ACTION_UP): 0:(243.67694,638.3156)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=de.ecspride/.UnreachableCode;end
+:Sending Touch (ACTION_DOWN): 0:(540.0,1310.0)
+:Sending Touch (ACTION_UP): 0:(534.7959,1294.4672)
+:Sending Touch (ACTION_DOWN): 0:(754.0,1350.0)
+:Sending Touch (ACTION_UP): 0:(763.75134,1368.8335)
+:Sending Touch (ACTION_DOWN): 0:(482.0,416.0)
+:Sending Touch (ACTION_UP): 0:(483.10663,418.4457)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,1.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-1.0)
+    //[calendar_time:2017-05-03 22:29:28.868  system_uptime:13181975]
+    // Sending event #3000
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=de.ecspride/.UnreachableCode;end
+:Sending Touch (ACTION_DOWN): 0:(567.0,1513.0)
+:Sending Touch (ACTION_UP): 0:(569.28424,1509.9623)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,3.0)
+:Sending Touch (ACTION_DOWN): 0:(705.0,559.0)
+:Sending Touch (ACTION_UP): 0:(663.3883,518.14294)
+:Sending Touch (ACTION_DOWN): 0:(82.0,1370.0)
+:Sending Touch (ACTION_UP): 0:(171.00609,1352.384)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,3.0)
+:Sending Touch (ACTION_DOWN): 0:(775.0,42.0)
+:Sending Touch (ACTION_UP): 0:(786.50494,34.3178)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-3.0)
+    //[calendar_time:2017-05-03 22:29:29.013  system_uptime:13182120]
+    // Sending event #3100
+    //[calendar_time:2017-05-03 22:29:29.013  system_uptime:13182120]
+    // Sending event #3100
+:Sending Touch (ACTION_DOWN): 0:(865.0,699.0)
+:Sending Touch (ACTION_UP): 0:(900.3933,759.6178)
+Trying 127.0.0.1...
+Connected to localhost.
+Escape character is '^]'.
+Android Console: Authentication required
+Android Console: type 'auth <auth_token>' to authenticate
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-1.0)
+Android Console: you can find your <auth_token> in 
+'/home/bj/.emulator_console_auth_token'
+OK
+p[K[Dpo[K[D[Dpow[K[D[D[Dpowe[K[D[D[D[Dpower[K[D[D[D[D[Dpower [K[D[D[D[D[D[Dpower c[K[D[D[D[D[D[D[Dpower ca[K[D[D[D[D[D[D[D[Dpower cap[K[D[D[D[D[D[D[D[D[Dpower capa[K[D[D[D[D[D[D[D[D[D[Dpower capac[K[D[D[D[D[D[D[D[D[D[D[Dpower capaci[K[D[D[D[D[D[D[D[D[D[D[D[Dpower capacit[K[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity[K[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity [K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 1[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 10[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 100[K
+KO: unknown command, try 'help'
+:Sending Touch (ACTION_DOWN): 0:(131.0,1706.0)
+:Sending Touch (ACTION_UP): 0:(125.946594,1723.0353)
+:Sending Touch (ACTION_DOWN): 0:(1052.0,230.0)
+:Sending Touch (ACTION_UP): 0:(995.08655,151.26556)
+:Sending Touch (ACTION_DOWN): 0:(725.0,1185.0)
+:Sending Touch (ACTION_UP): 0:(726.5224,1187.0143)
+:Sending Touch (ACTION_DOWN): 0:(97.0,427.0)
+:Sending Touch (ACTION_UP): 0:(88.95856,433.45447)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(87.0,1321.0)
+:Sending Touch (ACTION_UP): 0:(105.758644,1321.9369)
+:Sending Touch (ACTION_DOWN): 0:(349.0,1356.0)
+:Sending Touch (ACTION_UP): 0:(345.85562,1360.0361)
+:Sending Touch (ACTION_DOWN): 0:(522.0,550.0)
+:Sending Touch (ACTION_UP): 0:(515.64667,556.4582)
+:Sending Touch (ACTION_DOWN): 0:(673.0,820.0)
+:Sending Touch (ACTION_UP): 0:(648.91943,869.5039)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-2.0)
+:Sending Touch (ACTION_DOWN): 0:(856.0,1294.0)
+:Sending Touch (ACTION_UP): 0:(842.61163,1287.9364)
+:Sending Touch (ACTION_DOWN): 0:(294.0,429.0)
+:Sending Touch (ACTION_UP): 0:(302.61633,441.5236)
+:Sending Touch (ACTION_DOWN): 0:(968.0,1584.0)
+:Sending Touch (ACTION_UP): 0:(953.05774,1582.164)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=de.ecspride/.UnreachableCode;end
+:Sending Trackball (ACTION_MOVE): 0:(3.0,4.0)
+    //[calendar_time:2017-05-03 22:29:29.245  system_uptime:13182352]
+    // Sending event #3200
+:Sending Touch (ACTION_DOWN): 0:(246.0,438.0)
+:Sending Touch (ACTION_UP): 0:(234.71371,435.5563)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=de.ecspride/.UnreachableCode;end
+:Sending Touch (ACTION_DOWN): 0:(645.0,1510.0)
+:Sending Touch (ACTION_UP): 0:(649.88934,1502.3801)
+:Sending Touch (ACTION_DOWN): 0:(279.0,62.0)
+:Sending Touch (ACTION_UP): 0:(285.3296,58.818443)
+:Sending Touch (ACTION_DOWN): 0:(168.0,1550.0)
+:Sending Touch (ACTION_UP): 0:(175.84616,1550.5568)
+:Sending Touch (ACTION_DOWN): 0:(423.0,945.0)
+:Sending Touch (ACTION_UP): 0:(486.55997,864.16174)
+:Sending Touch (ACTION_DOWN): 0:(482.0,258.0)
+:Sending Touch (ACTION_UP): 0:(482.59943,262.34296)
+:Sending Touch (ACTION_DOWN): 0:(1045.0,1574.0)
+:Sending Touch (ACTION_UP): 0:(1047.4849,1569.0288)
+:Sending Touch (ACTION_DOWN): 0:(739.0,1049.0)
+:Sending Touch (ACTION_UP): 0:(739.60376,1049.0715)
+:Sending Touch (ACTION_DOWN): 0:(393.0,749.0)
+:Sending Touch (ACTION_UP): 0:(391.1661,747.6477)
+:Sending Touch (ACTION_DOWN): 0:(160.0,796.0)
+:Sending Touch (ACTION_UP): 0:(158.02666,792.0711)
+:Sending Touch (ACTION_DOWN): 0:(34.0,1111.0)
+:Sending Touch (ACTION_UP): 0:(29.4276,1110.9072)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,0.0)
+    //[calendar_time:2017-05-03 22:29:29.515  system_uptime:13182622]
+    // Sending event #3300
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-2.0)
+:Sending Touch (ACTION_DOWN): 0:(297.0,469.0)
+:Sending Touch (ACTION_UP): 0:(302.97745,471.2948)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-2.0)
+:Sending Touch (ACTION_DOWN): 0:(242.0,1506.0)
+:Sending Touch (ACTION_UP): 0:(242.55011,1500.4286)
+:Sending Touch (ACTION_DOWN): 0:(756.0,854.0)
+:Sending Touch (ACTION_UP): 0:(762.30084,853.4384)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-4.0)
+:Sending Touch (ACTION_DOWN): 0:(557.0,1405.0)
+:Sending Touch (ACTION_UP): 0:(566.5888,1424.1261)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,4.0)
+:Sending Touch (ACTION_DOWN): 0:(450.0,574.0)
+:Sending Touch (ACTION_UP): 0:(447.52078,663.03467)
+:Sending Touch (ACTION_DOWN): 0:(926.0,1234.0)
+:Sending Touch (ACTION_UP): 0:(929.16583,1235.3235)
+:Sending Touch (ACTION_DOWN): 0:(111.0,950.0)
+:Sending Touch (ACTION_UP): 0:(109.0382,965.36163)
+    //[calendar_time:2017-05-03 22:29:29.671  system_uptime:13182778]
+    // Sending event #3400
+    //[calendar_time:2017-05-03 22:29:29.671  system_uptime:13182778]
+    // Sending event #3400
+:Sending Trackball (ACTION_MOVE): 0:(2.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(963.0,1262.0)
+:Sending Touch (ACTION_UP): 0:(950.1664,1273.3323)
+:Sending Touch (ACTION_DOWN): 0:(890.0,1486.0)
+:Sending Touch (ACTION_UP): 0:(878.2166,1484.9371)
+:Sending Touch (ACTION_DOWN): 0:(858.0,337.0)
+:Sending Touch (ACTION_UP): 0:(866.6645,332.4411)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,4.0)
+:Sending Touch (ACTION_DOWN): 0:(459.0,1140.0)
+:Sending Touch (ACTION_UP): 0:(472.96042,1144.3589)
+:Sending Touch (ACTION_DOWN): 0:(54.0,915.0)
+:Sending Touch (ACTION_UP): 0:(30.241545,943.5699)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-1.0)
+    //[calendar_time:2017-05-03 22:29:29.757  system_uptime:13182864]
+    // Sending event #3500
+:Sending Touch (ACTION_DOWN): 0:(96.0,380.0)
+:Sending Touch (ACTION_UP): 0:(105.041176,368.5297)
+:Sending Touch (ACTION_DOWN): 0:(93.0,1005.0)
+:Sending Touch (ACTION_UP): 0:(99.95154,1010.2998)
+:Sending Touch (ACTION_DOWN): 0:(539.0,890.0)
+:Sending Touch (ACTION_UP): 0:(542.2205,888.4027)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-4.0)
+:Sending Touch (ACTION_DOWN): 0:(632.0,1065.0)
+:Sending Touch (ACTION_UP): 0:(614.7594,1070.6437)
+:Sending Touch (ACTION_DOWN): 0:(541.0,1124.0)
+:Sending Touch (ACTION_UP): 0:(541.9956,1131.6112)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-1.0)
+:Sending Touch (ACTION_DOWN): 0:(291.0,1384.0)
+:Sending Touch (ACTION_UP): 0:(292.4861,1385.5596)
+:Sending Touch (ACTION_DOWN): 0:(590.0,365.0)
+:Sending Touch (ACTION_UP): 0:(589.68365,365.19455)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=de.ecspride/.UnreachableCode;end
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=de.ecspride/.UnreachableCode;end
+:Sending Touch (ACTION_DOWN): 0:(187.0,269.0)
+:Sending Touch (ACTION_UP): 0:(185.01028,269.02362)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,0.0)
+    //[calendar_time:2017-05-03 22:29:29.988  system_uptime:13183095]
+    // Sending event #3600
+:Sending Touch (ACTION_DOWN): 0:(497.0,324.0)
+:Sending Touch (ACTION_UP): 0:(487.32358,323.64432)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,4.0)
+p[K[Dpo[K[D[Dpow[K[D[D[Dpowe[K[D[D[D[Dpower[K[D[D[D[D[Dpower [K[D[D[D[D[D[Dpower c[K[D[D[D[D[D[D[Dpower ca[K[D[D[D[D[D[D[D[Dpower cap[K[D[D[D[D[D[D[D[D[Dpower capa[K[D[D[D[D[D[D[D[D[D[Dpower capac[K[D[D[D[D[D[D[D[D[D[D[Dpower capaci[K[D[D[D[D[D[D[D[D[D[D[D[Dpower capacit[K[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity[K[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity [K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 1[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 10[K
+KO: unknown command, try 'help'
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(4.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(26.0,1368.0)
+:Sending Touch (ACTION_UP): 0:(116.08277,1357.4326)
+:Sending Touch (ACTION_DOWN): 0:(174.0,1067.0)
+:Sending Touch (ACTION_UP): 0:(177.81018,1079.4845)
+    // Injection Failed
+e[KTrying 127.0.0.1...
+Connected to localhost.
+Escape character is '^]'.
+Android Console: Authentication required
+Android Console: type 'auth <auth_token>' to authenticate
+Android Console: you can find your <auth_token> in 
+'/home/bj/.emulator_console_auth_token'
+OK
+p[K[Dpo[K[D[Dpow[K[D[D[Dpowe[K[D[D[D[Dpower[K[D[D[D[D[Dpower [K[D[D[D[D[D[Dpower c[K[D[D[D[D[D[D[Dpower ca[K[D[D[D[D[D[D[D[Dpower cap[K[D[D[D[D[D[D[D[D[Dpower capa[K[D[D[D[D[D[D[D[D[D[Dpower capac[K[D[D[D[D[D[D[D[D[D[D[Dpower capaci[K[D[D[D[D[D[D[D[D[D[D[D[Dpower capacit[K[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity[K[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity [K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 1[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 10[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 100[K
+KO: unknown command, try 'help'
+:Sending Touch (ACTION_DOWN): 0:(123.0,1171.0)
+:Sending Touch (ACTION_UP): 0:(132.94597,1180.0383)
+:Sending Touch (ACTION_DOWN): 0:(789.0,1582.0)
+:Sending Touch (ACTION_UP): 0:(808.25555,1579.2341)
+p[K[Dpo[K[D[Dpow[K[D[D[Dpowe[K[D[D[D[Dpower[K[D[D[D[D[Dpower [K[D[D[D[D[D[Dpower c[K[D[D[D[D[D[D[Dpower ca[K[D[D[D[D[D[D[D[Dpower cap[K[D[D[D[D[D[D[D[D[Dpower capa[K[D[D[D[D[D[D[D[D[D[Dpower capac[K[D[D[D[D[D[D[D[D[D[D[Dpower capaci[K[D[D[D[D[D[D[D[D[D[D[D[Dpower capacit[K[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity[K[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity [K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 1[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 10[K
+KO: unknown command, try 'help'
+Events injected: 1
+## Network stats: elapsed time=104ms (0ms mobile, 0ms wifi, 104ms not connected)
+:Sending Touch (ACTION_DOWN): 0:(871.0,1407.0)
+    //[calendar_time:2017-05-03 22:29:32.251  system_uptime:13185358]
+    // Sending event #3700
+:Sending Touch (ACTION_UP): 0:(913.9988,1447.0597)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(470.0,366.0)
+:Sending Touch (ACTION_UP): 0:(528.4412,439.45377)
+:Sending Touch (ACTION_DOWN): 0:(972.0,723.0)
+:Sending Touch (ACTION_UP): 0:(976.1552,722.20386)
+:Sending Touch (ACTION_DOWN): 0:(198.0,1111.0)
+:Sending Touch (ACTION_UP): 0:(177.54105,1030.9404)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,4.0)
+:Sending Touch (ACTION_DOWN): 0:(239.0,776.0)
+:Sending Touch (ACTION_UP): 0:(232.44948,793.713)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-1.0)
+:Sending Touch (ACTION_DOWN): 0:(742.0,845.0)
+    //[calendar_time:2017-05-03 22:29:32.469  system_uptime:13185576]
+    // Sending event #3800
+:Sending Touch (ACTION_UP): 0:(618.4277,900.4654)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,1.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(751.0,1297.0)
+:Sending Touch (ACTION_UP): 0:(739.7352,1325.57)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(1041.0,145.0)
+:Sending Touch (ACTION_UP): 0:(1080.0,104.62669)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,4.0)
+:Sending Touch (ACTION_DOWN): 0:(759.0,1537.0)
+:Sending Touch (ACTION_UP): 0:(759.74,1536.737)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-1.0)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=de.ecspride/.UnreachableCode;end
+:Sending Touch (ACTION_DOWN): 0:(599.0,602.0)
+:Sending Touch (ACTION_UP): 0:(598.9977,608.0047)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-5.0)
+    //[calendar_time:2017-05-03 22:29:33.057  system_uptime:13186164]
+    // Sending event #3900
+:Sending Touch (ACTION_DOWN): 0:(609.0,878.0)
+e[K[Dex[K:Sending Touch (ACTION_UP): 0:(613.8075,878.1946)
+Trying 127.0.0.1...
+Connected to localhost.
+Escape character is '^]'.
+Android Console: Authentication required
+Android Console: type 'auth <auth_token>' to authenticate
+:Sending Touch (ACTION_DOWN): 0:(1070.0,717.0)
+:Sending Touch (ACTION_UP): 0:(1074.8932,717.867)
+:Sending Touch (ACTION_DOWN): 0:(426.0,270.0)
+:Sending Touch (ACTION_UP): 0:(428.06503,282.32797)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-5.0)
+Android Console: you can find your <auth_token> in 
+'/home/bj/.emulator_console_auth_token'
+OK
+p[K[Dpo[K[D[Dpow[K[D[D[Dpowe[K[D[D[D[Dpower[K[D[D[D[D[Dpower [K[D[D[D[D[D[Dpower c[K[D[D[D[D[D[D[Dpower ca[K[D[D[D[D[D[D[D[Dpower cap[K[D[D[D[D[D[D[D[D[Dpower capa[K[D[D[D[D[D[D[D[D[D[Dpower capac[K[D[D[D[D[D[D[D[D[D[D[Dpower capaci[K[D[D[D[D[D[D[D[D[D[D[D[Dpower capacit[K[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity[K[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity [K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 1[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 10[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 100[K
+KO: unknown command, try 'help'
+:Sending Touch (ACTION_DOWN): 0:(686.0,1207.0)
+:Sending Touch (ACTION_UP): 0:(683.04675,1218.2583)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(653.0,1506.0)
+:Sending Touch (ACTION_UP): 0:(695.19464,1515.752)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-3.0)
+:Sending Touch (ACTION_DOWN): 0:(159.0,569.0)
+    //[calendar_time:2017-05-03 22:29:33.209  system_uptime:13186316]
+    // Sending event #4000
+:Sending Touch (ACTION_UP): 0:(149.8101,610.29016)
+:Sending Touch (ACTION_DOWN): 0:(118.0,243.0)
+:Sending Touch (ACTION_UP): 0:(138.42542,243.16673)
+:Sending Touch (ACTION_DOWN): 0:(813.0,189.0)
+:Sending Touch (ACTION_UP): 0:(850.3384,238.67082)
+:Sending Flip keyboardOpen=false
+Got IOException performing flipjava.io.IOException: write failed: EINVAL (Invalid argument)
+    // Injection Failed
+:Sending Touch (ACTION_DOWN): 0:(409.0,380.0)
+:Sending Touch (ACTION_UP): 0:(362.69995,387.0454)
+:Sending Touch (ACTION_DOWN): 0:(939.0,1146.0)
+:Sending Touch (ACTION_UP): 0:(950.65063,1148.6305)
+:Sending Touch (ACTION_DOWN): 0:(1045.0,644.0)
+:Sending Touch (ACTION_UP): 0:(1047.4395,652.60693)
+:Sending Touch (ACTION_DOWN): 0:(307.0,1105.0)
+:Sending Touch (ACTION_UP): 0:(364.0576,1126.279)
+:Sending Touch (ACTION_DOWN): 0:(587.0,295.0)
+:Sending Touch (ACTION_UP): 0:(575.1783,307.68518)
+:Sending Touch (ACTION_DOWN): 0:(103.0,1127.0)
+:Sending Touch (ACTION_UP): 0:(99.11089,1118.3737)
+:Sending Touch (ACTION_DOWN): 0:(334.0,998.0)
+:Sending Touch (ACTION_UP): 0:(390.67212,994.9115)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(870.0,451.0)
+:Sending Touch (ACTION_UP): 0:(872.3481,449.2833)
+:Sending Touch (ACTION_DOWN): 0:(605.0,858.0)
+:Sending Touch (ACTION_UP): 0:(581.37164,901.5732)
+    //[calendar_time:2017-05-03 22:29:33.330  system_uptime:13186437]
+    // Sending event #4100
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(854.0,1492.0)
+:Sending Touch (ACTION_UP): 0:(838.7074,1519.4127)
+:Sending Touch (ACTION_DOWN): 0:(688.0,424.0)
+:Sending Touch (ACTION_UP): 0:(678.1819,390.5108)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,2.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Flip keyboardOpen=true
+Got IOException performing flipjava.io.IOException: write failed: EINVAL (Invalid argument)
+    // Injection Failed
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=de.ecspride/.UnreachableCode;end
+:Sending Touch (ACTION_DOWN): 0:(894.0,258.0)
+:Sending Touch (ACTION_UP): 0:(834.1279,208.06534)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(720.0,1401.0)
+:Sending Touch (ACTION_UP): 0:(718.5295,1400.9434)
+:Sending Touch (ACTION_DOWN): 0:(141.0,793.0)
+:Sending Touch (ACTION_UP): 0:(200.94852,842.53217)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-2.0)
+    //[calendar_time:2017-05-03 22:29:33.651  system_uptime:13186758]
+    // Sending event #4200
+    // Injection Failed
+:Sending Touch (ACTION_DOWN): 0:(702.0,390.0)
+:Sending Touch (ACTION_UP): 0:(699.1139,383.35538)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-3.0)
+:Sending Touch (ACTION_DOWN): 0:(812.0,1184.0)
+:Sending Touch (ACTION_UP): 0:(831.4029,1196.1279)
+:Sending Touch (ACTION_DOWN): 0:(104.0,385.0)
+:Sending Touch (ACTION_UP): 0:(110.99993,388.4743)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=de.ecspride/.UnreachableCode;end
+:Sending Touch (ACTION_DOWN): 0:(380.0,879.0)
+:Sending Touch (ACTION_UP): 0:(379.442,886.1251)
+:Sending Touch (ACTION_DOWN): 0:(131.0,740.0)
+:Sending Touch (ACTION_UP): 0:(127.040764,748.71265)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=de.ecspride/.UnreachableCode;end
+:Sending Touch (ACTION_DOWN): 0:(1009.0,687.0)
+:Sending Touch (ACTION_UP): 0:(1014.0865,670.72546)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-3.0)
+    //[calendar_time:2017-05-03 22:29:33.930  system_uptime:13187037]
+    // Sending event #4300
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=de.ecspride/.UnreachableCode;end
+:Sending Touch (ACTION_DOWN): 0:(53.0,1112.0)
+:Sending Touch (ACTION_UP): 0:(56.462227,1104.8228)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,1.0)
+:Sending Flip keyboardOpen=false
+Got IOException performing flipjava.io.IOException: write failed: EINVAL (Invalid argument)
+    // Injection Failed
+:Sending Touch (ACTION_DOWN): 0:(230.0,917.0)
+:Sending Touch (ACTION_UP): 0:(235.4563,917.5286)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-4.0)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=de.ecspride/.UnreachableCode;end
+:Sending Touch (ACTION_DOWN): 0:(110.0,542.0)
+:Sending Touch (ACTION_UP): 0:(93.795265,526.2497)
+:Sending Touch (ACTION_DOWN): 0:(483.0,455.0)
+:Sending Touch (ACTION_UP): 0:(472.98398,468.11823)
+:Sending Touch (ACTION_DOWN): 0:(454.0,180.0)
+:Sending Touch (ACTION_UP): 0:(435.01212,192.65009)
+:Sending Touch (ACTION_DOWN): 0:(642.0,1061.0)
+:Sending Touch (ACTION_UP): 0:(647.36017,1061.9707)
+:Sending Touch (ACTION_DOWN): 0:(383.0,143.0)
+:Sending Touch (ACTION_UP): 0:(379.17032,136.70901)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-3.0)
+:Sending Touch (ACTION_DOWN): 0:(763.0,318.0)
+:Sending Touch (ACTION_UP): 0:(764.7015,317.88522)
+:Sending Touch (ACTION_DOWN): 0:(933.0,1638.0)
+:Sending Touch (ACTION_UP): 0:(925.2918,1628.2375)
+:Sending Touch (ACTION_DOWN): 0:(52.0,684.0)
+:Sending Touch (ACTION_UP): 0:(68.22053,697.7704)
+:Sending Touch (ACTION_DOWN): 0:(813.0,64.0)
+:Sending Touch (ACTION_UP): 0:(829.50507,22.777386)
+:Sending Touch (ACTION_DOWN): 0:(206.0,7.0)
+:Sending Touch (ACTION_UP): 0:(226.22348,13.294987)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-5.0)
+    //[calendar_time:2017-05-03 22:29:34.057  system_uptime:13187164]
+    // Sending event #4400
+:Sending Touch (ACTION_DOWN): 0:(872.0,767.0)p[K[Dpo[K[D[Dpow[K[D[D[Dpowe[K[D[D[D[Dpower[K[D[D[D[D[Dpower [K[D[D[D[D[D[Dpower c[K[D[D[D[D[D[D[Dpower ca[K[D[D[D[D[D[D[D[Dpower cap[K[D[D[D[D[D[D[D[D[Dpower capa[K[D[D[D[D[D[D[D[D[D[Dpower capac[K[D[D[D[D[D[D[D[D[D[D[Dpower capaci[K[D[D[D[D[D[D[D[D[D[D[D[Dpower capacit[K[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity[K[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity [K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 1[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 10[K
+KO: unknown command, try 'help'
+
+:Sending Touch (ACTION_UP): 0:(872.57465,765.95483)
+:Sending Touch (ACTION_DOWN): 0:(1075.0,510.0)
+:Sending Touch (ACTION_UP): 0:(1080.0,498.15405)
+:Sending Touch (ACTION_DOWN): 0:(982.0,306.0)
+:Sending Touch (ACTION_UP): 0:(930.69696,269.54337)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(56.0,1414.0)
+:Sending Touch (ACTION_UP): 0:(61.99882,1413.8325)
+:Sending Touch (ACTION_DOWN): 0:(998.0,1441.0)
+:Sending Touch (ACTION_UP): 0:(1019.449,1446.1628)
+:Sending Touch (ACTION_DOWN): 0:(966.0,1719.0)
+:Sending Touch (ACTION_UP): 0:(968.48535,1718.7394)
+:Sending Touch (ACTION_DOWN): 0:(473.0,1018.0)
+:Sending Touch (ACTION_UP): 0:(434.8647,1112.2848)
+:Sending Touch (ACTION_DOWN): 0:(423.0,1351.0)
+:Sending Touch (ACTION_UP): 0:(408.38794,1349.1798)
+:Sending Touch (ACTION_DOWN): 0:(493.0,839.0)
+:Sending Touch (ACTION_UP): 0:(486.9124,856.9944)
+:Sending Touch (ACTION_DOWN): 0:(577.0,1427.0)
+:Sending Touch (ACTION_UP): 0:(628.1335,1493.8022)
+:Sending Touch (ACTION_DOWN): 0:(1038.0,1362.0)
+:Sending Touch (ACTION_UP): 0:(1021.3255,1444.574)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,0.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(360.0,1757.0)
+:Sending Touch (ACTION_UP): 0:(339.4972,1776.0)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=de.ecspride/.UnreachableCode;end
+:Sending Touch (ACTION_DOWN): 0:(122.0,106.0)
+    //[calendar_time:2017-05-03 22:29:34.152  system_uptime:13187259]
+    // Sending event #4500
+:Sending Touch (ACTION_UP): 0:(121.84824,89.41499)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=de.ecspride/.UnreachableCode;end
+:Sending Touch (ACTION_DOWN): 0:(777.0,1096.0)
+:Sending Touch (ACTION_UP): 0:(775.4898,1103.6041)
+:Sending Touch (ACTION_DOWN): 0:(163.0,10.0)
+:Sending Touch (ACTION_UP): 0:(162.53146,2.718225)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-2.0)
+:Sending Touch (ACTION_DOWN): 0:(549.0,60.0)
+:Sending Touch (ACTION_UP): 0:(558.9692,52.299038)
+:Sending Touch (ACTION_DOWN): 0:(494.0,767.0)
+:Sending Touch (ACTION_UP): 0:(494.123,762.5113)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(284.0,1177.0)
+:Sending Touch (ACTION_UP): 0:(271.9775,1181.8579)
+:Sending Touch (ACTION_DOWN): 0:(397.0,398.0)
+:Sending Touch (ACTION_UP): 0:(396.308,398.34332)
+:Sending Touch (ACTION_DOWN): 0:(804.0,604.0)
+:Sending Touch (ACTION_UP): 0:(798.8795,608.00665)
+:Sending Touch (ACTION_DOWN): 0:(214.0,760.0)
+:Sending Touch (ACTION_UP): 0:(214.05121,753.5647)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-2.0)
+:Sending Touch (ACTION_DOWN): 0:(969.0,1462.0)
+:Sending Touch (ACTION_UP): 0:(937.92334,1499.0319)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-2.0)
+    //[calendar_time:2017-05-03 22:29:34.396  system_uptime:13187503]
+    // Sending event #4600
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=de.ecspride/.UnreachableCode;end
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-2.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(1044.0,693.0)
+:Sending Touch (ACTION_UP): 0:(1044.0305,690.70465)
+:Sending Touch (ACTION_DOWN): 0:(779.0,408.0)
+:Sending Touch (ACTION_UP): 0:(804.2606,372.40942)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-3.0)
+:Sending Touch (ACTION_DOWN): 0:(3.0,1145.0)
+:Sending Touch (ACTION_UP): 0:(3.1118054,1160.1696)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,3.0)
+:Sending Touch (ACTION_DOWN): 0:(620.0,1275.0)
+:Sending Touch (ACTION_UP): 0:(582.49713,1181.22)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-3.0)
+    //[calendar_time:2017-05-03 22:29:34.550  system_uptime:13187657]
+    // Sending event #4700
+    //[calendar_time:2017-05-03 22:29:34.550  system_uptime:13187657]
+    // Sending event #4700
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-3.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Flip keyboardOpen=true
+Got IOException performing flipjava.io.IOException: write failed: EINVAL (Invalid argument)
+    // Injection Failed
+:Sending Touch (ACTION_DOWN): 0:(396.0,438.0)
+:Sending Touch (ACTION_UP): 0:(399.4255,438.4158)
+:Sending Touch (ACTION_DOWN): 0:(951.0,513.0)
+:Sending Touch (ACTION_UP): 0:(955.7385,514.5004)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(863.0,1325.0)
+:Sending Touch (ACTION_UP): 0:(882.04865,1341.9377)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,1.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(787.0,1242.0)
+:Sending Touch (ACTION_UP): 0:(778.95374,1239.8236)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-4.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(86.0,1287.0)
+:Sending Touch (ACTION_UP): 0:(83.3703,1293.8304)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,3.0)
+    //[calendar_time:2017-05-03 22:29:34.663  system_uptime:13187770]
+    // Sending event #4800
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-1.0)
+:Sending Touch (ACTION_DOWN): 0:(108.0,27.0)
+:Sending Touch (ACTION_UP): 0:(80.510635,0.0)
+:Sending Touch (ACTION_DOWN): 0:(889.0,1549.0)
+:Sending Touch (ACTION_UP): 0:(937.00555,1651.3195)
+:Sending Touch (ACTION_DOWN): 0:(61.0,385.0)
+:Sending Touch (ACTION_UP): 0:(104.8022,435.98846)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,4.0)
+    //[calendar_time:2017-05-03 22:29:34.750  system_uptime:13187857]
+    // Sending event #4900
+    //[calendar_time:2017-05-03 22:29:34.750  system_uptime:13187857]
+    // Sending event #4900
+:Sending Touch (ACTION_DOWN): 0:(971.0,479.0)
+:Sending Touch (ACTION_UP): 0:(962.98083,480.4985)
+:Sending Touch (ACTION_DOWN): 0:(693.0,1482.0)
+:Sending Touch (ACTION_UP): 0:(694.46686,1497.3126)
+:Sending Touch (ACTION_DOWN): 0:(921.0,86.0)
+:Sending Touch (ACTION_UP): 0:(927.5504,93.00164)
+:Sending Touch (ACTION_DOWN): 0:(219.0,892.0)
+:Sending Touch (ACTION_UP): 0:(323.89993,982.7157)
+:Sending Touch (ACTION_DOWN): 0:(395.0,876.0)
+:Sending Touch (ACTION_UP): 0:(384.09662,888.47375)
+:Sending Touch (ACTION_DOWN): 0:(573.0,611.0)
+:Sending Touch (ACTION_UP): 0:(433.13995,586.24414)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-5.0)
+:Sending Touch (ACTION_DOWN): 0:(1020.0,596.0)
+:Sending Touch (ACTION_UP): 0:(1080.0,664.4715)
+:Sending Touch (ACTION_DOWN): 0:(318.0,621.0)
+:Sending Touch (ACTION_UP): 0:(339.02936,618.4213)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=de.ecspride/.UnreachableCode;end
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-3.0)
+:Sending Touch (ACTION_DOWN): 0:(384.0,1138.0)
+:Sending Touch (ACTION_UP): 0:(375.58344,1141.0964)
+:Sending Touch (ACTION_DOWN): 0:(529.0,1379.0)
+    //[calendar_time:2017-05-03 22:29:34.848  system_uptime:13187955]
+    // Sending event #5000
+:Sending Touch (ACTION_UP): 0:(582.93646,1415.5524)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,1.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-4.0)
+:Sending Touch (ACTION_DOWN): 0:(156.0,571.0)
+:Sending Touch (ACTION_UP): 0:(159.25485,563.93665)
+:Sending Touch (ACTION_DOWN): 0:(828.0,764.0)
+:Sending Touch (ACTION_UP): 0:(836.49506,767.1656)
+:Sending Touch (ACTION_DOWN): 0:(518.0,1437.0)
+:Sending Touch (ACTION_UP): 0:(515.48175,1446.8109)
+:Sending Touch (ACTION_DOWN): 0:(509.0,1378.0)
+:Sending Touch (ACTION_UP): 0:(481.41516,1377.7567)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-2.0)
+:Sending Touch (ACTION_DOWN): 0:(634.0,410.0)
+:Sending Touch (ACTION_UP): 0:(635.81665,399.6285)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,3.0)
+:Sending Touch (ACTION_DOWN): 0:(646.0,1200.0)
+:Sending Touch (ACTION_UP): 0:(646.5064,1188.8074)
+:Sending Flip keyboardOpen=false
+Got IOException performing flipjava.io.IOException: write failed: EINVAL (Invalid argument)
+    // Injection Failed
+:Sending Touch (ACTION_DOWN): 0:(462.0,1119.0)
+:Sending Touch (ACTION_UP): 0:(459.44534,1120.2391)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,2.0)
+    //[calendar_time:2017-05-03 22:29:34.946  system_uptime:13188053]
+    // Sending event #5100
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(131.0,612.0)
+:Sending Touch (ACTION_UP): 0:(125.293274,614.75806)
+:Sending Touch (ACTION_DOWN): 0:(676.0,1071.0)
+:Sending Touch (ACTION_UP): 0:(663.39496,1080.3391)
+e[KTrying 127.0.0.1...
+Connected to localhost.
+Escape character is '^]'.
+Android Console: Authentication required
+Android Console: type 'auth <auth_token>' to authenticate
+Android Console: you can find your <auth_token> in 
+'/home/bj/.emulator_console_auth_token'
+OK
+p[K[Dpo[K[D[Dpow[K[D[D[Dpowe[K[D[D[D[Dpower[K[D[D[D[D[Dpower [K[D[D[D[D[D[Dpower c[K[D[D[D[D[D[D[Dpower ca[K[D[D[D[D[D[D[D[Dpower cap[K[D[D[D[D[D[D[D[D[Dpower capa[K[D[D[D[D[D[D[D[D[D[Dpower capac[K[D[D[D[D[D[D[D[D[D[D[Dpower capaci[K[D[D[D[D[D[D[D[D[D[D[D[Dpower capacit[K[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity[K[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity [K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 1[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 10[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 100[K
+KO: unknown command, try 'help'
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-5.0)
+:Sending Touch (ACTION_DOWN): 0:(920.0,1074.0)
+:Sending Touch (ACTION_UP): 0:(935.6649,1004.7494)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,2.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(867.0,1203.0)
+:Sending Touch (ACTION_UP): 0:(888.4091,1203.1282)
+:Sending Touch (ACTION_DOWN): 0:(311.0,1422.0)
+:Sending Touch (ACTION_UP): 0:(310.40988,1419.8278)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-1.0)
+    //[calendar_time:2017-05-03 22:29:36.050  system_uptime:13189157]
+    // Sending event #5200
+p[K[Dpo[K[D[Dpow[K[D[D[Dpowe[K[D[D[D[Dpower[K[D[D[D[D[Dpower [K[D[D[D[D[D[Dpower c[K[D[D[D[D[D[D[Dpower ca[K[D[D[D[D[D[D[D[Dpower cap[K[D[D[D[D[D[D[D[D[Dpower capa[K[D[D[D[D[D[D[D[D[D[Dpower capac[K[D[D[D[D[D[D[D[D[D[D[Dpower capaci[K[D[D[D[D[D[D[D[D[D[D[D[Dpower capacit[K[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity[K[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity [K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 1[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 10[K
+KO: unknown command, try 'help'
+:Sending Touch (ACTION_DOWN): 0:(675.0,1529.0)
+:Sending Touch (ACTION_UP): 0:(676.0133,1520.262)
+:Sending Touch (ACTION_DOWN): 0:(493.0,1085.0)
+:Sending Touch (ACTION_UP): 0:(490.86365,1087.8485)
+:Sending Touch (ACTION_DOWN): 0:(848.0,153.0)
+:Sending Touch (ACTION_UP): 0:(857.0649,150.33524)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,3.0)
+:Sending Touch (ACTION_DOWN): 0:(757.0,437.0)
+:Sending Touch (ACTION_UP): 0:(683.7865,350.65402)
+:Sending Touch (ACTION_DOWN): 0:(547.0,525.0)
+:Sending Touch (ACTION_UP): 0:(538.1999,502.31842)
+:Sending Touch (ACTION_DOWN): 0:(71.0,982.0)
+:Sending Touch (ACTION_UP): 0:(82.40422,968.6283)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-1.0)
+:Sending Touch (ACTION_DOWN): 0:(948.0,1024.0)
+:Sending Touch (ACTION_UP): 0:(883.1252,949.5224)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,4.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,3.0)
+    //[calendar_time:2017-05-03 22:29:36.840  system_uptime:13189947]
+    // Sending event #5300
+:Sending Trackball (ACTION_MOVE): 0:(0.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-5.0)
+:Sending Touch (ACTION_DOWN): 0:(629.0,59.0)
+:Sending Touch (ACTION_UP): 0:(602.41724,70.91966)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,1.0)
+    // Injection Failed
+:Sending Touch (ACTION_DOWN): 0:(613.0,713.0)
+:Sending Touch (ACTION_UP): 0:(599.7475,718.71246)
+:Sending Touch (ACTION_DOWN): 0:(17.0,1033.0)
+:Sending Touch (ACTION_UP): 0:(0.0,904.0553)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,4.0)
+:Sending Touch (ACTION_DOWN): 0:(386.0,456.0)
+:Sending Touch (ACTION_UP): 0:(381.35135,458.48965)
+:Sending Flip keyboardOpen=true
+Got IOException performing flipjava.io.IOException: write failed: EINVAL (Invalid argument)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,3.0)
+    //[calendar_time:2017-05-03 22:29:36.947  system_uptime:13190053]
+    // Sending event #5400
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(754.0,1523.0)
+:Sending Touch (ACTION_UP): 0:(740.0575,1527.589)
+:Sending Touch (ACTION_DOWN): 0:(748.0,698.0)
+:Sending Touch (ACTION_UP): 0:(768.9641,683.6667)
+:Sending Touch (ACTION_DOWN): 0:(764.0,178.0)
+:Sending Touch (ACTION_UP): 0:(750.8391,107.41496)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-3.0)
+:Sending Touch (ACTION_DOWN): 0:(801.0,44.0)
+:Sending Touch (ACTION_UP): 0:(730.49304,59.97555)
+:Sending Touch (ACTION_DOWN): 0:(9.0,1372.0)
+:Sending Touch (ACTION_UP): 0:(4.0499277,1362.8074)
+:Sending Touch (ACTION_DOWN): 0:(1038.0,439.0)
+:Sending Touch (ACTION_UP): 0:(1060.7576,432.12134)
+:Sending Touch (ACTION_DOWN): 0:(915.0,1700.0)
+:Sending Touch (ACTION_UP): 0:(959.0983,1698.2574)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,3.0)
+:Sending Touch (ACTION_DOWN): 0:(487.0,272.0)
+:Sending Touch (ACTION_UP): 0:(443.44745,358.29205)
+    //[calendar_time:2017-05-03 22:29:37.049  system_uptime:13190156]
+    // Sending event #5500
+    //[calendar_time:2017-05-03 22:29:37.049  system_uptime:13190156]
+    // Sending event #5500
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-2.0)
+:Sending Touch (ACTION_DOWN): 0:(440.0,229.0)
+:Sending Touch (ACTION_UP): 0:(442.5728,231.00041)
+:Sending Touch (ACTION_DOWN): 0:(773.0,882.0)
+Trying 127.0.0.1...
+Connected to localhost.
+Escape character is '^]'.
+Android Console: Authentication required
+Android Console: type 'auth <auth_token>' to authenticate
+Android Console: you can find your <auth_token> in 
+'/home/bj/.emulator_console_auth_token'
+OK
+p[K[Dpo[K[D[Dpow[K[D[D[Dpowe[K[D[D[D[Dpower[K[D[D[D[D[Dpower [K[D[D[D[D[D[Dpower c[K[D[D[D[D[D[D[Dpower ca[K[D[D[D[D[D[D[D[Dpower cap[K[D[D[D[D[D[D[D[D[Dpower capa[K[D[D[D[D[D[D[D[D[D[Dpower capac[K[D[D[D[D[D[D[D[D[D[D[Dpower capaci[K[D[D[D[D[D[D[D[D[D[D[D[Dpower capacit[K[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity[K[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity [K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 1[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 10[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 100[K
+KO: unknown command, try 'help'
+:Sending Touch (ACTION_UP): 0:(818.7648,976.7524)
+:Sending Flip keyboardOpen=false
+Got IOException performing flipjava.io.IOException: write failed: EINVAL (Invalid argument)
+    // Injection Failed
+:Sending Touch (ACTION_DOWN): 0:(149.0,973.0)
+:Sending Touch (ACTION_UP): 0:(126.68657,978.27875)
+:Sending Flip keyboardOpen=true
+Got IOException performing flipjava.io.IOException: write failed: EINVAL (Invalid argument)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-1.0)
+:Sending Touch (ACTION_DOWN): 0:(118.0,298.0)
+:Sending Touch (ACTION_UP): 0:(102.8198,270.11673)
+p[K[Dpo[K[D[Dpow[K[D[D[Dpowe[K[D[D[D[Dpower[K[D[D[D[D[Dpower [K[D[D[D[D[D[Dpower c[K[D[D[D[D[D[D[Dpower ca[K[D[D[D[D[D[D[D[Dpower cap[K[D[D[D[D[D[D[D[D[Dpower capa[K[D[D[D[D[D[D[D[D[D[Dpower capac[K[D[D[D[D[D[D[D[D[D[D[Dpower capaci[K[D[D[D[D[D[D[D[D[D[D[D[Dpower capacit[K[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity[K[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity [K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 1[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 10[K
+KO: unknown command, try 'help'
+Events injected: 1
+## Network stats: elapsed time=627ms (0ms mobile, 0ms wifi, 627ms not connected)
+:Sending Touch (ACTION_DOWN): 0:(639.0,1510.0)
+:Sending Touch (ACTION_UP): 0:(620.1714,1550.0381)
+:Sending Touch (ACTION_DOWN): 0:(512.0,862.0)
+:Sending Touch (ACTION_UP): 0:(512.0084,863.62305)
+:Sending Touch (ACTION_DOWN): 0:(593.0,746.0)
+:Sending Touch (ACTION_UP): 0:(584.28455,724.86035)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,4.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(159.0,262.0)
+    //[calendar_time:2017-05-03 22:29:39.077  system_uptime:13192184]
+    // Sending event #5600
+:Sending Touch (ACTION_UP): 0:(64.51002,164.1099)
+Trying 127.0.0.1...
+Connected to localhost.
+Escape character is '^]'.
+Android Console: Authentication required
+Android Console: type 'auth <auth_token>' to authenticate
+Android Console: you can find your <auth_token> in 
+'/home/bj/.emulator_console_auth_token'
+OK
+p[K[Dpo[K[D[Dpow[K[D[D[Dpowe[K[D[D[D[Dpower[K[D[D[D[D[Dpower [K[D[D[D[D[D[Dpower c[K[D[D[D[D[D[D[Dpower ca[K[D[D[D[D[D[D[D[Dpower cap[K[D[D[D[D[D[D[D[D[Dpower capa[K[D[D[D[D[D[D[D[D[D[Dpower capac[K[D[D[D[D[D[D[D[D[D[D[Dpower capaci[K[D[D[D[D[D[D[D[D[D[D[D[Dpower capacit[K[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity[K[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity [K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 1[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 10[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 100[K
+KO: unknown command, try 'help'
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-1.0)
+:Sending Touch (ACTION_DOWN): 0:(976.0,682.0)
+:Sending Touch (ACTION_UP): 0:(972.6133,627.0086)
+:Sending Touch (ACTION_DOWN): 0:(436.0,1106.0)
+:Sending Touch (ACTION_UP): 0:(406.6325,1130.7267)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,3.0)
+:Sending Touch (ACTION_DOWN): 0:(252.0,1219.0)
+:Sending Touch (ACTION_UP): 0:(262.6882,1224.4324)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,1.0)
+    //[calendar_time:2017-05-03 22:29:39.395  system_uptime:13192502]
+    // Sending event #5700
+:Sending Touch (ACTION_DOWN): 0:(45.0,1177.0)
+:Sending Touch (ACTION_UP): 0:(38.75254,1163.6666)
+:Sending Touch (ACTION_DOWN): 0:(139.0,655.0)
+:Sending Touch (ACTION_UP): 0:(136.96411,666.96375)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,2.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(569.0,1136.0)
+:Sending Touch (ACTION_UP): 0:(566.03436,1128.0674)
+:Sending Touch (ACTION_DOWN): 0:(432.0,744.0)
+:Sending Touch (ACTION_UP): 0:(448.43295,757.5151)
+:Sending Touch (ACTION_DOWN): 0:(3.0,1300.0)
+:Sending Touch (ACTION_UP): 0:(49.914127,1314.3485)
+:Sending Touch (ACTION_DOWN): 0:(586.0,1042.0)
+:Sending Touch (ACTION_UP): 0:(484.25357,1117.2689)
+:Sending Touch (ACTION_DOWN): 0:(220.0,425.0)
+:Sending Touch (ACTION_UP): 0:(220.02554,425.0339)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=de.ecspride/.UnreachableCode;end
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-3.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(916.0,187.0)
+    //[calendar_time:2017-05-03 22:29:39.566  system_uptime:13192673]
+    // Sending event #5800
+:Sending Touch (ACTION_UP): 0:(1044.9998,114.778755)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,0.0)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=de.ecspride/.UnreachableCode;end
+:Sending Touch (ACTION_DOWN): 0:(789.0,284.0)
+:Sending Touch (ACTION_UP): 0:(789.97125,304.8236)
+:Sending Touch (ACTION_DOWN): 0:(390.0,207.0)
+:Sending Touch (ACTION_UP): 0:(389.83847,146.12196)
+:Sending Touch (ACTION_DOWN): 0:(913.0,1186.0)
+:Sending Touch (ACTION_UP): 0:(929.49927,1154.8112)
+:Sending Touch (ACTION_DOWN): 0:(979.0,356.0)
+:Sending Touch (ACTION_UP): 0:(966.088,287.11923)
+:Sending Touch (ACTION_DOWN): 0:(428.0,1206.0)
+:Sending Touch (ACTION_UP): 0:(427.72693,1212.8177)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,3.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,0.0)
+    //[calendar_time:2017-05-03 22:29:39.678  system_uptime:13192785]
+    // Sending event #5900
+:Sending Touch (ACTION_DOWN): 0:(410.0,19.0)
+:Sending Touch (ACTION_UP): 0:(397.96173,27.043922)
+:Sending Touch (ACTION_DOWN): 0:(122.0,1645.0)
+:Sending Touch (ACTION_UP): 0:(163.1492,1563.0203)
+:Sending Touch (ACTION_DOWN): 0:(938.0,303.0)
+:Sending Touch (ACTION_UP): 0:(941.75165,310.40125)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-2.0)
+:Sending Touch (ACTION_DOWN): 0:(124.0,1414.0)
+:Sending Touch (ACTION_UP): 0:(121.01773,1399.7522)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-1.0)
+:Sending Touch (ACTION_DOWN): 0:(533.0,1003.0)
+:Sending Touch (ACTION_UP): 0:(523.232,1004.20404)
+:Sending Touch (ACTION_DOWN): 0:(367.0,1266.0)
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+:Sending Touch (ACTION_UP): 0:(426.07144,1315.8473)
+    // Injection Failed
+:Sending Touch (ACTION_DOWN): 0:(354.0,544.0)
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+:Sending Touch (ACTION_UP): 0:(336.02087,593.61835)
+    // Injection Failed
+:Sending Touch (ACTION_DOWN): 0:(746.0,239.0)
+    // Injection Failed
+:Sending Touch (ACTION_UP): 0:(747.6778,239.03415)
+    // Injection Failed
+:Sending Flip keyboardOpen=false
+Got IOException performing flipjava.io.IOException: write failed: EINVAL (Invalid argument)
+    // Injection Failed
+:Sending Touch (ACTION_DOWN): 0:(1011.0,1409.0)
+    // Injection Failed
+:Sending Touch (ACTION_UP): 0:(1014.6849,1425.2435)
+    // Injection Failed
+p[K[Dpo[K[D[Dpow[K[D[D[Dpowe[K[D[D[D[Dpower[K[D[D[D[D[Dpower [K[D[D[D[D[D[Dpower c[K[D[D[D[D[D[D[Dpower ca[K[D[D[D[D[D[D[D[Dpower cap[K[D[D[D[D[D[D[D[D[Dpower capa[K[D[D[D[D[D[D[D[D[D[Dpower capac[K[D[D[D[D[D[D[D[D[D[D[Dpower capaci[K[D[D[D[D[D[D[D[D[D[D[D[Dpower capacit[K[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity[K[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity [K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 1[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 10[K
+KO: unknown command, try 'help'
+    // Injection Failed
+:Sending Touch (ACTION_DOWN): 0:(92.0,726.0)
+:Sending Touch (ACTION_UP): 0:(91.81175,719.2215)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,3.0)
+    //[calendar_time:2017-05-03 22:29:40.595  system_uptime:13193702]
+    // Sending event #6000
+    //[calendar_time:2017-05-03 22:29:40.596  system_uptime:13193702]
+    // Sending event #6000
+:Sending Touch (ACTION_DOWN): 0:(800.0,1525.0)
+:Sending Touch (ACTION_UP): 0:(807.8099,1523.2821)
+:Sending Touch (ACTION_DOWN): 0:(368.0,1636.0)
+:Sending Touch (ACTION_UP): 0:(367.07922,1636.2952)
+:Sending Touch (ACTION_DOWN): 0:(978.0,733.0)
+:Sending Touch (ACTION_UP): 0:(973.3976,754.22015)
+:Sending Touch (ACTION_DOWN): 0:(573.0,734.0)
+:Sending Touch (ACTION_UP): 0:(563.0281,721.69617)
+Trying 127.0.0.1...
+Connected to localhost.
+Escape character is '^]'.
+Android Console: Authentication required
+Android Console: type 'auth <auth_token>' to authenticate
+Android Console: you can find your <auth_token> in 
+'/home/bj/.emulator_console_auth_token'
+OK
+p[K[Dpo[K[D[Dpow[K[D[D[Dpowe[K[D[D[D[Dpower[K[D[D[D[D[Dpower [K[D[D[D[D[D[Dpower c[K[D[D[D[D[D[D[Dpower ca[K[D[D[D[D[D[D[D[Dpower cap[K[D[D[D[D[D[D[D[D[Dpower capa[K[D[D[D[D[D[D[D[D[D[Dpower capac[K[D[D[D[D[D[D[D[D[D[D[Dpower capaci[K[D[D[D[D[D[D[D[D[D[D[D[Dpower capacit[K[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity[K[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity [K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 1[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 10[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 100[K
+KO: unknown command, try 'help'
+:Sending Touch (ACTION_DOWN): 0:(225.0,741.0)
+:Sending Touch (ACTION_UP): 0:(217.71129,734.69214)
+:Sending Touch (ACTION_DOWN): 0:(640.0,882.0)
+:Sending Touch (ACTION_UP): 0:(642.4523,883.76306)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-5.0)
+:Sending Touch (ACTION_DOWN): 0:(327.0,1474.0)
+:Sending Touch (ACTION_UP): 0:(258.31476,1443.5332)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-5.0)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=de.ecspride/.UnreachableCode;end
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-2.0)
+:Sending Touch (ACTION_DOWN): 0:(577.0,423.0)
+    //[calendar_time:2017-05-03 22:29:41.562  system_uptime:13194669]
+    // Sending event #6100
+:Sending Touch (ACTION_UP): 0:(555.31805,443.2227)
+:Sending Touch (ACTION_DOWN): 0:(705.0,1747.0)
+:Sending Touch (ACTION_UP): 0:(707.00586,1776.0)
+:Sending Touch (ACTION_DOWN): 0:(875.0,394.0)
+:Sending Touch (ACTION_UP): 0:(868.4317,385.9507)
+:Sending Touch (ACTION_DOWN): 0:(937.0,794.0)
+:Sending Touch (ACTION_UP): 0:(930.70074,801.3799)
+:Sending Touch (ACTION_DOWN): 0:(245.0,761.0)
+:Sending Touch (ACTION_UP): 0:(260.95242,758.206)
+:Sending Touch (ACTION_DOWN): 0:(388.0,288.0)
+:Sending Touch (ACTION_UP): 0:(386.62973,302.31396)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=de.ecspride/.UnreachableCode;end
+:Sending Touch (ACTION_DOWN): 0:(921.0,1430.0)
+:Sending Touch (ACTION_UP): 0:(914.215,1417.8082)
+:Sending Touch (ACTION_DOWN): 0:(627.0,538.0)
+:Sending Touch (ACTION_UP): 0:(620.8026,538.0892)
+:Sending Touch (ACTION_DOWN): 0:(922.0,690.0)
+:Sending Touch (ACTION_UP): 0:(924.18536,690.8212)
+:Sending Touch (ACTION_DOWN): 0:(125.0,887.0)
+:Sending Touch (ACTION_UP): 0:(122.15326,884.0301)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-5.0)
+:Sending Touch (ACTION_DOWN): 0:(490.0,245.0)
+:Sending Touch (ACTION_UP): 0:(483.43765,256.40564)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-5.0)
+:Sending Touch (ACTION_DOWN): 0:(391.0,620.0)
+:Sending Touch (ACTION_UP): 0:(411.65268,618.6941)
+:Sending Touch (ACTION_DOWN): 0:(728.0,1100.0)
+    //[calendar_time:2017-05-03 22:29:41.655  system_uptime:13194761]
+    // Sending event #6200
+:Sending Touch (ACTION_UP): 0:(722.8057,1096.9448)
+:Sending Touch (ACTION_DOWN): 0:(203.0,695.0)
+:Sending Touch (ACTION_UP): 0:(208.06116,690.5846)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=de.ecspride/.UnreachableCode;end
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=de.ecspride/.UnreachableCode;end
+:Sending Touch (ACTION_DOWN): 0:(1079.0,61.0)
+:Sending Touch (ACTION_UP): 0:(1073.2635,61.83626)
+:Sending Touch (ACTION_DOWN): 0:(687.0,1201.0)
+:Sending Touch (ACTION_UP): 0:(755.14154,1187.5989)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=de.ecspride/.UnreachableCode;end
+:Sending Touch (ACTION_DOWN): 0:(125.0,805.0)
+:Sending Touch (ACTION_UP): 0:(124.39262,802.3393)
+:Sending Touch (ACTION_DOWN): 0:(518.0,27.0)
+:Sending Touch (ACTION_UP): 0:(519.33685,24.75553)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-5.0)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=de.ecspride/.UnreachableCode;end
+:Sending Trackball (ACTION_MOVE): 0:(2.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-5.0)
+:Sending Touch (ACTION_DOWN): 0:(629.0,758.0)
+:Sending Touch (ACTION_UP): 0:(635.44214,738.3307)
+:Sending Touch (ACTION_DOWN): 0:(499.0,309.0)
+:Sending Touch (ACTION_UP): 0:(492.07623,300.07172)
+:Sending Touch (ACTION_DOWN): 0:(790.0,1696.0)
+:Sending Touch (ACTION_UP): 0:(790.1302,1691.6807)
+:Sending Touch (ACTION_DOWN): 0:(585.0,65.0)
+:Sending Touch (ACTION_UP): 0:(590.49695,66.12882)
+:Sending Touch (ACTION_DOWN): 0:(988.0,549.0)
+:Sending Touch (ACTION_UP): 0:(990.25275,547.6514)
+:Sending Touch (ACTION_DOWN): 0:(111.0,269.0)
+:Sending Touch (ACTION_UP): 0:(115.51306,252.00655)
+:Sending Touch (ACTION_DOWN): 0:(406.0,322.0)
+:Sending Touch (ACTION_UP): 0:(395.47913,317.4227)
+    //[calendar_time:2017-05-03 22:29:41.824  system_uptime:13194931]
+    // Sending event #6300
+    //[calendar_time:2017-05-03 22:29:41.825  system_uptime:13194931]
+    // Sending event #6300
+:Sending Flip keyboardOpen=true
+Got IOException performing flipjava.io.IOException: write failed: EINVAL (Invalid argument)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(414.0,458.0)
+:Sending Touch (ACTION_UP): 0:(406.11456,491.01575)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(215.0,1163.0)
+:Sending Touch (ACTION_UP): 0:(264.3085,1115.2802)
+:Sending Touch (ACTION_DOWN): 0:(117.0,455.0)
+:Sending Touch (ACTION_UP): 0:(111.93071,457.0246)
+:Sending Touch (ACTION_DOWN): 0:(18.0,658.0)
+:Sending Touch (ACTION_UP): 0:(18.153452,659.882)
+:Sending Touch (ACTION_DOWN): 0:(698.0,600.0)
+:Sending Touch (ACTION_UP): 0:(672.52136,650.2998)
+:Sending Touch (ACTION_DOWN): 0:(797.0,549.0)
+:Sending Touch (ACTION_UP): 0:(807.0254,561.75287)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-1.0)
+:Sending Touch (ACTION_DOWN): 0:(86.0,590.0)
+:Sending Touch (ACTION_UP): 0:(141.78862,696.5816)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,4.0)
+    //[calendar_time:2017-05-03 22:29:41.939  system_uptime:13195046]
+    // Sending event #6400
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(8.0,1283.0)
+:Sending Touch (ACTION_UP): 0:(0.0,1333.5796)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(210.0,1033.0)
+:Sending Touch (ACTION_UP): 0:(211.37994,1024.9835)
+:Sending Touch (ACTION_DOWN): 0:(491.0,175.0)
+:Sending Touch (ACTION_UP): 0:(491.66052,174.04837)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-2.0)
+:Sending Flip keyboardOpen=false
+Got IOException performing flipjava.io.IOException: write failed: EINVAL (Invalid argument)
+    // Injection Failed
+:Sending Touch (ACTION_DOWN): 0:(217.0,1015.0)
+:Sending Touch (ACTION_UP): 0:(294.1514,986.3392)
+:Sending Touch (ACTION_DOWN): 0:(357.0,749.0)
+:Sending Touch (ACTION_UP): 0:(364.8636,765.2668)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,3.0)
+    //[calendar_time:2017-05-03 22:29:42.041  system_uptime:13195148]
+    // Sending event #6500
+:Sending Touch (ACTION_DOWN): 0:(984.0,618.0)
+:Sending Touch (ACTION_UP): 0:(979.4111,624.34)
+:Sending Touch (ACTION_DOWN): 0:(775.0,903.0)
+:Sending Touch (ACTION_UP): 0:(787.2032,903.81616)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-4.0)
+p[K[Dpo[K[D[Dpow[K[D[D[Dpowe[K[D[D[D[Dpower[K[D[D[D[D[Dpower [K[D[D[D[D[D[Dpower c[K[D[D[D[D[D[D[Dpower ca[K[D[D[D[D[D[D[D[Dpower cap[K[D[D[D[D[D[D[D[D[Dpower capa[K[D[D[D[D[D[D[D[D[D[Dpower capac[K[D[D[D[D[D[D[D[D[D[D[Dpower capaci[K[D[D[D[D[D[D[D[D[D[D[D[Dpower capacit[K[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity[K[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity [K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 1[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 10[K
+KO: unknown command, try 'help'
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-4.0)
+:Sending Touch (ACTION_DOWN): 0:(1033.0,1584.0)
+:Sending Touch (ACTION_UP): 0:(1011.75964,1586.1565)
+:Sending Touch (ACTION_DOWN): 0:(943.0,649.0)
+:Sending Touch (ACTION_UP): 0:(870.59045,692.179)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,0.0)
+:Sending Flip keyboardOpen=true
+Got IOException performing flipjava.io.IOException: write failed: EINVAL (Invalid argument)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-5.0)
+    //[calendar_time:2017-05-03 22:29:42.421  system_uptime:13195528]
+    // Sending event #6600
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-4.0)
+:Sending Touch (ACTION_DOWN): 0:(885.0,600.0)
+:Sending Touch (ACTION_UP): 0:(881.21313,600.09155)
+:Sending Touch (ACTION_DOWN): 0:(353.0,1613.0)
+:Sending Touch (ACTION_UP): 0:(352.59677,1612.1719)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-4.0)
+:Sending Touch (ACTION_DOWN): 0:(632.0,59.0)
+:Sending Touch (ACTION_UP): 0:(616.3355,125.08916)
+:Sending Touch (ACTION_DOWN): 0:(634.0,1609.0)
+:Sending Touch (ACTION_UP): 0:(646.6419,1611.3896)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-1.0)
+:Sending Touch (ACTION_DOWN): 0:(720.0,669.0)
+:Sending Touch (ACTION_UP): 0:(711.25006,651.11365)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,3.0)
+    //[calendar_time:2017-05-03 22:29:42.694  system_uptime:13195801]
+    // Sending event #6700
+:Sending Touch (ACTION_DOWN): 0:(615.0,862.0)
+:Sending Touch (ACTION_UP): 0:(598.28864,860.0519)
+:Sending Touch (ACTION_DOWN): 0:(999.0,1617.0)
+:Sending Touch (ACTION_UP): 0:(978.7161,1613.6283)
+:Sending Touch (ACTION_DOWN): 0:(906.0,893.0)
+:Sending Touch (ACTION_UP): 0:(906.0302,882.2518)
+:Sending Touch (ACTION_DOWN): 0:(1008.0,484.0)
+:Sending Touch (ACTION_UP): 0:(1031.0411,417.25757)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-3.0)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=de.ecspride/.UnreachableCode;end
+:Sending Trackball (ACTION_MOVE): 0:(4.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,1.0)
+    //[calendar_time:2017-05-03 22:29:42.979  system_uptime:13196086]
+    // Sending event #6800
+:Sending Touch (ACTION_DOWN): 0:(924.0,349.0)
+:Sending Touch (ACTION_UP): 0:(936.413,349.30927)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-2.0)
+:Sending Touch (ACTION_DOWN): 0:(853.0,56.0)
+:Sending Touch (ACTION_UP): 0:(768.10876,158.73373)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-5.0)
+Trying 127.0.0.1...
+Connected to localhost.
+Escape character is '^]'.
+Android Console: Authentication required
+Android Console: type 'auth <auth_token>' to authenticate
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,3.0)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=de.ecspride/.UnreachableCode;end
+Android Console: you can find your <auth_token> in 
+'/home/bj/.emulator_console_auth_token'
+OK
+p[K[Dpo[K[D[Dpow[K[D[D[Dpowe[K[D[D[D[Dpower[K[D[D[D[D[Dpower [K[D[D[D[D[D[Dpower c[K[D[D[D[D[D[D[Dpower ca[K[D[D[D[D[D[D[D[Dpower cap[K[D[D[D[D[D[D[D[D[Dpower capa[K[D[D[D[D[D[D[D[D[D[Dpower capac[K[D[D[D[D[D[D[D[D[D[D[Dpower capaci[K[D[D[D[D[D[D[D[D[D[D[D[Dpower capacit[K[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity[K[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity [K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 1[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 10[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 100[K
+KO: unknown command, try 'help'
+    //[calendar_time:2017-05-03 22:29:43.134  system_uptime:13196241]
+    // Sending event #6900
+:Sending Touch (ACTION_DOWN): 0:(748.0,986.0)
+:Sending Touch (ACTION_UP): 0:(735.93005,985.4152)
+:Sending Touch (ACTION_DOWN): 0:(7.0,565.0)
+:Sending Touch (ACTION_UP): 0:(0.0,567.0242)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-1.0)
+:Sending Touch (ACTION_DOWN): 0:(904.0,875.0)
+:Sending Touch (ACTION_UP): 0:(884.1897,871.20123)
+:Sending Touch (ACTION_DOWN): 0:(257.0,631.0)
+:Sending Touch (ACTION_UP): 0:(263.4601,633.3508)
+:Sending Touch (ACTION_DOWN): 0:(466.0,1462.0)
+:Sending Touch (ACTION_UP): 0:(439.07364,1452.828)
+:Sending Touch (ACTION_DOWN): 0:(164.0,188.0)
+:Sending Touch (ACTION_UP): 0:(172.88133,188.44884)
+:Sending Touch (ACTION_DOWN): 0:(64.0,1465.0)
+:Sending Touch (ACTION_UP): 0:(63.692955,1456.5591)
+:Sending Touch (ACTION_DOWN): 0:(990.0,442.0)
+:Sending Touch (ACTION_UP): 0:(978.5806,444.24097)
+:Sending Touch (ACTION_DOWN): 0:(1.0,1452.0)
+:Sending Touch (ACTION_UP): 0:(0.0,1460.5486)
+    //[calendar_time:2017-05-03 22:29:43.397  system_uptime:13196504]
+    // Sending event #7000
+    //[calendar_time:2017-05-03 22:29:43.398  system_uptime:13196505]
+    // Sending event #7000
+:Sending Flip keyboardOpen=false
+Got IOException performing flipjava.io.IOException: write failed: EINVAL (Invalid argument)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-2.0)
+:Sending Touch (ACTION_DOWN): 0:(227.0,1772.0)
+:Sending Touch (ACTION_UP): 0:(225.53336,1772.5707)
+:Sending Touch (ACTION_DOWN): 0:(350.0,1423.0)
+:Sending Touch (ACTION_UP): 0:(346.13586,1443.7229)
+:Sending Touch (ACTION_DOWN): 0:(516.0,610.0)
+:Sending Touch (ACTION_UP): 0:(509.76712,617.9842)
+:Sending Touch (ACTION_DOWN): 0:(599.0,291.0)
+:Sending Touch (ACTION_UP): 0:(609.3792,293.22598)
+:Sending Touch (ACTION_DOWN): 0:(263.0,1021.0)
+:Sending Touch (ACTION_UP): 0:(280.6625,1024.865)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,2.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(911.0,1565.0)
+:Sending Touch (ACTION_UP): 0:(911.6838,1571.4951)
+:Sending Touch (ACTION_DOWN): 0:(295.0,1138.0)
+:Sending Touch (ACTION_UP): 0:(342.28403,1159.1525)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-2.0)
+    //[calendar_time:2017-05-03 22:29:43.534  system_uptime:13196641]
+    // Sending event #7100
+:Sending Touch (ACTION_DOWN): 0:(388.0,1746.0)
+:Sending Touch (ACTION_UP): 0:(388.55838,1734.8091)
+:Sending Touch (ACTION_DOWN): 0:(871.0,1557.0)
+:Sending Touch (ACTION_UP): 0:(801.24347,1503.8597)
+:Sending Touch (ACTION_DOWN): 0:(565.0,1028.0)
+:Sending Touch (ACTION_UP): 0:(550.08356,1015.3119)
+:Sending Touch (ACTION_DOWN): 0:(98.0,1711.0)
+:Sending Touch (ACTION_UP): 0:(147.19252,1763.8124)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(1054.0,1293.0)
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+:Sending Touch (ACTION_UP): 0:(1009.8965,1301.3971)
+    // Injection Failed
+:Sending Touch (ACTION_DOWN): 0:(413.0,20.0)
+:Sending Touch (ACTION_UP): 0:(420.07983,6.5271654)
+:Sending Touch (ACTION_DOWN): 0:(628.0,1726.0)
+:Sending Touch (ACTION_UP): 0:(622.20825,1725.976)
+    // Injection Failed
+p[K[Dpo[K[D[Dpow[K[D[D[Dpowe[K[D[D[D[Dpower[K[D[D[D[D[Dpower [K[D[D[D[D[D[Dpower c[K[D[D[D[D[D[D[Dpower ca[K[D[D[D[D[D[D[D[Dpower cap[K[D[D[D[D[D[D[D[D[Dpower capa[K[D[D[D[D[D[D[D[D[D[Dpower capac[K[D[D[D[D[D[D[D[D[D[D[Dpower capaci[K[D[D[D[D[D[D[D[D[D[D[D[Dpower capacit[K[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity[K[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity [K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 1[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 10[K
+KO: unknown command, try 'help'
+:Sending Touch (ACTION_DOWN): 0:(769.0,365.0)
+:Sending Touch (ACTION_UP): 0:(772.4539,371.8419)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,1.0)
+    //[calendar_time:2017-05-03 22:29:44.290  system_uptime:13197397]
+    // Sending event #7200
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-4.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(298.0,316.0)
+:Sending Touch (ACTION_UP): 0:(278.8412,305.02234)
+Events injected: 1
+## Network stats: elapsed time=196ms (0ms mobile, 0ms wifi, 196ms not connected)
+Trying 127.0.0.1...
+Connected to localhost.
+Escape character is '^]'.
+Android Console: Authentication required
+Android Console: type 'auth <auth_token>' to authenticate
+Android Console: you can find your <auth_token> in 
+'/home/bj/.emulator_console_auth_token'
+OK
+p[K[Dpo[K[D[Dpow[K[D[D[Dpowe[K[D[D[D[Dpower[K[D[D[D[D[Dpower [K[D[D[D[D[D[Dpower c[K[D[D[D[D[D[D[Dpower ca[K[D[D[D[D[D[D[D[Dpower cap[K[D[D[D[D[D[D[D[D[Dpower capa[K[D[D[D[D[D[D[D[D[D[Dpower capac[K[D[D[D[D[D[D[D[D[D[D[Dpower capaci[K[D[D[D[D[D[D[D[D[D[D[D[Dpower capacit[K[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity[K[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity [K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 1[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 10[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 100[K
+KO: unknown command, try 'help'
+:Sending Touch (ACTION_DOWN): 0:(279.0,444.0)
+:Sending Touch (ACTION_UP): 0:(310.2044,523.85077)
+:Sending Touch (ACTION_DOWN): 0:(646.0,1654.0)
+:Sending Touch (ACTION_UP): 0:(652.30023,1644.3527)
+:Sending Touch (ACTION_DOWN): 0:(1015.0,702.0)
+:Sending Touch (ACTION_UP): 0:(1031.3466,696.6586)
+:Sending Touch (ACTION_DOWN): 0:(583.0,616.0)
+:Sending Touch (ACTION_UP): 0:(545.90485,599.95386)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,2.0)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=de.ecspride/.UnreachableCode;end
+:Sending Touch (ACTION_DOWN): 0:(182.0,1064.0)
+:Sending Touch (ACTION_UP): 0:(234.92845,1053.309)
+:Sending Touch (ACTION_DOWN): 0:(801.0,284.0)
+:Sending Touch (ACTION_UP): 0:(801.9508,294.66306)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=de.ecspride/.UnreachableCode;end
+:Sending Trackball (ACTION_MOVE): 0:(3.0,2.0)
+    //[calendar_time:2017-05-03 22:29:45.442  system_uptime:13198548]
+    // Sending event #7300
+:Sending Touch (ACTION_DOWN): 0:(634.0,1494.0)
+:Sending Touch (ACTION_UP): 0:(730.85034,1476.6655)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-1.0)
+:Sending Touch (ACTION_DOWN): 0:(1066.0,942.0)
+:Sending Touch (ACTION_UP): 0:(1079.003,927.72943)
+:Sending Touch (ACTION_DOWN): 0:(262.0,1470.0)
+:Sending Touch (ACTION_UP): 0:(267.1937,1468.2935)
+:Sending Touch (ACTION_DOWN): 0:(985.0,1636.0)
+:Sending Touch (ACTION_UP): 0:(963.6607,1622.5428)
+:Sending Touch (ACTION_DOWN): 0:(548.0,1764.0)
+:Sending Touch (ACTION_UP): 0:(547.3926,1776.0)
+:Sending Touch (ACTION_DOWN): 0:(1003.0,443.0)
+:Sending Touch (ACTION_UP): 0:(1006.94324,452.63553)
+:Sending Touch (ACTION_DOWN): 0:(1074.0,717.0)
+:Sending Touch (ACTION_UP): 0:(1056.229,731.4548)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(901.0,353.0)
+:Sending Touch (ACTION_UP): 0:(892.15045,363.3536)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-4.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(921.0,410.0)
+:Sending Touch (ACTION_UP): 0:(907.6263,412.9137)
+    //[calendar_time:2017-05-03 22:29:45.572  system_uptime:13198679]
+    // Sending event #7400
+    //[calendar_time:2017-05-03 22:29:45.572  system_uptime:13198679]
+    // Sending event #7400
+:Sending Touch (ACTION_DOWN): 0:(215.0,1227.0)
+:Sending Touch (ACTION_UP): 0:(263.94543,1143.207)
+:Sending Touch (ACTION_DOWN): 0:(54.0,680.0)
+:Sending Touch (ACTION_UP): 0:(41.701942,689.22614)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,3.0)
+:Sending Touch (ACTION_DOWN): 0:(388.0,412.0)
+:Sending Touch (ACTION_UP): 0:(378.1152,405.84387)
+:Sending Touch (ACTION_DOWN): 0:(574.0,1084.0)
+:Sending Touch (ACTION_UP): 0:(613.6424,1198.6453)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,4.0)
+:Sending Touch (ACTION_DOWN): 0:(815.0,1438.0)
+:Sending Touch (ACTION_UP): 0:(773.89386,1363.2219)
+:Sending Touch (ACTION_DOWN): 0:(418.0,1134.0)
+:Sending Touch (ACTION_UP): 0:(426.7752,1145.8079)
+:Sending Touch (ACTION_DOWN): 0:(396.0,1391.0)
+:Sending Touch (ACTION_UP): 0:(392.35333,1388.1846)
+:Sending Touch (ACTION_DOWN): 0:(447.0,655.0)
+:Sending Touch (ACTION_UP): 0:(448.42822,647.4436)
+:Sending Touch (ACTION_DOWN): 0:(755.0,703.0)
+:Sending Touch (ACTION_UP): 0:(743.17053,733.72406)
+:Sending Touch (ACTION_DOWN): 0:(186.0,570.0)
+:Sending Touch (ACTION_UP): 0:(180.20422,552.2418)
+    //[calendar_time:2017-05-03 22:29:45.671  system_uptime:13198778]
+    // Sending event #7500
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=de.ecspride/.UnreachableCode;end
+:Sending Touch (ACTION_DOWN): 0:(185.0,1069.0)
+:Sending Touch (ACTION_UP): 0:(182.55644,1053.8586)
+:Sending Touch (ACTION_DOWN): 0:(86.0,566.0)
+:Sending Touch (ACTION_UP): 0:(90.47101,582.9553)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-3.0)
+:Sending Touch (ACTION_DOWN): 0:(369.0,1302.0)
+:Sending Touch (ACTION_UP): 0:(368.4813,1302.7368)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,0.0)
+:Sending Flip keyboardOpen=true
+Got IOException performing flipjava.io.IOException: write failed: EINVAL (Invalid argument)
+    // Injection Failed
+:Sending Touch (ACTION_DOWN): 0:(29.0,1572.0)
+:Sending Touch (ACTION_UP): 0:(3.4911695,1521.0596)
+:Sending Touch (ACTION_DOWN): 0:(237.0,1402.0)
+:Sending Touch (ACTION_UP): 0:(290.24893,1419.1187)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,3.0)
+:Sending Touch (ACTION_DOWN): 0:(954.0,422.0)
+:Sending Touch (ACTION_UP): 0:(938.67303,423.41916)
+:Sending Touch (ACTION_DOWN): 0:(762.0,333.0)
+:Sending Touch (ACTION_UP): 0:(760.68854,326.69724)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,2.0)
+p[K[Dpo[K[D[Dpow[K[D[D[Dpowe[K[D[D[D[Dpower[K[D[D[D[D[Dpower [K[D[D[D[D[D[Dpower c[K[D[D[D[D[D[D[Dpower ca[K[D[D[D[D[D[D[D[Dpower cap[K[D[D[D[D[D[D[D[D[Dpower capa[K[D[D[D[D[D[D[D[D[D[Dpower capac[K[D[D[D[D[D[D[D[D[D[D[Dpower capaci[K[D[D[D[D[D[D[D[D[D[D[D[Dpower capacit[K[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity[K[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity [K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 1[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 10[K
+KO: unknown command, try 'help'
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-1.0)
+    //[calendar_time:2017-05-03 22:29:46.150  system_uptime:13199257]
+    // Sending event #7600
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(444.0,671.0)
+:Sending Touch (ACTION_UP): 0:(439.821,660.44135)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-1.0)
+:Sending Touch (ACTION_DOWN): 0:(164.0,1575.0)
+:Sending Touch (ACTION_UP): 0:(120.1224,1544.6531)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-5.0)
+:Sending Flip keyboardOpen=false
+Got IOException performing flipjava.io.IOException: write failed: EINVAL (Invalid argument)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-5.0)
+    //[calendar_time:2017-05-03 22:29:46.234  system_uptime:13199341]
+    // Sending event #7700
+    //[calendar_time:2017-05-03 22:29:46.234  system_uptime:13199341]
+    // Sending event #7700
+:Sending Flip keyboardOpen=true
+Got IOException performing flipjava.io.IOException: write failed: EINVAL (Invalid argument)
+    // Injection Failed
+:Sending Touch (ACTION_DOWN): 0:(273.0,386.0)
+:Sending Touch (ACTION_UP): 0:(261.53583,385.18365)
+:Sending Touch (ACTION_DOWN): 0:(862.0,844.0)
+:Sending Touch (ACTION_UP): 0:(755.8092,747.97125)
+:Sending Touch (ACTION_DOWN): 0:(455.0,294.0)
+:Sending Touch (ACTION_UP): 0:(464.10477,291.5639)
+:Sending Touch (ACTION_DOWN): 0:(210.0,1439.0)
+:Sending Touch (ACTION_UP): 0:(221.13153,1442.043)
+:Sending Touch (ACTION_DOWN): 0:(994.0,620.0)
+:Sending Touch (ACTION_UP): 0:(1056.246,607.60724)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=de.ecspride/.UnreachableCode;end
+:Sending Touch (ACTION_DOWN): 0:(86.0,319.0)
+:Sending Touch (ACTION_UP): 0:(80.86984,319.23035)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-5.0)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=de.ecspride/.UnreachableCode;end
+:Sending Touch (ACTION_DOWN): 0:(88.0,1405.0)
+:Sending Touch (ACTION_UP): 0:(154.3055,1516.5521)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(793.0,728.0)
+:Sending Touch (ACTION_UP): 0:(788.5016,695.8028)
+:Sending Touch (ACTION_DOWN): 0:(549.0,1684.0)
+:Sending Touch (ACTION_UP): 0:(548.45984,1678.027)
+:Sending Touch (ACTION_DOWN): 0:(122.0,1433.0)
+:Sending Touch (ACTION_UP): 0:(101.65375,1453.094)
+    //[calendar_time:2017-05-03 22:29:46.463  system_uptime:13199570]
+    // Sending event #7800
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-3.0)
+:Sending Touch (ACTION_DOWN): 0:(425.0,1698.0)
+:Sending Touch (ACTION_UP): 0:(415.80612,1684.3212)
+:Sending Touch (ACTION_DOWN): 0:(1070.0,1340.0)
+:Sending Touch (ACTION_UP): 0:(946.6897,1212.5184)
+:Sending Touch (ACTION_DOWN): 0:(51.0,151.0)
+:Sending Touch (ACTION_UP): 0:(46.649696,150.84082)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(1065.0,1617.0)
+:Sending Touch (ACTION_UP): 0:(1077.4326,1601.7938)
+:Sending Touch (ACTION_DOWN): 0:(878.0,928.0)
+:Sending Touch (ACTION_UP): 0:(925.10986,913.4366)
+:Sending Touch (ACTION_DOWN): 0:(674.0,226.0)
+:Sending Touch (ACTION_UP): 0:(662.36847,229.28357)
+:Sending Touch (ACTION_DOWN): 0:(914.0,1151.0)
+:Sending Touch (ACTION_UP): 0:(908.30334,1200.3473)
+:Sending Touch (ACTION_DOWN): 0:(256.0,957.0)
+:Sending Touch (ACTION_UP): 0:(254.88855,942.53235)
+:Sending Touch (ACTION_DOWN): 0:(552.0,1440.0)
+    //[calendar_time:2017-05-03 22:29:46.706  system_uptime:13199813]
+    // Sending event #7900
+:Sending Touch (ACTION_UP): 0:(583.164,1372.9192)
+:Sending Touch (ACTION_DOWN): 0:(1033.0,200.0)
+:Sending Touch (ACTION_UP): 0:(1070.0833,208.57016)
+:Sending Touch (ACTION_DOWN): 0:(209.0,1735.0)
+:Sending Touch (ACTION_UP): 0:(212.20905,1735.2515)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-5.0)
+:Sending Touch (ACTION_DOWN): 0:(254.0,1564.0)
+:Sending Touch (ACTION_UP): 0:(245.14107,1548.6691)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(322.0,1345.0)
+:Sending Touch (ACTION_UP): 0:(331.27002,1350.0803)
+:Sending Touch (ACTION_DOWN): 0:(742.0,306.0)
+:Sending Touch (ACTION_UP): 0:(741.5522,290.63293)
+:Sending Touch (ACTION_DOWN): 0:(117.0,1239.0)
+:Sending Touch (ACTION_UP): 0:(116.558586,1245.0508)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=de.ecspride/.UnreachableCode;end
+:Sending Touch (ACTION_DOWN): 0:(565.0,500.0)
+:Sending Touch (ACTION_UP): 0:(570.49084,510.191)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-2.0)
+    //[calendar_time:2017-05-03 22:29:46.820  system_uptime:13199927]
+    // Sending event #8000
+:Sending Touch (ACTION_DOWN): 0:(57.0,1406.0)
+:Sending Touch (ACTION_UP): 0:(43.674744,1419.7645)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=de.ecspride/.UnreachableCode;end
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-4.0)
+:Sending Touch (ACTION_DOWN): 0:(117.0,1591.0)
+:Sending Touch (ACTION_UP): 0:(107.03766,1582.6664)
+:Sending Touch (ACTION_DOWN): 0:(922.0,478.0)
+:Sending Touch (ACTION_UP): 0:(984.7115,581.0909)
+:Sending Touch (ACTION_DOWN): 0:(675.0,1613.0)
+:Sending Touch (ACTION_UP): 0:(662.7259,1612.5698)
+:Sending Touch (ACTION_DOWN): 0:(980.0,1339.0)
+:Sending Touch (ACTION_UP): 0:(968.9491,1339.16)
+:Sending Touch (ACTION_DOWN): 0:(337.0,1274.0)
+:Sending Touch (ACTION_UP): 0:(338.01254,1271.1968)
+:Sending Touch (ACTION_DOWN): 0:(1022.0,185.0)
+:Sending Touch (ACTION_UP): 0:(1017.12756,187.85954)
+:Sending Touch (ACTION_DOWN): 0:(950.0,43.0)
+:Sending Touch (ACTION_UP): 0:(1032.5793,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-5.0)
+    //[calendar_time:2017-05-03 22:29:46.927  system_uptime:13200034]
+    // Sending event #8100
+:Sending Touch (ACTION_DOWN): 0:(346.0,1096.0)
+:Sending Touch (ACTION_UP): 0:(333.58444,1103.0164)
+:Sending Touch (ACTION_DOWN): 0:(124.0,1004.0)
+:Sending Touch (ACTION_UP): 0:(113.12008,1011.5199)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(686.0,13.0)
+:Sending Touch (ACTION_UP): 0:(679.2052,15.376212)
+:Sending Touch (ACTION_DOWN): 0:(161.0,1669.0)
+:Sending Touch (ACTION_UP): 0:(161.51955,1674.1469)
+:Sending Touch (ACTION_DOWN): 0:(546.0,715.0)
+:Sending Touch (ACTION_UP): 0:(535.5034,717.4055)
+e[KTrying 127.0.0.1...
+Connected to localhost.
+Escape character is '^]'.
+Android Console: Authentication required
+Android Console: type 'auth <auth_token>' to authenticate
+:Sending Touch (ACTION_DOWN): 0:(42.0,1056.0)
+:Sending Touch (ACTION_UP): 0:(47.831642,1073.25)
+:Sending Touch (ACTION_DOWN): 0:(1063.0,772.0)
+:Sending Touch (ACTION_UP): 0:(1051.443,772.0149)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-1.0)
+:Sending Touch (ACTION_DOWN): 0:(325.0,548.0)
+:Sending Touch (ACTION_UP): 0:(325.33594,547.7173)
+:Sending Touch (ACTION_DOWN): 0:(401.0,1320.0)
+:Sending Touch (ACTION_UP): 0:(405.10052,1316.9977)
+Android Console: you can find your <auth_token> in 
+'/home/bj/.emulator_console_auth_token'
+OK
+p[K[Dpo[K[D[Dpow[K[D[D[Dpowe[K[D[D[D[Dpower[K[D[D[D[D[Dpower [K[D[D[D[D[D[Dpower c[K[D[D[D[D[D[D[Dpower ca[K[D[D[D[D[D[D[D[Dpower cap[K[D[D[D[D[D[D[D[D[Dpower capa[K[D[D[D[D[D[D[D[D[D[Dpower capac[K[D[D[D[D[D[D[D[D[D[D[Dpower capaci[K[D[D[D[D[D[D[D[D[D[D[D[Dpower capacit[K[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity[K[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity [K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 1[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 10[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 100[K
+KO: unknown command, try 'help'
+:Sending Touch (ACTION_DOWN): 0:(1015.0,286.0)
+:Sending Touch (ACTION_UP): 0:(1049.4001,320.67667)
+:Sending Touch (ACTION_DOWN): 0:(1065.0,1112.0)
+:Sending Touch (ACTION_UP): 0:(1077.6666,1111.0083)
+:Sending Touch (ACTION_DOWN): 0:(9.0,482.0)
+:Sending Touch (ACTION_UP): 0:(0.0,405.5543)
+    //[calendar_time:2017-05-03 22:29:47.151  system_uptime:13200258]
+    // Sending event #8200
+    //[calendar_time:2017-05-03 22:29:47.151  system_uptime:13200258]
+    // Sending event #8200
+:Sending Touch (ACTION_DOWN): 0:(789.0,1116.0)
+:Sending Touch (ACTION_UP): 0:(794.38513,1118.1586)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=de.ecspride/.UnreachableCode;end
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-2.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-3.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(985.0,225.0)
+:Sending Touch (ACTION_UP): 0:(983.6647,223.86195)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(69.0,1613.0)
+:Sending Touch (ACTION_UP): 0:(6.3037763,1637.9152)
+:Sending Touch (ACTION_DOWN): 0:(779.0,96.0)
+:Sending Touch (ACTION_UP): 0:(762.06915,45.450745)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-2.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=de.ecspride/.UnreachableCode;end
+:Sending Touch (ACTION_DOWN): 0:(398.0,187.0)
+:Sending Touch (ACTION_UP): 0:(408.10922,205.2221)
+    //[calendar_time:2017-05-03 22:29:47.472  system_uptime:13200579]
+    // Sending event #8300
+    //[calendar_time:2017-05-03 22:29:47.472  system_uptime:13200579]
+    // Sending event #8300
+:Sending Touch (ACTION_DOWN): 0:(653.0,1237.0)
+:Sending Touch (ACTION_UP): 0:(653.6916,1237.8379)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-4.0)
+:Sending Touch (ACTION_DOWN): 0:(881.0,1132.0)
+:Sending Touch (ACTION_UP): 0:(880.1918,1138.4268)
+:Sending Touch (ACTION_DOWN): 0:(32.0,1077.0)
+:Sending Touch (ACTION_UP): 0:(29.754955,1071.2693)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(27.0,284.0)
+:Sending Touch (ACTION_UP): 0:(55.661465,216.7834)
+:Sending Touch (ACTION_DOWN): 0:(551.0,454.0)
+:Sending Touch (ACTION_UP): 0:(530.08325,437.62363)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-1.0)
+    //[calendar_time:2017-05-03 22:29:47.597  system_uptime:13200704]
+    // Sending event #8400
+:Sending Touch (ACTION_DOWN): 0:(127.0,382.0)
+:Sending Touch (ACTION_UP): 0:(130.32906,392.13135)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,4.0)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=de.ecspride/.UnreachableCode;end
+:Sending Touch (ACTION_DOWN): 0:(94.0,1212.0)
+:Sending Touch (ACTION_UP): 0:(85.53471,1205.4739)
+:Sending Flip keyboardOpen=false
+Got IOException performing flipjava.io.IOException: write failed: EINVAL (Invalid argument)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(2.0,4.0)
+:Sending Touch (ACTION_DOWN): 0:(502.0,62.0)
+:Sending Touch (ACTION_UP): 0:(501.53793,39.83448)
+:Sending Touch (ACTION_DOWN): 0:(793.0,377.0)
+:Sending Touch (ACTION_UP): 0:(819.18774,364.6634)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-4.0)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=de.ecspride/.UnreachableCode;end
+:Sending Touch (ACTION_DOWN): 0:(94.0,359.0)
+:Sending Touch (ACTION_UP): 0:(94.10024,359.55557)
+:Sending Touch (ACTION_DOWN): 0:(456.0,347.0)
+:Sending Touch (ACTION_UP): 0:(449.18176,345.178)
+:Sending Touch (ACTION_DOWN): 0:(603.0,1756.0)
+:Sending Touch (ACTION_UP): 0:(496.74448,1699.121)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=de.ecspride/.UnreachableCode;end
+:Sending Touch (ACTION_DOWN): 0:(183.0,1516.0)
+:Sending Touch (ACTION_UP): 0:(199.21352,1520.8591)
+:Sending Touch (ACTION_DOWN): 0:(1073.0,295.0)
+:Sending Touch (ACTION_UP): 0:(1071.5737,283.11)
+:Sending Touch (ACTION_DOWN): 0:(276.0,192.0)
+:Sending Touch (ACTION_UP): 0:(279.0385,201.13496)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-4.0)
+    //[calendar_time:2017-05-03 22:29:47.710  system_uptime:13200817]
+    // Sending event #8500
+:Sending Touch (ACTION_DOWN): 0:(858.0,298.0)
+:Sending Touch (ACTION_UP): 0:(923.3883,366.91544)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(62.0,576.0)
+:Sending Touch (ACTION_UP): 0:(72.655106,568.96375)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,4.0)
+:Sending Touch (ACTION_DOWN): 0:(395.0,144.0)
+:Sending Touch (ACTION_UP): 0:(355.5713,62.595768)
+:Sending Touch (ACTION_DOWN): 0:(681.0,256.0)
+:Sending Touch (ACTION_UP): 0:(674.07306,246.99335)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-3.0)
+:Sending Touch (ACTION_DOWN): 0:(1002.0,361.0)
+:Sending Touch (ACTION_UP): 0:(1001.32904,352.05356)
+:Sending Touch (ACTION_DOWN): 0:(755.0,87.0)
+:Sending Touch (ACTION_UP): 0:(756.6689,90.59508)
+:Sending Touch (ACTION_DOWN): 0:(121.0,1014.0)
+    //[calendar_time:2017-05-03 22:29:48.065  system_uptime:13201172]
+    // Sending event #8600
+:Sending Touch (ACTION_UP): 0:(86.418884,981.00385)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-5.0)
+p[K[Dpo[K[D[Dpow[K[D[D[Dpowe[K[D[D[D[Dpower[K[D[D[D[D[Dpower [K[D[D[D[D[D[Dpower c[K[D[D[D[D[D[D[Dpower ca[K[D[D[D[D[D[D[D[Dpower cap[K[D[D[D[D[D[D[D[D[Dpower capa[K[D[D[D[D[D[D[D[D[D[Dpower capac[K[D[D[D[D[D[D[D[D[D[D[Dpower capaci[K[D[D[D[D[D[D[D[D[D[D[D[Dpower capacit[K[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity[K[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity [K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 1[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 10[K
+KO: unknown command, try 'help'
+:Sending Touch (ACTION_DOWN): 0:(790.0,541.0)
+:Sending Touch (ACTION_UP): 0:(778.30493,547.86804)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,2.0)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=de.ecspride/.UnreachableCode;end
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-2.0)
+:Sending Touch (ACTION_DOWN): 0:(284.0,1463.0)
+:Sending Touch (ACTION_UP): 0:(260.61166,1498.488)
+:Sending Touch (ACTION_DOWN): 0:(234.0,840.0)
+:Sending Touch (ACTION_UP): 0:(222.10994,837.24786)
+:Sending Touch (ACTION_DOWN): 0:(230.0,697.0)
+:Sending Touch (ACTION_UP): 0:(92.468765,647.14105)
+:Sending Flip keyboardOpen=true
+Got IOException performing flipjava.io.IOException: write failed: EINVAL (Invalid argument)
+    // Injection Failed
+:Sending Touch (ACTION_DOWN): 0:(948.0,1421.0)
+:Sending Touch (ACTION_UP): 0:(1012.6781,1459.2023)
+    //[calendar_time:2017-05-03 22:29:48.170  system_uptime:13201277]
+    // Sending event #8700
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-3.0)
+:Sending Touch (ACTION_DOWN): 0:(653.0,1239.0)
+:Sending Touch (ACTION_UP): 0:(656.9524,1242.8741)
+:Sending Touch (ACTION_DOWN): 0:(123.0,1080.0)
+:Sending Touch (ACTION_UP): 0:(119.34593,1079.8708)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(339.0,1603.0)
+:Sending Touch (ACTION_UP): 0:(349.41406,1589.2716)
+:Sending Touch (ACTION_DOWN): 0:(589.0,1276.0)
+:Sending Touch (ACTION_UP): 0:(514.1789,1304.5735)
+:Sending Touch (ACTION_DOWN): 0:(428.0,689.0)
+:Sending Touch (ACTION_UP): 0:(413.42023,686.96686)
+:Sending Touch (ACTION_DOWN): 0:(67.0,830.0)
+:Sending Touch (ACTION_UP): 0:(66.12604,819.1782)
+:Sending Touch (ACTION_DOWN): 0:(354.0,1344.0)
+:Sending Touch (ACTION_UP): 0:(441.4013,1260.0262)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,0.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(166.0,298.0)
+:Sending Touch (ACTION_UP): 0:(168.2351,311.1095)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=de.ecspride/.UnreachableCode;end
+:Sending Flip keyboardOpen=false
+Got IOException performing flipjava.io.IOException: write failed: EINVAL (Invalid argument)
+    // Injection Failed
+:Sending Touch (ACTION_DOWN): 0:(888.0,1315.0)
+:Sending Touch (ACTION_UP): 0:(889.02673,1319.098)
+    //[calendar_time:2017-05-03 22:29:48.298  system_uptime:13201405]
+    // Sending event #8800
+    //[calendar_time:2017-05-03 22:29:48.299  system_uptime:13201405]
+    // Sending event #8800
+:Sending Touch (ACTION_DOWN): 0:(601.0,165.0)
+:Sending Touch (ACTION_UP): 0:(586.3885,167.69229)
+:Sending Touch (ACTION_DOWN): 0:(180.0,1718.0)
+:Sending Touch (ACTION_UP): 0:(181.1378,1726.6414)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(176.0,1308.0)
+:Sending Touch (ACTION_UP): 0:(176.61044,1317.0482)
+:Sending Touch (ACTION_DOWN): 0:(891.0,1130.0)
+:Sending Touch (ACTION_UP): 0:(874.18945,1102.9027)
+:Sending Touch (ACTION_DOWN): 0:(478.0,467.0)
+:Sending Touch (ACTION_UP): 0:(496.78888,484.60156)
+:Sending Touch (ACTION_DOWN): 0:(578.0,1704.0)
+:Sending Touch (ACTION_UP): 0:(582.2265,1705.7028)
+:Sending Touch (ACTION_DOWN): 0:(347.0,40.0)
+:Sending Touch (ACTION_UP): 0:(391.28625,90.58528)
+:Sending Touch (ACTION_DOWN): 0:(682.0,1252.0)
+:Sending Touch (ACTION_UP): 0:(689.50507,1250.716)
+:Sending Touch (ACTION_DOWN): 0:(439.0,1082.0)
+:Sending Touch (ACTION_UP): 0:(441.45975,1068.3599)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,2.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(473.0,112.0)
+:Sending Touch (ACTION_UP): 0:(320.1485,32.23819)
+:Sending Touch (ACTION_DOWN): 0:(891.0,981.0)
+    //[calendar_time:2017-05-03 22:29:48.618  system_uptime:13201725]
+    // Sending event #8900
+:Sending Touch (ACTION_UP): 0:(882.1122,984.3263)
+:Sending Touch (ACTION_DOWN): 0:(1014.0,1359.0)
+:Sending Touch (ACTION_UP): 0:(1013.43634,1350.3859)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-1.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-4.0)
+    // Injection Failed
+:Sending Touch (ACTION_DOWN): 0:(765.0,322.0)
+:Sending Touch (ACTION_UP): 0:(824.393,373.4075)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(136.0,789.0)
+:Sending Touch (ACTION_UP): 0:(112.354485,848.23114)
+:Sending Touch (ACTION_DOWN): 0:(238.0,1156.0)
+:Sending Touch (ACTION_UP): 0:(250.47115,1180.8063)
+:Sending Touch (ACTION_DOWN): 0:(295.0,47.0)
+:Sending Touch (ACTION_UP): 0:(295.99118,48.45716)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-5.0)
+    //[calendar_time:2017-05-03 22:29:48.759  system_uptime:13201865]
+    // Sending event #9000
+:Sending Touch (ACTION_DOWN): 0:(920.0,1564.0)
+:Sending Touch (ACTION_UP): 0:(921.6127,1561.1305)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(162.0,194.0)
+:Sending Touch (ACTION_UP): 0:(192.59149,180.9776)
+:Sending Touch (ACTION_DOWN): 0:(229.0,211.0)
+:Sending Touch (ACTION_UP): 0:(229.78586,213.32701)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-3.0)
+:Sending Touch (ACTION_DOWN): 0:(66.0,1287.0)
+:Sending Touch (ACTION_UP): 0:(67.39402,1367.4725)
+:Sending Touch (ACTION_DOWN): 0:(578.0,1171.0)
+:Sending Touch (ACTION_UP): 0:(525.166,1201.6702)
+    //[calendar_time:2017-05-03 22:29:48.910  system_uptime:13202017]
+    // Sending event #9100
+    //[calendar_time:2017-05-03 22:29:48.910  system_uptime:13202017]
+    // Sending event #9100
+:Sending Touch (ACTION_DOWN): 0:(605.0,534.0)
+:Sending Touch (ACTION_UP): 0:(600.6259,547.5277)
+:Sending Touch (ACTION_DOWN): 0:(661.0,1599.0)
+:Sending Touch (ACTION_UP): 0:(581.39087,1619.5024)
+:Sending Touch (ACTION_DOWN): 0:(115.0,1356.0)
+:Sending Touch (ACTION_UP): 0:(98.07821,1375.7499)
+:Sending Touch (ACTION_DOWN): 0:(160.0,704.0)
+:Sending Touch (ACTION_UP): 0:(159.5384,705.5941)
+:Sending Touch (ACTION_DOWN): 0:(466.0,1738.0)
+:Sending Touch (ACTION_UP): 0:(470.07855,1693.5028)
+:Sending Touch (ACTION_DOWN): 0:(447.0,1035.0)
+:Sending Touch (ACTION_UP): 0:(458.08105,1030.6241)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-4.0)
+:Sending Touch (ACTION_DOWN): 0:(723.0,1416.0)
+:Sending Touch (ACTION_UP): 0:(713.73517,1425.7485)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=de.ecspride/.UnreachableCode;end
+:Sending Touch (ACTION_DOWN): 0:(993.0,1682.0)
+:Sending Touch (ACTION_UP): 0:(994.3741,1732.3353)
+e[K[Dex[KTrying 127.0.0.1...
+Connected to localhost.
+Escape character is '^]'.
+Android Console: Authentication required
+Android Console: type 'auth <auth_token>' to authenticate
+Android Console: you can find your <auth_token> in 
+'/home/bj/.emulator_console_auth_token'
+OK
+p[K[Dpo[K[D[Dpow[K[D[D[Dpowe[K[D[D[D[Dpower[K[D[D[D[D[Dpower [K[D[D[D[D[D[Dpower c[K[D[D[D[D[D[D[Dpower ca[K[D[D[D[D[D[D[D[Dpower cap[K[D[D[D[D[D[D[D[D[Dpower capa[K[D[D[D[D[D[D[D[D[D[Dpower capac[K[D[D[D[D[D[D[D[D[D[D[Dpower capaci[K[D[D[D[D[D[D[D[D[D[D[D[Dpower capacit[K[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity[K[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity [K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 1[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 10[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 100[K
+KO: unknown command, try 'help'
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-4.0)
+    //[calendar_time:2017-05-03 22:29:49.331  system_uptime:13202438]
+    // Sending event #9200
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-4.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-5.0)
+:Sending Touch (ACTION_DOWN): 0:(626.0,453.0)
+:Sending Touch (ACTION_UP): 0:(644.6055,444.32773)
+:Sending Touch (ACTION_DOWN): 0:(658.0,1220.0)
+:Sending Touch (ACTION_UP): 0:(661.3214,1215.5137)
+:Sending Touch (ACTION_DOWN): 0:(29.0,255.0)
+:Sending Touch (ACTION_UP): 0:(33.612743,267.82037)
+:Sending Touch (ACTION_DOWN): 0:(182.0,1138.0)
+:Sending Touch (ACTION_UP): 0:(167.77487,1159.0883)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-2.0)
+:Sending Flip keyboardOpen=true
+Got IOException performing flipjava.io.IOException: write failed: EINVAL (Invalid argument)
+    // Injection Failed
+:Sending Touch (ACTION_DOWN): 0:(1038.0,133.0)
+:Sending Touch (ACTION_UP): 0:(1030.5813,135.26044)
+:Sending Touch (ACTION_DOWN): 0:(196.0,211.0)
+:Sending Touch (ACTION_UP): 0:(200.03157,209.27884)
+    // Injection Failed
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=de.ecspride/.UnreachableCode;end
+p[K[Dpo[K[D[Dpow[K[D[D[Dpowe[K[D[D[D[Dpower[K[D[D[D[D[Dpower [K[D[D[D[D[D[Dpower c[K[D[D[D[D[D[D[Dpower ca[K[D[D[D[D[D[D[D[Dpower cap[K[D[D[D[D[D[D[D[D[Dpower capa[K[D[D[D[D[D[D[D[D[D[Dpower capac[K[D[D[D[D[D[D[D[D[D[D[Dpower capaci[K[D[D[D[D[D[D[D[D[D[D[D[Dpower capacit[K[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity[K[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity [K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 1[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 10[K
+KO: unknown command, try 'help'
+:Sending Trackball (ACTION_MOVE): 0:(4.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(957.0,851.0)
+:Sending Touch (ACTION_UP): 0:(959.5478,859.70703)
+Trying 127.0.0.1...
+Connected to localhost.
+Escape character is '^]'.
+Android Console: Authentication required
+Android Console: type 'auth <auth_token>' to authenticate
+Android Console: you can find your <auth_token> in 
+'/home/bj/.emulator_console_auth_token'
+OK
+p[K[Dpo[K[D[Dpow[K[D[D[Dpowe[K[D[D[D[Dpower[K[D[D[D[D[Dpower [K[D[D[D[D[D[Dpower c[K[D[D[D[D[D[D[Dpower ca[K[D[D[D[D[D[D[D[Dpower cap[K[D[D[D[D[D[D[D[D[Dpower capa[K[D[D[D[D[D[D[D[D[D[Dpower capac[K[D[D[D[D[D[D[D[D[D[D[Dpower capaci[K[D[D[D[D[D[D[D[D[D[D[D[Dpower capacit[K[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity[K[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity [K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 1[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 10[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 100[K
+KO: unknown command, try 'help'
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-5.0)
+    //[calendar_time:2017-05-03 22:29:51.205  system_uptime:13204311]
+    // Sending event #9300
+:Sending Touch (ACTION_DOWN): 0:(601.0,350.0)
+:Sending Touch (ACTION_UP): 0:(616.31647,344.1279)
+:Sending Touch (ACTION_DOWN): 0:(838.0,1529.0)
+:Sending Touch (ACTION_UP): 0:(843.21234,1530.9858)
+:Sending Touch (ACTION_DOWN): 0:(462.0,611.0)
+:Sending Touch (ACTION_UP): 0:(551.5908,588.47766)
+:Sending Touch (ACTION_DOWN): 0:(132.0,772.0)
+:Sending Touch (ACTION_UP): 0:(140.01967,757.58826)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,4.0)
+:Sending Touch (ACTION_DOWN): 0:(174.0,486.0)
+:Sending Touch (ACTION_UP): 0:(176.83649,486.09634)
+:Sending Touch (ACTION_DOWN): 0:(670.0,280.0)
+:Sending Touch (ACTION_UP): 0:(820.99243,192.36972)
+:Sending Touch (ACTION_DOWN): 0:(630.0,93.0)
+:Sending Touch (ACTION_UP): 0:(560.3752,80.539635)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=de.ecspride/.UnreachableCode;end
+Events injected: 1
+## Network stats: elapsed time=269ms (0ms mobile, 0ms wifi, 269ms not connected)
+:Sending Touch (ACTION_DOWN): 0:(872.0,497.0)
+:Sending Touch (ACTION_UP): 0:(836.10333,522.66785)
+:Sending Touch (ACTION_DOWN): 0:(1012.0,1186.0)
+:Sending Touch (ACTION_UP): 0:(1057.2375,1163.3982)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-4.0)
+    //[calendar_time:2017-05-03 22:29:51.630  system_uptime:13204736]
+    // Sending event #9400
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(830.0,71.0)
+:Sending Touch (ACTION_UP): 0:(794.0903,16.710464)
+:Sending Touch (ACTION_DOWN): 0:(674.0,1043.0)
+:Sending Touch (ACTION_UP): 0:(666.38727,1048.8241)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=de.ecspride/.UnreachableCode;end
+:Sending Touch (ACTION_DOWN): 0:(783.0,597.0)
+:Sending Touch (ACTION_UP): 0:(797.4059,607.0568)
+:Sending Touch (ACTION_DOWN): 0:(252.0,341.0)
+:Sending Touch (ACTION_UP): 0:(252.90889,339.14383)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-4.0)
+:Sending Touch (ACTION_DOWN): 0:(734.0,21.0)
+:Sending Touch (ACTION_UP): 0:(776.8834,0.0)
+:Sending Touch (ACTION_DOWN): 0:(257.0,1098.0)
+:Sending Touch (ACTION_UP): 0:(244.98534,1116.3387)
+:Sending Touch (ACTION_DOWN): 0:(150.0,1416.0)
+:Sending Touch (ACTION_UP): 0:(157.25943,1406.6982)
+:Sending Touch (ACTION_DOWN): 0:(3.0,746.0)
+    //[calendar_time:2017-05-03 22:29:51.829  system_uptime:13204936]
+    // Sending event #9500
+:Sending Touch (ACTION_UP): 0:(57.75925,750.33264)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-5.0)
+:Sending Touch (ACTION_DOWN): 0:(560.0,1519.0)
+:Sending Touch (ACTION_UP): 0:(532.3596,1522.2079)
+:Sending Touch (ACTION_DOWN): 0:(991.0,1632.0)
+:Sending Touch (ACTION_UP): 0:(1010.6144,1628.3485)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-4.0)
+:Sending Touch (ACTION_DOWN): 0:(485.0,1180.0)
+:Sending Touch (ACTION_UP): 0:(493.51752,1177.7085)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-1.0)
+:Sending Touch (ACTION_DOWN): 0:(990.0,756.0)
+:Sending Touch (ACTION_UP): 0:(1031.3718,849.05756)
+    //[calendar_time:2017-05-03 22:29:51.916  system_uptime:13205023]
+    // Sending event #9600
+    //[calendar_time:2017-05-03 22:29:51.916  system_uptime:13205023]
+    // Sending event #9600
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=de.ecspride/.UnreachableCode;end
+:Sending Touch (ACTION_DOWN): 0:(951.0,1192.0)
+:Sending Touch (ACTION_UP): 0:(923.8964,1254.0872)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-3.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(186.0,778.0)
+:Sending Touch (ACTION_UP): 0:(188.32368,764.6931)
+:Sending Touch (ACTION_DOWN): 0:(864.0,794.0)
+:Sending Touch (ACTION_UP): 0:(873.13763,798.40717)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-4.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=de.ecspride/.UnreachableCode;end
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=de.ecspride/.UnreachableCode;end
+:Sending Touch (ACTION_DOWN): 0:(645.0,751.0)
+:Sending Touch (ACTION_UP): 0:(645.05695,756.5919)
+:Sending Touch (ACTION_DOWN): 0:(959.0,1505.0)
+:Sending Touch (ACTION_UP): 0:(1050.0947,1495.7449)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-2.0)
+:Sending Touch (ACTION_DOWN): 0:(735.0,1751.0)
+    //[calendar_time:2017-05-03 22:29:52.004  system_uptime:13205111]
+    // Sending event #9700
+:Sending Touch (ACTION_UP): 0:(748.31946,1681.916)
+:Sending Touch (ACTION_DOWN): 0:(916.0,1530.0)
+:Sending Touch (ACTION_UP): 0:(845.4054,1538.5256)
+:Sending Touch (ACTION_DOWN): 0:(595.0,1772.0)
+:Sending Touch (ACTION_UP): 0:(594.54614,1768.8557)
+:Sending Touch (ACTION_DOWN): 0:(821.0,11.0)
+:Sending Touch (ACTION_UP): 0:(809.7349,0.5458126)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=de.ecspride/.UnreachableCode;end
+:Sending Touch (ACTION_DOWN): 0:(337.0,1108.0)
+:Sending Touch (ACTION_UP): 0:(322.4617,1096.1954)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-5.0)
+:Sending Touch (ACTION_DOWN): 0:(152.0,267.0)
+:Sending Touch (ACTION_UP): 0:(165.21835,267.23373)
+:Sending Touch (ACTION_DOWN): 0:(541.0,1664.0)
+:Sending Touch (ACTION_UP): 0:(547.39624,1674.9054)
+:Sending Touch (ACTION_DOWN): 0:(409.0,1756.0)
+:Sending Touch (ACTION_UP): 0:(392.35367,1753.0841)
+:Sending Touch (ACTION_DOWN): 0:(755.0,857.0)
+:Sending Touch (ACTION_UP): 0:(726.05457,884.4862)
+:Sending Touch (ACTION_DOWN): 0:(698.0,591.0)
+:Sending Touch (ACTION_UP): 0:(712.859,574.852)
+:Sending Touch (ACTION_DOWN): 0:(478.0,963.0)
+:Sending Touch (ACTION_UP): 0:(474.41995,967.5266)
+:Sending Touch (ACTION_DOWN): 0:(856.0,493.0)
+:Sending Touch (ACTION_UP): 0:(870.5546,624.23535)
+:Sending Touch (ACTION_DOWN): 0:(162.0,23.0)
+:Sending Touch (ACTION_UP): 0:(149.74997,26.620714)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-1.0)
+    //[calendar_time:2017-05-03 22:29:52.088  system_uptime:13205194]
+    // Sending event #9800
+:Sending Touch (ACTION_DOWN): 0:(330.0,66.0)
+:Sending Touch (ACTION_UP): 0:(336.0738,69.0841)
+p[K[Dpo[K[D[Dpow[K[D[D[Dpowe[K[D[D[D[Dpower[K[D[D[D[D[Dpower [K[D[D[D[D[D[Dpower c[K[D[D[D[D[D[D[Dpower ca[K[D[D[D[D[D[D[D[Dpower cap[K[D[D[D[D[D[D[D[D[Dpower capa[K[D[D[D[D[D[D[D[D[D[Dpower capac[K[D[D[D[D[D[D[D[D[D[D[Dpower capaci[K[D[D[D[D[D[D[D[D[D[D[D[Dpower capacit[K[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity[K[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity [K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 1[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 10[K
+KO: unknown command, try 'help'
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=de.ecspride/.UnreachableCode;end
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-4.0)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=de.ecspride/.UnreachableCode;end
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(617.0,1527.0)
+:Sending Touch (ACTION_UP): 0:(591.18665,1635.5673)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=de.ecspride/.UnreachableCode;end
+:Sending Touch (ACTION_DOWN): 0:(865.0,468.0)
+:Sending Touch (ACTION_UP): 0:(867.2693,474.01282)
+:Sending Touch (ACTION_DOWN): 0:(435.0,1715.0)
+:Sending Touch (ACTION_UP): 0:(425.69815,1717.9968)
+:Sending Touch (ACTION_DOWN): 0:(558.0,861.0)
+:Sending Touch (ACTION_UP): 0:(562.4067,866.64716)
+:Sending Touch (ACTION_DOWN): 0:(714.0,142.0)
+:Sending Touch (ACTION_UP): 0:(671.60364,122.058304)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,3.0)
+:Sending Touch (ACTION_DOWN): 0:(992.0,826.0)
+:Sending Touch (ACTION_UP): 0:(1006.71716,835.048)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-2.0)
+    //[calendar_time:2017-05-03 22:29:52.212  system_uptime:13205319]
+    // Sending event #9900
+    //[calendar_time:2017-05-03 22:29:52.212  system_uptime:13205319]
+    // Sending event #9900
+:Sending Flip keyboardOpen=false
+Got IOException performing flipjava.io.IOException: write failed: EINVAL (Invalid argument)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(847.0,511.0)
+:Sending Touch (ACTION_UP): 0:(847.7166,510.65375)
+:Sending Touch (ACTION_DOWN): 0:(233.0,218.0)
+:Sending Touch (ACTION_UP): 0:(234.41838,209.53758)
+:Sending Touch (ACTION_DOWN): 0:(700.0,555.0)
+:Sending Touch (ACTION_UP): 0:(713.9396,552.4129)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,3.0)
+:Sending Touch (ACTION_DOWN): 0:(548.0,994.0)
+:Sending Touch (ACTION_UP): 0:(584.96454,944.37585)
+:Sending Touch (ACTION_DOWN): 0:(345.0,1494.0)
+:Sending Touch (ACTION_UP): 0:(292.6119,1477.2953)
+:Sending Touch (ACTION_DOWN): 0:(242.0,1379.0)
+:Sending Touch (ACTION_UP): 0:(247.77583,1375.891)
+:Sending Flip keyboardOpen=true
+Got IOException performing flipjava.io.IOException: write failed: EINVAL (Invalid argument)
+    // Injection Failed
+Events injected: 10000
+:Sending rotation degree=0, persist=false
+:Dropped: keys=12 pointers=49 trackballs=0 flips=32 rotations=0
+## Network stats: elapsed time=35412ms (0ms mobile, 0ms wifi, 35412ms not connected)
+// Monkey finished
+Success
+e[K[Dex[K

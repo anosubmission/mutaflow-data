@@ -1,0 +1,5 @@
+--------- beginning of main
+--------- beginning of system
+--------- beginning of crash
+05-04 21:14:31.587  3488  3488 I MyOwnTag: <MutaFlowTag>0b61a318-c533-423b-9aa5-45bc27296a67<MutaFlowTag><android.util.Log: int d(java.lang.String,java.lang.String)>	45	31	8	void onResume()	de.ecspride.LocationLeak1<MutaFlowTag>Latitude<MutaFlowTag>Latitude: 
+05-04 21:14:31.587  3488  3488 I MyOwnTag: <MutaFlowTag>0b61a318-c533-423b-9aa5-45bc27296a67<MutaFlowTag><android.util.Log: int d(java.lang.String,java.lang.String)>	46	37	14	void onResume()	de.ecspride.LocationLeak1<MutaFlowTag>Longtitude<MutaFlowTag>Longtitude: 

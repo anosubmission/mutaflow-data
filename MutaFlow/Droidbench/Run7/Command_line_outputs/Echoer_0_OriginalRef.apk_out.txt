@@ -1,0 +1,37 @@
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Trying 127.0.0.1...
+Connected to localhost.
+Escape character is '^]'.
+Android Console: Authentication required
+Android Console: type 'auth <auth_token>' to authenticate
+Android Console: you can find your <auth_token> in 
+'/home/bj/.emulator_console_auth_token'
+OK
+p[K[Dpo[K[D[Dpow[K[D[D[Dpowe[K[D[D[D[Dpower[K[D[D[D[D[Dpower [K[D[D[D[D[D[Dpower c[K[D[D[D[D[D[D[Dpower ca[K[D[D[D[D[D[D[D[Dpower cap[K[D[D[D[D[D[D[D[D[Dpower capa[K[D[D[D[D[D[D[D[D[D[Dpower capac[K[D[D[D[D[D[D[D[D[D[D[Dpower capaci[K[D[D[D[D[D[D[D[D[D[D[D[Dpower capacit[K[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity[K[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity [K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 1[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 10[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 100[K
+KO: unknown command, try 'help'
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+	pkg: /data/local/tmp/0_OriginalRef.apk
+p[K[Dpo[K[D[Dpow[K[D[D[Dpowe[K[D[D[D[Dpower[K[D[D[D[D[Dpower [K[D[D[D[D[D[Dpower c[K[D[D[D[D[D[D[Dpower ca[K[D[D[D[D[D[D[D[Dpower cap[K[D[D[D[D[D[D[D[D[Dpower capa[K[D[D[D[D[D[D[D[D[D[Dpower capac[K[D[D[D[D[D[D[D[D[D[D[Dpower capaci[K[D[D[D[D[D[D[D[D[D[D[D[Dpower capacit[K[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity[K[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity [K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 1[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 10[K
+KO: unknown command, try 'help'
+Success
+Operation not allowed: java.lang.SecurityException: Package org.cert.echoer has not requested permission android.permission.READ_SMS
+Echoer
+:Monkey: seed=1000 count=10000
+:AllowPackage: org.cert.echoer
+:IncludeCategory: android.intent.category.LAUNCHER
+:IncludeCategory: android.intent.category.MONKEY
+Trying 127.0.0.1...
+Connected to localhost.
+Escape character is '^]'.
+Android Console: Authentication required
+Android Console: type 'auth <auth_token>' to authenticate
+Android Console: you can find your <auth_token> in 
+'/home/bj/.emulator_console_auth_token'
+OK
+p[K[Dpo[K[D[Dpow[K[D[D[Dpowe[K[D[D[D[Dpower[K[D[D[D[D[Dpower [K[D[D[D[D[D[Dpower c[K[D[D[D[D[D[D[Dpower ca[K[D[D[D[D[D[D[D[Dpower cap[K[D[D[D[D[D[D[D[D[Dpower capa[K[D[D[D[D[D[D[D[D[D[Dpower capac[K[D[D[D[D[D[D[D[D[D[D[Dpower capaci[K[D[D[D[D[D[D[D[D[D[D[D[Dpower capacit[K[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity[K[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity [K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 1[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 10[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 100[K
+KO: unknown command, try 'help'
+** No activities found to run, monkey aborted.
+Success
+p[K[Dpo[K[D[Dpow[K[D[D[Dpowe[K[D[D[D[Dpower[K[D[D[D[D[Dpower [K[D[D[D[D[D[Dpower c[K[D[D[D[D[D[D[Dpower ca[K[D[D[D[D[D[D[D[Dpower cap[K[D[D[D[D[D[D[D[D[Dpower capa[K[D[D[D[D[D[D[D[D[D[Dpower capac[K[D[D[D[D[D[D[D[D[D[D[Dpower capaci[K[D[D[D[D[D[D[D[D[D[D[D[Dpower capacit[K[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity[K[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity [K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 1[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 10[K
+KO: unknown command, try 'help'
+** No activities found to run, monkey aborted.

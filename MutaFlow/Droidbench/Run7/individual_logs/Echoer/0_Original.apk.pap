@@ -1,0 +1,3 @@
+--------- beginning of main
+--------- beginning of system
+05-03 21:18:46.729 28775 28775 I MyOwnTag: <MutaFlowTag>3d674e9f-d25f-4123-a4fd-aece25deb1a3<MutaFlowTag><android.util.Log: int i(java.lang.String,java.lang.String)>	44	23	20	void onActivityResult(int,int,android.content.Intent)	org.cert.sendsms.MainActivity<MutaFlowTag>In SendSMS: <MutaFlowTag>No data recieved

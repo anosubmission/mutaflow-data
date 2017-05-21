@@ -1,0 +1,4 @@
+--------- beginning of main
+--------- beginning of system
+05-02 23:17:28.827   447   447 I MyOwnTag: <MutaFlowTag>abf7110b-fe4c-4e39-a18b-165bbb654b80<MutaFlowTag><android.telephony.TelephonyManager: java.lang.String getDeviceId()>	71	36	8	void sayHello(android.view.View)	edu.mit.icc_service_messages.ActivityMessenger<MutaFlowTag>null
+--------- beginning of crash

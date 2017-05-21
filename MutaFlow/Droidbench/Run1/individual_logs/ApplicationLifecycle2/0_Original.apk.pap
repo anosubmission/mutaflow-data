@@ -1,0 +1,4 @@
+--------- beginning of main
+--------- beginning of system
+03-18 21:02:28.873  4168  4168 I MyOwnTag: <MutaFlowTag>4bbbe1f6-42ba-4f3a-8a9a-c5d3edd8a094<MutaFlowTag><android.telephony.TelephonyManager: java.lang.String getDeviceId()>	29	8	5	void onCreate()	de.ecspride.ApplicationLifecyle2<MutaFlowTag>000000000000000
+--------- beginning of crash

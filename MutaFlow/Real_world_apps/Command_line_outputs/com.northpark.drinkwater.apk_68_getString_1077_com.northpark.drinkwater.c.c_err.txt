@@ -1,0 +1,2 @@
+mkdir: /Users/Anonymous/Documents/Uni/Paper/Anonymous/categories/healthandfitness: File exists
+PrivacyAPK_appium_short.sh: line 43: kill: (92244) - No such process

@@ -1,0 +1,4 @@
+--------- beginning of main
+--------- beginning of system
+05-05 20:54:49.977 18504 18504 I MyOwnTag: <MutaFlowTag>d0b85071-57f0-47f1-a9ec-66e529a0ed70<MutaFlowTag><android.telephony.TelephonyManager: java.lang.String getDeviceId()>	25	10	7	void onCreate(android.os.Bundle)	edu.mit.public_api_field.MainActivity
+--------- beginning of crash

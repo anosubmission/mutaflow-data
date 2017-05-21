@@ -1,0 +1,161 @@
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Trying 127.0.0.1...
+Connected to localhost.
+Escape character is '^]'.
+Android Console: Authentication required
+Android Console: type 'auth <auth_token>' to authenticate
+Android Console: you can find your <auth_token> in 
+'/home/bj/.emulator_console_auth_token'
+OK
+p[K[Dpo[K[D[Dpow[K[D[D[Dpowe[K[D[D[D[Dpower[K[D[D[D[D[Dpower [K[D[D[D[D[D[Dpower c[K[D[D[D[D[D[D[Dpower ca[K[D[D[D[D[D[D[D[Dpower cap[K[D[D[D[D[D[D[D[D[Dpower capa[K[D[D[D[D[D[D[D[D[D[Dpower capac[K[D[D[D[D[D[D[D[D[D[D[Dpower capaci[K[D[D[D[D[D[D[D[D[D[D[D[Dpower capacit[K[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity[K[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity [K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 1[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 10[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 100[K
+KO: unknown command, try 'help'
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+	pkg: /data/local/tmp/0_Original.apk
+p[K[Dpo[K[D[Dpow[K[D[D[Dpowe[K[D[D[D[Dpower[K[D[D[D[D[Dpower [K[D[D[D[D[D[Dpower c[K[D[D[D[D[D[D[Dpower ca[K[D[D[D[D[D[D[D[Dpower cap[K[D[D[D[D[D[D[D[D[Dpower capa[K[D[D[D[D[D[D[D[D[D[Dpower capac[K[D[D[D[D[D[D[D[D[D[D[Dpower capaci[K[D[D[D[D[D[D[D[D[D[D[D[Dpower capacit[K[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity[K[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity [K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 1[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 10[K
+KO: unknown command, try 'help'
+Success
+Operation not allowed: java.lang.SecurityException: Package edu.mit.parcel has not requested permission android.permission.READ_SMS
+Parcel1
+:Monkey: seed=1000 count=10000
+:AllowPackage: edu.mit.parcel
+:IncludeCategory: android.intent.category.LAUNCHER
+:IncludeCategory: android.intent.category.MONKEY
+// Event percentages:
+//   0: 15.0%
+//   1: 10.0%
+//   2: 2.0%
+//   3: 15.0%
+//   4: -0.0%
+//   5: -0.0%
+//   6: 25.0%
+//   7: 15.0%
+//   8: 2.0%
+//   9: 2.0%
+//   10: 1.0%
+//   11: 13.0%
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=edu.mit.parcel/.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=edu.mit.parcel/.MainActivity } in package edu.mit.parcel
+:Sending Touch (ACTION_DOWN): 0:(876.0,1684.0)
+:Sending Touch (ACTION_UP): 0:(902.46747,1661.4387)
+:Sending Touch (ACTION_DOWN): 0:(172.0,1223.0)
+:Sending Touch (ACTION_UP): 0:(173.65752,1223.0057)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=edu.mit.parcel/.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=edu.mit.parcel/.MainActivity } in package edu.mit.parcel
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,4.0)
+:Sending Touch (ACTION_DOWN): 0:(387.0,1409.0)
+:Sending Touch (ACTION_UP): 0:(390.03946,1407.4384)
+:Sending Touch (ACTION_DOWN): 0:(466.0,640.0)
+:Sending Touch (ACTION_UP): 0:(425.2828,671.216)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-1.0)
+:Sending Touch (ACTION_DOWN): 0:(5.0,1210.0)
+:Sending Touch (ACTION_UP): 0:(15.715435,1209.2615)
+e[KTrying 127.0.0.1...
+Connected to localhost.
+Escape character is '^]'.
+Android Console: Authentication required
+Android Console: type 'auth <auth_token>' to authenticate
+Android Console: you can find your <auth_token> in 
+'/home/bj/.emulator_console_auth_token'
+OK
+p[K[Dpo[K[D[Dpow[K[D[D[Dpowe[K[D[D[D[Dpower[K[D[D[D[D[Dpower [K[D[D[D[D[D[Dpower c[K[D[D[D[D[D[D[Dpower ca[K[D[D[D[D[D[D[D[Dpower cap[K[D[D[D[D[D[D[D[D[Dpower capa[K[D[D[D[D[D[D[D[D[D[Dpower capac[K[D[D[D[D[D[D[D[D[D[D[Dpower capaci[K[D[D[D[D[D[D[D[D[D[D[D[Dpower capacit[K[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity[K[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity [K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 1[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 10[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 100[K
+KO: unknown command, try 'help'
+:Sending Touch (ACTION_DOWN): 0:(376.0,359.0)
+:Sending Touch (ACTION_UP): 0:(396.78586,384.71213)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,4.0)
+:Sending Touch (ACTION_DOWN): 0:(247.0,1036.0)
+:Sending Touch (ACTION_UP): 0:(246.3602,1038.824)
+:Sending Touch (ACTION_DOWN): 0:(1059.0,1088.0)
+:Sending Touch (ACTION_UP): 0:(1061.2198,1094.0178)
+:Sending Touch (ACTION_DOWN): 0:(511.0,1254.0)
+:Sending Touch (ACTION_UP): 0:(488.05945,1255.3915)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,3.0)
+    //[calendar_time:2017-05-03 19:32:16.322  system_uptime:2549429]
+    // Sending event #100
+:Sending Trackball (ACTION_MOVE): 0:(4.0,0.0)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=edu.mit.parcel/.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=edu.mit.parcel/.MainActivity } in package edu.mit.parcel
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(532.0,105.0)
+:Sending Touch (ACTION_UP): 0:(546.7557,90.9559)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(375.0,1119.0)
+    //[calendar_time:2017-05-03 19:32:16.631  system_uptime:2549738]
+    // Sending event #200
+:Sending Touch (ACTION_UP): 0:(373.80206,1083.4492)
+:Sending Touch (ACTION_DOWN): 0:(223.0,632.0)
+:Sending Touch (ACTION_UP): 0:(214.88182,629.07574)
+:Sending Touch (ACTION_DOWN): 0:(759.0,632.0)
+:Sending Touch (ACTION_UP): 0:(776.2017,738.6602)
+:Sending Touch (ACTION_DOWN): 0:(805.0,1695.0)
+:Sending Touch (ACTION_UP): 0:(751.6157,1758.1327)
+:Sending Touch (ACTION_DOWN): 0:(583.0,702.0)
+:Sending Touch (ACTION_UP): 0:(575.4605,675.7692)
+    // Injection Failed
+:Sending Touch (ACTION_DOWN): 0:(226.0,1400.0)
+:Sending Touch (ACTION_UP): 0:(226.16568,1398.5045)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-5.0)
+:Sending Touch (ACTION_DOWN): 0:(576.0,1642.0)
+:Sending Touch (ACTION_UP): 0:(573.3063,1673.7833)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-4.0)
+:Sending Touch (ACTION_DOWN): 0:(150.0,82.0)
+:Sending Touch (ACTION_UP): 0:(136.58412,76.71119)
+:Sending Touch (ACTION_DOWN): 0:(595.0,1329.0)
+:Sending Touch (ACTION_UP): 0:(591.8541,1346.228)
+:Sending Touch (ACTION_DOWN): 0:(579.0,944.0)
+:Sending Touch (ACTION_UP): 0:(577.6276,942.5118)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,4.0)
+p[K:Sending Touch (ACTION_DOWN): 0:(607.0,1079.0)
+    //[calendar_time:2017-05-03 19:32:17.137  system_uptime:2550244]
+    // Sending event #300
+:Sending Touch (ACTION_UP): 0:(600.5517,1058.7704)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-4.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(1036.0,1323.0)
+:Sending Touch (ACTION_UP): 0:(1034.6403,1322.6475)
+[Dpo[K[D[Dpow[K[D[D[Dpowe[K[D[D[D[Dpower[K[D[D[D[D[Dpower [K[D[D[D[D[D[Dpower c[K[D[D[D[D[D[D[Dpower ca[K[D[D[D[D[D[D[D[Dpower cap[K[D[D[D[D[D[D[D[D[Dpower capa[K[D[D[D[D[D[D[D[D[D[Dpower capac[K[D[D[D[D[D[D[D[D[D[D[Dpower capaci[K[D[D[D[D[D[D[D[D[D[D[D[Dpower capacit[K[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity[K[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity [K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 1[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpower capacity 10[K
+KO: unknown command, try 'help'
+:Sending Touch (ACTION_DOWN): 0:(176.0,1756.0)
+:Sending Touch (ACTION_UP): 0:(227.18475,1749.6067)
+// CRASH: edu.mit.parcel (pid 19413)
+// Short Msg: java.lang.SecurityException
+// Long Msg: java.lang.SecurityException: Sending SMS message: uid 10126 does not have android.permission.SEND_SMS.
+// Build Label: Android/sdk_phone_x86_64/generic_x86_64:6.0/MASTER/2780065:userdebug/test-keys
+// Build Changelist: 2780065
+// Build Time: 1461115984000
+// java.lang.RuntimeException: Unable to start activity ComponentInfo{edu.mit.parcel/edu.mit.parcel.MainActivity}: java.lang.SecurityException: Sending SMS message: uid 10126 does not have android.permission.SEND_SMS.
+// 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2416)
+// 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2476)
+// 	at android.app.ActivityThread.-wrap11(ActivityThread.java)
+// 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1344)
+// 	at android.os.Handler.dispatchMessage(Handler.java:102)
+// 	at android.os.Looper.loop(Looper.java:148)
+// 	at android.app.ActivityThread.main(ActivityThread.java:5417)
+// 	at java.lang.reflect.Method.invoke(Native Method)
+// 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:726)
+// 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:616)
+// Caused by: java.lang.SecurityException: Sending SMS message: uid 10126 does not have android.permission.SEND_SMS.
+// 	at android.os.Parcel.readException(Parcel.java:1599)
+// 	at android.os.Parcel.readException(Parcel.java:1552)
+// 	at com.android.internal.telephony.ISms$Stub$Proxy.sendTextForSubscriber(ISms.java:768)
+// 	at android.telephony.SmsManager.sendTextMessageInternal(SmsManager.java:310)
+// 	at android.telephony.SmsManager.sendTextMessage(SmsManager.java:293)
+// 	at edu.mit.parcel.MainActivity.writeParcel(MainActivity.java:69)
+// 	at edu.mit.parcel.MainActivity.onCreate(MainActivity.java:40)
+// 	at android.app.Activity.performCreate(Activity.java:6237)
+// 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1107)
+// 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2369)
+// 	... 9 more
+// 
+** Monkey aborted due to error.
+Events injected: 337
+:Sending rotation degree=0, persist=false
+:Dropped: keys=1 pointers=0 trackballs=0 flips=0 rotations=0
+## Network stats: elapsed time=1682ms (0ms mobile, 0ms wifi, 1682ms not connected)
+** System appears to have crashed at event 337 of 10000 using seed 1000
+** No activities found to run, monkey aborted.
+Success

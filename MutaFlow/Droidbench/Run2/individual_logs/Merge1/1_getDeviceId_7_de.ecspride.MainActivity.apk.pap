@@ -1,0 +1,4 @@
+--------- beginning of main
+--------- beginning of system
+04-30 15:03:19.908 30532 30532 I MyOwnTag: <MutaFlowTag>712710a2-74ef-4e78-b8e4-6e422aa4faa9<MutaFlowTag><android.telephony.TelephonyManager: java.lang.String getDeviceId()>	39	7	4	void aliasFlowTest()	de.ecspride.MainActivity<MutaFlowTag>000000050000000
+--------- beginning of crash
