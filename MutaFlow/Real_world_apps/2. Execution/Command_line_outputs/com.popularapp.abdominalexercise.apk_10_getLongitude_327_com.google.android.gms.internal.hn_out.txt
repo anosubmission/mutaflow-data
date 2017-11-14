@@ -1,0 +1,17 @@
+
+***********************************************
+APPIUM RE-PLAYABLE TEST CASE AUTOMATION PROGRAM
+***********************************************
+
+
+Calling Application Class...
+
+Initiating...
+Beginning re-playing of test cases.
+Ending re-playing of test cases.
+SUCCESS..!!!!!!!
+
+
+Cleaning...
+Uninstalling App: com.popularapp.abdominalexercise
+The End..!!

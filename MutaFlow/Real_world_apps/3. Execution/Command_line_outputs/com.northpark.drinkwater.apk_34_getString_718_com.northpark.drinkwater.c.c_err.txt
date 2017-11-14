@@ -1,0 +1,24 @@
+mkdir: /Users/Anonymous/Documents/Uni/Paper/Anonymous/categories/healthandfitness: File exists
+Sep 01, 2017 5:32:34 PM org.apache.http.impl.execchain.RetryExec execute
+INFORMATION: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://0.0.0.0:4723: The target server failed to respond
+Sep 01, 2017 5:32:35 PM org.apache.http.impl.execchain.RetryExec execute
+INFORMATION: Retrying request to {}->http://0.0.0.0:4723
+Exception in thread "main" org.openqa.selenium.remote.SessionNotFoundException: 
+Command duration or timeout: 600.02 seconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'Anonymouss-MBP-2.fritz.box', ip: '192.168.178.32', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_60'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{app=/Users/Anonymous/Documents/Uni/Paper/Anonymous/categories/healthandfitness/com.northpark.drinkwater.apk, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=014eda3f8556c859, platform=LINUX, desired={app=/Users/Anonymous/Documents/Uni/Paper/Anonymous/categories/healthandfitness/com.northpark.drinkwater.apk, appium-version=1.5.3, platformVersion=6.0.1, platformName=Android, deviceName=00a9f3cd8dae44a5}, appium-version=1.5.3, platformVersion=6.0.1, webStorageEnabled=false, locationContextEnabled=false, browserName=Android, takesScreenshot=true, javascriptEnabled=true, platformName=Android}]
+Session ID: 559211b5-f7b7-4b53-b2f3-edf248d0a23c
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:164)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:206)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:526)
+	at appium_main.AppiumMain.main(AppiumMain.java:71)
+PrivacyAPK_appium_short.sh: line 43: kill: (48390) - No such process
